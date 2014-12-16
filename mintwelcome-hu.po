@@ -1,152 +1,168 @@
 # Hungarian translation of mintwelcome.
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the mintwelcome package.
+# KAMI <kami911@gmail.com>, 2013-2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: mintwelcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-05 13:19+0100\n"
-"PO-Revision-Date: 2013-12-12 18:36+0000\n"
-"Last-Translator: Frank Barnores <Unknown>\n"
+"POT-Creation-Date: 2014-04-08 10:39+0100\n"
+"PO-Revision-Date: 2014-05-25 14:41+0000\n"
+"Last-Translator: Szüncsi <benmoll@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-12-13 14:38+0000\n"
-"X-Generator: Launchpad (build 16869)\n"
+"X-Launchpad-Export-Date: 2014-05-25 16:21+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
 "Language: hu\n"
 
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:19
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:24 generate_desktop_files:58
+#: generate_desktop_files:72
 msgid "Welcome Screen"
 msgstr "Üdvözlőképernyő"
 
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:20
-msgid "Introduction to Linux Mint"
-msgstr "A Linux Mint bemutatása"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:23
-msgid "Install Multimedia Codecs"
-msgstr "Multimédia kodekek telepítése"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:24
-msgid "Add all the missing multimedia codecs"
-msgstr "Az összes hiányzó multimédia kodek hozzáadása"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:25
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:75
-msgid "Upgrade to the DVD Edition"
-msgstr "Frissítés a DVD kiadásra"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:26
-msgid "Add all the missing applications"
-msgstr "Az összes hiányzó alkalmazás hozzáadása"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:32
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:55
-msgid "Welcome to Linux Mint"
-msgstr "Üdvözli a Linux Mint"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:56
-msgid "Release"
-msgstr "Kiadás"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:57
-msgid "Edition"
-msgstr "Kiadás"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:58
-msgid "Documentation"
-msgstr "Dokumentáció"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:59
-msgid "Support"
-msgstr "Támogatás"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:60
-msgid "Project"
-msgstr "Projekt"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:61
-msgid "Community"
-msgstr "Online közösség"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:62
-msgid "System status"
-msgstr "Rendszerállapot"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:63
-msgid "New features"
-msgstr "Újdonságok"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:64
-msgid "Known problems"
-msgstr "Ismert problémák"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:65
-msgid "User guide (PDF)"
-msgstr "Felhasználói kézikönyv (PDF)"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:66
-msgid "Forums"
-msgstr "Fórumok"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:67
-msgid "Chat room"
-msgstr "Csevegőszoba"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:68
-msgid "Sponsors"
-msgstr "Támogatók"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:69
-msgid "Donations"
-msgstr "Adományok"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:70
-msgid "Get involved"
-msgstr "Csatlakozzon"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:71
-msgid "Idea pool"
-msgstr "Ötletek"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:72
-msgid "Software reviews"
-msgstr "Vélemények"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:73
-msgid "Hardware database"
-msgstr "Hardveradatbázis"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:74
-msgid "Tutorials"
-msgstr "Útmutatók"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:90
-msgid "Add Multimedia Codecs"
-msgstr "Multimédia kodekek hozzáadása"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:101
-msgid "Show this dialog at startup"
-msgstr "Megjelenítés indításkor"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:102
-msgid "Close"
-msgstr "Bezárás"
-
-#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:108
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:77
 msgid ""
 "Welcome and thank you for choosing Linux Mint. We hope you'll enjoy using it "
 "as much as we did designing it. The links below will help you get started "
 "with your new operating system. Have a great time and don't hesitate to send "
 "us your feedback."
 msgstr ""
-"Üdvözöljük és köszönjük, hogy a Linux Mint-et választotta! Reméljük, "
-"legalább annyi örömét leli majd benne, mint amilyen élvezetet nekünk okozott "
-"a készítése. Új operációs rendszerében a kezdő lépések megtételéhez a lenti "
-"hivatkozások segítséget nyújthatnak. Kellemes használatot kívánunk és "
-"szívesen vesszük visszajelzéseit."
+"Üdvözöljük és köszönjük, hogy a Linux Mint-et választotta! Reméljük, olyan "
+"örömmel használja, mint amilyen lelkesedéssel készítettük tudásunk legjavát "
+"beleadva. Az operációs rendszerében a kezdő lépések megtételéhez a lenti "
+"hivatkozások segítséget nyújthatnak. Kellemes és zökkenőmentes használatot "
+"kívánunk és szívesen vesszük visszajelzéseit."
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:106
+msgid "New features"
+msgstr "Újdonságok"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:106
+msgid "See what is new in this release"
+msgstr "Tekintse meg ennek a kiadásnak az újdonságait"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:107
+msgid "Important information"
+msgstr "Fontos információ"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:107
+msgid ""
+"Find out about important information, limitations, known issues and their "
+"solution"
+msgstr ""
+"Tudjon meg többet a fontos információkról, a korlátozásokról, az ismert "
+"hibákról és ezek megoldásáról"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:108
+msgid "User guide (PDF)"
+msgstr "Felhasználói kézikönyv (PDF)"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:108
+msgid "Learn all the basics to get started with Linux Mint"
+msgstr "Ismerje meg a Linux Mint használatának alapjait"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:109
+msgid "Restore data"
+msgstr "Adatok visszaállítása"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:109
+msgid "Restore data or applications from a previous installation"
+msgstr "Adatok és alkalmazások visszaállítása egy előző telepítésből"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:110
+msgid "Software manager"
+msgstr "Szoftverkezelő"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:110
+msgid "Install additional software"
+msgstr "További szoftverek telepítése"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:112
+msgid "Chat room"
+msgstr "Csevegőszoba"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:112
+msgid "Chat live with other users in the chat room"
+msgstr "Csevegjen élőben a többi felhasználóval egy csevegőszobában"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:113
+msgid "Forums"
+msgstr "Fórumok"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:113
+msgid "Seek help from other users in the Linux Mint forums"
+msgstr "Kérjen segítséget a többi felhasználótól a Linux Mint fórumain"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:114
+msgid "Tutorials"
+msgstr "Útmutatók"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:114
+msgid "Find tutorials about Linux Mint"
+msgstr "Linux Mint útmutatók keresése"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:115
+msgid "Hardware database"
+msgstr "Hardveradatbázis"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:115
+msgid ""
+"Find hardware that is compatible with Linux, or information about your "
+"hardware"
+msgstr ""
+"Keressen Linux-kompatibilis hardvereket, vagy további információt az Ön "
+"hardvereszközeihez"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:116
+msgid "Idea pool"
+msgstr "Ötletek"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:116
+msgid "Submit new ideas to the development team"
+msgstr "Új ötletek küldése a fejlesztőcsapatnak"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:118
+msgid "Get involved"
+msgstr "Csatlakozzon"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:118
+msgid "Find out how to get involved in the Linux Mint project"
+msgstr "Ismerje meg milyen módon működhet közre a Linux Mint projektben"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:119
+msgid "Donations"
+msgstr "Adományok"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:119
+msgid "Make a donation to the Linux Mint project"
+msgstr "Támogassa a Linux Mint projektet"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:120
+msgid "Sponsors"
+msgstr "Támogatók"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:120
+msgid "Apply to become a Linux Mint sponsor"
+msgstr "Jelentkezzen itt és legyen a Linux Mint támogatója"
+
+#: usr/lib/linuxmint/mintWelcome/mintWelcome.py:140
+msgid "Show this dialog at startup"
+msgstr "Megjelenítés indításkor"
+
+#: generate_desktop_files:58 generate_desktop_files:72
+msgid "Introduction to Linux Mint"
+msgstr "A Linux Mint bemutatása"
+
+#: generate_desktop_files:86
+msgid "Install Multimedia Codecs"
+msgstr "Multimédia kodekek telepítése"
+
+#: generate_desktop_files:86
+msgid "Add all the missing multimedia codecs"
+msgstr "Az összes hiányzó multimédia kodek hozzáadása"
 
 #~ msgid "Visit the forums"
 #~ msgstr "Látogassa meg a fórumokat"
@@ -166,6 +182,9 @@ msgstr ""
 
 #~ msgid "Find help"
 #~ msgstr "Ha segítségre van szüksége"
+
+#~ msgid "Welcome to Linux Mint"
+#~ msgstr "Üdvözli a Linux Mint"
 
 #~ msgid "Make a donation"
 #~ msgstr "Ajánljon fel adományt"

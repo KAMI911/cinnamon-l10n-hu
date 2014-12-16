@@ -1,20 +1,21 @@
 # Hungarian translation of slideshow-mint-kde.
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the slideshow-mint-kde package.
+# KAMI <kami911@gmail.com>, 2013-2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: slideshow-mint-kde\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-14 11:26+0300\n"
-"PO-Revision-Date: 2013-12-12 23:39+0000\n"
-"Last-Translator: Frank Barnores <Unknown>\n"
+"PO-Revision-Date: 2014-05-25 14:44+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-12-13 14:44+0000\n"
-"X-Generator: Launchpad (build 16869)\n"
+"X-Launchpad-Export-Date: 2014-05-25 16:26+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
 "Language: hu\n"
 
 #. type: Content of: <div>
@@ -42,8 +43,8 @@ msgid ""
 "Be fast and safe on the web with Mozilla Firefox. Enjoy Java, Flash and "
 "multimedia content."
 msgstr ""
-"A Mozilla Firefox gyors és biztonságos böngészést tesz lehetővé. Élvezze a "
-"Java, Flash és multimédiás tartalmakat."
+"A Mozilla Firefox gyors és biztonságos böngészést tesz lehetővé. Fedezze fel "
+"a Java, a Flash és a multimédiás tartalmakat."
 
 #. type: Content of: <div><div><div>
 #: slideshows/mint-kde/slides/02-web.html:11
@@ -82,9 +83,10 @@ msgid ""
 "your audio CDs. Listen to podcasts and online radios. Discover new artists "
 "on Last.fm, Jamendo, Magnatune and Librivox."
 msgstr ""
-"Élvezze a zenét az Amarok-kal. Csatlakoztassa MP3 lejátszóját vagy helyezze "
-"be CD-jét. Hallgasson online rádiókat, vagy egyéb online adásokat. Fedezzen "
-"fel új előadókat a Last.fm-en, a Jamendo-n, a Magnatune-on és a Librivox-on."
+"Érezze a zenét a Amarok-kal. Csatlakoztassa MP3 lejátszóját vagy helyezze be "
+"CD-jét. Hallgasson online rádiókat, vagy egyéb online adásokat. Fedezzen fel "
+"új előadókat a Last.fm-en, az Internet Archívumban és az Amazon MP3 "
+"áruházában."
 
 #. type: Content of: <div><div><ul><li>
 #: slideshows/mint-kde/slides/03-music.html:15
@@ -136,7 +138,7 @@ msgid ""
 "CD, to the Web, or to online services such as Flickr or PicasaWeb to share "
 "them with friends and family."
 msgstr ""
-"Rendszerezze, élvezze és ossza meg fényképeit a digikam segítségével. "
+"Rendszerezze, tekintse meg és ossza meg fényképeit a digikam segítségével. "
 "Exportálja albumait CD-re, a webre, vagy az olyan online szolgáltatások "
 "egyikére, mint a Flickr vagy a Picasa, hogy megoszthassa barátaival és "
 "családjával."

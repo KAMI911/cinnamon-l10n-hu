@@ -1,153 +1,204 @@
 # Hungarian translation of mintsources.
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the mintsources package.
+# KAMI <kami911@gmail.com>, 2013-2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: mintsources\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-01 18:58+0100\n"
-"PO-Revision-Date: 2013-12-12 18:31+0000\n"
-"Last-Translator: Frank Barnores <Unknown>\n"
+"POT-Creation-Date: 2014-05-06 16:31+0100\n"
+"PO-Revision-Date: 2014-05-22 09:28+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-12-13 14:44+0000\n"
-"X-Generator: Launchpad (build 16869)\n"
+"X-Launchpad-Export-Date: 2014-05-25 16:26+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
 "Language: hu\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:47
-#: usr/lib/linuxmint/mintSources/mintSources.py:384
-msgid "Software Sources"
-msgstr "Szoftverforrások"
+#: usr/lib/linuxmint/mintSources/mintSources.py:37
+#: usr/lib/linuxmint/mintSources/mintSources.py:866
+#, python-format
+msgid "Cannot add PPA: '%s'."
+msgstr "Nem adható hozzá a PPA: „%s”."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:48
-msgid "Configure the sources for installable software and updates"
-msgstr "Telepíthető szoftverek és frissítések forrásának beállítása"
+#: usr/lib/linuxmint/mintSources/mintSources.py:41
+msgid "Adding private PPAs is not supported currently"
+msgstr "Privát PPA tárolók hozzáadása nem támogatott"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:137
-#: usr/lib/linuxmint/mintSources/mintSources.py:151
+#: usr/lib/linuxmint/mintSources/mintSources.py:44
+msgid "You are about to add the following PPA to your system:"
+msgstr "A következő PPA tárolót készül hozzáadni a rendszeréhez:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:46
+#, python-format
+msgid " More info: %s"
+msgstr " További információk: %s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:50
+msgid "Press [ENTER] to continue or ctrl-c to cancel adding it"
+msgstr ""
+"A folytatáshoz nyomja meg az Entert, vagy a megszakításhoz a Ctrl-C "
+"kombinációt"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:249
+#: usr/lib/linuxmint/mintSources/mintSources.py:263
 msgid "Sources"
 msgstr "Források"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:210
+#: usr/lib/linuxmint/mintSources/mintSources.py:282
+msgid ""
+"Linux Mint uses Romeo to publish packages which are not tested. Once these "
+"packages are tested, they are then moved to the official repositories. "
+"Unless you are participating in beta-testing, you should not enable this "
+"repository. Are you sure you want to enable Romeo?"
+msgstr ""
+"A nem tesztelt csomagok közzétételéhez a Linux Mint a Romeo tárolót "
+"használja. Tesztelés után ezek a csomagok a hivatalos tárolókba kerülnek. "
+"Amennyiben nem béta tesztelést végez, nem ajánlott ezeket a tárolókat "
+"engedélyezni. Biztos benne, hogy engedélyezni kívánja a Romeo tárolót?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:288
+msgid ""
+"Backports are packages coming from newer Linux Mint releases. When backports "
+"are made available, the development team publishes an official announcement "
+"on http://blog.linuxmint.com. This announcement might include important "
+"information about the new features, design decisions or even known issues "
+"which relate to you. It is therefore strongly recommended to not enable "
+"backports until you have read this information. Are you sure you want to "
+"enable backports?"
+msgstr ""
+"Az instabil csomagok az újabb Linux Mint verziókból származnak. Amikor az "
+"instabil csomagok elérhetővé válnak, a fejlesztőcsapat hivatalosan bejelenti "
+"őket a  http://blog.linuxmint.com webhelyen. Ez a bejelentés tartalmazhatja "
+"a legfontosabb információkat az új szolgáltatásokról, tervezési döntésekről "
+"és az esetleg Önt is érintő ismert hibákról. Kérjük tanulmányozza át ezeket "
+"az információkat és ezután döntsön a tároló engedélyezéséről. Valóban "
+"engedélyezni kívánja az instabil csomagok tárolóját?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:344
 msgid "Other..."
 msgstr "Egyéb…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:230
+#: usr/lib/linuxmint/mintSources/mintSources.py:366
 msgid "Select a mirror"
 msgstr "Tükör kiválasztása"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:241
+#: usr/lib/linuxmint/mintSources/mintSources.py:378
 msgid "Country"
 msgstr "Ország"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:246
+#: usr/lib/linuxmint/mintSources/mintSources.py:383
 msgid "URL"
 msgstr "URL"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:251
+#: usr/lib/linuxmint/mintSources/mintSources.py:388
 msgid "Speed"
 msgstr "Sebesség"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:401
+#: usr/lib/linuxmint/mintSources/mintSources.py:526 generate_desktop_files:27
+msgid "Software Sources"
+msgstr "Szoftverforrások"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:543
 msgid "Backported packages"
 msgstr "Visszaportolt csomagok"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:403
+#: usr/lib/linuxmint/mintSources/mintSources.py:545
 msgid "Unstable packages"
 msgstr "Instabil csomagok"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:416
-#: usr/lib/linuxmint/mintSources/mintSources.py:1022
+#: usr/lib/linuxmint/mintSources/mintSources.py:558
+#: usr/lib/linuxmint/mintSources/mintSources.py:1110
 msgid "No action required"
 msgstr "Nincs teendő"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:418
+#: usr/lib/linuxmint/mintSources/mintSources.py:560
 msgid "Official repositories"
 msgstr "Hivatalos tárolók"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:419
+#: usr/lib/linuxmint/mintSources/mintSources.py:561
 msgid "PPAs"
 msgstr "PPA-k"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:420
+#: usr/lib/linuxmint/mintSources/mintSources.py:562
 msgid "Additional repositories"
 msgstr "További tárolók"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:421
+#: usr/lib/linuxmint/mintSources/mintSources.py:563
 msgid "Authentication keys"
 msgstr "Hitelesítési kulcsok"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:423
+#: usr/lib/linuxmint/mintSources/mintSources.py:565
 msgid "Mirrors"
 msgstr "Tükörkiszolgálók"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:424
+#: usr/lib/linuxmint/mintSources/mintSources.py:566
 msgid "Main"
 msgstr "Fő"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:425
+#: usr/lib/linuxmint/mintSources/mintSources.py:567
 msgid "Base"
 msgstr "Alap"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:426
-#: usr/lib/linuxmint/mintSources/mintSources.py:427
+#: usr/lib/linuxmint/mintSources/mintSources.py:568
+#: usr/lib/linuxmint/mintSources/mintSources.py:569
 msgid "Select a faster server..."
 msgstr "Gyorsabb kiszolgáló választása…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:429
+#: usr/lib/linuxmint/mintSources/mintSources.py:571
 msgid "Optional components"
 msgstr "Választható összetevők"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:430
+#: usr/lib/linuxmint/mintSources/mintSources.py:572
 msgid "Source code"
 msgstr "Forráskód"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:432
+#: usr/lib/linuxmint/mintSources/mintSources.py:574
 msgid "Add a new PPA..."
 msgstr "Új PPA hozzáadása…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:433
-#: usr/lib/linuxmint/mintSources/mintSources.py:437
+#: usr/lib/linuxmint/mintSources/mintSources.py:575
+#: usr/lib/linuxmint/mintSources/mintSources.py:579
 msgid "Edit URL..."
 msgstr "URL szerkesztése…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:434
-#: usr/lib/linuxmint/mintSources/mintSources.py:438
-#: usr/lib/linuxmint/mintSources/mintSources.py:442
+#: usr/lib/linuxmint/mintSources/mintSources.py:576
+#: usr/lib/linuxmint/mintSources/mintSources.py:580
+#: usr/lib/linuxmint/mintSources/mintSources.py:584
 msgid "Remove permanently"
 msgstr "Végleges eltávolítás"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:436
+#: usr/lib/linuxmint/mintSources/mintSources.py:578
 msgid "Add a new repository..."
 msgstr "Új tároló hozzáadása…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:440
+#: usr/lib/linuxmint/mintSources/mintSources.py:582
 msgid "Import key file..."
 msgstr "Kulcsfájl importálása…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:441
+#: usr/lib/linuxmint/mintSources/mintSources.py:583
 msgid "Download a key..."
 msgstr "Kulcs letöltése…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:444
+#: usr/lib/linuxmint/mintSources/mintSources.py:586
 msgid "Fix MergeList problems"
 msgstr "Lista-összevonási problémák javítása"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:445
+#: usr/lib/linuxmint/mintSources/mintSources.py:587
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr ""
 "Amennyiben lista-összevonási problémát tapasztal, a hibajavításhoz "
 "kattintson erre a gombra."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:446
+#: usr/lib/linuxmint/mintSources/mintSources.py:588
 msgid "Purge residual configuration"
 msgstr "Hátramaradt beállítófájlok tisztítása"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:447
+#: usr/lib/linuxmint/mintSources/mintSources.py:589
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
@@ -155,48 +206,59 @@ msgstr ""
 "A csomagok néha eltávolításuk után beállítófájlokat hagynak hátra a "
 "rendszeren."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:452
+#: usr/lib/linuxmint/mintSources/mintSources.py:594
 msgid "Enable source code repositories"
 msgstr "Forráskód tárolók engedélyezése"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:537
-#: usr/lib/linuxmint/mintSources/mintSources.py:561
+#: usr/lib/linuxmint/mintSources/mintSources.py:604
+msgid ""
+"Warning: Backports and unstable packages can introduce regressions and "
+"negatively impact your system. Please do not enable these options in Linux "
+"Mint unless it was suggested by the development team."
+msgstr ""
+"Figyelmeztetés: az instabil csomagok visszatérő hibákat tartalmazhatnak és "
+"negatívan befolyásolhatják a rendszer működését. Kérjük csak akkor "
+"engedélyezze ezeket a lehetőségeket, ha a Linux Mint fejlesztőcsapata "
+"javasolta Önnek."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:665
+#: usr/lib/linuxmint/mintSources/mintSources.py:689
 msgid "Enabled"
 msgstr "Engedélyezve"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:543
+#: usr/lib/linuxmint/mintSources/mintSources.py:671
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:567
+#: usr/lib/linuxmint/mintSources/mintSources.py:695
 msgid "Repository"
 msgstr "Tároló"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:583
+#: usr/lib/linuxmint/mintSources/mintSources.py:711
 msgid "Key"
 msgstr "Kulcs"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:596
+#: usr/lib/linuxmint/mintSources/mintSources.py:724
 msgid "Restore the default settings"
 msgstr "Alapértelmezett beállítások visszaállítása"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:597
+#: usr/lib/linuxmint/mintSources/mintSources.py:725
 msgid "Restore the official repositories to their default settings"
 msgstr "Hivatalos tárolók visszaállítása az alapértelmezettre"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:638
+#: usr/lib/linuxmint/mintSources/mintSources.py:790
 msgid "There is no more residual configuration on the system."
 msgstr "Nincs több hátramaradt beállítófájl a rendszeren."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:644
+#: usr/lib/linuxmint/mintSources/mintSources.py:796
 msgid "The problem was fixed. Please reload the cache."
 msgstr "A probléma javítva lett. Töltse be ismét a gyorsítótárat."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:670
+#: usr/lib/linuxmint/mintSources/mintSources.py:822
 msgid "Open.."
 msgstr "Megnyitás…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:686
+#: usr/lib/linuxmint/mintSources/mintSources.py:838
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -204,53 +266,60 @@ msgstr ""
 "Adja a meg a keyserver.ubuntu.com kiszolgálóról letölteni kívánt publikus "
 "kulcs 8 karakteres azonosítóját:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:699
+#: usr/lib/linuxmint/mintSources/mintSources.py:851
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Véglegesen el kívánja távolítani ezt a kulcsot?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:707
+#: usr/lib/linuxmint/mintSources/mintSources.py:859
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Adja meg a hozzáadni kívánt PPA nevét:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:714
-#, python-format
-msgid "Cannot add PPA: '%s'."
-msgstr "Nem adható hozzá a PPA: „%s”."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:752
+#: usr/lib/linuxmint/mintSources/mintSources.py:906
 msgid "Edit the URL of the PPA"
 msgstr "PPA URL-címének szerkesztése"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:762
+#: usr/lib/linuxmint/mintSources/mintSources.py:916
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Véglegesen el kívánja távolítani ezt a PPA-t?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:771
+#: usr/lib/linuxmint/mintSources/mintSources.py:925
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Adja meg a hozzáadni kívánt tároló nevét:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:790
+#: usr/lib/linuxmint/mintSources/mintSources.py:944
 msgid "Edit the URL of the repository"
 msgstr "Tároló URL-címének szerkesztése"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:800
+#: usr/lib/linuxmint/mintSources/mintSources.py:954
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Véglegesen el kívánja távolítani ezt a tárolót?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1016
+#: usr/lib/linuxmint/mintSources/mintSources.py:1104
 msgid "Update the cache"
 msgstr "Gyorsítótár frissítése"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1017
+#: usr/lib/linuxmint/mintSources/mintSources.py:1105
 msgid "Click here to update your APT cache with your new sources"
 msgstr ""
 "Kattintson ide az APT gyorsítótár új szoftverforrásokkal történő "
 "frissítéséhez"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1023
+#: usr/lib/linuxmint/mintSources/mintSources.py:1111
 msgid "Your APT cache is up to date"
 msgstr "Az APT gyorsítótár naprakész"
 
 #: usr/bin/software-sources:9
 msgid "Please enter your password to configure the software sources"
 msgstr "Adja meg a jelszavát a szoftverforrások beállításához"
+
+#: usr/local/bin/add-apt-repository:10
+msgid "Error: must run as root"
+msgstr "Hiba: rendszergazdaként (root) kell futtatni"
+
+#: usr/local/bin/add-apt-repository:21
+msgid "Error: need a repository as argument"
+msgstr "Hiba: egy tárolót szükséges megadni argumentumként"
+
+#: generate_desktop_files:27
+msgid "Configure the sources for installable software and updates"
+msgstr "Telepíthető szoftverek és frissítések forrásának beállítása"
