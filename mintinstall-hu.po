@@ -1,0 +1,857 @@
+# Hungarian translation of mintinstall.
+# Copyright (C) 2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mintinstall package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mintinstall\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-21 12:01+0100\n"
+"PO-Revision-Date: 2013-12-12 18:28+0000\n"
+"Last-Translator: Frank Barnores <Unknown>\n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-12-13 14:39+0000\n"
+"X-Generator: Launchpad (build 16869)\n"
+"Language: hu\n"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:59
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:350
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:661
+#: usr/lib/linuxmint/mintInstall/splash.py:20
+#: usr/lib/linuxmint/mintInstall/splash.py:27
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:343
+msgid "Software Manager"
+msgstr "Szoftverkezelő"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:60
+msgid "Install new applications"
+msgstr "Új alkalmazások telepítése"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:220
+#, python-format
+msgid "%d ongoing actions"
+msgstr "%d hátralévő művelet"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:230
+#, python-format
+msgid "Cancel the task: %s"
+msgstr "%s művelet megszakítása"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:242
+msgid "Waiting"
+msgstr "Várakozás"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:242
+msgid "Downloading"
+msgstr "Letöltés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:242
+msgid "Running"
+msgstr "Fut"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:242
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:125
+msgid "Finished"
+msgstr "Kész"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:254
+#, python-format
+msgid "Installing %s"
+msgstr "%s telepítése"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:256
+#, python-format
+msgid "Removing %s"
+msgstr "%s eltávolítása"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:258
+msgid "Updating cache"
+msgstr "Gyorsítótár frissítése"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:260
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:262
+msgid "No role set"
+msgstr "Nincs szabálykészlet"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:371
+msgid "_File"
+msgstr "_Fájl"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:375
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:127
+msgid "Close"
+msgstr "Bezárás"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:379
+msgid "_Edit"
+msgstr "S_zerkesztés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:383
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:387
+msgid "Search in packages summary (slower search)"
+msgstr "Keresés a csomagleírásokban (lassabb keresés)"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:391
+msgid "Search in packages description (even slower search)"
+msgstr "Keresés a részletes csomagleírásokban (még lassabb keresés)"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:395
+msgid "Open links using the web browser"
+msgstr "Hivatkozások megnyitása böngészővel"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:399
+msgid "Search while typing"
+msgstr "Keresés gépelés közben"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:412
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:625
+msgid "Account information"
+msgstr "Fiókinformáció"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:419
+msgid "Software sources"
+msgstr "Szoftverforrások"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:423
+msgid "_View"
+msgstr "_Nézet"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:427
+msgid "Available packages"
+msgstr "Elérhető csomagok"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:431
+msgid "Installed packages"
+msgstr "Telepített csomagok"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:438
+msgid "_Help"
+msgstr "_Súgó"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:442
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:659
+msgid "About"
+msgstr "Névjegy"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:481
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:492
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:972
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:482
+msgid "Please choose a category"
+msgstr "Válasszon kategóriát"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:483
+#, python-format
+msgid "%d packages are currently available"
+msgstr "%d csomag érhető el"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:493
+msgid "Please choose a sub-category"
+msgstr "Válasszon alkategóriát"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:520
+msgid "No ongoing actions"
+msgstr "Nincs folyamatban művelet"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:521
+msgid "Active tasks:"
+msgstr "Folyamatban lévő műveletek"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:627
+msgid "Your community account"
+msgstr "Az Ön közösségi fiókja"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:629
+msgid "Fill in your account info to review applications"
+msgstr "Az alkalmazások véleményezéséhez adja meg a fiókjának adatait"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:631
+msgid "Username:"
+msgstr "Felhasználónév:"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:632
+msgid "Password:"
+msgstr "Jelszó:"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:704
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1484
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1495
+msgid "B"
+msgstr "B"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:706
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1486
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1497
+msgid "KB"
+msgstr "KB"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:708
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1488
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1499
+msgid "MB"
+msgstr "MB"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:710
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1490
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1501
+msgid "GB"
+msgstr "GB"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:732
+msgid "Icon"
+msgstr "Ikon"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:736
+msgid "Application"
+msgstr "Alkalmazás"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:743
+msgid "Score"
+msgstr "Pontszám"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:765
+msgid "Task"
+msgstr "Művelet"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:768
+msgid "Status"
+msgstr "Állapot"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:771
+msgid "Progress"
+msgstr "Folyamatjelző"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:863
+msgid "See more reviews"
+msgstr "További vélemények megjelenítése"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:899
+msgid "Screenshot"
+msgstr "Képernyőkép"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:908
+msgid "Website"
+msgstr "Honlap"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:916
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:928
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1506
+msgid "Reviews"
+msgstr "Vélemények"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:974
+msgid "Featured"
+msgstr "Kiemelt alkalmazások"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:977
+msgid "All Packages"
+msgstr "Összes csomag"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:979
+msgid "Internet"
+msgstr "Internet"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:980
+msgid "Web"
+msgstr "Web"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:982
+msgid "Email"
+msgstr "E-mail"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:984
+msgid "Chat"
+msgstr "Csevegés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:986
+msgid "File sharing"
+msgstr "Fájlmegosztás"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:989
+msgid "Sound and video"
+msgstr "Hang és videó"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:992
+msgid "Graphics"
+msgstr "Grafika"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:994
+msgid "3D"
+msgstr "3D"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:996
+msgid "Drawing"
+msgstr "Rajzolás"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:998
+msgid "Photography"
+msgstr "Fényképezés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1000
+msgid "Publishing"
+msgstr "Kiadványszerkesztés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1002
+msgid "Scanning"
+msgstr "Lapolvasás"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1004
+msgid "Viewers"
+msgstr "Nézegetők"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1007
+msgid "Office"
+msgstr "Iroda"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1009
+msgid "Games"
+msgstr "Játékok"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1010
+msgid "Board games"
+msgstr "Táblás játékok"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1012
+msgid "First-person shooters"
+msgstr "FPS lövöldözős"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1014
+msgid "Real-time strategy"
+msgstr "RTS – valós idejű stratégia"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1016
+msgid "Turn-based strategy"
+msgstr "Körökre osztott stratégia"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1018
+msgid "Emulators"
+msgstr "Emulátorok"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1020
+msgid "Simulation and racing"
+msgstr "Szimulátorok és versenyzés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1023
+msgid "Accessories"
+msgstr "Kellékek"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1025
+msgid "System tools"
+msgstr "Rendszereszközök"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1028
+msgid "Fonts"
+msgstr "Betűkészletek"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1031
+msgid "Science and Education"
+msgstr "Tudomány és oktatás"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1034
+msgid "Programming"
+msgstr "Fejlesztés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1187
+#, python-format
+msgid "%d packages"
+msgstr "%d csomag"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1241
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1401
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1563
+#, python-format
+msgid "%d reviews"
+msgstr "%d vélemény"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1410
+msgid "Search results"
+msgstr "Keresési eredmények"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1449
+msgid "Hate it"
+msgstr "Nem tetszik"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1449
+msgid "Not a fan"
+msgstr "Nem a kedvencem"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1449
+msgid "So so"
+msgstr "Elmegy"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1449
+msgid "Like it"
+msgstr "Tetszik"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1449
+msgid "Awesome!"
+msgstr "Nagyon jó!"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1466
+msgid "Score:"
+msgstr "Pontszám:"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1467
+msgid "Submit"
+msgstr "Küldés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1468
+msgid "Your review"
+msgstr "Az ön véleménye"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1480
+#, python-format
+msgid "%s (removed)"
+msgstr "%s (eltávolítva)"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1482
+#, python-format
+msgid "%s (installed)"
+msgstr "%s (telepítve)"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1503
+msgid "Size:"
+msgstr "Méret:"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1504
+msgid "Version:"
+msgstr "Verzió:"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1505
+msgid "Impact on packages:"
+msgstr "Hatása a csomagokra:"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1507
+msgid "Your review:"
+msgstr "Az Ön értékelése:"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1508
+msgid "Details"
+msgstr "Részletek"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1512
+#, python-format
+msgid "%(localSize)s of disk space freed"
+msgstr "A merevlemezről %(localSize)s tárhely felszabadítva"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1514
+#, python-format
+msgid "%(localSize)s of disk space required"
+msgstr "A merevlemezen %(localSize)s tárhely szükséges"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1517
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
+msgstr ""
+"%(downloadSize)s kerül letöltésre, a merevlemezen %(localSize)s tárhely "
+"felszabadítva"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1519
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
+msgstr ""
+"%(downloadSize)s kerül letöltésre, a merevlemezen %(localSize)s tárhely "
+"szükséges"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1537
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1540
+#: usr/bin/mint-search-apt:37
+msgid "Installed"
+msgstr "Telepítve"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1543
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:207
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:442
+msgid "Install"
+msgstr "Telepítés"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1546
+msgid "Not installed"
+msgstr "Nincs telepítve"
+
+#: usr/lib/linuxmint/mintInstall/mintinstall.py:1567
+msgid "Reviews:"
+msgstr "Vélemények:"
+
+#: usr/lib/linuxmint/mintInstall/splash.py:28
+#, python-format
+msgid "Gathering information for %d packages..."
+msgstr "Információk lekérése %d csomaghoz…"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:68
+msgid "Backing up your APT sources"
+msgstr "Az APT források biztonsági mentése"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:92
+#: usr/lib/linuxmint/mintInstall/remove.py:48 usr/bin/mint-synaptic-install:14
+msgid "Please wait, this can take some time"
+msgstr "Kis türelmet, ez eltarthat egy ideig"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:94
+#: usr/bin/mint-synaptic-install:16
+msgid "Installation is complete"
+msgstr "A telepítés befejeződött"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:121
+msgid "Restoring your APT sources"
+msgstr "Az APT források helyreállítása"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:204
+msgid "Using the following repositories:"
+msgstr "A következő csomagtárolók használata:"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:209
+#, python-format
+msgid "Install %s?"
+msgstr "%s telepítése?"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:212
+msgid "The following packages will be installed:"
+msgstr "A következő csomagok lesznek telepítve:"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:223
+msgid "Default repositories"
+msgstr "Alapértelmezett csomagtárolók"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:296
+#, python-format
+msgid "Upgrade %s?"
+msgstr "%s frissítése?"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:298
+msgid "The following packages will be upgraded:"
+msgstr "A következő csomagok lesznek frissítve:"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:299
+msgid "Upgrade"
+msgstr "Frissítés"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:434
+msgid "Find Software"
+msgstr "Szoftver keresése"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:437
+msgid "Go to the Linux Mint Software Portal"
+msgstr "Ugrás a Linux Mint Szoftverportálra"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:438
+msgid "Search for a .mint application"
+msgstr ".mint alkalmazás keresése"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:439
+msgid "Go to the GetDeb Portal"
+msgstr "Ugrás a GetDeb portálra"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:440
+msgid "Search for a .deb package"
+msgstr ".deb csomag keresése"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:441
+msgid "Search"
+msgstr "Keresés"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:443
+msgid "Show"
+msgstr "Megjelenítés"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:444
+msgid "Go to the Ubuntu repository"
+msgstr "Ugrás az Ubuntu csomagtárolójához"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:445
+msgid "Go to the Linux Mint repository"
+msgstr "Ugrás a Linux Mint csomagtárolójához"
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:457
+msgid "Your APT sources were corrupted."
+msgstr "Az APT források megsérültek."
+
+#: usr/lib/linuxmint/mintInstall/mintInstall.py:457
+msgid ""
+"Your APT sources were not correctly restored after you last ran mintInstall. "
+"They now have been restored."
+msgstr ""
+"Az APT források nem lettek helyreállítva a mintInstall előző futtatásakor. A "
+"helyreállítás most történt meg."
+
+#: usr/lib/linuxmint/mintInstall/remove.py:50
+msgid "Application removed successfully"
+msgstr "Az alkalmazás sikeresen eltávolítva"
+
+#: usr/lib/linuxmint/mintInstall/remove.py:104
+#, python-format
+msgid "Remove %s?"
+msgstr "%s eltávolítása?"
+
+#: usr/lib/linuxmint/mintInstall/remove.py:107
+msgid "The following packages will be removed:"
+msgstr "A következő csomagok lesznek eltávolítva:"
+
+#: usr/bin/mint-search-apt:34
+msgid "No results"
+msgstr "Nincs találat"
+
+#: usr/bin/mint-search-apt:41
+msgid "Package"
+msgstr "Csomag"
+
+#: usr/bin/mint-search-apt:42
+msgid "Description"
+msgstr "Leírás"
+
+#: usr/bin/mint-make-cmd:37 usr/bin/mint-make-cmd:38
+#, python-format
+msgid "Could not find package: %s"
+msgstr "A következő csomag nem található: %s"
+
+#~ msgid "Description:"
+#~ msgstr "Leírás:"
+
+#~ msgid "Size"
+#~ msgstr "Méret"
+
+#~ msgid "Available version"
+#~ msgstr "Elérhető verzió"
+
+#~ msgid "Installed version"
+#~ msgstr "Telepített verzió"
+
+#~ msgid "Category"
+#~ msgstr "Kategória"
+
+#~ msgid "Added"
+#~ msgstr "Hozzáadva"
+
+#~ msgid "Rating"
+#~ msgstr "Értékelés"
+
+#~ msgid "Software manager"
+#~ msgstr "Szoftverkezelő"
+
+#~ msgid "Quit"
+#~ msgstr "Kilépés"
+
+#~ msgid "All applications"
+#~ msgstr "Minden alkalmazás"
+
+#~ msgid "Featured applications"
+#~ msgstr "Kiemelt alkalmazások"
+
+#~ msgid "License:"
+#~ msgstr "Licenc:"
+
+#~ msgid "Repository"
+#~ msgstr "Csomagtároló"
+
+#~ msgid ""
+#~ "The mint file for this application was not successfully downloaded. Click on "
+#~ "refresh to fix the problem."
+#~ msgstr ""
+#~ "Az alkalmazás mint fájlját nem sikerült letölteni. A probléma megoldásához "
+#~ "kattintson a frissítésre."
+
+#~ msgid "More info"
+#~ msgstr "További információ"
+
+#~ msgid "Average rating"
+#~ msgstr "Átlagos értékelés"
+
+#~ msgid "Views"
+#~ msgstr "Megtekintések"
+
+#~ msgid "Reviewer"
+#~ msgstr "Értékelő"
+
+#~ msgid "Review"
+#~ msgstr "Vélemény"
+
+#~ msgid "Please refresh mintInstall by clicking on the Refresh button"
+#~ msgstr "Kérem, kattintson a Frissítés gombra a mintInstall frissítéséhez"
+
+#, python-format
+#~ msgid "Downloading data for %s"
+#~ msgstr "%s adatainak letöltése"
+
+#~ msgid ""
+#~ "The data used by mintInstall is corrupted or out of date. Click on refresh "
+#~ "to fix the problem :"
+#~ msgstr ""
+#~ "A mintInstall által használt adatok megsérültek vagy elavultak. Kattintson a "
+#~ "frissítésre a következő probléma megoldásához:"
+
+#, python-format
+#~ msgid "%d screenshots loaded"
+#~ msgstr "%d képernyőkép letöltve"
+
+#, python-format
+#~ msgid "%d reviews loaded"
+#~ msgstr "%d vélemény beolvasva"
+
+#, python-format
+#~ msgid "%d categories loaded"
+#~ msgstr "%d kategória beolvasva"
+
+#, python-format
+#~ msgid "%d applications loaded"
+#~ msgstr "%d alkalmazás beolvasva"
+
+#~ msgid "Cancel all changes"
+#~ msgstr "Az összes változtatás elvetése"
+
+#~ msgid "Show:"
+#~ msgstr "Megjelenítés:"
+
+#~ msgid "Quick search:"
+#~ msgstr "Gyorskeresés:"
+
+#~ msgid "All software"
+#~ msgstr "Minden alkalmazás"
+
+#~ msgid "Installed software"
+#~ msgstr "Telepített alkalmazások"
+
+#~ msgid "Available software"
+#~ msgstr "Elérhető alkalmazások"
+
+#~ msgid "Portal URL"
+#~ msgstr "Szoftverportál"
+
+#~ msgid "Cancel removal"
+#~ msgstr "Eltávolítás elvetése"
+
+#~ msgid "Cancel installation"
+#~ msgstr "Telepítés elvetése"
+
+#, python-format
+#~ msgid ""
+#~ "%(applications)d applications listed, %(install)d to install, %(remove)d to "
+#~ "remove"
+#~ msgstr ""
+#~ "%(applications)d alkalmazás listázva, %(install)d telepítendő, %(remove)d "
+#~ "eltávolítandó"
+
+#~ msgid "Text editors"
+#~ msgstr "Szövegszerkesztők"
+
+#~ msgid "Sound & Video"
+#~ msgstr "Hang és videó"
+
+#~ msgid "Simulation & racing"
+#~ msgstr "Szimuláció és versenyzés"
+
+#~ msgid "Office suites"
+#~ msgstr "Irodai programcsomagok"
+
+#~ msgid "Tools"
+#~ msgstr "Segédeszközök"
+
+#~ msgid "Image viewers"
+#~ msgstr "Képnézegetők"
+
+#~ msgid "Photo"
+#~ msgstr "Fényképkezelők"
+
+#~ msgid "Web browsers"
+#~ msgstr "Webböngészők"
+
+#~ msgid "Collection managers"
+#~ msgstr "Gyűjteménykezelők"
+
+#~ msgid "Document viewers"
+#~ msgstr "Dokumentumkezelők"
+
+#~ msgid "2D"
+#~ msgstr "2D"
+
+#~ msgid "Spreadsheets"
+#~ msgstr "Táblázatkezelők"
+
+#~ msgid "Word processors"
+#~ msgstr "Szövegszerkesztők"
+
+#~ msgid "Graph and flowcharts"
+#~ msgstr "Grafikonok és folyamatábrák"
+
+#~ msgid "Databases"
+#~ msgstr "Adatbáziskezelők"
+
+#~ msgid "Internet Relay Chat"
+#~ msgstr "IRC"
+
+#~ msgid "Instant messengers"
+#~ msgstr "Azonnali üzenetküldők"
+
+#~ msgid "Education"
+#~ msgstr "Oktatás"
+
+#~ msgid "Firewall"
+#~ msgstr "Tűzfalak"
+
+#~ msgid "P2P and torrent"
+#~ msgstr "P2P és torrent"
+
+#~ msgid "Package management"
+#~ msgstr "Csomagkezelők"
+
+#~ msgid "Desktop components"
+#~ msgstr "Asztali kiegészítők"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "System Tools"
+#~ msgstr "Rendszereszközök"
+
+#~ msgid "Cancel change"
+#~ msgstr "Változtatás elvetése"
+
+#~ msgid "Upstream"
+#~ msgstr "Upstream"
+
+#~ msgid "Scanning tools"
+#~ msgstr "Lapolvasók"
+
+#~ msgid "Audio players"
+#~ msgstr "Zenelejátszók"
+
+#~ msgid "Drivers"
+#~ msgstr "Eszközmeghajtók"
+
+#~ msgid "The changes are complete"
+#~ msgstr "A változtatások alkalmazva"
+
+#~ msgid "Video players"
+#~ msgstr "Videolejátszók"
+
+#~ msgid "Real time strategy"
+#~ msgstr "Valós idejű stratégia"
+
+#~ msgid "First person shooters"
+#~ msgstr "3D lövöldözős"
+
+#~ msgid "These popular applications can be installed on your system:"
+#~ msgstr "A következő népszerű alkalmazások telepíthetők a rendszerére:"
+
+#~ msgid "Finance"
+#~ msgstr "Pénzügyek"
+
+#~ msgid "Mind mapping"
+#~ msgstr "Gondolattérképek"
+
+#~ msgid "Your changes"
+#~ msgstr "Változtatások"
+
+#~ msgid "Burning tools"
+#~ msgstr "CD/DVD-írók"

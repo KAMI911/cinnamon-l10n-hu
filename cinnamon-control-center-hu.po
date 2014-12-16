@@ -1,0 +1,2132 @@
+# Hungarian translation of cinnamon-control-center.
+# Copyright (C) 1998-2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the cinnamon-control-center package.
+# Szabolcs Ban <shooby at gnome dot hu>, 1998-2000.
+# Emese Kovacs <emese at gnome dot hu>, 2001.
+# Peter Doma <zelin at pointernet dot hu>, 2002.
+# Andras Timar <timar at gnome dot hu>, 2001-2003.
+# Gabor Sari <saga at gnome dot hu>, 2003.
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004-2012.
+# Mate Ory <orymate at gmail d0t com>, 2006.
+# Richard Somloi <ricsipontaz at gmail dot com>, 2011-2012.
+# Peter Trombitas <trombipeti at gmail dot com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-12-12 18:21+0000\n"
+"Last-Translator: Frank Barnores <Unknown>\n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-12-13 14:46+0000\n"
+"X-Generator: Launchpad (build 16869)\n"
+"Language: hu\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Egyéb profil…"
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Alapértelmezett: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Színtér: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Tesztprofil: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Beállítás minden felhasználónak"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Virtuális eszköz létrehozása"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Válasszon ICC profilfájlt"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Importálás"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Támogatott ICC profilok"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Minden fájl"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Elérhető kijelzőprofilok"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Elérhető lapolvasóprofilok"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Elérhető nyomtatóprofilok"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Elérhető fényképezőgép-profilok"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Elérhető webkamera-profilok"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Elérhető profilok"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Eszköz"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Kalibrálás"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Színprofil létrehozása a kiválasztott eszközhöz"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"A mérőkészülék nem található. Ellenőrizze, hogy be van-e kapcsolva, és "
+"megfelelően van-e csatlakoztatva."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "A mérőkészülék nem támogatja a nyomtatóprofilozást."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Az eszköztípus jelenleg nem támogatott."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Az automatikusan felvett profil nem távolítható el"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Nincs profil"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i év"
+msgstr[1] "%i év"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i hónap"
+msgstr[1] "%i hónap"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i hét"
+msgstr[1] "%i hét"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Kevesebb, mint 1 hét"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Nem kalibrált"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Az eszköz nem támogatja a színkezelést."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Ez az eszköz gyárilag kalibrált adatokat használ."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Ez az eszköz nem rendelkezik a teljes kijelzős színkorrekcióhoz megfelelő "
+"profillal."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr ""
+"Ez az eszköz egy régi profillal rendelkezik, amely már nem feltétlenül "
+"pontos."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Nincs megadva"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Nem találhatók színkezelést támogató eszközök"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Angol"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Brit angol"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Német"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Francia"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Spanyol"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Egyszerűsített kínai"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Orosz"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arab"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Egyesült Államok"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Németország"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Franciaország"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Spanyolország"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Kína"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Válasszon régiót"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Nincs megadva"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Tükrözött kijelzők"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Kijelző"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d × %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d × %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Válassza ki a kijelzőt a tulajdonságai módosításához, húzza az "
+"elhelyezésének megváltoztatásához."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Hiba a következő beállítás alkalmazása közben: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "A kijelző beállításai nem menthetők"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "A kijelzők nem ismerhetők fel"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "A képernyő-információk nem kérhetők le"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Hálózati proxy"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr ""
+"A rendszer hálózati szolgáltatásai nem kompatibilisek ezzel a verzióval."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "_Repülő mód"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Új kapcsolat hozzáadása"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "soha"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "ma"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "tegnap"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i napja"
+msgstr[1] "%i napja"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Nincs kapcsolódva"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Kívül esik a tartományon"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"%s hálózati adatai elvesznek, beleértve a jelszót és az egyedi beállításokat "
+"is."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Elfelejtés"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Ha a nem csak vezeték nélküli internetkapcsolata van, akkor megoszthatja "
+"internetkapcsolatát másokkal."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"A vezeték nélküli hotspot bekapcsolása le fogja választani erről: <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Az internetet nem érheti el a vezeték nélküli kapcsolaton, mialatt a hotspot "
+"aktív."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Leállítja a hotspotot, és leválasztja a felhasználókat?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "H_otspot leállítása"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Az automatikus webproxy-felderítés akkor használatos, ha nincs megadva "
+"konfigurációs URL."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Ez nem javasolt nyilvános, nem biztonságos hálózatokon."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Proxy"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Vezetékes"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Vezeték nélküli"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Mobil szélessáv"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Háló"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Eseti"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Kiépített"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Ismeretlen állapot"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Felügyeletlen"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Hiányzó firmware"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Kábel kihúzva"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Nem érhető el"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Bontva"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Kapcsolódás"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Hitelesítés szükséges"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Kapcsolódva"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Bontás"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Kapcsolódás meghiúsult"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Ismeretlen állapot (hiányzik)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "A beállítás sikertelen"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "Az IP-beállítás sikertelen"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "Az IP-beállítás lejárt"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Titkos információkra volt szükség, de nem lettek megadva"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "A 802.1x-kliens bontotta a kapcsolatot"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "A 802.1x-kliens beállítása meghiúsult"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "A 802.1x-kliens sikertelen"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "A 802.1x-kliens hitelesítése túl sokáig tartott"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "A PPP szolgáltatás nem indult el"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "PPP szolgáltatás leválasztva"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "A PPP sikertelen"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "A DHCP kliens nem indult el"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "DHCP-klienshiba"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "A DHCP-kliens sikertelen"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "A megosztott kapcsolat szolgáltatás nem indult el"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "A megosztott kapcsolat szolgáltatás sikertelen"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "Az AutoIP szolgáltatás nem indult el"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "AutoIP szolgáltatáshiba"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "Az AutoIP szolgáltatás sikertelen"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "A vonal foglalt"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Nincs tárcsahang"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Nem hozható létre hívás"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "A tárcsázási kérés túllépte az időkorlátot"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "A tárcsázási kísérlet meghiúsult"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "A modem előkészítése sikertelen"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "A megadott APN kiválasztása meghiúsult"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Nem keres hálózatokat"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Hálózatregisztráció megtagadva"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "A hálózatregisztráció túllépte az időkorlátot"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "A kért hálózaton való regisztráció sikertelen"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "A PIN ellenőrzése sikertelen"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Az eszközhöz firmware hiányozhat"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "A kapcsolat eltűnt"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "A vivőjel/kapcsolat megváltozott"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "A meglévő kapcsolat felvéve"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Nem található modem"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "A Bluetooth kapcsolódás sikertelen"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "A SIM kártya nincs behelyezve"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "A SIM Pin szükséges"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "A SIM Puk szükséges"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "A SIM hibás"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "Az InfiniBand eszköz nem támogatja a csatlakoztatott módot"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Kapcsolódás függősége meghiúsult"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4-cím"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6-cím"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP-cím"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Ismeretlen idő"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i perc"
+msgstr[1] "%i perc"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i óra"
+msgstr[1] "%i óra"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s, %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "óra"
+msgstr[1] "óra"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "perc"
+msgstr[1] "perc"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Töltés – %s a teljes feltöltésig"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Az akkumulátor lemerülőben, %s van hátra"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Akkumulátor használata – %s van hátra"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Töltés"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Akkumulátor használata"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Töltés – teljesen feltöltve"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Lemerült"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Az UPS lemerülőben, %s van hátra"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "UPS használata – %s van hátra"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Az UPS lemerülőben"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "UPS használata"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "A másodlagos akkumulátor teljesen feltöltve"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "A másodlagos akkumulátor lemerült"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Vezeték nélküli egér"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Vezeték nélküli billentyűzet"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Szünetmentes tápegység (UPS)"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Személyes digitális asszisztens"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Mobiltelefon"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Médialejátszó"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Táblagép"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Számítógép"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Akkumulátor"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "További nyelvek beszerzése…"
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Angolszász"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Metrikus"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"A bejelentkezési képernyő, a rendszerfiókok és az új felhasználói fiókok a "
+"rendszerszintű területi és nyelvi beállításokat használják."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"A bejelentkezési képernyő, a rendszerfiókok és az új felhasználói fiókok a "
+"rendszerszintű területi és nyelvi beállításokat használják. A "
+"rendszerbeállítások megváltoztatásával a sajátjaihoz igazíthatja azokat."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Beállítások másolása"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Beállítások másolása…"
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Kiosztás"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Hibakeresési kód engedélyezése"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Ezen alkalmazás verziója"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " – Cinnamon hangerőszabályzó kisalkalmazás"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Kimenet"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Hangkimenet hangereje"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Bemenet"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Mikrofon hangereje"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Egyensúly:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Elhalás:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Mélysugárzó:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profil:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Tiltva"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u kimenet"
+msgstr[1] "%u kimenet"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u bemenet"
+msgstr[1] "%u bemenet"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Rendszerhangok"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "Hangszórók _tesztelése"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Csúcsérzékelés"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Név"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Hangszóróteszt ehhez: %s"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "Ki_meneti hangerő:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "Válasszon ha_ngkimeneti eszközt:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Kiválasztott eszköz beállításai:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "_Bemeneti hangerő:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Bemeneti szint:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "Válasszon _hangbemeneti eszközt:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Hangeffektusok"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "_Riasztás hangereje:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Alkalmazások"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "Jelenleg nincs hangot lejátszó vagy felvevő alkalmazás."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Leállítás"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Teszt"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Mélysugárzó"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "A Hangbeállítások indítása meghiúsult: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Némítás"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "_Hangbeállítások"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Némítva"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "Beállítások ehhez: %s"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Üzemmód:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Hang lejátszása ezen keresztül"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "A kijelölt eszköz beállításai"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Teszt:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Teszthang"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Hang felvétele innen"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Nincs gyorsbillentyű"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "Min_den beállítás"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Részletes mód engedélyezése"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Áttekintés megjelenítése"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Súgólehetőségek megjelenítése"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Megjelenítendő panel"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "– Rendszerbeállítások"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Adja ki a(z) „%s --help” parancsot az elérhető parancssori kapcsolók teljes "
+"listájáért.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Súgó"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Kilépés"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Szín"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Minden eszköznek szüksége van egy friss színprofilra a színkezeléshez."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "További információk"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Tudjon meg többet a színkezelésről"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Eszköz hozzáadása"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Virtuális eszköz hozzáadása"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Eszköz törlése"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Eszköz eltávolítása"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Profil beállítása a számítógép összes felhasználójának"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Profil hozzáadása"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "Kalibrálás…"
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Eszköz kalibrálása"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Profil eltávolítása"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Részletek megjelenítése"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Eszköz típusa:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Gyártó:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Modell:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"A képfájlok ide ejtésével automatikusan kitöltetheti a következő mezőket."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Válasszon nyelvet"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Mégse"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Kijelölés"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Beállítás elsődlegesnek"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Felbontás"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "_Forgatás"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "Kijelzők _tükrözése"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Megjegyzés: a felbontási lehetőségeket korlátozhatja"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Kijelzők felismerése"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Szolgáltató"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Alapértelmezett útvonal"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "Hálózat"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "B_eállítások…"
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Módszer"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Konfigurációs URL"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP-proxy"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS-proxy"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP-proxy"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Socks kiszolgáló"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Válassza ki az új szolgáltatáshoz használandó csatolót"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "_Létrehozás…"
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Csatoló"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Eszköz hozzáadása"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Eszköz eltávolítása"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "VPN típusa"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Átjáró"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Csoportnév"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Csoportjelszó"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Beállítás…"
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Vezeték nélküli hotspot"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "_Bekapcsolás"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "H_asználat hotspotként…"
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Kapcsolódás rejtett hálózathoz"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Szétkapcsolás"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Kapcsolódás"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Utolsó használat"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Hardvercím"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Biztonság"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Jelerősség"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Kapcsolat sebessége"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "Hálózat el_felejtése"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Beállítások…"
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Kapcsolja ki a vezeték nélküli hálózathoz kapcsolódást"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Hálózat neve"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Kapcsolódott eszközök"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Biztonság típusa"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Biztonsági kulcs"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Hibernálás"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Kikapcsolás"
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr "5 perc"
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr "10 perc"
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr "30 perc"
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr "1 óra"
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr "Ne függessze fel"
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr "Felfüggesztés"
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr "Ne tegyen semmit"
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr "Képernyő zárolása"
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr "Azonnali leállítás"
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr "Rákérdezés"
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr "Ha jelen van az akkumulátor"
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr "Ha az akkumulátor töltődik/használatban van"
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr "Soha"
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr "Akkumulátoron"
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr "Ha csatlakoztatva van"
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr "Felfüggesztés, ha ennyi ideig tétlen"
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr "Ha az akkumulátor szintje _kritikusan alacsony"
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr "A noteszgép fedelének lecsukásakor"
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr "Akkumulátor állapotának megjelenítése a _menüsávban"
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr "Bekapcsoló gomb művelete"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Válasszon egy kiosztást"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Előnézet"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Válasszon egy hozzáadni kívánt beviteli forrást"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Billentyűzetkiosztás beállításai"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Terület és nyelv"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+"Válassza ki a felület nyelvét (a következő bejelentkezéskor lép életbe)"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr "Nyelv hozzáadása"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr "Nyelv eltávolítása"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr "gomb"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr "Nyelv"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr ""
+"Válasszon régiót (a változások csak a következő bejelentkezéskor lépnek "
+"életbe)"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr "Régió hozzáadása"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr "Régió eltávolítása"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr "Dátum"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr "Idő"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr "Számok"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr "Pénznem"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr "Mértékegység"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr "Példák"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr "Formátumok"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr "Kiosztás hozzáadása"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr "Kiosztás eltávolítása"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr "Felfelé"
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr "Lefelé"
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr "Kiosztás előnézete"
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr "Ugyanazon kiosztás használata minden ablakhoz"
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr "Az egyes ablakok kiosztása eltérhet"
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr "Az új ablakok az alapértelmezett kiosztást használják"
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr "Az új ablakok az előző ablak kiosztását használják"
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr "Billentyűzetkiosztás beállításainak megjelenítése és szerkesztése"
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr "Alapértelmezések _visszaállítása"
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"A jelenlegi billentyűzetkiosztás-beállítások cseréje az alapértelmezettekre"
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr "Billentyűzetkiosztások"
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr "Megjelenítés nyelve:"
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr "Bemeneti forrás:"
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr "Formátum:"
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr "Az Ön beállításai"
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr "Rendszerbeállítások"
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr "Rendszer"
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr "Képernyő kikapcsol"
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr "30 másodperc"
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr "1 perc"
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr "2 perc"
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr "3 perc"
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr "Energiaspórolás a kép_ernyő elhalványításával"
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr "Fényerő"
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr "Kép_ernyő kikapcsolása, ha ennyi ideig tétlen:"
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr "Képernyő _zárolása:"
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr "Kérje be a jelszavamat a felfüggesztésből való visszatérésnél"
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr "Zárolás"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Képernyő-billentyűzet"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "OnBoard"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Nincs"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Nagy kontraszt"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Hangjelzés a Caps és Num Lock használatakor"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Beállítások…"
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Képernyőolvasó"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Be- vagy kikapcsolás:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Nagyítás:"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Kicsinyítés:"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Nagy szöveg"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Látás"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Vizuális figyelmeztetések"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Vizuális jelzés használata figyelmeztető hang esetén"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Ablak címsorának megvillantása"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Teljes képernyő megvillantása"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "Zárt feliratozás"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "A beszéd és hangok szöveges leírásának megjelenítése"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "_Villanás tesztelése"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Hallás"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Képernyő-billentyűzet"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Ragadós billentyűk"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "A módosítóbillentyűk sorozatát billentyűkombinációként kezeli"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "_Letiltás két billentyű egyidejű lenyomásakor"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "Hangjelzés _módosítóbillentyű lenyomásakor"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "Lassú billentyűk"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr "Késleltetés a billentyűk lenyomása és elfogadása között"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "_Elfogadás késleltetése:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Rövid"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Lassú billentyűk késleltetése"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Hosszú"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Hangjelzés billentyű"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "lenyomásakor"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "elfogadásakor"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "visszautasításakor"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "Billentyűszűrés"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Ismételt leütések figyelmen kívül hagyása"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "El_fogadás késleltetése:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Billentyűszűrés késleltetése"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Hangjelzés billentyű el_utasításakor"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Engedélyezés billentyűzetről"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr ""
+"Akadálymentesítési szolgáltatások be- és kikapcsolása a billentyűzetről"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Gépelés"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Egérbillentyűk"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "A mutató irányítása a numerikus billentyűzetről"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Videoegér"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "A mutató irányítása a videokamera használatával."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "Szimulált másodlagos kattintás"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "Másodlagos kattintás aktiválása az elsődleges gomb nyomva tartásával"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "Másodlagos kattintás késleltetése"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr "Rámutatva kattintás"
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "Kattintás kezdeményezése a mutató mozgásának megállásakor"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "Késlel_tetés:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "M_ozgás küszöbszintje:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Alacsony"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Magas"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Egérbeállítások"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Mutatás és kattintás"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "Teljes képernyő"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Felső fél"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Alsó fél"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Bal fél"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Jobb fél"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Nagyító beállításai"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Nagyítás"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Nagyítás:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Egérkurzor követése"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Képernyőrészlet:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "A nagyító kiterjed a képernyőn kívülre is"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "A nagyítókurzor középen tartása"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "A nagyítókurzor eltolja a tartalmakat"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "A nagyítókurzor a tartalmakkal együtt mozog"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Nagyító pozíciója:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Nagyító"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Vastagság:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Vékony"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Vastag"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Hossz:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Szín:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "Szálkeresztek:"
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "Átfedi az egérkurzort"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "Szálkeresztek"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Fehér a feketén:"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Fényerő:"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Kontraszt:"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Alacsony"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Magas"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Színeffektusok:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Színeffektusok"
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr "Fényerő és zárolás"
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr "Képernyő fényerő- és zárolási beállításai"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr "Hang"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr "Hangerő és hangesemények módosítása"
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr "Színkezelési beállítások"
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr "Hangerőszabályzó"
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr "Hangerőszabályzó megjelenítése az asztalon"
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr "Energiagazdálkodás"
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr "Energiagazdálkodás beállítások"
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr "Területi és nyelvi beállítások"
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr "Területi és nyelvi beállítások módosítása"
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr "Kijelzők"
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Kijelzők és projektorok felbontásának és elhelyezésének módosítása"
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr "Hálózati beállítások"
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr "Akadálymentesítés"
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr "Akadálymentesítés beállításai"
