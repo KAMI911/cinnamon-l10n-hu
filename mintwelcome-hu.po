@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: mintwelcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-08 10:39+0100\n"
-"PO-Revision-Date: 2014-05-25 14:41+0000\n"
-"Last-Translator: Szüncsi <benmoll@gmail.com>\n"
+"PO-Revision-Date: 2014-11-19 09:34+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-05-25 16:21+0000\n"
-"X-Generator: Launchpad (build 17017)\n"
+"X-Launchpad-Export-Date: 2014-11-29 14:56+0000\n"
+"X-Generator: Launchpad (build 17267)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintWelcome/mintWelcome.py:24 generate_desktop_files:58
@@ -126,7 +126,7 @@ msgstr "Új ötletek küldése a fejlesztőcsapatnak"
 
 #: usr/lib/linuxmint/mintWelcome/mintWelcome.py:118
 msgid "Get involved"
-msgstr "Csatlakozzon"
+msgstr "Segítsen"
 
 #: usr/lib/linuxmint/mintWelcome/mintWelcome.py:118
 msgid "Find out how to get involved in the Linux Mint project"

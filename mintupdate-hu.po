@@ -1,170 +1,170 @@
 # Hungarian translation of mintupdate.
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the mintupdate package.
-# KAMI <kami911@gmail.com>, 2013-2014.
 #
+# KAMI <kami911@gmail.com>, 2013-2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: mintupdate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-05 18:16+0100\n"
-"PO-Revision-Date: 2014-05-11 19:48+0000\n"
+"POT-Creation-Date: 2014-11-06 13:57+0100\n"
+"PO-Revision-Date: 2014-11-16 14:03+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
-"Language-Team: Hungarian\n"
+"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-05-25 16:21+0000\n"
-"X-Generator: Launchpad (build 17017)\n"
+"X-Launchpad-Export-Date: 2014-11-29 14:57+0000\n"
+"X-Generator: Launchpad (build 17267)\n"
 "Language: hu\n"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:73
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:106
 msgid "Downloading changelog..."
 msgstr "A módosítások listájának letöltése…"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:90
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:123
 msgid "No changelog available"
 msgstr "A módosítások listája nem érhető el"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:178
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:348
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:221
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:390
 msgid "Please wait, this can take some time"
 msgstr "Kis türelmet, ez eltarthat egy ideig"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:181
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "%s kernel telepítve lett"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:183
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:224
 #, python-format
 msgid "The %s kernel was removed"
 msgstr "%s kernel el lett távolítva"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:257
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:226
+#, python-format
+msgid "The %s kernel was installed"
+msgstr "%s kernel telepítve lett"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:298
 msgid "This upgrade will trigger additional changes"
 msgstr "Ez a frissítés további változtatásokat von maga után"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:266
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:308
 msgid "The following package will be removed:"
 msgstr "A következő csomag el lesz távolítva:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:268
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:310
 #, python-format
 msgid "The following %d packages will be removed:"
 msgstr "A következő %d csomag el lesz eltávolítva:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:296
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:338
 msgid "The following package will be installed:"
 msgstr "A következő csomag lesz telepítve:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:298
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:340
 #, python-format
 msgid "The following %d packages will be installed:"
 msgstr "A következő %d csomag lesz telepítve:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:339
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:381
 msgid "Installing updates"
 msgstr "Frissítések telepítése"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:350
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:392
 msgid "Update is complete"
 msgstr "A frissítés befejeződött"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:388
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:456
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1604
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:424
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:533
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1950
 msgid "Checking for updates"
 msgstr "Frissítések keresése"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:412
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:448
 msgid "Could not install the security updates"
 msgstr "Nem sikerült telepíteni a biztonsági frissítéseket"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:445
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:522
 msgid "Starting refresh..."
 msgstr "Frissítés indítása…"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:479
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:480
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:559
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:560
 msgid "Another application is using APT"
 msgstr "Egy másik alkalmazás használja az APT-t"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:490
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:570
 msgid "Finding the list of updates..."
 msgstr "Frissítések listájának keresése…"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:524
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:525
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:707
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:708
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:605
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:606
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:808
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:809
 msgid "Your system is up to date"
 msgstr "A rendszere naprakész"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:537
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:538
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:730
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:734
-msgid "Could not refresh the list of packages"
-msgstr "Nem sikerült frissíteni a csomagok listáját"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:622
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:623
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:833
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:837
+msgid "Could not refresh the list of updates"
+msgstr "Nem sikerült frissíteni a csomagfrissítések listáját"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:572
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:669
 msgid "Security update"
 msgstr "Biztonsági frissítés"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:574
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:671
 msgid ""
-"Package backport. Be careful when upgrading. New versions of sofware can "
+"Software backport. Be careful when upgrading. New versions of sofware can "
 "introduce regressions."
 msgstr ""
 "Visszaportolt csomag: Legyen óvatos frissítéskor. Az alkalmazások új verziói "
-"visszatérő hibákat tartalmazhatnak."
+"visszafejlődési hibákat tartalmazhatnak."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:576
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:673
 msgid ""
-"Unstable package. Only take this upgrade to help developers beta-test this "
-"update."
+"Unstable software. Only apply this update to help developers beta-test new "
+"software."
 msgstr ""
 "Nem stabil csomag: Csak akkor telepítse ezeket a frissítéseket, ha segítene "
-"a fejlesztőknek a béta tesztelésben."
+"a fejlesztőknek a béta tesztelésben"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:578
-msgid "Package update"
-msgstr "Csomagfrissítés"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:675
+msgid "Software update"
+msgstr "Szoftverfrissítés"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:678
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:779
 msgid "A new version of the update manager is available"
 msgstr "Elérhető a Frissítéskezelő újabb verziója"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:688
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:789
 #, python-format
 msgid "1 recommended update available (%(size)s)"
 msgstr "1 ajánlott frissítés érhető el (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:690
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:791
 #, python-format
 msgid "1 recommended update available (%(size)s), 1 ignored"
 msgstr "1 ajánlott frissítés érhető el (%(size)s), 1 figyelmen kívül hagyva"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:692
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:793
 #, python-format
 msgid "1 recommended update available (%(size)s), %(ignored)d ignored"
 msgstr ""
 "1 ajánlott frissítés érhető el (%(size)s), %(ignored)d figyelmen kívül hagyva"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:695
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:796
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s)"
 msgstr "%(recommended)d ajánlott frissítés érhető el (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:697
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:798
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
 msgstr ""
 "%(recommended)d ajánlott frissítés érhető el (%(size)s), 1 figyelmen kívül "
 "hagyva"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:699
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:800
 #, python-format
 msgid ""
 "%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
@@ -172,419 +172,509 @@ msgstr ""
 "%(recommended)d ajánlott frissítés érhető el (%(size)s), %(ignored)d "
 "figyelmen kívül hagyva"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:769
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:788
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1516
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:872
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:891
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1851
 msgid "No updates selected"
 msgstr "Nincs frissítés kiválasztva"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:790
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1518
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:893
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1853
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgstr "%(selected)d frissítés kiválasztva (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:792
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1520
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:895
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
 #, python-format
 msgid "%(selected)d updates selected (%(size)s)"
 msgstr "%(selected)d frissítés kiválasztva (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:805
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1039
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1184
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1249
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1289
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1367
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1369
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1610 generate_desktop_files:24
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:908
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1150
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1294
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1363
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1409
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1627
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1629
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1956 generate_desktop_files:24
 msgid "Update Manager"
 msgstr "Frissítéskezelő"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1039
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1732
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1150
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2081
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1041
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1152
 msgid "Levels"
 msgstr "Szintek"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1042
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1153
 msgid "Auto-Refresh"
 msgstr "Automatikus frissítés"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1043
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1642
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1759
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1154
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1991
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2114
 msgid "Level"
 msgstr "Szint"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1044
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1709
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1155
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2058
 msgid "Description"
 msgstr "Leírás"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1045
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1156
 msgid "Tested?"
 msgstr "Tesztelve"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1046
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1157
 msgid "Origin"
 msgstr "Forrás"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1047
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1158
 msgid "Safe?"
 msgstr "Biztonságos"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1048
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1159
 msgid "Visible?"
 msgstr "Látható"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1049
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1160
 msgid ""
-"Certified packages. Tested through Romeo or directly maintained by Linux "
-"Mint."
+"Certified updates. Tested through Romeo or directly maintained by Linux Mint."
 msgstr ""
-"Hitelesített csomagok. A Romeóban tesztelve vagy közvetlenül a Linux Mint "
+"Hitelesített csomagok: A Romeóban tesztelve vagy közvetlenül a Linux Mint "
 "által karbantartva."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1050
-msgid "Recommended packages. Tested and approved by Linux Mint."
-msgstr "Ajánlott csomagok. A Linux Mint által tesztelve és jóváhagyva."
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1161
+msgid "Recommended updates. Tested and approved by Linux Mint."
+msgstr "Ajánlott csomagok: A Linux Mint által tesztelve és jóváhagyva."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1051
-msgid "Safe packages. Not tested but believed to be safe."
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1162
+msgid "Safe updates. Not tested but believed to be safe."
 msgstr ""
-"Biztonságos csomagok. Nincsenek tesztelve, de minden valószínűség szerint "
+"Biztonságos csomagok: Nincsenek tesztelve, de minden valószínűség szerint "
 "biztonságosak."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1052
-msgid ""
-"Unsafe packages. Could potentially affect the stability of the system."
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1163
+msgid "Unsafe updates. Could potentially affect the stability of the system."
 msgstr ""
-"Nem biztonságos csomagok. Potenciálisan befolyásolhatják a rendszer "
+"Nem biztonságos csomagok: Potenciálisan befolyásolhatják a rendszer "
 "stabilitását."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1053
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1164
 msgid ""
-"Dangerous packages. Known to affect the stability of the systems depending "
-"on certain specs or hardware."
+"Dangerous updates. Known to affect the stability of the systems depending on "
+"certain specs or hardware."
 msgstr ""
-"Veszélyes csomagok. Köztudottan befolyásolják a rendszer stabilitását "
+"Veszélyes csomagok: Köztudottan befolyásolják a rendszer stabilitását "
 "bizonyos hardverek esetén."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1054
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1165
 msgid "Linux Mint"
 msgstr "Linux Mint"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1055
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1056
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1057
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1058
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1166
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1167
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1168
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1169
 msgid "Upstream"
 msgstr "Upstream"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1059
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1170
 msgid "Refresh the list of updates every:"
 msgstr "Lista frissítésének gyakorisága:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1060
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1171
 msgid ""
 "Note: The list only gets refreshed while the update manager window is closed "
 "(system tray mode)."
 msgstr ""
-"Megjegyzés: A lista csak akkor frissül, ha a Frissítéskezelő ablak be van "
-"zárva (rendszertálca mód)."
+"Megjegyzés: A lista csak akkor frissül, ha a Frissítéskezelő zárva van "
+"(értesítési panel üzemmód)."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1062
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1173
 msgid "Update Method"
 msgstr "Frissítési mód"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1063
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1174
 msgid "Icons"
 msgstr "Ikonok"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1064
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1175
 msgid "Icon"
 msgstr "Ikon"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1065
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1176
 msgid "Status"
 msgstr "Állapot"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1066
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1177
 msgid "New Icon"
 msgstr "Új ikon"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1067
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1178
 msgid "Busy"
 msgstr "Elfoglalt"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1068
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1179
 msgid "System up-to-date"
 msgstr "A rendszer naprakész"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1069
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Updates available"
 msgstr "Frissítések érhetők el"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1070
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1181
 msgid "Error"
 msgstr "Hiba"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1071
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1182
 msgid "Unknown state"
 msgstr "Ismeretlen állapot"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1072
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1183
 msgid "Applying updates"
 msgstr "Frissítések alkalmazása"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1073
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1125
-msgid "Ignored packages"
-msgstr "Mellőzött csomagok"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1184
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1236
+msgid "Ignored updates"
+msgstr "Mellőzött frissítések"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1075
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1186
 msgid ""
-"Include updates which require the installation or the removal of other "
-"packages"
+"Include updates which require the installation of new packages or the "
+"removal of installed packages"
 msgstr ""
 "Azon frissítések hozzáadása, amelyek más csomagok telepítését, vagy "
 "eltávolítását igénylik"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1104
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1215
 msgid "Always show security updates"
 msgstr "Mindig jelezze a biztonsági frissítéseket"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1105
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1216
 msgid "Always select and trust security updates"
 msgstr "Mindig válassza ki és bizzon meg a biztonsági frissítésekben"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1107
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1218
 msgid "minutes"
 msgstr "perc"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1108
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1219
 msgid "hours"
 msgstr "óra"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1109
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1220
 msgid "days"
 msgstr "nap"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1151
-msgid "Please enter a package name:"
-msgstr "Adja meg a csomag nevét:"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1262
+msgid "Please specify the name of the update to ignore:"
+msgstr "Adja meg a frissítéskor mellőzendő csomagok nevét:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1152
-msgid "Ignore a package"
-msgstr "Csomag mellőzése"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1263
+msgid "Ignore an update"
+msgstr "Frissítés mellőzése"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1156
-msgid "Package name:"
-msgstr "Csomagnév:"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1267
+msgid "Name:"
+msgstr "Név:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1158
-msgid "All available upgrades for this package will be ignored."
-msgstr "Ezen csomag minden elérhető frissítése figyelmen kívül lesz hagyva."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1184
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1746
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1294
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2095
 msgid "History of updates"
 msgstr "Frissítési előzmények"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1187
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1297
 msgid "Date"
 msgstr "Dátum"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1190
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1638
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1765
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1300
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1987
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2120
 msgid "Package"
 msgstr "Csomag"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1193
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1771
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1303
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1995
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2126
 msgid "Old version"
 msgstr "Régi verzió"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1196
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1650
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1777
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1306
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1999
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2132
 msgid "New version"
 msgstr "Új verzió"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1249
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1752
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1363
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2101
 msgid "Information"
 msgstr "Információ"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1252
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1366
 msgid "Process ID:"
 msgstr "Folyamatazonosító:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1253
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1367
 msgid "Log file:"
 msgstr "Naplófájl:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1265
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1385
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Biztos benne, hogy eltávolítja a(z) %s kernelt?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1267
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1387
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Biztos benne, hogy telepíti a(z) %s kernelt?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1289
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1749
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1409
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2098
 msgid "Linux kernels"
 msgstr "Linux kernelek"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1295
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1417
 msgid "Warning!"
 msgstr "Figyelmeztetés!"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1296
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1418
 msgid ""
-"The Linux kernel is responsible for hardware support. Using the wrong kernel "
-"can lead to lack of networking, lack of sound, lack of graphical  "
-"environment or even the inability to boot the computer. Only install or "
-"remove kernels if you're experienced with Linux kernels, drivers, dkms and "
-"you know how to recover a non-booting computer."
+"The Linux kernel is a critical part of the system. Regressions can lead to "
+"lack of networking, lack of sound, lack of graphical environment or even the "
+"inability to boot the computer. Only install or remove kernels if you're "
+"experienced with kernels, drivers, dkms and you know how to recover a non-"
+"booting computer."
 msgstr ""
-"A Linux kernel biztosítja a hardverösszetevők támogatását. Nem megfelelő "
-"kernel használata működésképtelen hálózati elérést, hangrendszert, grafikus "
-"környezetet vagy el nem induló rendszert okozhat. Kizárólag akkor telepítsen "
-"vagy távolítson el kerneleket, ha Ön jártas a Linux kernelek és "
-"eszközmeghajtók kezelésében, dkms használatában és tudja, hogy hogyan "
-"állítson helyre egy nem induló számítógépet."
+"A Linux kernel a rendszer fontos része. A visszafejlődési hibák esetleg "
+"problémát  okozhatnak a hálózati kapcsolatok, a hangrendszer, a grafikus "
+"környezet működésében  vagy akár a rendszer elindulását is meghiúsíthatják. "
+"Csak akkor telepítse vagy törölje a  kernelt ha ért a Linux rendszermaghoz, "
+"eszközmeghajtókhoz, dkms rendszerhez és  tudja hogyan állítson helyre egy "
+"nem induló rendszert."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1297
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1419
 msgid "The following kernels are available:"
 msgstr "Telepíthető kernelek:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1298
-msgid "Version"
-msgstr "Verziószám"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1420
+msgid "More info..."
+msgstr "További információ…"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1299
-msgid "Loaded"
-msgstr "Betöltve"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1422
+msgid ""
+"Fixes can represent bug fixes, improvements in hardware support or security "
+"fixes."
+msgstr ""
+"A javítások tartalmazhatnak programhiba javításokat, tökéletesebb hardver "
+"támogatást vagy biztonsági frissítéseket."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1300
-msgid "Recommended"
-msgstr "Ajánlott"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1423
+msgid ""
+"Security fixes are important when local users represent a potential threat "
+"(in companies, libraries, schools or public places for instance) or when the "
+"computer can be threatened by remote attacks (servers for instance)."
+msgstr ""
+"A biztonsági frissítések nagyon fontosak mert a felhasználók potenciális "
+"veszélynek vannak kitéve (a munkahelyükön, nyilvános könyvtárakban, "
+"iskolákban vagy egyéb helyeken) vagy ha például a számítógép távoli "
+"szerverekkel van kapcsolatban és ezáltal támadhatóvá válik."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1301
-msgid "Installed"
-msgstr "Telepítve"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1424
+msgid ""
+"Bug fixes and hardware improvements are important if one of your devices "
+"isn't working as expected and the newer kernel addresses that problem."
+msgstr ""
+"A hibajavítások és a eszköz-illesztőprogramok frissítések fontosak, ha "
+"valamelyik eszköz nem úgy működik ahogyan megszokta, ilyenkor  az újabb "
+"kernel valószínűleg kezeli ezt a problémát."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1302
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1425
+msgid ""
+"Regressions represent something which worked well and no longer works after "
+"an update. It is common in software development that a code change or even a "
+"bug fix introduces side effects and breaks something else. Because of "
+"regressions it is recommended to be selective when installing updates or "
+"newer kernels."
+msgstr ""
+"Visszafejlődési hibáknak nevezik azt a helyzetet, ha valami jól működött, "
+"majd a frissítés hatására elromlik. Ez a jelenség ismert a "
+"szoftverfejlesztésben, ahol akár egy hibajavítás is mellékhatásként egy "
+"másik részen okozhat hibát. A visszafejlődési hibák elkerülése érdekében "
+"legyen körültekintő a frissítések és új kernelek telepítésének "
+"kiválasztásakor."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1427
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1450
 msgid "Fixes"
 msgstr "Javítások"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1303
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1428
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1454
 msgid "Regressions"
-msgstr "Visszatérő hibák"
+msgstr "Visszafejlődési hibák"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1351
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1429
+msgid ""
+"Note: Only known fixes and regressions are mentioned. If you are aware of "
+"additional fixes or regressions, please contact the development team."
+msgstr ""
+"Megjegyzés: Csak az ismert hibák és visszafejlődési hibák kerülnek "
+"említésre. Ha további hibajavításra van szüksége vagy visszafejlődési hibát "
+"talált, akkor lépjen kapcsolatba a szoftvert fejlesztő csapattal."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1434
+msgid "Version"
+msgstr "Verziószám"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1438
+msgid "Loaded"
+msgstr "Betöltve"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1442
+msgid "Recommended"
+msgstr "Ajánlott"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1446
+msgid "Installed"
+msgstr "Telepítve"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1529
 msgid "Install"
 msgstr "Telepítés"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1356
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1533
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1367
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1798
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1575
+#, python-format
+msgid "Remove the %s kernel"
+msgstr "%s kernel törlése"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1577
+msgid "This kernel cannot be removed because it is currently in use."
+msgstr "Ez a kernel nem törölhető mert jelenleg használatban van."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1581
+#, python-format
+msgid "Install the %s kernel"
+msgstr "%s kernel telepítése"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1583
+msgid "This kernel is not installable."
+msgstr "Ez a kernel nem telepíthető"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1627
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2164
 msgid "About"
 msgstr "Névjegy"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1523
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1782
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1812
+#, python-format
+msgid "This update contains %d packages: "
+msgstr "Ez a frissítés %d csomagot érint: "
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1785
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1815
+msgid "This update contains 1 package: "
+msgstr "Ez a frissítés 1 csomagot érint: "
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1858
 msgid "B"
 msgstr "B"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1525
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1860
 msgid "KB"
 msgstr "KB"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1527
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1862
 msgid "MB"
 msgstr "MB"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1529
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1864
 msgid "GB"
 msgstr "GB"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1548
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1893
 msgid "Ignore updates for this package"
 msgstr "Frissítések figyelmen kívül hagyása ennél a csomagnál"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1633
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1982
 msgid "Upgrade"
 msgstr "Frissítés"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1654
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1783
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2003
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2138
 msgid "Size"
 msgstr "Méret"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1658
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2007
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2108
 msgid "Type"
 msgstr "Típus"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1705
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2054
 msgid "Install Updates"
 msgstr "Frissítések telepítése"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1706
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2055
 msgid "Refresh"
 msgstr "Frissítés"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1707
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2056
 msgid "Select All"
 msgstr "Összes kijelölése"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1708
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2057
 msgid "Clear"
 msgstr "Törlés"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1710
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2059
 msgid "Changelog"
 msgstr "Módosítások"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1720
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2069
 msgid "_File"
 msgstr "_Fájl"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1724
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2073
 msgid "Close"
 msgstr "Bezárás"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1728
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2077
 msgid "_Edit"
 msgstr "S_zerkesztés"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1738
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2087
 msgid "Software sources"
 msgstr "Szoftverforrások"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1742
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2091
 msgid "_View"
 msgstr "_Nézet"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1755
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2104
 msgid "Visible columns"
 msgstr "Látható oszlopok"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1794
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2146
+msgid "Show descriptions"
+msgstr "Leírások megjelenítése"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2155
 msgid "_Help"
 msgstr "_Súgó"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2159
+msgid "Contents"
+msgstr "Tartalom"
 
 #: generate_desktop_files:24
 msgid "Show and install available updates"
@@ -602,8 +692,29 @@ msgstr "Rendelkezésre álló frissítések megjelenítése és telepítése"
 #~ msgid "Could not download safety rules"
 #~ msgstr "Nem sikerült letölteni a biztonsági szabályokat"
 
+#~ msgid "Could not refresh the list of packages"
+#~ msgstr "Nem sikerült frissíteni a csomagok listáját"
+
+#~ msgid "Safe packages. Not tested but believed to be safe."
+#~ msgstr ""
+#~ "Biztonságos csomagok. Nincsenek tesztelve, de minden valószínűség szerint "
+#~ "biztonságosak."
+
+#~ msgid ""
+#~ "Unsafe packages. Could potentially affect the stability of the system."
+#~ msgstr ""
+#~ "Nem biztonságos csomagok. Potenciálisan befolyásolhatják a rendszer "
+#~ "stabilitását."
+
 #~ msgid "Linux Mint or Romeo"
 #~ msgstr "Linux Mint vagy Romeo"
+
+#~ msgid ""
+#~ "Dangerous packages. Known to affect the stability of the systems depending "
+#~ "on certain specs or hardware."
+#~ msgstr ""
+#~ "Veszélyes csomagok. Köztudottan befolyásolják a rendszer stabilitását "
+#~ "bizonyos hardverek esetén."
 
 #~ msgid "Yes"
 #~ msgstr "Igen"
@@ -623,6 +734,9 @@ msgstr "Rendelkezésre álló frissítések megjelenítése és telepítése"
 #~ msgid "Manual proxy configuration"
 #~ msgstr "Kézi proxybeállítás"
 
+#~ msgid "Package name:"
+#~ msgstr "Csomagnév:"
+
 #~ msgid "Please enter your password to start mintUpdate"
 #~ msgstr "Kérem, adja meg a jelszavát a mintUpdate indításához"
 
@@ -637,6 +751,12 @@ msgstr "Rendelkezésre álló frissítések megjelenítése és telepítése"
 
 #~ msgid "Extra Info"
 #~ msgstr "Extra információ"
+
+#~ msgid "Ignore a package"
+#~ msgstr "Csomag mellőzése"
+
+#~ msgid "All available upgrades for this package will be ignored."
+#~ msgstr "Ezen csomag minden elérhető frissítése figyelmen kívül lesz hagyva."
 
 #~ msgid "Startup delay (in seconds):"
 #~ msgstr "Indítás késleltetése (másodpercben):"
@@ -661,6 +781,9 @@ msgstr "Rendelkezésre álló frissítések megjelenítése és telepítése"
 
 #~ msgid "Internet check (domain name or IP address):"
 #~ msgstr "Internetkapcsolat ellenőrzése (tartománynév vagy IP-cím):"
+
+#~ msgid "Ignored packages"
+#~ msgstr "Mellőzött csomagok"
 
 #, python-format
 #~ msgid "%d recommended updates available"
@@ -690,3 +813,16 @@ msgstr "Rendelkezésre álló frissítések megjelenítése és telepítése"
 #~ "frissülnek, új csomagok nem települnek automatikusan. Így azon frissíthető "
 #~ "csomagok, amelyek megváltozott függőségei új csomagok telepítését igénylik, "
 #~ "e beállítás nélkül figyelmen kívül lesznek hagyva."
+
+#~ msgid "Recommended packages. Tested and approved by Linux Mint."
+#~ msgstr "Ajánlott csomagok. A Linux Mint által tesztelve és jóváhagyva."
+
+#~ msgid ""
+#~ "Certified packages. Tested through Romeo or directly maintained by Linux "
+#~ "Mint."
+#~ msgstr ""
+#~ "Hitelesített csomagok. A Romeóban tesztelve vagy közvetlenül a Linux Mint "
+#~ "által karbantartva."
+
+#~ msgid "Please enter a package name:"
+#~ msgstr "Adja meg a csomag nevét:"

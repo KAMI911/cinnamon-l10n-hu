@@ -1,0 +1,51 @@
+# Hungarian translation for linuxmint
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-09-05 15:49+0200\n"
+"PO-Revision-Date: 2014-11-11 21:43+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-11-29 15:07+0000\n"
+"X-Generator: Launchpad (build 17267)\n"
+
+#. Tag: title
+#, no-c-format
+msgid "Conclusion"
+msgstr "Befejezés"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"There's a lot more to learn about Linux Mint and about Linux in general. "
+"This guide was just an overview of some of the aspects related to your "
+"desktop. By now you should feel more comfortable with using it and you "
+"should have a better understanding of some of its components. Where are you "
+"going to go next? Will you learn how to use the terminal? Will you give "
+"other desktops a try? It's entirely up to you. Remember, Linux is about fun "
+"and the community is there to help. Take your time and learn a little bit "
+"every day. There's always something new no matter how much you know already."
+msgstr ""
+"Sokkal több tanulni való van még a Linux Mint operációs rendszerről és "
+"általánosságban a Linuxról. Ez az útmutató csak áttekintésként szolgál és "
+"csak néhány – az Ön munkaasztalához szükséges – lényeges elemet ismertet. "
+"Most már sokkal kényelmesebben tudja majd használni a rendszert, és sokkal "
+"jobban érti néhány összetevő működését. Hogyan folytatja most a tanulást? "
+"Megtanulja, hogyan kell használni a terminált? Kipróbál más asztali "
+"környezeteket? Ez döntse el Ön! Ne feledje: a Linux a szórakozásról szól és "
+"a közösség mindig Ön mellett áll, hogy segíthessen. Szánjon rá minden nap "
+"egy kis időt, hogy új dolgokat tanuljon meg! Mindig van valami újdonság, "
+"függetlenül attól, hogy mennyi ismerettel rendelkezik már."
+
+#. Tag: para
+#, no-c-format
+msgid "Enjoy Linux and thank you for choosing Linux Mint."
+msgstr "Élvezze a Linuxot és köszönjük, hogy a Linux Mintet választotta."

@@ -1,0 +1,973 @@
+# Hungarian translation for linuxmint
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-09-05 15:49+0200\n"
+"PO-Revision-Date: 2014-11-17 08:04+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-11-29 15:07+0000\n"
+"X-Generator: Launchpad (build 17267)\n"
+
+#. Tag: title
+#, no-c-format
+msgid "Installation of Linux Mint"
+msgstr "A Linux Mint telepítése"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"You can download the Linux Mint operating system for free. It comes as an "
+"ISO file which you need to burn to a blank DVD<footnote><para>It is also "
+"possible to write the ISO image to a USB stick or other memory device and "
+"boot from that, or to boot from the ISO image on the hard drive, but these "
+"options are somewhat more advanced and the method presented here is "
+"recommended. For help with alternative methods of installing and running "
+"Linux Mint, please visit the forums.</para></footnote>. The liveDVD is then "
+"bootable and provides a fully-functional operating system which you can try "
+"without affecting your PC. In layman's terms, when you put Linux Mint on a "
+"DVD and place it into your computer, you can try it out while leaving your "
+"current system intact."
+msgstr ""
+"Ingyenesen letöltheti a Linux Mint operációs rendszert. A rendszer egy ISO "
+"lemezképfájl formában érkezik, amelyeket ki kell írnia egy üres DVD-"
+"lemezre<footnote><para>A ISO lemezkép-fájlt kiírhatja egy USB pendrive-ra "
+"vagy más memóriával rendelkező eszközre. Indítsa el a rendszert onnan, vagy "
+"kezdeményezzen rendszerindítást egy merevlemezen lévő ISO lemezképfájllal. "
+"Ezek a lehetőségek haladó felhasználóknak valók, így a most ismertetésre "
+"kerülő eljárás az elsődlegesen javasolt megoldás. A telepítés és Linux Mint "
+"alternatív futtatásának lehetőségeiről kapcsolatos további információkért "
+"látogassa meg fórumainkat.</footnote></para>. A liveDVD segítségével "
+"rendszerindítást végezhet. A liveDVD egy minden funkcióval rendelkező "
+"operációs rendszert biztosít, amelyet úgy tud kipróbálni, hogy nem változtat "
+"meg semmit a számítógépe jelenlegi állapotán.\r\n"
+"Összefoglalva: Amikor a Linux Mint DVD-ről elindítja az új rendszert, a "
+"jelenlegi számítógépének megváltoztatása nélkül próbálhatja ki azt."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you like what you see when running the liveDVD you can decide to install "
+"the system to your hard drive. All the necessary tools (partitioning and "
+"installation tools) are present on the DVD."
+msgstr ""
+"Ha kedvére való, amit lát a liveDVD futtatása közben, akkor dönthet a "
+"merevlemezére történő rendszer telepítéséről is. Az összes szükséges eszköz "
+"(particionáló és telepítő) elérhető a DVD-n."
+
+#. Tag: title
+#, no-c-format
+msgid "Download the ISO"
+msgstr "ISO lemezképfájl letöltése"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"To download Linux Mint, visit the download page at <ulink "
+"url=\"http://www.linuxmint.com/download.php\">http://www.linuxmint.com/downlo"
+"ad.php</ulink> and choose the edition you're interested in."
+msgstr ""
+"A Linux Mint letöltéséhez, látogassa meg a letöltési oldalt, a következő "
+"címen: <ulink "
+"url=\"http://www.linuxmint.com/download.php\">http://www.linuxmint.com/downlo"
+"ad.php</ulink> és válassza ki az Ön számára érdekes változatot."
+
+#. Tag: para
+#, no-c-format
+msgid "From this page, you should find:"
+msgstr "Ezen az oldalon a következőket találhatja:"
+
+#. Tag: para
+#, no-c-format
+msgid "an MD5 signature"
+msgstr "egy MD5 ellenőrzőösszeg"
+
+#. Tag: para
+#, no-c-format
+msgid "a torrent link"
+msgstr "egy torrent hivatkozás"
+
+#. Tag: para
+#, no-c-format
+msgid "a list of download mirrors"
+msgstr "egy lista a letöltési tükörszerverekről"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The file you need to download is an ISO file. There are two ways to download "
+"this file, by torrent (a Peer to Peer protocol) or via a download mirror "
+"(HTTP or FTP protocol). Once your download is finished, you can ensure your "
+"ISO file isn’t corrupted by checking its signature with the MD5."
+msgstr ""
+"A fájl, amelyet le kell töltenie ISO lemezképfájl formátumú. Két módon tudja "
+"letölteni ezt a fájlt: torrent segítségével (Peer to Peer protokoll) vagy "
+"közvetlen letöltéssel (HTTP vagy FTP protokoll). Ha a letöltés véget ért, "
+"ellenőrizze az MD5 ellenőrzőösszeg segítségével, hogy az ISO lemezképfájl "
+"sértetlenségét."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you don't have a broadband connection, or if your Internet access is too "
+"slow you can order the DVD from <ulink "
+"url=\"http://www.osdisc.com\">http://www.osdisc.com</ulink>."
+msgstr ""
+"Ha nem rendelkezik széles sávú internet-kapcsolattal, vagy túl lassú az "
+"internet-kapcsolata, megrendelheti a DVD a <ulink "
+"url=\"http://www.osdisc.com\">http://www.osdisc.com</ulink> oldalon "
+"keresztül."
+
+#. Tag: title
+#, no-c-format
+msgid "Via torrent"
+msgstr "Torrent segítségével"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Torrent is a Peer to Peer (P2P) protocol. Basically, instead of downloading "
+"from a central location, a torrent lets you download the ISO file in parts "
+"from different people across the Internet."
+msgstr ""
+"A torrent egy Peer to Peer (P2P) protokoll. Ahelyett, hogy egy központi "
+"helyről töltené le a telepítőt, a torrentek segítségével az ISO lemezképfájl "
+"különböző emberektől kerül az interneten keresztül letöltésre."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The more people who download the ISO file, the faster the download speed "
+"gets. This is the preferred and recommended way to download Linux Mint."
+msgstr ""
+"Minél több embert tölti le egy időben az ISO lemezképfájlt, annál nagyobb "
+"lesz a letöltés sebessége. Ez az előnyben részesített és az ajánlott módja a "
+"Linux Mint letöltésének."
+
+#. Tag: title
+#, no-c-format
+msgid "Install a Torrent client"
+msgstr "Torrent kliens telepítése"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"You need a piece of software called a \"torrent client\" in order to "
+"download files via torrent."
+msgstr ""
+"Szüksége lesz egy „torrent kliens” programra, hogy torrent segítségével "
+"letölthesse a kért fájlt."
+
+#. Tag: para
+#, no-c-format
+msgid "If you run Linux Mint you already have a torrent client installed."
+msgstr ""
+"Amennyiben Linux Mintet használ, akkor már van torrent kliens a számítógépre "
+"telepítve."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you run another Linux distribution, you can install \"Transmission\"."
+msgstr ""
+"Ha másik Linux disztribúciót használ, telepítse a „Transmission” nevű "
+"kliensprogramot."
+
+#. Tag: para
+#, no-c-format
+msgid "If you run Windows you can use µTorrent."
+msgstr "Ha Windowst használ, használja a „µTorrent” kliensprogramot."
+
+#. Tag: title
+#, no-c-format
+msgid "Download the Torrent file"
+msgstr "A torrent fájl letöltése"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The next step is to follow the torrent link from the Linux Mint website and "
+"to download the .torrent file. This file is very small. After it downloads, "
+"you should open it with your torrent client."
+msgstr ""
+"A következő lépésben a Linux Mint weboldaláról töltse le a „.torrent” "
+"kiterjesztésű torrent fájlt. Ez a fájl nagyon kicsi. A letöltés után egy "
+"torrent klienssel kell megnyitnia fájlt."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The torrent client will probably ask you where you want to save the ISO. "
+"Select a destination and then wait for the download to complete."
+msgstr ""
+"A torrent kliens lehet megkérdezi, hogy hova mentse el az ISO lemezképet. "
+"Válassza ki a célmappát és a várja meg a letöltés befejeződését."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"For more information about the torrent protocol, visit <ulink "
+"url=\"http://en.wikipedia.org/wiki/BitTorrent\">http://en.wikipedia.org/wiki/"
+"BitTorrent</ulink>."
+msgstr ""
+"A torrent protokollról további tudnivalók: <ulink "
+"url=\"http://en.wikipedia.org/wiki/BitTorrent\">http://en.wikipedia.org/wiki/"
+"BitTorrent</ulink>."
+
+#. Tag: title
+#, no-c-format
+msgid "Via direct download"
+msgstr "Közvetlen letöltéssel"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you can’t, or do not choose to use the torrent protocol, then look at the "
+"list of download mirrors and pick one of them. They’ll provide a link to the "
+"ISO file itself which you can just click to start the download."
+msgstr ""
+"Ha nem választhatja, vagy nem szeretné használni a torrent protokollt, akkor "
+"nézze meg a letöltési helyek listáját és válasszon onnan egyet. Itt az ISO "
+"lemezképfájlra mutató letöltési hivatkozásokat talál, amelyre kattintva "
+"elindíthatja a letöltést."
+
+#. Tag: title
+#, no-c-format
+msgid "Read the release notes"
+msgstr "Olvassa el a kiadási megjegyzéseket"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Your download is probably going to last at least an hour, so now would be "
+"the perfect time for you to get familiar with the new features coming with "
+"the release you’re currently downloading."
+msgstr ""
+"A letöltés akár egy órán keresztül is eltarthat, így az azt javasoljuk, "
+"használja fel ezt az időt arra, hogy megismerje az új funkciókat amely az "
+"éppen letöltődő kiadással érkeznek."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The release notes are featured on the Linux Mint web page and answer the "
+"following questions:"
+msgstr ""
+"A kiadási megjegyzéseket a Linux Mint weboldalán találja és a következő "
+"témákat érinti:"
+
+#. Tag: para
+#, no-c-format
+msgid "What are the new features delivered in this release?"
+msgstr "Milyen fejlesztések érkeztek ezzel a verzióval?"
+
+#. Tag: para
+#, no-c-format
+msgid "What are the known problems of this release?"
+msgstr "Milyen ismert problémák vannak ezzel a verzióval?"
+
+#. Tag: para
+#, no-c-format
+msgid "How do I upgrade from the previous release?"
+msgstr "Hogyan frissíthetek az előző verzióról?"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"They also contain screenshots of the latest release. Of course, you could "
+"find out about most features highlighted in the release notes by simply "
+"using the operating system, but you might miss a few things, so it is most "
+"reliable to read the release notes."
+msgstr ""
+"Továbbá képernyőképeket tartalmaz a legújabb kiadásról. Természetesen a "
+"legtöbb kiadási megjegyzésben kiemelt szolgáltatását felfedezheti az "
+"operációs rendszer használatával, de néhány elkerülheti a figyelmét. Ezért "
+"javasoljuk a kiadási megjegyzések tanulmányozását."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The release notes for Linux Mint 17 Qiana are available at <ulink "
+"url=\"http://www.linuxmint.com/rel_qiana.php\">http://www.linuxmint.com/rel_q"
+"iana.php</ulink>"
+msgstr ""
+"A Linux Mint 17 Qiana verziójára vonatkozó kiadási megjegyzéseket itt "
+"találja: <ulink "
+"url=\"http://www.linuxmint.com/rel_qiana.php\">http://www.linuxmint.com/rel_q"
+"iana.php</ulink>"
+
+#. Tag: title
+#, no-c-format
+msgid "Check the MD5"
+msgstr "MD5 ellenőrzőösszeg ellenőrzése"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"You’ve read the release notes, you just can’t wait to play with the new "
+"features or try Linux Mint, and your download just finished successfully. "
+"You’re ready to burn a DVD and to boot on it… but hey! Wait for a second!"
+msgstr ""
+"Elolvasta a kiadási megjegyzéseket, a telepítőkészlet is letöltődött, és már "
+"nagyon várja, hogy kipróbálja a Linux Mint új szolgáltatásait. Készen áll "
+"arra, hogy kiírja a lemezképet egy DVD-re és elindítsa a rendszert arról. De "
+"várjon egy picit!"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If that DVD is faulty you will experience weird bugs and will have a lot of "
+"trouble finding help. The two most common reasons for a DVD to be faulty are:"
+msgstr ""
+"Ha a DVD hibás, akkor nagyon furcsa hibákat fog tapasztalni, és rengeteg "
+"problémához kell majd segítséget találnia. A két leggyakoribb oka a hibás "
+"DVD-nek:"
+
+#. Tag: para
+#, no-c-format
+msgid "An issue with the download causing problems in your ISO file"
+msgstr "Letöltési probláma miatt hibás lesz az ISO lemezkép"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"An error during the burn process that alters the contents of your burned "
+"liveDVD"
+msgstr ""
+"Hiba lép fel a ISO lemezkép DVD-re történő írása során, így megváltozik a "
+"kiírt liveDVD tartalma"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The MD5 signature, which is present on the download page, provides a quick "
+"way for you to make sure that your ISO file is exactly like it should be. "
+"So, let’s check the ISO file you just downloaded before we burn it and save "
+"ourselves from a lot of potential problems."
+msgstr ""
+"A letöltési oldalról elérhető MD5 ellenőrzőösszeg a leggyorsabb módja annak, "
+"hogy megbizonyosodjon az ISO lemezképfájl sértetlenségéről. Kiírás előtt "
+"ellenőrizze az imént letöltött ISO lemezképfájlt, így sok kellemetlenségtől "
+"óvhatja meg magát."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you run any version of Linux you probably already have the md5sum program "
+"installed. Open a terminal and “cd” to the directory where your ISO file is "
+"(for instance, if “linuxmint.iso” is on the Desktop), open a terminal and "
+"type:"
+msgstr ""
+"Bármilyen Linuxot is használ vélhetően telepítve van gépére a „md5sum” "
+"program. Nyissa meg a terminált és váltson át a ISO lemezképfájlt tartalmazó "
+"mappára (például ha a képfájl „linuxmint.iso” néven található az Asztalon) "
+"és írja be az következő parancsot:"
+
+#. Tag: screen
+#, no-c-format
+msgid ""
+"\n"
+"                <command>cd ~/Desktop</command>\n"
+"                <command>md5sum "
+"<replaceable>myfile.iso</replaceable></command>\n"
+"            "
+msgstr ""
+"\n"
+"                <command>cd ~/Desktop</command>\n"
+"                <command>md5sum "
+"<replaceable>myfile.iso</replaceable></command>\n"
+"            "
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"This command should output a series of numbers and letters which comprise "
+"the MD5 sum, or signature, of your ISO file. By design, any small change to "
+"the ISO file will cause this signature to be significantly different, "
+"allowing us to verify that the file is exactly as it should be."
+msgstr ""
+"Ez a parancs számok és betűk sorozatát írja ki a képernyőre, amely az MD5 "
+"ellenőrzőösszeg vagy az ISO lemezképfájl aláírása. Ez ez ellenőrzőösszeg az "
+"ISO lemezképfájl legapróbb megváltozására is alaposan megváltozik, így "
+"ellenőrizhetjük, hogy a fájl teljesen olyan, mint amilyennek lennie kellene."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Compare that signature with the one on the download page of the Linux Mint "
+"website. If the two signatures are the same, then you know your ISO file is "
+"exactly the same as the original and you can now get ready to burn it on DVD."
+msgstr ""
+"Hasonlítsa össze az aláírás értékét a Linux Mint letöltési oldalán található "
+"értékkel. Amennyiben a kért érték megegyezik, akkor a biztos lehet benne, "
+"hogy letöltött ISO lemezképfájl azonos az eredetivel és így már kiírhatja "
+"azt egy DVD lemezre."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you happen to run Windows, chances are you don’t have md5sum installed. "
+"You can get it from here: <ulink "
+"url=\"http://www.etree.org/md5com.html\">http://www.etree.org/md5com.html</ul"
+"ink>"
+msgstr ""
+"Windows-t futtatva valószínűleg nincs telepítve gépére a „md5sum” program. "
+"Innen letöltheti: <ulink "
+"url=\"http://www.etree.org/md5com.html\">http://www.etree.org/md5com.html</ul"
+"ink>"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Place the ISO file and the md5sum.exe in the same place (let’s say in C:\\) "
+"and run “cmd.exe”. In the command line environment, type the following "
+"commands:"
+msgstr ""
+"Helyezze az ISO lemezképfájlt és az „md5sum.exe”-t ugyanabba a könyvtárba "
+"(például: a „C:\\”-be) és futtassa a „cmd.exe” parancsot. A parancssorba "
+"gépelje be a következő parancsokat:"
+
+#. Tag: screen
+#, no-c-format
+msgid ""
+"\n"
+"                <command>C:</command>\n"
+"                <command>cd \\</command>\n"
+"                <command>md5sum "
+"<replaceable>myfile.iso</replaceable></command>\n"
+"            "
+msgstr ""
+"\n"
+"                <command>C:</command>\n"
+"                <command>cd \\</command>\n"
+"                <command>md5sum "
+"<replaceable>myfile.iso</replaceable></command>\n"
+"            "
+
+#. Tag: para
+#, no-c-format
+msgid "Then compare the signature to the one present on the website."
+msgstr ""
+"Ezután hasonlítsa össze az ellenőrzőösszeget a holnap található "
+"ellenőrzőösszeggel."
+
+#. Tag: title
+#, no-c-format
+msgid "Burn the ISO to DVD"
+msgstr "ISO lemezképfájl DVD-re írása"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Now that you have checked the ISO file with MD5, you are ready to burn it to "
+"a DVD."
+msgstr ""
+"Most, hogy már ellenőrizte az ISO lemezképfájlt MD5 ellenőrzőösszeggel, "
+"kiírhatja egy DVD lemezre."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Get a blank DVD-R (a DVD-RW should work as well, but this type of media is "
+"known to have compatibility issues) and your favorite marker and label the "
+"DVD. Although labeling your DVDs sounds trivial, you should be sure to do "
+"so, as you can easily end up with 20 unlabeled and unidentifiable discs on "
+"your desk. :)"
+msgstr ""
+"Szerezzen egy üres DVD-R lemezt (DVD-RW-vel is működnie kell, de az ilyen "
+"típusú lemezeknél előfordulhatnak kompatibilitási problémák) és a kedvenc "
+"filcével címkézze fel a DVD-t. Bár a DVD címkézése triviálisnak hangzik, "
+"mindenképpen hajtsuk végre, mert ha elmarad, könnyen eljuthatunk oda, hogy "
+"20 címkézetlen, azonosíthatatlan lemezünk hever majd az asztalon."
+
+#. Tag: para
+#, no-c-format
+msgid "Insert the blank DVD-R in the drive and get ready to burn the ISO."
+msgstr ""
+"Helyezzen egy üres DVD-R lemezt a meghajtóba és készen áll a ISO "
+"lemezképfájl írására."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you’re running Linux with Cinnamon right-click on the ISO file and "
+"select: open with: Brasero, choose “Burn image” and follow the steps given "
+"there."
+msgstr ""
+"Ha Linuxot használ Cinnamon asztallal, akkor kattintson az ISO "
+"lemezképfájlra jobb egérgombbal és válassza a „Megnyitás: Brasero” vagy a "
+"„Lemezkép kiírása” lehetőséget a helyi menüből, majd kövesse a megadott "
+"lépéseket."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you’re running Linux with KDE, launch K3B and in the “Tools” menu choose "
+"“Write ISO Image”."
+msgstr ""
+"Amennyiben KDE asztallal rendelkező Linuxot futtat, indítsa el a „K3B” "
+"programot, és a „Eszközök” menüből válassza az „Írás ISO-képmásból…” "
+"menüpontot."
+
+#. Tag: para
+#, no-c-format
+msgid "If you’re running Windows you can use a program like InfraRecorder."
+msgstr "Ha Windows-t használ akkor használhatja az InfraRecorder programot."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Make sure to burn the ISO image to disk, and not to write the ISO file to "
+"the disk. A very common mistake, especially for people using Nero, is to "
+"actually burn the ISO file on the disk as a data file. The ISO file is an "
+"image of a disk so it needs to be burnt not as a file which will appear on "
+"the disk, but as an ISO image which will be decompressed and whose content "
+"will be burnt onto the disc. After burning the DVD you shouldn't see the ISO "
+"file within the disc, but rather folders like “casper” or “isolinux”. Most "
+"burning software has a special option for this."
+msgstr ""
+"Bizonyosodjon meg róla, hogy a ISO lemezképet a lemezre írta és nem egy ISO "
+"lemezképfájlt hozott létre a lemezen. Gyakori hiba, különösen a Nero nevű "
+"program használói körében, hogy az ISO lemezképfájlt adatfájlként írja ki a "
+"lemezre. Az ISO lemezképfájl egy lemezkép, így nem egy fájlként kell a "
+"lemezre írni, ami fájlként látható a lemezen, hanem ISO lemezképként, amely "
+"kicsomagolásra kerül és a tartalma lesz a lemezre írva. A DVD lemez írása "
+"után nem egy ISO lemezképfájlt láthat a lemezen, hanem olyan mappákat mint "
+"„casper” vagy „isolinux” . A legtöbb íróprogram külön lehetőségként "
+"biztosítja ezt."
+
+#. Tag: title
+#, no-c-format
+msgid "Boot the LiveDVD"
+msgstr "Rendszerindítás LiveDVD-ről"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Place the DVD in the drive and restart the computer. You should now see the "
+"following screen:"
+msgstr ""
+"Helyezze a DVD-t a meghajtóba és indítsa újra a számítógépet. A következő "
+"képernyőnek kellene megjelennie:"
+
+#. Tag: title
+#, no-c-format
+msgid "The boot screen"
+msgstr "A rendszerindítás képernyőképe"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you don’t see this screen and your PC boots as usual it’s probably "
+"because your BIOS is not set to boot on DVD. Restart the computer and press "
+"F1, F2, Delete, or Escape (or whatever key lets you enter the BIOS "
+"configuration) and change your BIOS settings to tell your computer to boot "
+"from its DVD drive."
+msgstr ""
+"Ha nem látja ezt a képernyőképet és a számítógépe a hagyományos módon indul, "
+"ez azért lehet, mert a BIOS-ban nincs beállítva DVD-ről történő "
+"rendszerindítás. Indítsa újra a számítógépet és nyomja meg az F1, az F2, az "
+"F10, az F12, a Delete vagy a Escape gomot – attól függően, hogy melyik "
+"gombbal lehet belépni a BIOS konfigurációs menübe – és a DVD-ről történő "
+"rendszerindítást állítsa be a BIOS beállításokat között."
+
+#. Tag: title
+#, no-c-format
+msgid "Install Linux Mint on your hard drive"
+msgstr "Linux Mint telepítése a merevlemezre"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"From the first screen choose the default <guilabel>Start Linux "
+"Mint</guilabel> option and press Enter. After a little while the live system "
+"should be ready and you should see the desktop."
+msgstr ""
+"Az első képernyőről válassza ki az alapértelmezett <guilabel>Start Linux "
+"Mint</guilabel> lehetőségét majd nyomja meg az Enter gombot. Kis idő múlva "
+"elindul a live rendszer és megjelenik az Asztal."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"At this stage Linux Mint is not installed on your computer, it’s simply "
+"running from the DVD. The system you have in front of you is, however, "
+"almost exactly the same as the one you will have on your computer after the "
+"installation is finished."
+msgstr ""
+"Jelenleg a Linux Mint nem települt a számítógépre, hanem a DVD-ről fut. A "
+"megjelenő rendszer nagyjából teljesen megegyezik, a telepítés után a "
+"számítógépére kerülő operációs rendszerrel."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Have fun with it and see if you like it. Bear in mind that when running from "
+"the DVD, Linux Mint runs significantly slower than it does when it is "
+"installed on a hard drive, since it has to read data from the DVD drive, "
+"which is a slower medium than the hard drive."
+msgstr ""
+"Próbálja ki, és nézze meg hogy tetszik. Vegye figyelembe hogy a DVD-ről futó "
+"Linux Mint jelentősen lassabb a számítógép merevlemezére telepített "
+"rendszernél, mert az adatokat a DVD lemeztől olvassa, amely jelentősen "
+"lassabb a merevlemeznél."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"When you are ready, double-click on the <guilabel>Install Linux "
+"Mint</guilabel> icon located on the desktop. The Installer appears:"
+msgstr ""
+"Amikor felkészült, kattintson duplán az asztalon található <guilabel>Install "
+"Linux Mint</guilabel> ikonra. Ekkor elindul a telepítő:"
+
+#. Tag: title
+#, no-c-format
+msgid "The language selection screen"
+msgstr "Nyelvválasztó képernyőkép"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you haven’t read the release notes yet, and you have an Internet "
+"connection, then this an ideal opportunity to review them; simply click on "
+"the underlined link. It is highly recommended that users read the release "
+"notes prior to installation in order to advise themselves of new features, "
+"as well as any issues that might affect their particular hardware "
+"configuration."
+msgstr ""
+"Ha még nem olvasta volna a kiadási megjegyzéseket, és rendelkezik internet-"
+"kapcsolattal, itt a nagyszerű lehetőség: kattintson az aláhúzott "
+"hivatkozásra. Szeretnénk, hogy elolvassa a kiadási megjegyzéseket a "
+"telepítés előtt, mert innen értesülhet a rendszer új képességeiről és a "
+"különféle hardverkonfigurációkat érintő esetleges problémákról."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Select your language and press the <guibutton>Continue</guibutton> button."
+msgstr ""
+"Válassza ki a nyelvet majd nyomja meg a <guibutton>Folytatás</guibutton> "
+"gombot."
+
+#. Tag: title
+#, no-c-format
+msgid "Checking that everything is fine..."
+msgstr "Elenőrizze, hogy minden rendben van…"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"In the next screen, make sure you're connected to a power source (if you're "
+"using a laptop), the Internet and that you have the recommended amount of "
+"disk space. Then press the <guibutton>Continue</guibutton> button."
+msgstr ""
+"A következő képernyőnél bizonyosodjon meg róla, hogy a számítógép "
+"csatlakozik az elektromos hálózathoz (laptop használata esetén) és az "
+"internethez, valamint győződjön meg róla, hogy elegendő szabad lemezterület "
+"áll rendelkezésére az operációs rendszer telepítéséhez. Ezek után nyomja meg "
+"a <guibutton>Folytatás</guibutton> gombot."
+
+#. Tag: title
+#, no-c-format
+msgid "Choosing an installation type"
+msgstr "Válassza ki a telepítés típusát"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"In the next screen you can assign your entire hard drive to Linux Mint or "
+"install it alongside other operating systems. Alternatively, you can also "
+"define and assign the partitions manually."
+msgstr ""
+"A következő képernyőnél az egész merevlemezt hozzárendelhet a Linux Mint "
+"operációs rendszer használatához, vagy telepítheti a rendszert egyéb "
+"operációs rendszerek mellé. Alternatív megoldásként megadhat egyedi "
+"partíciók hozzárendeléseket kézzel."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you choose to use the entire disk, its content will be erased and Linux "
+"Mint will be installed as the only operating system on your computer."
+msgstr ""
+"Abban az esetben ha a teljes lemez felhasználását választja, annak tartalma "
+"törlésre kerül és kizárólag Linux Mint lesz az egyetlen operációs rendszer a "
+"számítógépen."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you choose to install it alongside other operating systems, the installer "
+"will use the free space available on other partitions to create a new one "
+"for Linux Mint. You will be asked how much space you want to allocate to it. "
+"The installer will then shrink a partition and take care of everything for "
+"you. Post-installation your computer will have a boot screen from which "
+"you'll be able to boot all your operating systems."
+msgstr ""
+"Ha úgy dönt, hogy más operációs rendszerek mellé telepíti, akkor a telepítő "
+"felhasználja a más partíciókon lévő szabad lemezterületet és létrehoz egy új "
+"partíciót a Linux Mint számára. A telepítő megkérdezi majd, hogy mennyi "
+"tárterületet foglaljon le az új partíció számára. A telepítő ezután "
+"lecsökkenti az átméretezendő partíció méretét és gondoskodik minden "
+"szükséges teendő elvégzéséről. A telepítés után a számítógép egy "
+"rendszerindító menüvel fog elindulni, ahol választhat az elindítható összes "
+"telepített operációs rendszer közül."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you choose to specify partitions manually, a partition editor will "
+"appear, giving you full control over the partitioning of your hard drive. "
+"This is recommended only to advanced users who understand how partitioning "
+"works under Linux. Note that Linux Mint requires a partition of at least 6GB "
+"and that the recommended size for a swap partition is 1.5 times the amount "
+"of RAM available on the computer."
+msgstr ""
+"Ha azt választja, hogy kézzel szeretné a partíciókat szerkeszteni, akkor "
+"megjelenik a partíciószerkesztő, amellyel teljes irányítást kap a merevlemez "
+"particionálása felett. Az az üzemmód csak haladó felhasználóknak javasolt, "
+"akik tudják hogyan működik a particionálás Linux alatt. A Linux Mint minimum "
+"egy 6 Gigabájtos partíciót igényel és a cserefájl partíció mérete a "
+"számítógépben lévő memória másfélszerese."
+
+#. Tag: title
+#, no-c-format
+msgid "The installation summary screen"
+msgstr "A telepítést összefoglaló képernyőkép"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Choose the appropriate option and click on the <guibutton>Install "
+"Now</guibutton> button. At this stage, the installation is going on in the "
+"background and the installer asks you setup questions:"
+msgstr ""
+"Válassza ki a megfelelő lehetőséget, majd kattintson a "
+"<guibutton>Telepítés</guibutton> gombra. ilyenkor a telepítés a háttérben "
+"folytatódik és a telepítő megkérdezi a rendszer beállításához szükséges "
+"kérdéseket."
+
+#. Tag: title
+#, no-c-format
+msgid "Choosing a timezone"
+msgstr "Időzóna kiválasztása"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Choose your location on the map by clicking on the city which is the nearest "
+"to you. The purpose of this step is to identify your time zone. Make sure "
+"the <guilabel>Current time</guilabel> appears correctly and click the "
+"<guibutton>Continue</guibutton> button."
+msgstr ""
+"A térképen a legközelebb lévő városra kattintva adja meg tartózkodási "
+"helyét. Ezzel a lépéssel Ön megadja a használni kívánt időzónát. "
+"Ellenőrizze, hogy a <guilabel>Jelenlegi idő</guilabel> beállítás a helyes "
+"időt mutatja, majd nyomja meg a <guibutton>Folytatás</guibutton> gombot."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Sometimes the installer doesn't properly handle Summer/Winter time "
+"adjustments, so even by selecting the proper city you might see a difference "
+"of an hour or so with the correct time. Simply ignore this at this stage and "
+"remember to make sure that the time is correct after you reboot in your "
+"newly installed Linux Mint desktop."
+msgstr ""
+"Néhány esetben előfordul, hogy a telepítő nem jól kezeli a téli és nyári "
+"időszámítást, így ha a megfelelő várost is választotta ki, akkor is egy óra "
+"különbséget lát a beállított és a valójában helyes idő között. Egyelőre "
+"hagyja figyelmen kívül ezt, de emlékezzen rá, hogy amikor az újonnan "
+"telepített Linux Mintet elindítja, kijavítsa majd ezt a hibát."
+
+#. Tag: title
+#, no-c-format
+msgid "Choosing a keyboard layout"
+msgstr "Billentyűzetkiosztás kiválasztása"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Select your keyboard layout. If you are not sure about exactly which layout "
+"matches the keyboard you have, click on the text field at the bottom of the "
+"screen and start typing with your keyboard. Make sure the keys you press "
+"match the characters that appear in the text field in order to ensure you "
+"have selected the right keyboard layout. Some layouts only differ with "
+"respect to accents, numbers and punctuation signs, so make sure to test "
+"these as well."
+msgstr ""
+"Válassza ki a billentyűzet-kiosztást. Ha nem biztos benne, hogy melyik "
+"kiosztás felel meg a billentyűzetének, akkor kattintson a ablak alján "
+"található szövegmezőre. Ellenőrizze, hogy az Ön által lenyomott gombok "
+"pontosan azokat a karaktereket jelölik, amelyek megjelennek a szövegmezőben. "
+"Így eldöntheti, hogy a megfelelő billentyűzet-kiosztást választotta "
+"billentyűzetéhez. Néhány kiosztásban eltérő ékezethasználat, számok és "
+"írásjelek vannak, így tesztelje ezeket is."
+
+#. Tag: para
+#, no-c-format
+msgid "When you’re ready click the <guibutton>Continue</guibutton> button."
+msgstr ""
+"Amikor elkészült, nyomja meg a <guibutton>Folytatás</guibutton> gombot."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Enter your real name and a username and password. Every time you’ll use "
+"Linux Mint you’ll use your account with this username and password. Once "
+"Linux Mint is installed you’ll be able to define other accounts if other "
+"people are to use this computer."
+msgstr ""
+"Írja be polgári nevét, felhasználónevét és jelszavát. Minden alkalommal, "
+"amikor a Linux Mintet használja ezt a felhasználói fiókot fogja használni, "
+"ezzel a felhasználónévvel és jelszóval. Amikor a Linux Mint telepítésével "
+"elkészült, akkor további felhasználói fiókokat is hozzá tud majd adni a "
+"rendszerhez, amennyiben több ember is használná ezt a számítógépet."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Also give your computer a name. This name will be used by your computer on "
+"the network or in various places of the system. If you’ve never really "
+"thought about naming your computers, then now is the time. People commonly "
+"pick flower (dahlia, rose, tulip) or planet (mars, jupiter, pluto) names for "
+"the computers on their network. It’s entirely up to you what you want to "
+"use, but make sure to pick a name you like and that you will easily remember."
+msgstr ""
+"Továbbá adja meg a számítógép nevét. Ezt a nevet használja majd a számítógép "
+"a hálózaton és az operációs rendszer számos helyén. Ha még nem gondolkodott "
+"azon, hogy mi legyen a számítógép neve, akkor itt az idő. Az emberek gyakran "
+"virágok neveit (rozsa, tulipán, orchidea) vagy bolygók neveit (mars, "
+"jupiter, uranus) adják meg számítógépnévnek. Teljesen Önre van bízva, hogy "
+"milyen nevet válasz, de olyat válasszon amit kedvel és könnyen meg tud "
+"jegyezni."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Capital letters, spaces and special characters are not permitted in the "
+"username or in the name of the computer."
+msgstr ""
+"Nagybetűk, szóközök, speciális karakterek nem megengedettek a "
+"felhasználónévben vagy a számítógép nevében."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you're the only one using the computer and you want to bypass the login "
+"screen, check the option <guilabel>Log in automatically</guilabel>."
+msgstr ""
+"Ha csak Ön használja a számítógépet, és nem szeretné hogy a bejelentkezési "
+"képernyő megjelenjen, kijelölheti az <guilabel>Automatikus bejelentkezés "
+"lehetőséget</guilabel>."
+
+#. Tag: para
+#, no-c-format
+msgid "When you’re ready click on the <guibutton>Forward</guibutton> button."
+msgstr ""
+"Amikor elkészült, nyomja meg a <guibutton>Folytatás</guibutton> gombot."
+
+#. Tag: title
+#, no-c-format
+msgid "The user settings screen"
+msgstr "A felhasználói beállítások képernyőkép"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The installer might detect other operating systems on your computer and ask "
+"you if you want to migrate some personal information. Typically this allows "
+"you to migrate bookmarks, contacts, favorites and other sorts of personal "
+"information from other operating systems installed on your hard disk drive "
+"into the newly installed Linux Mint. When you’re ready click on the "
+"<guibutton>Continue</guibutton> button."
+msgstr ""
+"A telepítő lehet hogy felismeri más operációs rendszer jelenlétét a "
+"számítógépen és felajánlja néhány személyes információ migrálását. Tipikusan "
+"ilyenkor áthozhatja a könyvjelzőit, a kedvenceit, és egyéb személyes "
+"információit a merevlemezre telepített másik operációs rendszer alól, az "
+"újonnan telepített Linux Mint operációs rendszer alá. Ezek után nyomja meg a "
+"<guibutton>Folytatás</guibutton> gombot."
+
+#. Tag: title
+#, no-c-format
+msgid "The installation usually takes between 10 and 15 minutes"
+msgstr "A telepítés álatában 10-15 percet vesz igénybe."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The installer will download packages from the Internet to support the "
+"language you’ve selected. Your computer needs to be connected to the "
+"Internet for this to work. Otherwise just <guibutton>skip</guibutton> that "
+"step and you’ll be able to add support for your language after the "
+"installation is finished and you’ve rebooted into your new system."
+msgstr ""
+"A telepítő a kiválasztott nyelv támogatásához csomagokat fog letölteni az "
+"internetről. Ehhez a számítógépnek működő internet-kapcsolattal kell "
+"rendelkeznie. Abban az esetben, ha nincs működő internet-kapcsolat "
+"kattintson a <guibutton>Kihagyás</guibutton> gombra. Későbbiekben a "
+"kiválasztott nyelvi támogatást hozzáadhatja, amikor a telepítés befejeződött "
+"és elindította az új operációs rendszert."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Once the installation is done click the <guibutton>Restart Now</guibutton> "
+"button and the liveDVD or LiveUSB environment will shut down."
+msgstr ""
+"Amikor a telepítés befejeződött kattintson "
+"<guibutton>Újraindítás</guibutton> gombra és a liveDVD vagy a LiveUSB "
+"környezet azonnal leáll."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"When prompted, remove the DVD from the drive or remove the USB and press "
+"Enter. Your PC is now ready to boot Linux Mint from the hard drive."
+msgstr ""
+"Amikor arra kéri a rendszer, távolítsa el a DVD-t a meghajtóból vagy az USB "
+"pendrive-ot a számítógépből, majd nyomja meg az „Enter” billentyűt. A "
+"számítógép most már készen áll a Linux Mint merevlemezről történő "
+"rendszerindítására."
+
+#. Tag: title
+#, no-c-format
+msgid "Reboot the computer"
+msgstr "Számítógép újraindítása"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Upon reboot, if you have more than one operating system installed, you "
+"should see a boot menu. Once Linux Mint is finished loading you should see a "
+"new screen inviting you to enter your username and password. This screen is "
+"the “MDM Login Manager” and is commonly called “MDM”. Enter the password you "
+"chose during the installation."
+msgstr ""
+"Rendszerindítás közben – ha több mint egy operációs rendszer van a "
+"számítógépre telepítve – akkor a rendszerindító menü fog megjelenni. "
+"Válassza a Linux Mintet. Amikor a Linux Mint betöltődése befejeződött egy új "
+"képernyőt fog megjelenni, amely arra kéri Önt, hogy adja meg "
+"felhasználónevét és jelszavát. Ez a bejelentkezési képernyő, vagy más néven "
+"„MDM bejelentkezéskezelő”, vagy ahogy általában hívják: „MDM”. Válassza ki a "
+"telepítés során megadott felhasználónevet és írja be a jelszavát."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"By default, your “root” password is the same as the password you chose "
+"during the installation. If you do not know what this means, then don't "
+"worry about it."
+msgstr ""
+"A „root” jelszó alapértelmezésben megegyezik a rendszer telepítése során "
+"megadott jelszóval. Nem probléma, ha nem tudja, hogy ez mit jelent."

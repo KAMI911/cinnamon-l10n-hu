@@ -7,172 +7,196 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mintdesktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-04 10:51+0000\n"
-"PO-Revision-Date: 2013-12-12 18:27+0000\n"
-"Last-Translator: Frank Barnores <Unknown>\n"
+"POT-Creation-Date: 2014-11-08 17:46+0100\n"
+"PO-Revision-Date: 2014-11-11 21:34+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-05-25 16:22+0000\n"
-"X-Generator: Launchpad (build 17017)\n"
+"X-Launchpad-Export-Date: 2014-11-29 14:59+0000\n"
+"X-Generator: Launchpad (build 17267)\n"
 "Language: hu\n"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:24
-msgid "Desktop Settings"
-msgstr "Asztalbeállítások"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:25
-msgid "Desktop Configuration Tool"
-msgstr "Asztalbeállító"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:26
-msgid "Fine-tune desktop settings"
-msgstr "Asztalbeállítások finomhangolása"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:78
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:94
 msgid "Desktop"
 msgstr "Asztal"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:79
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:95
 msgid "Windows"
 msgstr "Ablakok"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:80
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:96
 msgid "Interface"
 msgstr "Felület"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:81
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:125
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:97
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:135
 msgid "Terminal"
 msgstr "Terminál"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:119
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:129
 msgid "Desktop icons"
 msgstr "Asztali ikonok"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:130
 msgid "Performance"
 msgstr "Teljesítmény"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:121
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:131
 msgid "Appearance"
 msgstr "Megjelenés"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:122
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:132
 msgid "Icons"
 msgstr "Ikonok"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:123
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:133
 msgid "Context menus"
 msgstr "Helyi menük"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:124
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:134
 msgid "Toolbars"
 msgstr "Eszköztárak"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:127
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:136
+msgid "Window Manager"
+msgstr "Ablakkezelő"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:138
 msgid "Select the items you want to see on the desktop:"
 msgstr "Válassza ki az asztalon megjeleníteni kívánt elemeket:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:129
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:140
 msgid "Computer"
 msgstr "Számítógép"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:130
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:141
 msgid "Home"
 msgstr "Saját mappa"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:131
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:142
 msgid "Network"
 msgstr "Hálózat"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:132
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:143
 msgid "Trash"
 msgstr "Kuka"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:133
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:144
 msgid "Mounted Volumes"
 msgstr "Csatlakoztatott kötetek"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:135
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:146
 msgid "Don't show window content while dragging them"
 msgstr "Ne mutassa az ablak tartalmát mozgatás közben"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:136
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:147
 msgid "Use compositing"
 msgstr "Képernyőeffektek bekapcsolása"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:137
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:148
 msgid "Use system font in titlebar"
 msgstr "Rendszer betűkészlet használata a címsorban"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:138
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:149
 msgid "Show fortune cookies"
 msgstr "Szerencse sütik megjelenítése"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:140
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:151
 msgid "Buttons layout:"
 msgstr "Gomb elrendezés:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:142
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:153
+msgid "Window manager:"
+msgstr "Ablakkezelő:"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:155
 msgid "Show icons on menus"
 msgstr "Ikonok megjelenítése a menükben"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:143
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:156
 msgid "Show icons on buttons"
 msgstr "Ikonok megjelenítése a gombokon"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:144
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:157
 msgid "Show Input Methods menu in context menus"
 msgstr "Beviteli módok menü megjelenítése a helyi menükben"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:145
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:158
 msgid "Show Unicode Control Character menu in context menus"
 msgstr "Unicode vezérlőkarakterek menü megjelenítése a helyi menükben"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:147
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:160
 msgid "Buttons labels:"
 msgstr "Gomb címkék:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:148
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
 msgid "Icon size:"
 msgstr "Ikonméret:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:172
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
 msgid "Small"
 msgstr "Kicsi"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
 msgid "Large"
 msgstr "Nagy"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:179
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:192
 msgid "Traditional style (Right)"
 msgstr "Hagyományos stílus (jobb oldalon)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:180
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:193
 msgid "Mac style (Left)"
 msgstr "Mac stílus (bal oldalon)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:199
+msgid "Marco (stable and reliable)"
+msgstr "Marco (stabil és megbízható)"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:200
+msgid "Compiz (impressive desktop effects)"
+msgstr "Compiz (lenyűgöző asztali effektusok)"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:202
+msgid ""
+"Log out and log back in for changes to take effect. If things go wrong, run "
+"'mate-wm-recovery' to switch back to Marco."
+msgstr ""
+"Jelentkezzen ki, majd vissza a változtatások érvényre juttatásához. Ha hibát "
+"tapasztal bármikor visszaválthat a Marco rendszerre a „mate-wm-recovery” "
+"parancs futtatásával."
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:207
 msgid "Text below items"
 msgstr "Szöveg az elemek alatt"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:187
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:208
 msgid "Text beside items"
 msgstr "Szöveg az elemek mellett"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:188
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:209
 msgid "Icons only"
 msgstr "Csak ikonok"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:189
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:210
 msgid "Text only"
 msgstr "Csak szöveg"
 
+#: generate_desktop_files:25
+msgid "Desktop Settings"
+msgstr "Asztalbeállítások"
+
+#: generate_desktop_files:25
+msgid "Fine-tune desktop settings"
+msgstr "Asztalbeállítások finomhangolása"
+
 #~ msgid "Desktop Items"
 #~ msgstr "Asztali elemek"
+
+#~ msgid "Desktop Configuration Tool"
+#~ msgstr "Asztalbeállító"
 
 #~ msgid "Gnome Settings"
 #~ msgstr "Gnome beállítások"

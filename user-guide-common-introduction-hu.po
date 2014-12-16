@@ -1,0 +1,553 @@
+# Hungarian translation for linuxmint
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-09-05 15:49+0200\n"
+"PO-Revision-Date: 2014-11-16 07:28+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-11-29 15:07+0000\n"
+"X-Generator: Launchpad (build 17267)\n"
+
+#. Tag: title
+#, no-c-format
+msgid "Introduction to Linux Mint"
+msgstr "A Linux Mint bemutatása"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Linux Mint is a computer operating system designed to work on most modern "
+"systems, including typical x86 and x64 PCs."
+msgstr ""
+"A Linux Mint egy operációs rendszer, amelyet úgy terveztek, hogy a legtöbb "
+"számítógépen működjön, beleértve a tipikus x86 és x64  architektúrájú "
+"számítógépeket."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Linux Mint can be thought of as filling the same role as Microsoft's "
+"Windows, Apple's Mac OS, and the free BSD OS. Linux Mint is also designed to "
+"work in conjunction with other operating systems (including those listed "
+"above), and can automatically set up a <wordasword>dual boot</wordasword> or "
+"<wordasword>multi-boot</wordasword> environment (where the user is prompted "
+"as to which operating system to start at each boot-up) during its "
+"installation."
+msgstr ""
+"A Linux Mint operációs rendszerre úgy tekinthet, mint amely teljese "
+"mértékben helyettesíteni tudja a Microsoft Windows, az Apple Mac OS vagy az "
+"ingyenes BSD operációs rendszereket. A Linux Mint-et úgy tervezték, hogy "
+"együttműködjön más operációs rendszerekkel (ideértve az előbbiekben "
+"említetteket), és automatikusan <wordasword>kettős "
+"rendszerindítás</wordasword> vagy <wordasword>többszörös "
+"rendszerindítás</wordasword> környezetet állítson elő – ahol a felhasználó "
+"minden rendszerindításkor megadhatja, hogy melyik operációs rendszert "
+"kívánja elindítani – a telepítés folyamán."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Linux Mint is a great operating system for individuals and for companies."
+msgstr ""
+"A Linux Mint kitűnő operációs rendszer az egyéni felhasználók számára, de a "
+"céges munkakörnyezetben is remekül megállja a helyét."
+
+#. Tag: title
+#, no-c-format
+msgid "History"
+msgstr "Előzmények"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Linux Mint is a very modern operating system; Its development started in "
+"2006. It is, however, built upon very mature and proven software layers, "
+"including the Linux kernel, the GNU tools and the &EDITION; desktop. It also "
+"relies on the Ubuntu and Debian projects and uses their systems as a base."
+msgstr ""
+"A Linux Mint egy korszerű operációs rendszer, amelynek fejlesztése 2006-ban "
+"kezdődött. Olyan kiforrott és az évek során  bizonyított szoftver-"
+"összetevőkre épül, mint amilyen a Linux rendszermag, a GNU eszközkészlet és "
+"a &EDITION; asztal. Továbbá a Linux Mint az Ubuntu és a Debian rendszerek "
+"megbízható alapjaira épül."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The Linux Mint project focuses on making the desktop more usable and more "
+"efficient for everyday tasks performed by regular users. Underneath the "
+"desktop the operating system also provides a huge collection of available "
+"software and a very well integrated set of services."
+msgstr ""
+"A Linux Mint projekt kiemelten ügyel arra, hogy a hagyományos felhasználók "
+"által elvégzendő napi feladatokhoz, minél egyszerűbben és hatékonyabban "
+"használható munkaasztalt biztosítson. A munkaasztal alatt, az operációs "
+"rendszer hatalmas mennyiségű válogatott szoftvert, valamint kiválóan "
+"egybeépített szolgáltatásokat kínál."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Linux Mint saw a rapid rise in popularity and more and more people use it "
+"every day."
+msgstr ""
+"A Linux Mint népszerűsége gyorsan növekszik és egyre több ember használja "
+"naponta."
+
+#. Tag: title
+#, no-c-format
+msgid "Purpose"
+msgstr "Cél"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The purpose of Linux Mint is to provide a desktop operating system that home "
+"users and companies can use at no cost and which is as efficient, easy to "
+"use, and elegant as possible."
+msgstr ""
+"A Linux Mint célja olyan asztalai operációs rendszer biztosítása, amely az "
+"otthoni és vállalati felhasználók számára is ingyenesen elérhető, amennyire "
+"csak lehetséges hatékonyan és könnyen használható valamint elegáns."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"One of the ambitions of the Linux Mint project is to become the best "
+"operating system available by making it easy for people to get to use "
+"advanced technologies, rather than by simplifying them (and thereby reducing "
+"their capabilities), or by copying the approaches taken by other developers."
+msgstr ""
+"A Linux Mint projekt egyik célja, hogy a legjobb operációs rendszert "
+"készítse el, amellyel egyszerűvé teszi a felhasználók számára a haladó "
+"technológiák használatát ahelyett, hogy leegyszerűsítené azokat – és így "
+"csökkentve a képességüket."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The goal is to develop our own idea of the ideal desktop. We think that it "
+"is best to make the most out of the modern technologies that exist under "
+"Linux and make it easy for everybody to use its most advanced features."
+msgstr ""
+"Célunk az, hogy a saját ötletek megvalósításával létrehozzuk a tökéletes "
+"asztalt. Úgy gondoljuk a legjobbat hozzuk ki a Linux alatt már létező "
+"korszerű technológiákból, amelyek mindenki számára egyszerűen használható és "
+"legprofesszionálisabb szolgáltatásokat biztosítja."
+
+#. Tag: title
+#, no-c-format
+msgid "Version numbers and codenames"
+msgstr "Verziószámok és kódnevek"
+
+#. Tag: para
+#, no-c-format
+msgid "Version numbers and codenames follow a unique logic in Linux Mint:"
+msgstr ""
+"A verziószámok és kódnevek egyedi nevezéktant követnek a Linux Mintben:"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Codenames provide a way to refer to versions of Linux Mint that is more "
+"familiar than using a version number."
+msgstr ""
+"A kódnevek használata egy bejáratott – és a verziószámoknál is gyakrabban "
+"használt – eljárás  a Linux Mint különböző verziójára hivatkozásnak."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Since version 5, Linux Mint has followed a 6 months release cycle and uses a "
+"simplified version scheme. The version number simply gets incremented every "
+"6 months."
+msgstr ""
+"A Linux Mint 5-ös verziója óta hat hetes kiadási ciklusok és egyszerűsített "
+"verziószámozási sémát követ. A verziószám minden hatodik hónapban eggyel "
+"nagyobb számot kap."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If revisions are made to a particular release (a bit like Service Packs in "
+"Windows) its version number gets a minor revision increment. For instance "
+"<wordasword>3</wordasword> becomes <wordasword>3.1</wordasword>."
+msgstr ""
+"Ha a megadott verzióból újabb kiadás készül (mint amilyen a Service Pack a "
+"Windows-nál), akkor verziószám minor kiadási száma növekedik eggyel. Például "
+"<wordasword>3</wordasword>-ból <wordasword>3.1</wordasword> lesz."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Codenames in Linux Mint are always female names ending with "
+"<wordasword>a</wordasword> They follow the alphabetical order and the first "
+"letter of the codename corresponds to the index of the version number in the "
+"alphabet."
+msgstr ""
+"A Linux Mint kódnevei mindig <wordasword>a</wordasword> betűre végződő női "
+"nevek. A nevek ABC sorrendben követik egymás és a kódnév első betűjének ABC "
+"sorrendben elfoglalt helyének sorszáma megegyezik verziószámmal."
+
+#. Tag: para
+#, no-c-format
+msgid "So far Linux Mint has used the following codenames:"
+msgstr "Ez ideig a Linux Mint az alábbi kódneveket használta:"
+
+#. Tag: title
+#, no-c-format
+msgid "Linux Mint codenames"
+msgstr "Linux Mint kódnevek"
+
+#. Tag: entry
+#, no-c-format
+msgid "Version"
+msgstr "Verzió"
+
+#. Tag: entry
+#, no-c-format
+msgid "Codename"
+msgstr "Kódnév"
+
+#. Tag: entry
+#, no-c-format
+msgid "1.0"
+msgstr "1.0"
+
+#. Tag: entry
+#, no-c-format
+msgid "Ada"
+msgstr "Ada"
+
+#. Tag: entry
+#, no-c-format
+msgid "2.0"
+msgstr "2.0"
+
+#. Tag: entry
+#, no-c-format
+msgid "Barbara"
+msgstr "Barbara"
+
+#. Tag: entry
+#, no-c-format
+msgid "2.1"
+msgstr "2.1"
+
+#. Tag: entry
+#, no-c-format
+msgid "Bea"
+msgstr "Bea"
+
+#. Tag: entry
+#, no-c-format
+msgid "2.2"
+msgstr "2.2"
+
+#. Tag: entry
+#, no-c-format
+msgid "Bianca"
+msgstr "Bianca"
+
+#. Tag: entry
+#, no-c-format
+msgid "3.0"
+msgstr "3.0"
+
+#. Tag: entry
+#, no-c-format
+msgid "Cassandra"
+msgstr "Cassandra"
+
+#. Tag: entry
+#, no-c-format
+msgid "3.1"
+msgstr "3.1"
+
+#. Tag: entry
+#, no-c-format
+msgid "Celena"
+msgstr "Celena"
+
+#. Tag: entry
+#, no-c-format
+msgid "4.0"
+msgstr "4.0"
+
+#. Tag: entry
+#, no-c-format
+msgid "Daryna"
+msgstr "Daryna"
+
+#. Tag: entry
+#, no-c-format
+msgid "5"
+msgstr "5"
+
+#. Tag: entry
+#, no-c-format
+msgid "Elyssa"
+msgstr "Elyssa"
+
+#. Tag: entry
+#, no-c-format
+msgid "6"
+msgstr "6"
+
+#. Tag: entry
+#, no-c-format
+msgid "Felicia"
+msgstr "Felicia"
+
+#. Tag: entry
+#, no-c-format
+msgid "7"
+msgstr "7"
+
+#. Tag: entry
+#, no-c-format
+msgid "Gloria"
+msgstr "Gloria"
+
+#. Tag: entry
+#, no-c-format
+msgid "8"
+msgstr "8"
+
+#. Tag: entry
+#, no-c-format
+msgid "Helena"
+msgstr "Helena"
+
+#. Tag: entry
+#, no-c-format
+msgid "9"
+msgstr "9"
+
+#. Tag: entry
+#, no-c-format
+msgid "Isadora"
+msgstr "Isadora"
+
+#. Tag: entry
+#, no-c-format
+msgid "10"
+msgstr "10"
+
+#. Tag: entry
+#, no-c-format
+msgid "Julia"
+msgstr "Julia"
+
+#. Tag: entry
+#, no-c-format
+msgid "11"
+msgstr "11"
+
+#. Tag: entry
+#, no-c-format
+msgid "Katya"
+msgstr "Katya"
+
+#. Tag: entry
+#, no-c-format
+msgid "12"
+msgstr "12"
+
+#. Tag: entry
+#, no-c-format
+msgid "Lisa"
+msgstr "Lisa"
+
+#. Tag: entry
+#, no-c-format
+msgid "13"
+msgstr "13"
+
+#. Tag: entry
+#, no-c-format
+msgid "Maya"
+msgstr "Maya"
+
+#. Tag: entry
+#, no-c-format
+msgid "14"
+msgstr "14"
+
+#. Tag: entry
+#, no-c-format
+msgid "Nadia"
+msgstr "Nadia"
+
+#. Tag: entry
+#, no-c-format
+msgid "15"
+msgstr "15"
+
+#. Tag: entry
+#, no-c-format
+msgid "Olivia"
+msgstr "Olivia"
+
+#. Tag: entry
+#, no-c-format
+msgid "16"
+msgstr "16"
+
+#. Tag: entry
+#, no-c-format
+msgid "Petra"
+msgstr "Petra"
+
+#. Tag: entry
+#, no-c-format
+msgid "17"
+msgstr "17"
+
+#. Tag: entry
+#, no-c-format
+msgid "Qiana"
+msgstr "Qiana"
+
+#. Tag: title
+#, no-c-format
+msgid "Editions"
+msgstr "Kiadások"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"An Edition is a release of Linux Mint which is customized to address a "
+"certain set of needs. This guide covers the &EDITION; Edition. Here are some "
+"of the most popular editions:"
+msgstr ""
+"A Linux Mint egy kiadása számos igény figyelembevételével készülő "
+"testreszabott változata. Ez az útmutató a &EDITION; kiadást mutatja be. "
+"Néhány népszerűbb kiadás:"
+
+#. Tag: para
+#, no-c-format
+msgid "Cinnamon Edition (uses a Cinnamon desktop)"
+msgstr "Cinnamon kiadás (Cinnamon munkaasztalt használ)"
+
+#. Tag: para
+#, no-c-format
+msgid "Mate Edition (uses a Mate desktop)"
+msgstr "Mate kiadás (Mate munkaasztalt használ)"
+
+#. Tag: para
+#, no-c-format
+msgid "KDE Edition (uses a KDE desktop)"
+msgstr "KDE kiadás (KDE munkaasztalt használ)"
+
+#. Tag: para
+#, no-c-format
+msgid "Xfce Edition (uses a Xfce desktop)"
+msgstr "Xfce kiadás (Xfce  munkaasztalt használ)"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you don't know which edition to use, choose the MATE Edition. It's not as "
+"popular as the Cinnamon Edition but it is compatible with a wider variety of "
+"hardware specifications."
+msgstr ""
+"Ha nem tudja, hogy melyik kiadást használja, válassza a MATE kiadást. Ez nem "
+"olyan népszerű mint a Cinnamon kiadás, de a legtöbb hardverrel kompatibilis."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you intend to redistribute or to make commercial use of Linux Mint in the "
+"USA or in Japan and if you're not sure about patent legislation you should "
+"use the <guilabel>No Codecs</guilabel> installation images."
+msgstr ""
+"Amennyiben az Egyesült Államokban vagy Japánban tervezi továbbadni vagy az "
+"üzleti életben felhasználni a Linux Mintet és bizonytalan a szabadalmakkal "
+"kapcsolatos törvényekben, akkor használja a <guilabel>No Codecs</guilabel> "
+"jelölésű telepítő lemezképeket."
+
+#. Tag: title
+#, no-c-format
+msgid "Where to find help"
+msgstr "Hol keressen segítséget"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The Linux Mint community is very helpful and very active. If you have "
+"questions or a problem related to Linux Mint, you should be able to get help "
+"from other users online."
+msgstr ""
+"A Linux Mint közösség nagyon segítőkész és aktív. Ha kérdése vagy problémája "
+"a van a Linux Minttel kapcsolatban, az online felhasználóktól segítséget fog "
+"kapni."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"First, make sure to register with the <guilabel>Linux Mint "
+"Forums</guilabel>. This is the very first place where you can find help: "
+"<ulink "
+"url=\"http://www.linuxmint.com/forum\">http://www.linuxmint.com/forum</ulink>"
+"."
+msgstr ""
+"Kezdésként regisztráljon a <guilabel>Linux Mint Fórumra</guilabel>. Ez az "
+"első számú hely, ahol segítséget kaphat: <ulink "
+"url=\"http://www.linuxmint.com/forum\">http://www.linuxmint.com/forum</ulink>"
+" (a fórum nyelve angol).\r\n"
+"Amennyiben magyar nyelven szeretne segítséget kapni, akkor regisztráljon "
+"<guilabel>A Linux Mint Magyar Közösség fóruma</guilabel> oldalon: <ulink "
+"url=\"http://www.linuxmint.hu/forum\">http://www.linuxmint.hu/forum</ulink>, "
+"ahol hazai önkéntesek próbálnak Önnek segíteni."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you want to chat with other users you can connect to the IRC chat room. "
+"Under Linux Mint simply launch <guilabel>Hexchat</guilabel> from the menu. "
+"If you’re using another operating system or another IRC client make sure to "
+"connect to the <guilabel>irc.spotchat.org</guilabel> server and to join the "
+"channels <guilabel>#linuxmint-help</guilabel> and <guilabel>#linuxmint-"
+"chat</guilabel>."
+msgstr ""
+"Ha csevegni szeretne más felhasználókkal, akkor csatlakozhat az IRC "
+"csevegőszobához. Linux Mint alatt indítsa el a <guilabel>Hexchat</guilabel> "
+"a „Menü”-ből. Amennyiben más operációs rendszert vagy más csevegőszoftvert "
+"használ, akkor kapcsolódjon a <guilabel>irc.spotchat.org</guilabel> IRC-"
+"kiszolgálóhoz és csatlakozzon a <guilabel>#linuxmint-help</guilabel> és a "
+"<guilabel>#linuxmint-chat</guilabel> csatornákhoz."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Linux Mint uses Ubuntu<footnote><para>Ubuntu is another operating system "
+"based on GNU/Linux.</para></footnote> repositories<footnote><para>A "
+"repository is an online service by which software is stored and made "
+"available for the operating system to install and update from. Most "
+"operating systems based on GNU/Linux use repositories and connect to them "
+"via HTTP or FTP to install and upgrade their software.</para></footnote> "
+"(more on what this means later) and is fully compatible with it so most of "
+"the resources, articles, tutorials, and software made for Ubuntu also work "
+"for Linux Mint. If you can’t find help on a specific subject, make sure to "
+"search on the same subject for Ubuntu."
+msgstr ""
+"Linux Mint az Ubuntu<footnote><para>Az Ubuntu egy másik GNU/Linux alapú "
+"operációs rendszer.</para></footnote> csomagtárolóit<footnote><para>A "
+"csomagtároló egy online szolgáltatás, ahol a szoftverek vannak és érhető el "
+"az operációs rendszer számára, ahonnan telepíthetők és frissíthetők a "
+"csomagok. A legtöbb GNU/Linux alapú operációs rendszer csomagtárolókat "
+"használ és HTTP-n vagy FTP-n csatlakozik hozzájuk a szoftverek telepítéséhez "
+"és frissítéséhez.</para></footnote>használja (további részletek később) és "
+"így Linux Mint alatt használható az Ubuntuhoz készült legtöbb cikk, útmutató "
+"és szoftver. Ha nem talál segítséget egy megadott témában, akkor próbálja "
+"meg a keresést ugyanezzel a kifejezéssel de „Ubuntu”-ra keresve."
