@@ -1,21 +1,23 @@
 # Hungarian translation for linuxmint
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-09-05 15:49+0200\n"
-"PO-Revision-Date: 2014-11-23 16:19+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2015-03-18 09:11+0100\n"
+"Last-Translator: \n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-11-29 15:07+0000\n"
-"X-Generator: Launchpad (build 17267)\n"
+"X-Generator: Lokalize 1.5\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Tag: title
 #, no-c-format
@@ -85,8 +87,9 @@ msgstr ""
 "Ez a szakasz megpróbálja elmagyarázni hogyan működik, és milyen előnyöket "
 "hoz Önnek. Egy kicsit hosszú lesz, de remélhetőleg jó áttekintést ad a "
 "csomagkezelés filozófiájáról és hogy ez miért is számít Jó Dolog-nak (ezt a "
-"kifejezést a Linux felhasználók gyakran írják nagy kezdőbetűkkel, hogy a "
-"jóságot kiemeljék). Ha sietős a dolga, átugorhatja a következő szakaszt, "
+"kifejezést a Linux felhasználók gyakran írják nagy kezdőbetűkkel, "
+"ha valami egyértelműen jó). Ha sietős a dolga, átugorhatja a következő "
+"szakaszt, "
 "hogy megtudhassa, miként is működik valójában a csomagkezelő rendszer."
 
 #. Tag: para
@@ -1237,3 +1240,4 @@ msgstr ""
 #, no-c-format
 msgid "The history of updates"
 msgstr "Frissítési előzmények"
+
