@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-30 10:29+0000\n"
-"PO-Revision-Date: 2015-11-06 17:20+0000\n"
-"Last-Translator: Papp Károly <pkaroly82@gmail.com>\n"
+"PO-Revision-Date: 2015-11-20 10:45+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kami911@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-11-13 11:09+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-22 09:45+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 "Language: hu\n"
 
 #: src/cinnamon-app.c:366 src/cinnamon-app.c:374
@@ -659,7 +659,7 @@ msgstr "Menü"
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1794
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:95
 msgid "No recent documents"
-msgstr "Nincsenek nemrég használt dokumentumok"
+msgstr "Nincsenek nemrég használt fájlok"
 
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2004
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:152
@@ -3096,7 +3096,7 @@ msgstr "Dupla (Hi-DPI)"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:25
 msgid "User interface scaling:"
-msgstr "Felhasználói felület átméretezése:"
+msgstr "Felhasználói felület átméretezése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:41
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_workspaces.py:52
