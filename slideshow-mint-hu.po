@@ -222,7 +222,7 @@ msgstr "Google Earth"
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/updates.html:1
 msgid "Keep your system up to date"
-msgstr "Tartsa rendszerét napra készen"
+msgstr "Tartsa a rendszert napra készen"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/updates.html:8

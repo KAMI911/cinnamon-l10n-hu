@@ -71,7 +71,7 @@ msgstr ""
 "szoftver. Erről szól a szabad szoftverek világa! A Linux Mint "
 "csomagkezelésének igazán nagyszerűsége pont az, hogy nem szükséges hosszan "
 "keresgélnie a további szoftverek eléréséhez akkor sem, amikor több "
-"funkcionalitást vár a Linux Mint rendszerétől."
+"funkcionalitást vár a Linux Mint rendszertől."
 
 #. Tag: para
 #, no-c-format
@@ -627,7 +627,7 @@ msgstr ""
 "tesztelő. Ön ha ezeket a sorokat olvassa, akkor tudhatja hogy nem béta "
 "tesztelő. Az Ön számára csomagtárolókon keresztül elérhetővé tett szoftverek "
 "mindig stabilak és alapos tesztelésnek vetettük őket alá, mindaddig, amíg "
-"nem állítja át rendszerét kiszolgáló csomagtárolókat a tesztelők által "
+"nem állítja át a rendszert kiszolgáló csomagtárolókat a tesztelők által "
 "használt csomagtárolókra. Ha mégis ezt tenné, Ön tesztelővé válik."
 
 #. Tag: para

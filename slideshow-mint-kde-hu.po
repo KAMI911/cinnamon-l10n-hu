@@ -293,7 +293,7 @@ msgstr ""
 #. type: Content of: <div>
 #: slideshows/mint-kde/slides/11-updates.html:1
 msgid "Keep your system up to date"
-msgstr "Tartsa rendszerét napra készen"
+msgstr "Tartsa a rendszert napra készen"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint-kde/slides/11-updates.html:8

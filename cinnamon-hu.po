@@ -2059,7 +2059,7 @@ msgid ""
 "may break your system. Load anyway?"
 msgstr ""
 "A(z) %s kierjesztés nem kompatibilis a Cinnamon jelenlegi verziójával, és "
-"elronthatja vele a rendszerét. Ennek ellenére be kívánja mégis tölteni "
+"elronthatja vele a rendszert. Ennek ellenére be kívánja mégis tölteni "
 "kiterjesztést?"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:981
