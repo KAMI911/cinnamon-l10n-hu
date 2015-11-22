@@ -431,7 +431,7 @@ msgid ""
 "and run “cmd.exe”. In the command line environment, type the following "
 "commands:"
 msgstr ""
-"Helyezze az ISO lemezképfájlt és az „md5sum.exe”-t ugyanabba a könyvtárba "
+"Helyezze az ISO lemezképfájlt és az „md5sum.exe”-t ugyanabba a mappába "
 "(például: a „C:\\”-be) és futtassa a „cmd.exe” parancsot. A parancssorba "
 "gépelje be a következő parancsokat:"
 

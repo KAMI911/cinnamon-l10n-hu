@@ -336,7 +336,7 @@ msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
 msgstr ""
-"Feltöltés ebbe a könyvtárba. A <TIMESTAMP> a megadott formátum szerinti "
+"Feltöltés ebbe a mappába. A <TIMESTAMP> a megadott formátum szerinti "
 "aktuális időbélyegre lesz cserélve. Alapértelmezés szerint: ."
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:265

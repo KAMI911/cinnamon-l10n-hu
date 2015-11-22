@@ -164,11 +164,11 @@ msgstr "Nincs téma, csak az alap GTK"
 
 #: gui/mdmsetup.c:1562
 msgid "Archive is not of a subdirectory"
-msgstr "Az archívum nem egy alkönyvtárból áll"
+msgstr "Az archívum nem egy almappából áll"
 
 #: gui/mdmsetup.c:1569
 msgid "Archive is not of a single subdirectory"
-msgstr "Az archívum nem egyetlen alkönyvtárból áll"
+msgstr "Az archívum nem egyetlen almappából áll"
 
 #: gui/mdmsetup.c:1605 gui/mdmsetup.c:1682
 msgid "File not a tar.gz or tar archive"
@@ -195,7 +195,7 @@ msgstr "Ez nem téma fájl"
 #, c-format
 msgid ""
 "Theme directory '%s' seems to be already installed. Install again anyway?"
-msgstr "A(z) „%s” témakönyvtár már telepítve van. Mégis újratelepíti?"
+msgstr "A(z) „%s” témamappa már telepítve van. Mégis újra kívánja telepíti?"
 
 #: gui/mdmsetup.c:1860
 msgid "Some error occurred when installing the theme"
@@ -466,7 +466,7 @@ msgid ""
 "This prevents warnings from common libraries and toolkits (Gtk, Glib, Gio, "
 "Glade...etc) from getting in .xsession-errors."
 msgstr ""
-"Megakadályozza a közös könyvtárakból és eszköztárakból (Gtk, Glib, Gio, "
+"Megakadályozza a közös mappákból és eszköztárakból (Gtk, Glib, Gio, "
 "Glade, stb.) származó figyelmeztetések „.xsession-errors” naplófájlba írását."
 
 #: gui/mdmsetup.glade.h:41

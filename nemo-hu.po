@@ -4470,7 +4470,7 @@ msgstr "Névtelen dokumentum"
 
 #: libnemo-private/nemo-file-operations.c:6276
 msgid "Error while creating directory %B."
-msgstr "Hiba a következő könyvtár létrehozásakor: „%B”."
+msgstr "Hiba a következő mappa létrehozásakor: „%B”."
 
 #: libnemo-private/nemo-file-operations.c:6278
 msgid "Error while creating file %B."
@@ -4479,7 +4479,7 @@ msgstr "Hiba a következő fájl létrehozásakor: „%B”."
 #: libnemo-private/nemo-file-operations.c:6280
 #, c-format
 msgid "There was an error creating the directory in %F."
-msgstr "Hiba a könyvtár létrehozásakor a következőben: „%F”."
+msgstr "Hiba a mappa létrehozásakor a következőben: „%F”."
 
 #: libnemo-private/nemo-file-operations.c:6535
 msgid "Emptying Trash"

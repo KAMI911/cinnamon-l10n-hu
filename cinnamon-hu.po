@@ -2363,7 +2363,7 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/XletSettingsWidgets.py:792
 msgid "Select a directory to use"
-msgstr "Válassza ki a használni kívánt könyvtárat"
+msgstr "Válassza ki a használni kívánt mappát"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/XletSettingsWidgets.py:795
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:818
