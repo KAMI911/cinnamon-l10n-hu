@@ -274,7 +274,7 @@ msgstr "Kijelölt téma eltávolítása"
 
 #: gui/mdmsetup.c:2702
 msgid "Launch the login screen to preview the theme"
-msgstr "Bejelenkező képernyő elindítása a téma előnézetének megtekintéséhez"
+msgstr "Bejelentkező képernyő elindítása a téma előnézetének megtekintéséhez"
 
 #: gui/mdmsetup.c:2720
 msgid "Please install 'numlockx' to enable this feature"

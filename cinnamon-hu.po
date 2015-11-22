@@ -345,7 +345,7 @@ msgstr "Panel módosítása"
 
 #: js/ui/panel.js:1139
 msgid "Remove panel"
-msgstr "Panel altávolítása"
+msgstr "Panel eltávolítása"
 
 #: js/ui/panel.js:1145
 msgid "Add panel"
@@ -747,7 +747,7 @@ msgstr "Ethernet"
 
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:704
 msgid "Wifi"
-msgstr "Wifi"
+msgstr "Wi-fi"
 
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:705
 msgid "Modem"
@@ -1529,7 +1529,7 @@ msgstr "Hálózatkezelő"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:67
 msgid "network, wireless, wifi, ethernet, broadband, internet"
-msgstr "hálózat, vezeték nélküli, wifi, ethernet, szélessávú, internet"
+msgstr "hálózat, vezeték nélküli, wifi, wi-fi, ethernet, szélessávú, internet"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:68
 msgid "display, screen, monitor, layout, resolution, dual, lcd"
@@ -1624,7 +1624,7 @@ msgid ""
 "video, driver, wifi, card, hardware, proprietary, nvidia, radeon, nouveau, "
 "fglrx"
 msgstr ""
-"videó, driver, wifi, kártya, hardver, zárt, nvidia, radeon, nouveau, fglrx"
+"videó, driver, wifi, wi-fi, kártya, hardver, zárt, nvidia, radeon, nouveau, fglrx"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:84
 msgid "Software Sources"
@@ -2081,7 +2081,7 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:993
 msgid "View logfile(s)"
-msgstr "&Napló megtekintése)"
+msgstr "Napló megtekintése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:1015
 msgid ""
@@ -2597,7 +2597,7 @@ msgstr "_Fényképek"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:42
 msgid "CD _audio"
-msgstr "_Audio CD"
+msgstr "_Audió CD"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:42
 msgid "Select an application for audio CDs"
@@ -5082,7 +5082,7 @@ msgstr "Fókusz elvesztésének megakadályozása"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:81
 msgid "Attach dialog windows to the parent window"
-msgstr "Párbaszédablak hozzáfűzése a szülőablakhoz"
+msgstr "Párbeszédablak hozzáfűzése a szülőablakhoz"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:84
 msgid "Moving and Resizing Windows"

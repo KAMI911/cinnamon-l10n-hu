@@ -468,7 +468,7 @@ msgstr ""
 "felhasználói csoport valamely tagja problémába ütközik, a fejlesztői "
 "csapatot értesíti a problémáról és azonnal javítják vagy legalább elkezdenek "
 "dolgozni a javításon. Ha Ön nem beta tesztelő, nem valószínű hogy valaha "
-"ilyen csomag-ütközéssel találkozni fog, hiszen a beta-tesztelés egyik "
+"ilyen csomag-ütközéssel találkozni fog, hiszen a béta-tesztelés egyik "
 "lényege, hogy ezeket a problémákat kiküszöbölik."
 
 #. Tag: entry
@@ -856,7 +856,7 @@ msgid ""
 "Software Manager."
 msgstr ""
 "Bizonyosodjon meg róla, hogy bezárta a Synaptic csomagkezelőtőt, mielőtt az "
-"APT-ot használja. A Synaptic a háttérben APT-ot használ, ezért e két program "
+"APT-t használja. A Synaptic a háttérben APT-t használ, ezért e két program "
 "egyszerre nem futtatható. Ugyanez igaz a Szoftverkezelőre."
 
 #. Tag: title
@@ -1014,7 +1014,7 @@ msgstr ""
 "Mint figyelmeztetéseket vagy egyéb információkat is rendel a frissítésekhez. "
 "Láthatja még a frissítendő csomagoknak a jelenleg telepített verzióját és az "
 "új verziót, amire frissíthet. Emellett egy szimbólum mutatja hogy egy "
-"egyszerű csomagfrissítésről vagy biztonsági frissítséről van-e szó."
+"egyszerű csomagfrissítésről vagy biztonsági frissítésről van-e szó."
 
 #. Tag: para
 #, no-c-format

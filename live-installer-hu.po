@@ -261,7 +261,7 @@ msgstr "Az Ön jelszava"
 #: usr/lib/live-installer/frontend/gtk_interface.py:395
 msgid "Please enter your password twice to ensure it is correct."
 msgstr ""
-"Írja be a jelszavát kétszer, így biztos lehet bene, hogy jól adta meg a "
+"Írja be a jelszavát kétszer, így biztos lehet benne, hogy jól adta meg a "
 "jelszavát."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:396

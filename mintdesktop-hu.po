@@ -321,7 +321,7 @@ msgstr "Compiz beállítása"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
 msgid "Reset Compiz settings"
-msgstr "Compiz beállítások visszállítása"
+msgstr "Compiz beállítások visszaállítása"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
 msgid "Icons"

@@ -428,7 +428,7 @@ msgstr "Mindig jelezze a biztonsági frissítéseket"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1472
 msgid "Always select and trust security updates"
-msgstr "Mindig válassza ki és bizzon meg a biztonsági frissítésekben"
+msgstr "Mindig válassza ki és bízzon meg a biztonsági frissítésekben"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1474
 msgid "minutes"
@@ -838,7 +838,7 @@ msgstr "%s telepítése"
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:137
 msgid "Click on the button to install the missing package."
-msgstr "Kattintson a gombra a hiányzó csomag elepítéséhez."
+msgstr "Kattintson a gombra a hiányzó csomag telepítéséhez."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:151
 msgid ""

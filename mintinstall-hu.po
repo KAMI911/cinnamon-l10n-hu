@@ -30,11 +30,11 @@ msgstr "A(z) „%s” csomag nem távolítható el"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:204
 msgid "Please check your connection to the Internet"
-msgstr "Ellenőrízze az internetkapcsolatát"
+msgstr "Ellenőrizze az internetkapcsolatát"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:215
 msgid "Another application is using APT:"
-msgstr "Másik alkalmzás használja az APT-t:"
+msgstr "Másik alkalmazás használja az APT-t:"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:301
 #, python-format
