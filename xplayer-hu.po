@@ -10,28 +10,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xplayer master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-03 11:23+0000\n"
-"PO-Revision-Date: 2016-02-11 18:50+0000\n"
+"POT-Creation-Date: 2016-08-28 09:59+0100\n"
+"PO-Revision-Date: 2016-09-11 15:49+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-04-24 18:00+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-10-24 14:44+0000\n"
+"X-Generator: Launchpad (build 18246)\n"
 "Language: hu\n"
 
-#: ../browser-plugin/xplayer-plugin-viewer.c:352 ../src/xplayer-object.c:1181
-#: ../src/xplayer-object.c:1644 ../src/xplayer-statusbar.c:115
+#: ../browser-plugin/xplayer-plugin-viewer.c:352 ../src/xplayer-object.c:1183
+#: ../src/xplayer-object.c:1658 ../src/xplayer-statusbar.c:115
 msgid "Stopped"
 msgstr "Leállítva"
 
-#: ../browser-plugin/xplayer-plugin-viewer.c:364 ../src/xplayer-object.c:1174
+#: ../browser-plugin/xplayer-plugin-viewer.c:364 ../src/xplayer-object.c:1176
 msgid "Paused"
 msgstr "Szüneteltetve"
 
-#: ../browser-plugin/xplayer-plugin-viewer.c:368 ../src/xplayer-object.c:1167
+#: ../browser-plugin/xplayer-plugin-viewer.c:368 ../src/xplayer-object.c:1169
 msgid "Playing"
 msgstr "Lejátszás"
 
@@ -57,7 +57,7 @@ msgstr "Xplayer médialejátszó"
 msgid "_Open with \"%s\""
 msgstr "Megnyitás e_zzel: „%s”"
 
-#: ../browser-plugin/xplayer-plugin-viewer.c:1340 ../src/xplayer-object.c:2452
+#: ../browser-plugin/xplayer-plugin-viewer.c:1340 ../src/xplayer-object.c:2466
 msgid "An error occurred"
 msgstr "Hiba történt"
 
@@ -77,13 +77,17 @@ msgstr "A szálbiztos programkönyvtárak nem készíthetők elő."
 msgid "Verify your system installation. The Xplayer plugin will now exit."
 msgstr "Ellenőrizze a rendszer telepítését. A Xplayer bővítmény most kilép."
 
-#: ../data/fullscreen.ui.h:1
-msgid "Leave Fullscreen"
-msgstr "Teljes képernyő elhagyása"
-
-#: ../data/fullscreen.ui.h:2 ../data/xplayer.ui.h:88
+#: ../data/fullscreen.ui.h:1 ../data/xplayer.ui.h:88
 msgid "Time:"
 msgstr "Idő:"
+
+#: ../data/fullscreen.ui.h:2
+msgid "Blank other monitors"
+msgstr "Többi monitor elsötétítése"
+
+#: ../data/fullscreen.ui.h:3
+msgid "Leave fullscreen"
+msgstr "Teljes képernyő elhagyása"
 
 #: ../data/org.x.player.gschema.xml.in.in.h:1
 msgid "Allow the screensaver to activate when playing audio"
@@ -388,7 +392,7 @@ msgctxt "Screensaver disable"
 msgid "Video"
 msgstr "Videó"
 
-#. Translators: this is part of the sentence 'Disable screensaver when playing [] Video [] Video or Audio
+#. Translators: this is part of the sentence
 #: ../data/preferences.ui.h:30
 msgid "Video or Audio"
 msgstr "Videó vagy hang"
@@ -503,7 +507,7 @@ msgstr "Csatornák:"
 
 #. Title
 #: ../data/xplayer.desktop.in.in.in.h:1 ../data/xplayer.ui.h:87
-#: ../src/xplayer.c:258 ../src/xplayer.c:266 ../src/xplayer-object.c:1652
+#: ../src/xplayer.c:258 ../src/xplayer.c:266 ../src/xplayer-object.c:1666
 msgid "Videos"
 msgstr "Videók"
 
@@ -533,8 +537,8 @@ msgstr "Némítás"
 
 #. Translators: this is the tooltip text for the fullscreen button in the controls box in Xplayer's main window.
 #. Translators: this is the accessibility text for the fullscreen button in the controls box in Xplayer's main window.
-#: ../data/xplayer.desktop.in.in.in.h:8 ../src/xplayer-object.c:4043
-#: ../src/xplayer-object.c:4045
+#: ../data/xplayer.desktop.in.in.in.h:8 ../src/xplayer-object.c:4052
+#: ../src/xplayer-object.c:4054
 msgid "Fullscreen"
 msgstr "Teljes képernyő"
 
@@ -1238,7 +1242,7 @@ msgstr "_Hozzáadás a lejátszólistához"
 msgid "Cancel"
 msgstr "Mégse"
 
-#: ../src/xplayer-fullscreen.c:574
+#: ../src/xplayer-fullscreen.c:589
 msgid "No File"
 msgstr "Nincs fájl"
 
@@ -1308,11 +1312,11 @@ msgctxt "Language"
 msgid "Auto"
 msgstr "Auto"
 
-#: ../src/xplayer-menu.c:735
+#: ../src/xplayer-menu.c:736
 msgid "Configure Plugins"
 msgstr "Bővítmények beállítása"
 
-#: ../src/xplayer-object.c:162
+#: ../src/xplayer-object.c:164
 #, c-format
 msgid ""
 "%s\n"
@@ -1323,47 +1327,47 @@ msgstr ""
 "parancsot.\n"
 
 #. Translators: %s is the xplayer version number
-#: ../src/xplayer-object.c:590
+#: ../src/xplayer-object.c:592
 #, c-format
 msgid "Xplayer %s"
 msgstr "Xplayer %s"
 
-#: ../src/xplayer-object.c:1169 ../src/xplayer-options.c:52
+#: ../src/xplayer-object.c:1171 ../src/xplayer-options.c:52
 msgid "Pause"
 msgstr "Szünet"
 
-#: ../src/xplayer-object.c:1176 ../src/xplayer-object.c:1186
+#: ../src/xplayer-object.c:1178 ../src/xplayer-object.c:1188
 #: ../src/xplayer-options.c:51
 msgid "Play"
 msgstr "Lejátszás"
 
-#: ../src/xplayer-object.c:1268 ../src/xplayer-object.c:1295
-#: ../src/xplayer-object.c:1919
+#: ../src/xplayer-object.c:1270 ../src/xplayer-object.c:1297
+#: ../src/xplayer-object.c:1933
 #, c-format
 msgid "Xplayer could not play '%s'."
 msgstr "A Xplayer nem tudja lejátszani a következőt: „%s”."
 
-#: ../src/xplayer-object.c:2110
+#: ../src/xplayer-object.c:2124
 msgid "Xplayer could not display the help contents."
 msgstr "A Xplayer nem tudja megjeleníteni a súgótartalmat."
 
-#: ../src/xplayer-object.c:4010 ../src/xplayer-object.c:4012
+#: ../src/xplayer-object.c:4019 ../src/xplayer-object.c:4021
 msgid "Previous Chapter/Movie"
 msgstr "Előző fejezet/film"
 
-#: ../src/xplayer-object.c:4019 ../src/xplayer-object.c:4021
+#: ../src/xplayer-object.c:4028 ../src/xplayer-object.c:4030
 msgid "Play / Pause"
 msgstr "Lejátszás / Szünet"
 
-#: ../src/xplayer-object.c:4029 ../src/xplayer-object.c:4031
+#: ../src/xplayer-object.c:4038 ../src/xplayer-object.c:4040
 msgid "Next Chapter/Movie"
 msgstr "Következő fejezet/film"
 
-#: ../src/xplayer-object.c:4175
+#: ../src/xplayer-object.c:4187
 msgid "Xplayer could not startup."
 msgstr "A Xplayer nem tud elindulni."
 
-#: ../src/xplayer-object.c:4175
+#: ../src/xplayer-object.c:4187
 msgid "No reason."
 msgstr "Nincs ok."
 
@@ -2006,19 +2010,19 @@ msgstr "Hozzáadás a lejátszólistához"
 msgid "Copy Location"
 msgstr "Hely másolása"
 
-#: ../src/plugins/grilo/grilo.ui.h:3 ../src/plugins/grilo/xplayer-grilo.c:1175
+#: ../src/plugins/grilo/grilo.ui.h:3 ../src/plugins/grilo/xplayer-grilo.c:1184
 msgid "Browse"
 msgstr "Tallózás"
 
-#: ../src/plugins/grilo/grilo.ui.h:4 ../src/plugins/grilo/xplayer-grilo.c:1218
+#: ../src/plugins/grilo/grilo.ui.h:4 ../src/plugins/grilo/xplayer-grilo.c:1227
 msgid "Search"
 msgstr "Keresés"
 
-#: ../src/plugins/grilo/xplayer-grilo.c:437
+#: ../src/plugins/grilo/xplayer-grilo.c:446
 msgid "Browse Error"
 msgstr "Böngészési hiba"
 
-#: ../src/plugins/grilo/xplayer-grilo.c:606
+#: ../src/plugins/grilo/xplayer-grilo.c:615
 msgid "Search Error"
 msgstr "Keresési hiba"
 
@@ -2083,57 +2087,57 @@ msgstr "Feliratletöltő"
 msgid "Look for subtitles for the currently playing movie"
 msgstr "Feliratok keresése a jelenleg lejátszott filmhez"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:42
+#: ../src/plugins/opensubtitles/opensubtitles.py:43
 msgid "Brazilian Portuguese"
 msgstr "Brazíliai portugál"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:177
+#: ../src/plugins/opensubtitles/opensubtitles.py:179
 msgid "Searching for subtitles…"
 msgstr "Feliratok keresése…"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:225
-#: ../src/plugins/opensubtitles/opensubtitles.py:645
+#: ../src/plugins/opensubtitles/opensubtitles.py:227
+#: ../src/plugins/opensubtitles/opensubtitles.py:647
 msgid "Downloading the subtitles…"
 msgstr "A feliratok letöltése…"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:290
+#: ../src/plugins/opensubtitles/opensubtitles.py:292
 msgid "Could not contact the OpenSubtitles website"
 msgstr "Nem érhető el az OpenSubtitles weboldal"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:323
-#: ../src/plugins/opensubtitles/opensubtitles.py:341
+#: ../src/plugins/opensubtitles/opensubtitles.py:325
+#: ../src/plugins/opensubtitles/opensubtitles.py:343
 msgid "Could not contact the OpenSubtitles website."
 msgstr "Nem érhető el az OpenSubtitles weboldal."
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:329
+#: ../src/plugins/opensubtitles/opensubtitles.py:331
 msgid "No results found."
 msgstr "Nincs találat."
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:478
+#: ../src/plugins/opensubtitles/opensubtitles.py:480
 msgid "Subtitles"
 msgstr "Feliratok"
 
 #. translators comment:
 #. This is the file-type of the subtitle file detected
-#: ../src/plugins/opensubtitles/opensubtitles.py:484
+#: ../src/plugins/opensubtitles/opensubtitles.py:486
 msgid "Format"
 msgstr "Formátum"
 
 #. translators comment:
 #. This is a rating of the quality of the subtitle
-#: ../src/plugins/opensubtitles/opensubtitles.py:489
+#: ../src/plugins/opensubtitles/opensubtitles.py:491
 msgid "Rating"
 msgstr "Értékelés"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:525
+#: ../src/plugins/opensubtitles/opensubtitles.py:527
 msgid "Download movie subtitles from OpenSubtitles"
 msgstr "Filmfeliratok letöltése az OpenSubtitles oldalról"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:527
+#: ../src/plugins/opensubtitles/opensubtitles.py:529
 msgid "_Download Movie Subtitles…"
 msgstr "_Filmfeliratok letöltése…"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:589
+#: ../src/plugins/opensubtitles/opensubtitles.py:591
 msgid "Searching subtitles…"
 msgstr "Feliratok keresése…"
 

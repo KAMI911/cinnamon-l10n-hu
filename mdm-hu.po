@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-11 01:59+0200\n"
-"PO-Revision-Date: 2015-11-23 01:00+0000\n"
+"POT-Creation-Date: 2016-05-11 16:40+0100\n"
+"PO-Revision-Date: 2016-05-16 16:25+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-24 17:57+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-10-24 14:41+0000\n"
+"X-Generator: Launchpad (build 18246)\n"
 "Language: hu\n"
 
 #: gui/mdmwebkit.c:191
@@ -112,18 +112,26 @@ msgid "Default session"
 msgstr "Alapértelmezett környezet"
 
 #: gui/mdmwebkit.c:931
+msgid "Please select a user."
+msgstr "Kérem válasszon egy felhasználót."
+
+#: gui/mdmwebkit.c:932
+msgid "Press F1 to enter a username."
+msgstr "Nyomja meg az F1 billentyűt a felhasználónév berásához"
+
+#: gui/mdmwebkit.c:933
 msgid "Language"
 msgstr "Nyelv"
 
-#: gui/mdmwebkit.c:932
+#: gui/mdmwebkit.c:934
 msgid "Select a language"
 msgstr "Válasszon nyelvet"
 
-#: gui/mdmwebkit.c:933
+#: gui/mdmwebkit.c:935
 msgid "Are you sure you want to quit?"
 msgstr "Biztos benne, hogy kilép?"
 
-#: gui/mdmwebkit.c:934
+#: gui/mdmwebkit.c:936
 msgid "Close"
 msgstr "Bezárás"
 
@@ -158,144 +166,144 @@ msgstr ""
 "Az automatikus vagy időzített bejelentkezés a rendszergazda (root) fiókhoz "
 "nem engedélyezett."
 
-#: gui/mdmsetup.c:1177
+#: gui/mdmsetup.c:1198
 msgid "No theme, just pure GTK"
 msgstr "Nincs téma, csak az alap GTK"
 
-#: gui/mdmsetup.c:1562
+#: gui/mdmsetup.c:1583
 msgid "Archive is not of a subdirectory"
 msgstr "Az archívum nem egy almappából áll"
 
-#: gui/mdmsetup.c:1569
+#: gui/mdmsetup.c:1590
 msgid "Archive is not of a single subdirectory"
 msgstr "Az archívum nem egyetlen almappából áll"
 
-#: gui/mdmsetup.c:1605 gui/mdmsetup.c:1682
+#: gui/mdmsetup.c:1626 gui/mdmsetup.c:1703
 msgid "File not a tar.gz or tar archive"
 msgstr "A fájl nem tar.gz vagy tar archívum"
 
-#: gui/mdmsetup.c:1609
+#: gui/mdmsetup.c:1630
 msgid "Archive does not include a GdmGreeterTheme.info file"
 msgstr "Az archívum nem tartalmazza a „GdmGreeterTheme.info” fájlt"
 
-#: gui/mdmsetup.c:1631
+#: gui/mdmsetup.c:1652
 msgid "File does not exist"
 msgstr "A fájl nem létezik"
 
-#: gui/mdmsetup.c:1745
+#: gui/mdmsetup.c:1747
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: gui/mdmsetup.c:1752
+#: gui/mdmsetup.c:1754
 msgid "Not a theme archive"
 msgstr "Ez nem téma fájl"
 
-#: gui/mdmsetup.c:1774
+#: gui/mdmsetup.c:1776
 #, c-format
 msgid ""
 "Theme directory '%s' seems to be already installed. Install again anyway?"
 msgstr "A(z) „%s” témamappa már telepítve van. Mégis újra kívánja telepíti?"
 
-#: gui/mdmsetup.c:1860
+#: gui/mdmsetup.c:1862
 msgid "Some error occurred when installing the theme"
 msgstr "Hiba történt a téma telepítésekor"
 
-#: gui/mdmsetup.c:1903
+#: gui/mdmsetup.c:1905
 msgid "No file selected"
 msgstr "Nincs fájl kiválasztva"
 
-#: gui/mdmsetup.c:1925
+#: gui/mdmsetup.c:1927
 msgid "Select Theme Archive"
 msgstr "Válasszon témaarchívumot"
 
-#: gui/mdmsetup.c:1929 gui/mdmsetup.c:2144
+#: gui/mdmsetup.c:1931 gui/mdmsetup.c:2146
 msgid "_Install"
 msgstr "_Telepítés"
 
-#: gui/mdmsetup.c:1933
+#: gui/mdmsetup.c:1935
 msgid "Theme archives"
 msgstr "Témaarchívumok"
 
-#: gui/mdmsetup.c:2000
+#: gui/mdmsetup.c:2002
 #, c-format
 msgid "Remove the \"%s\" theme?"
 msgstr "„%s” téma eltávolítása?"
 
-#: gui/mdmsetup.c:2007
+#: gui/mdmsetup.c:2009
 msgid "If you choose to remove the theme, it will be permanently lost."
 msgstr "Ha a téma törlését választja, az véglegesen elvész."
 
-#: gui/mdmsetup.c:2015
+#: gui/mdmsetup.c:2017
 msgid "_Remove Theme"
 msgstr "_Téma eltávolítása"
 
-#: gui/mdmsetup.c:2133
+#: gui/mdmsetup.c:2135
 #, c-format
 msgid "Install the theme from '%s'?"
 msgstr "Telepíti a témát innen: „%s”?"
 
-#: gui/mdmsetup.c:2134
+#: gui/mdmsetup.c:2136
 #, c-format
 msgid "Select install to add the theme from the file '%s'."
 msgstr "Válassza a Telepítést a téma hozzáadásához a következő fájlból: „%s”"
 
-#: gui/mdmsetup.c:2405
+#: gui/mdmsetup.c:2407
 msgid "Images"
 msgstr "Képek"
 
-#: gui/mdmsetup.c:2410
+#: gui/mdmsetup.c:2412
 msgid "All Files"
 msgstr "Minden fájl"
 
-#: gui/mdmsetup.c:2545
+#: gui/mdmsetup.c:2547
 msgid "Automatically detected"
 msgstr "Automatikusan érzékelt"
 
-#: gui/mdmsetup.c:2663 gui/mdmsetup.glade.h:2
+#: gui/mdmsetup.c:2665 gui/mdmsetup.glade.h:2
 msgid "Theme"
 msgstr "Téma"
 
-#: gui/mdmsetup.c:2670 gui/mdmsetup.glade.h:28
+#: gui/mdmsetup.c:2672 gui/mdmsetup.glade.h:28
 msgid "Auto login"
 msgstr "Automatikus bejelentkezés"
 
-#: gui/mdmsetup.c:2677 gui/mdmsetup.glade.h:42
+#: gui/mdmsetup.c:2679 gui/mdmsetup.glade.h:42
 msgid "Options"
 msgstr "Beállítások"
 
-#: gui/mdmsetup.c:2700
+#: gui/mdmsetup.c:2702
 msgid "Add a new theme"
 msgstr "Új téma hozzáadása"
 
-#: gui/mdmsetup.c:2701
+#: gui/mdmsetup.c:2703
 msgid "Remove the selected theme"
 msgstr "Kijelölt téma eltávolítása"
 
-#: gui/mdmsetup.c:2702
+#: gui/mdmsetup.c:2704
 msgid "Launch the login screen to preview the theme"
 msgstr "Bejelentkező képernyő elindítása a téma előnézetének megtekintéséhez"
 
-#: gui/mdmsetup.c:2720
+#: gui/mdmsetup.c:2722
 msgid "Please install 'numlockx' to enable this feature"
 msgstr "Telepítse az „numlockx” csomagot a szolgáltatás engedélyezéséhez"
 
-#: gui/mdmsetup.c:2917
+#: gui/mdmsetup.c:2919
 msgid "Could not access configuration file (defaults.conf)"
 msgstr "A beállítófájl (defaults.conf) nem érhető el"
 
-#: gui/mdmsetup.c:2918 gui/mdmsetup.c:2935
+#: gui/mdmsetup.c:2920 gui/mdmsetup.c:2937
 msgid ""
 "Make sure that the file exists before launching login manager config utility."
 msgstr ""
 "A bejelentkezéskezelő beállítóeszközének indítása előtt győződjön meg róla, "
 "hogy a fájl létezik."
 
-#: gui/mdmsetup.c:2934
+#: gui/mdmsetup.c:2936
 msgid "Could not access configuration file"
 msgstr "A beállítófájl nem érhető el"
 
-#: gui/mdmsetup.c:2982
+#: gui/mdmsetup.c:2984
 msgid "You must be root to configure MDM."
 msgstr "Csak rendszergazda (root) jogosultságokkal állíthatja be a MDM-et."
 
