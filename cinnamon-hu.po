@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-24 13:56+0100\n"
-"PO-Revision-Date: 2016-05-02 20:16+0200\n"
+"PO-Revision-Date: 2016-05-03 13:35+0200\n"
 "Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -2609,7 +2609,7 @@ msgstr "Letiltás két módosítóbillentyű egyidejű lenyomásakor"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:223
 msgid "Alert when a modifier key is pressed"
-msgstr ""
+msgstr "Hangjelzés a módosítóbillentyű lenyomásakor"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:232
 msgid "Slow keys"
@@ -3184,7 +3184,7 @@ msgstr "Asztali ikonok megjelenítése minden monitoron"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desktop.py:47
 msgid "Desktop layout"
-msgstr ""
+msgstr "Asztal elrendezés"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desktop.py:50
 msgid "Desktop Icons"
