@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: nemo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-07 12:42+0100\n"
-"PO-Revision-Date: 2016-05-20 16:24+0000\n"
+"PO-Revision-Date: 2016-10-24 14:41+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kami911@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-10-24 14:40+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
+"X-Launchpad-Export-Date: 2016-11-13 17:54+0000\n"
+"X-Generator: Launchpad (build 18255)\n"
 "Language: hu\n"
 
 #: src/nemo-action-config-widget.c:231
@@ -3100,7 +3100,7 @@ msgstr "_Fel"
 
 #: src/nemo-window-menus.c:1350
 msgid "Go to parent folder"
-msgstr "Ugrás a szülő mappára"
+msgstr "Ugrás a szülőmappára"
 
 #: src/nemo-window-menus.c:1379
 msgid "Go to home directory"
@@ -5410,7 +5410,7 @@ msgstr "Fájlműveletek sorbaállításának letiltása"
 
 #: src/nemo-file-management-properties.glade:1119
 msgid "Double-click on a blank area to go to the parent folder"
-msgstr ""
+msgstr "Szülőmappába ugráshoz kattintson duplán az üres területen"
 
 #: src/nemo-file-management-properties.glade:1172
 msgid "<b>Executable Text Files</b>"
