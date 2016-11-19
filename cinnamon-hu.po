@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-11-13 17:52+0000\n"
-"X-Generator: Launchpad (build 18255)\n"
+"X-Launchpad-Export-Date: 2016-11-19 20:23+0000\n"
+"X-Generator: Launchpad (build 18269)\n"
 "Language: hu\n"
 
 #: src/cinnamon-app.c:367 src/cinnamon-app.c:375
