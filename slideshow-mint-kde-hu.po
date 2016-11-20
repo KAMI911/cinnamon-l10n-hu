@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: slideshow-mint-kde\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-29 12:29+0100\n"
-"PO-Revision-Date: 2016-10-24 14:37+0000\n"
+"POT-Creation-Date: 2013-06-14 11:26+0300\n"
+"PO-Revision-Date: 2014-05-25 14:44+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-20 10:10+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
+"X-Launchpad-Export-Date: 2014-05-25 16:26+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
 "Language: hu\n"
 
 #. type: Content of: <div>
@@ -53,10 +53,8 @@ msgstr ""
 #: slideshows/mint-kde/slides/05-photos.html:12
 #: slideshows/mint-kde/slides/06-chat.html:11
 #: slideshows/mint-kde/slides/07-office.html:12
-#: slideshows/mint-kde/slides/08-software.html:11
-#: slideshows/mint-kde/slides/09-windows.html:12
-msgid "Featured software"
-msgstr "Népszerű szoftverek"
+msgid "Included software"
+msgstr "Beépített szoftverek"
 
 #. type: Content of: <div><div><ul><li>
 #: slideshows/mint-kde/slides/02-web.html:14
@@ -226,6 +224,12 @@ msgstr ""
 "Ebben képernyőképek és más felhasználók véleményei is segítik. Telepítsen "
 "szoftvereket egy egérkattintással."
 
+#. type: Content of: <div><div><div>
+#: slideshows/mint-kde/slides/08-software.html:11
+#: slideshows/mint-kde/slides/09-windows.html:12
+msgid "Featured software"
+msgstr "Népszerű szoftverek"
+
 #. type: Content of: <div><div><ul><li>
 #: slideshows/mint-kde/slides/08-software.html:14
 msgid "Filezilla"
@@ -289,7 +293,7 @@ msgstr ""
 #. type: Content of: <div>
 #: slideshows/mint-kde/slides/11-updates.html:1
 msgid "Keep your system up to date"
-msgstr "Tartsa a rendszert napra készen"
+msgstr "Tartsa rendszerét napra készen"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint-kde/slides/11-updates.html:8
@@ -309,13 +313,13 @@ msgstr "Kérjen segítséget"
 #: slideshows/mint-kde/slides/12-help.html:8
 msgid ""
 "If you're curious about something or if you're facing a problem, simply ask "
-"around. Linux Mint is one of the most popular desktop Linux distributions "
-"and used by millions of people. It comes with a user guide, a community "
-"website, a collection of tutorials, active forums and chat rooms and one of "
-"the most dynamic communities on the Internet."
+"around. Linux Mint is the 4th most widely used operating system in the "
+"World. It comes with a user guide, a community website, a collection of "
+"tutorials, active forums and chat rooms and one of the most dynamic "
+"communities on the Internet."
 msgstr ""
 "Ha kíváncsi valamire vagy bármilyen problémába ütközik, egyszerűen kérdezzen "
-"körbe. A Linux Mint az egyik legnépszerűbb operációs rendszer a világon, "
-"amelyet milliók használnak. A terjesztés része egy felhasználói útmutató, és "
+"körbe. A Linux Mint a negyedik legszélesebb körben elterjedt operációs "
+"rendszer a világon. A terjesztés része egy felhasználói útmutató, és "
 "elérhető egy közösségi weboldal számtalan útmutatóval, aktív fórummal, "
 "csevegőszobákkal és egy dinamikusan fejlődő közösséggel."

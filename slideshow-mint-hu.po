@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: slideshow-mint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-29 12:27+0100\n"
-"PO-Revision-Date: 2016-10-24 14:37+0000\n"
+"POT-Creation-Date: 2013-10-29 12:31+0000\n"
+"PO-Revision-Date: 2014-05-25 14:38+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-20 10:07+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
+"X-Launchpad-Export-Date: 2014-05-25 16:23+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
 "Language: hu\n"
 
 #. type: Content of: <div><h1>
@@ -38,30 +38,24 @@ msgstr ""
 #. type: Content of: <div><div><div><h2>
 #: slideshows/mint/slides/chat.html:12 slideshows/mint/slides/music.html:12
 #: slideshows/mint/slides/office.html:12 slideshows/mint/slides/photos.html:12
-#: slideshows/mint/slides/software.html:12 slideshows/mint/slides/video.html:12
-#: slideshows/mint/slides/web.html:12 slideshows/mint/slides/windows.html:12
-msgid "Featured software"
-msgstr "Népszerű szoftverek"
+#: slideshows/mint/slides/video.html:12 slideshows/mint/slides/web.html:12
+msgid "Included software"
+msgstr "Beépített szoftverek"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/chat.html:16
-msgid "Skype"
-msgstr "Skype (videó- és hanghívás)"
-
-#. type: Content of: <div><div><div><ul><li><p>
-#: slideshows/mint/slides/chat.html:20
 msgid "Thunderbird"
 msgstr "Thunderbird (levelező)"
 
 #. type: Content of: <div><div><div><ul><li><p>
-#: slideshows/mint/slides/chat.html:24
+#: slideshows/mint/slides/chat.html:20
 msgid "Pidgin"
 msgstr "Pidgin (üzenetküldő)"
 
 #. type: Content of: <div><div><div><ul><li><p>
-#: slideshows/mint/slides/chat.html:28
-msgid "Hexchat"
-msgstr "Hexchat (IRC csevegő)"
+#: slideshows/mint/slides/chat.html:24
+msgid "Xchat"
+msgstr "Xchat (IRC kliens)"
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/customize.html:1
@@ -88,14 +82,14 @@ msgstr "Kérjen segítséget"
 #: slideshows/mint/slides/help.html:8
 msgid ""
 "If you're curious about something or if you're facing a problem, simply ask "
-"around. Linux Mint is one of the most popular desktop Linux distributions "
-"and used by millions of people. It comes with a user guide, a community "
-"website, a collection of tutorials, active forums and chat rooms and one of "
-"the most dynamic communities on the Internet."
+"around. Linux Mint is the 4th most widely used operating system in the "
+"World. It comes with a user guide, a community website, a collection of "
+"tutorials, active forums and chat rooms and one of the most dynamic "
+"communities on the Internet."
 msgstr ""
 "Ha kíváncsi valamire vagy bármilyen problémába ütközik, egyszerűen kérdezzen "
-"körbe. A Linux Mint az egyik legnépszerűbb operációs rendszer a világon, "
-"amelyet milliók használnak. A terjesztés része egy felhasználói útmutató, és "
+"körbe. A Linux Mint a negyedik legszélesebb körben elterjedt operációs "
+"rendszer a világon. A terjesztés része egy felhasználói útmutató, és "
 "elérhető egy közösségi weboldal számtalan útmutatóval, aktív fórummal, "
 "csevegőszobákkal és egy dinamikusan fejlődő közösséggel."
 
@@ -111,23 +105,18 @@ msgid ""
 "your audio CDs. Listen to podcasts and online radios. Discover new artists "
 "on Last.fm, the Internet Archive and the Amazon MP3 Store."
 msgstr ""
-"Érezze a zenét a Banshee-vel. Csatlakoztassa MP3 lejátszóját vagy mentse le "
-"hang CD lemezeit a számítógépre. Hallgasson online rádiókat, vagy egyéb "
-"online adásokat. Fedezzen fel új előadókat a Last.fm-en, az Internet "
-"Archívumban és az Amazon MP3 áruházában."
+"Érezze a zenét a Banshee-vel. Csatlakoztassa MP3 lejátszóját vagy helyezze "
+"be CD-jét. Hallgasson online rádiókat, vagy egyéb online adásokat. Fedezzen "
+"fel új előadókat a Last.fm-en, az Internet Archívumban és az Amazon MP3 "
+"áruházában."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/music.html:16
-msgid "Spotify"
-msgstr "Spotify (internetes zenetár)"
+msgid "Banshee"
+msgstr "Banshee"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/music.html:20
-msgid "Banshee"
-msgstr "Banshee (zenelejátszó)"
-
-#. type: Content of: <div><div><div><ul><li><p>
-#: slideshows/mint/slides/music.html:24
 msgid "Audio codecs"
 msgstr "Hang kodekek"
 
@@ -149,23 +138,18 @@ msgstr ""
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/office.html:16
-msgid "LibreOffice Writer"
-msgstr "LibreOffice Writer (szövegszerkesztő)"
+msgid "LibreOffice"
+msgstr "LibreOffice"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/office.html:20
-msgid "LibreOffice Calc"
-msgstr "LibreOffice Calc (táblázatkezelő)"
+msgid "Microsoft Office Support"
+msgstr "Microsoft Office támogatás"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/office.html:24
-msgid "LibreOffice Impress"
-msgstr "LibreOffice Impress (bemutatókészítő)"
-
-#. type: Content of: <div><div><div><ul><li><p>
-#: slideshows/mint/slides/office.html:28
-msgid "LibreOffice Draw"
-msgstr "LibreOffice Draw (rajzoló)"
+msgid "PDF Support"
+msgstr "PDF támogatás"
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/photos.html:1
@@ -175,26 +159,19 @@ msgstr "Kezelje fényképeit"
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/photos.html:8
 msgid ""
-"Organize, enjoy and share your photos. Export your albums to share them with "
-"friends and family."
+"Organize, enjoy and share your photos with gThumb or Picasa. Export your "
+"albums to CD, to the Web, or to online services such as Flickr or PicasaWeb "
+"to share them with friends and family."
 msgstr ""
-"Rendezze, nézegesse és ossza meg fotóit. Exportálás révén megoszthatja "
-"fotóalbumait a családjával és a barátaival."
+"Rendszerezze, tekintse meg és ossza meg fényképeit a gThumb vagy a Picasa "
+"segítségével. Exportálja albumait CD-re, a webre, vagy az olyan online "
+"szolgáltatások egyikére, mint a Flickr vagy a Picasa, hogy megoszthassa "
+"barátaival és családjával."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/photos.html:16
-msgid "Pix"
-msgstr "Pix (képnéző)"
-
-#. type: Content of: <div><div><div><ul><li><p>
-#: slideshows/mint/slides/photos.html:20
-msgid "Gimp"
-msgstr "Gimp (képszerkesztő)"
-
-#. type: Content of: <div><div><div><ul><li><p>
-#: slideshows/mint/slides/photos.html:24
-msgid "Inkscape"
-msgstr "Inkscape (vektoros képszerkesztő)"
+msgid "gThumb"
+msgstr "gThumb"
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/software.html:1
@@ -207,34 +184,45 @@ msgid ""
 "Browse through 30,000 free applications from the Software Manager. Enjoy "
 "screenshots and user reviews. Install software with one click of the mouse."
 msgstr ""
-"Böngésszen 30 000 szabad alkalmazás között a Szoftverkezelő program "
-"segítségével. Ebben képernyőképek és más felhasználók véleményei is segítik. "
-"Telepítsen szoftvereket egy egérkattintással."
+"Böngésszen 30 000 szabad alkalmazás között a Szoftverkezelő segítségével. "
+"Ebben képernyőképek és más felhasználók véleményei is segítik. Telepítsen "
+"szoftvereket egy egérkattintással."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/mint/slides/software.html:12
+#: slideshows/mint/slides/windows.html:12
+msgid "Featured software"
+msgstr "Népszerű szoftverek"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/software.html:16
-msgid "Steam"
-msgstr "Steam (alkalmazásbolt)"
+msgid "Filezilla"
+msgstr "Filezilla (FTP kliens)"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/software.html:20
-msgid "Dropbox"
-msgstr "Dropbox (tárhely a felhőben)"
+msgid "Skype"
+msgstr "Skype"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/software.html:24
-msgid "Blender"
-msgstr "Blender (3D animáció készítő)"
+msgid "Audacity"
+msgstr "Audacity (hangszerkesztő)"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/software.html:28
-msgid "Minecraft"
-msgstr "Minecraft (játék)"
+msgid "Picasa"
+msgstr "Picasa (képkezelő)"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/mint/slides/software.html:32
+msgid "Google Earth"
+msgstr "Google Earth"
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/updates.html:1
 msgid "Keep your system up to date"
-msgstr "Tartsa a rendszert napra készen"
+msgstr "Tartsa rendszerét napra készen"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/updates.html:8
@@ -242,8 +230,8 @@ msgid ""
 "Receive fixes and security updates all in one place, for the entire system, "
 "including the software you install."
 msgstr ""
-"A teljes rendszerhez és a telepített szoftverekhez is kapni fog javításokat, "
-"valamint biztonsági frissítéseket."
+"A teljes rendszerhez és a telepített szoftverekhez is fogadhat javításokat "
+"és biztonsági frissítéseket."
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/video.html:1
@@ -265,8 +253,8 @@ msgstr "VLC (videólejátszó)"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/video.html:20
-msgid "Xplayer"
-msgstr "Xplayer (videólejátszó)"
+msgid "Totem"
+msgstr "Totem (videólejátszó)"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/video.html:24
@@ -290,7 +278,7 @@ msgstr ""
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/web.html:16
 msgid "Firefox"
-msgstr "Firefox (böngésző)"
+msgstr "Firefox"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/web.html:20
@@ -333,7 +321,7 @@ msgstr ""
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/windows.html:16
 msgid "Wine"
-msgstr "Wine (Windows alkalmazás futtató)"
+msgstr "Wine (Windows emulátor)"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/windows.html:20
