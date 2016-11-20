@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: mintwelcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 11:56+0000\n"
-"PO-Revision-Date: 2015-12-11 20:43+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2016-11-20 08:55+0000\n"
+"Last-Translator: benmoll <benmoll@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-19 20:21+0000\n"
+"X-Launchpad-Export-Date: 2016-11-20 10:04+0000\n"
 "X-Generator: Launchpad (build 18269)\n"
 "Language: hu\n"
 
@@ -187,3 +187,53 @@ msgstr "Multimédia kodekek telepítése"
 
 #~ msgid "Get involved"
 #~ msgstr "Segítsen"
+
+#~ msgid "Important information"
+#~ msgstr "Fontos információ"
+
+#~ msgid ""
+#~ "Find out about important information, limitations, known issues and their "
+#~ "solution"
+#~ msgstr ""
+#~ "Tudjon meg többet a fontos információkról, a korlátozásokról, az ismert "
+#~ "hibákról és ezek megoldásairól"
+
+#~ msgid "User guide (PDF)"
+#~ msgstr "Felhasználói kézikönyv (PDF)"
+
+#~ msgid "Restore data"
+#~ msgstr "Adatok visszaállítása"
+
+#~ msgid "Restore data or applications from a previous installation"
+#~ msgstr "Adatok és alkalmazások visszaállítása egy előző telepítésből"
+
+#~ msgid "Software manager"
+#~ msgstr "Szoftverkezelő"
+
+#~ msgid "Tutorials"
+#~ msgstr "Útmutatók"
+
+#~ msgid "Find tutorials about Linux Mint"
+#~ msgstr "Linux Mint útmutatók keresése"
+
+#~ msgid "Hardware database"
+#~ msgstr "Hardveradatbázis"
+
+#~ msgid ""
+#~ "Find hardware that is compatible with Linux, or information about your "
+#~ "hardware"
+#~ msgstr ""
+#~ "Keressen Linux-kompatibilis hardvereket, vagy további információkat az Ön "
+#~ "hardvereszközeihez"
+
+#~ msgid "Idea pool"
+#~ msgstr "Ötletek"
+
+#~ msgid "Submit new ideas to the development team"
+#~ msgstr "Új ötletek küldése a fejlesztőcsapatnak"
+
+#~ msgid "Sponsors"
+#~ msgstr "Támogatók"
+
+#~ msgid "Apply to become a Linux Mint sponsor"
+#~ msgstr "Jelentkezzen itt és legyen a Linux Mint támogatója"

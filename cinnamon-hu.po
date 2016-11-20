@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-08 14:19+0000\n"
-"PO-Revision-Date: 2016-07-04 18:15+0000\n"
+"PO-Revision-Date: 2016-11-20 09:02+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-11-19 20:23+0000\n"
+"X-Launchpad-Export-Date: 2016-11-20 10:07+0000\n"
 "X-Generator: Launchpad (build 18269)\n"
 "Language: hu\n"
 
@@ -83,7 +83,7 @@ msgstr "A(z) „%s” végrehajtása nem sikerült:"
 #: js/ui/applet.js:476
 #, javascript-format
 msgid "Remove '%s'"
-msgstr ""
+msgstr "Eltávolítás: „%s”"
 
 #: js/ui/applet.js:485 js/ui/desklet.js:219
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:78
@@ -99,17 +99,19 @@ msgstr "Beállítások…"
 
 #: js/ui/appletManager.js:358
 msgid "This applet is not suitable for vertical panels"
-msgstr ""
+msgstr "Ez a kisalkalmazás nem használható függőleges panelon"
 
 #: js/ui/appletManager.js:364
 msgid "This applet is not suitable for horizontal panels"
-msgstr ""
+msgstr "Ez a kisalkalmazás nem használható vízszintes panelon"
 
 #: js/ui/appletManager.js:628
 msgid ""
 "Certain applets do not allow multiple instances or were at their max number "
 "of instances so were not copied"
 msgstr ""
+"Számos kisalkalmazás nem futhat több példányban, vagy elérték a lehetséges "
+"maximális példányszámukat, ezért nem lettek másolva."
 
 #: js/ui/cinnamonEntry.js:30
 msgid "Copy"
@@ -325,6 +327,8 @@ msgid ""
 "You don't have any panels added.\n"
 "Do you want to open panel settings?"
 msgstr ""
+"Egyetlen panel sincs az asztalhoz hozzáadva.\n"
+"Meg kívánja nyitni a panelbeállításokat?"
 
 #: js/ui/panel.js:1563
 msgid "Troubleshoot"
@@ -551,7 +555,7 @@ msgstr "Dátum és idő beállítások"
 
 #: files/usr/share/cinnamon/applets/calendar@cinnamon.org/applet.js:92
 msgid "%A %B %-e, %Y"
-msgstr ""
+msgstr "%Y. %B %e., %A"
 
 #. expo@cinnamon.org->metadata.json->name
 #: files/usr/share/cinnamon/applets/expo@cinnamon.org/applet.js:18
@@ -632,7 +636,7 @@ msgstr "Eltávolítás"
 
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:260
 msgid "Run with nVidia GPU"
-msgstr ""
+msgstr "Futtatás nVidia GPU-n"
 
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:651
 msgid "Open with"
@@ -669,7 +673,7 @@ msgstr "Menü"
 
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2223
 msgid "This file is no longer available"
-msgstr ""
+msgstr "A fájl már nem elérhető"
 
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2252
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:95
@@ -971,7 +975,7 @@ msgstr "Beállítások"
 
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:86
 msgid "Remove 'Panel launchers'"
-msgstr ""
+msgstr "„Panel indítók” eltávolítása"
 
 #: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:45
 msgid "AC adapter"
@@ -1318,7 +1322,7 @@ msgstr "Bemeneti eszköz"
 
 #: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1340
 msgid "Choose player controls"
-msgstr ""
+msgstr "Médialejátszó vezérlőelemek kiválasztása"
 
 #: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1345
 msgid "Launch player"
@@ -1408,7 +1412,7 @@ msgstr "Teljes átlátszatlanság visszaállítása"
 
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:901
 msgid "Remove 'Window list'"
-msgstr ""
+msgstr "„Ablakok gyorslistája” eltávolítása"
 
 #: files/usr/share/cinnamon/applets/windows-quick-list@cinnamon.org/applet.js:22
 msgid "All windows"
@@ -1881,15 +1885,15 @@ msgstr "Csoportnév"
 
 #: files/usr/share/cinnamon/cinnamon-settings/xlet-settings.py:136
 msgid "Previous instance"
-msgstr ""
+msgstr "Elöző példány"
 
 #: files/usr/share/cinnamon/cinnamon-settings/xlet-settings.py:140
 msgid "Next instance"
-msgstr ""
+msgstr "Következő példány"
 
 #: files/usr/share/cinnamon/cinnamon-settings/xlet-settings.py:149
 msgid "More options"
-msgstr ""
+msgstr "További lehetőségek"
 
 #: files/usr/share/cinnamon/cinnamon-settings/xlet-settings.py:155
 msgid "Import from a file"
@@ -1964,15 +1968,15 @@ msgstr "Hagyományos"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ChooserButtonWidgets.py:200
 msgid "Select a date"
-msgstr ""
+msgstr "Válasszon dátumot"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ChooserButtonWidgets.py:217
 msgid "Today"
-msgstr ""
+msgstr "Ma"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ChooserButtonWidgets.py:241
 msgid "%B %e, %Y"
-msgstr ""
+msgstr "%Y. %B %e."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:131
 msgid "Installed applets"
@@ -2331,7 +2335,7 @@ msgstr "_Megnyitás"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/SettingsWidgets.py:903
 msgid "Sound files"
-msgstr ""
+msgstr "Hangfájlok"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/SettingsWidgets.py:965
 msgid "Choose an Icon"
@@ -3317,7 +3321,7 @@ msgstr "Asztali effektusok a párbeszédablakoknál"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_effects.py:126
 msgid "Effects on menus"
-msgstr ""
+msgstr "Menü effektusok"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_effects.py:129
 msgid "Effects style"
@@ -3581,7 +3585,7 @@ msgstr "Rámutatva kattintás engedélyezése"
 #. show-desktop@cinnamon.org->settings-schema.json->peek-delay->description
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_hotcorner.py:243
 msgid "Hover delay"
-msgstr ""
+msgstr "Megjelenítés késleltetése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_info.py:97
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_info.py:101
@@ -3644,11 +3648,11 @@ msgstr "Rendszerinformáció"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_info.py:162
 msgid "Upload system information"
-msgstr ""
+msgstr "Rendszerinformáció feltöltése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_info.py:163
 msgid "This includes no personal information"
-msgstr ""
+msgstr "Nem tartalmaz semmilyen személyes adatot"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:32
 msgid "Troubleshooting"
@@ -4621,11 +4625,15 @@ msgstr "Egyéni panelméret (egyébként a téma határozza meg)"
 msgid ""
 "Allow Cinnamon to scale panel text and icons according to the panel height"
 msgstr ""
+"A panelen megjelenő szövegek és ikonok átméretezése a panel magasságának "
+"megfelelően"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:52
 msgid ""
 "Allow Cinnamon to scale panel text and icons according to the panel width"
 msgstr ""
+"A panelen megjelenő szövegek és ikonok átméretezése a panel szélességének "
+"megfelelően"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:57
 msgid "Panel height:"
@@ -4633,7 +4641,7 @@ msgstr "Panel magassága:"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:58
 msgid "Panel width:"
-msgstr ""
+msgstr "Panelszélesség"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:84
 msgid "Manage Cinnamon panel settings"
@@ -4962,20 +4970,20 @@ msgstr "Azon napok száma, ameddig emlékezzen a legutóbb használt fájlokra"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:14
 msgid "Lock immediately"
-msgstr ""
+msgstr "Azonnali zárolás"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:15
 msgid "15 seconds"
-msgstr ""
+msgstr "15 másodperc"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:17
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:28
 msgid "1 minute"
-msgstr ""
+msgstr "1 perc"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:19
 msgid "3 minutes"
-msgstr ""
+msgstr "3 perc"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:47
 msgid "Manage screen lock settings"
@@ -4996,17 +5004,19 @@ msgstr "Válasszon képernyővédőt"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:77
 msgid "Screensaver settings"
-msgstr ""
+msgstr "Képernyővédő beállításai"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:81
 msgid "Delay before starting the screensaver"
-msgstr ""
+msgstr "Képernyővédő futtatásának késleltetése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:82
 msgid ""
 "This option defines the amount of time to wait before starting the "
 "screensaver, when the computer is not being used"
 msgstr ""
+"Ez a beállítás megadja a képernyővédő elindítása előtti várakozási időt, "
+"amikor a számítógép nincsen használatban."
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:85
 msgid "Lock settings"
@@ -5026,7 +5036,7 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:91
 msgid "Lock the computer after the screensaver starts"
-msgstr ""
+msgstr "A számítógép zárolása a képernyővédő futtatásával"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:92
 msgid ""
@@ -5039,7 +5049,7 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:95
 msgid "Delay before locking"
-msgstr ""
+msgstr "Zárolás késleltetése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:96
 msgid ""
@@ -5055,11 +5065,12 @@ msgstr "Dátum és idő"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:107
 msgid "Always show the clock"
-msgstr ""
+msgstr "Óra állandó megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:108
 msgid "Show the clock on the wallpaper instead of just on the unlock screen"
 msgstr ""
+"Az óra megjelenítése a háttérképen is, és ne csak a zárolási képernyőn"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:111
 msgid "Use a custom date and time format"
@@ -5111,37 +5122,42 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:141
 msgid "Allow keyboard shortcuts"
-msgstr ""
+msgstr "Gyorsbillentyűk engedélyezése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:142
 msgid ""
 "Allow shortcuts like volume-control and media keys to be used on the lock "
 "screen"
 msgstr ""
+"A zárolási képernyőn is engedélyezze a gyorsbillentyűk (például: "
+"hangerőszabályzó, médialejátszó) használatát."
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:145
 msgid "Show media player controls"
-msgstr ""
+msgstr "Médialejátszó vezérlőelemek megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:146
 msgid "For compatible players, show playback controls while media is playing"
 msgstr ""
+"A kompatibilis lejátszók számára médialejátszó vezérlőelemek megjelenítése "
+"médialejátszás során"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:149
 msgid "Show album art"
-msgstr ""
+msgstr "Albumborító megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:150
 msgid "If available, show album art while media is playing"
-msgstr ""
+msgstr "Elérhető albumborító megjelnítése médialejátszás során"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:153
 msgid "Show info panel"
-msgstr ""
+msgstr "Információs sáv megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:154
 msgid "Show the number of missed notifications and the battery status"
 msgstr ""
+"A kihagyott értesítések és akkumulátor állapotok számának megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:227
 msgid "The standard cinnamon lock screen"
@@ -5173,7 +5189,7 @@ msgstr "Eszköz eltávolítása"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:26
 msgid "Showing notifications"
-msgstr ""
+msgstr "Értesítések megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:27
 msgid "Changing the sound volume"
@@ -5867,11 +5883,11 @@ msgstr "Újra akarja indítani a Cinnamon környezetet?"
 
 #. photoframe@cinnamon.org->settings-schema.json->fade-delay->description
 msgid "Fade delay"
-msgstr ""
+msgstr "Elhalványítás késleltetése"
 
 #. photoframe@cinnamon.org->settings-schema.json->effect->description
 msgid "Special effect"
-msgstr ""
+msgstr "Különleges effektus"
 
 #. photoframe@cinnamon.org->settings-schema.json->effect->options
 msgid "Sepia"
@@ -5883,15 +5899,15 @@ msgstr "Fekete-fehér"
 
 #. photoframe@cinnamon.org->settings-schema.json->height->description
 msgid "Height"
-msgstr ""
+msgstr "Magasság"
 
 #. photoframe@cinnamon.org->settings-schema.json->width->description
 msgid "Width"
-msgstr ""
+msgstr "Szélesség"
 
 #. photoframe@cinnamon.org->settings-schema.json->directory->description
 msgid "Folder"
-msgstr ""
+msgstr "Mappa"
 
 #. photoframe@cinnamon.org->metadata.json->description
 msgid "A digital photo frame desklet"
@@ -5903,7 +5919,7 @@ msgstr "Digitális fényképkeret"
 
 #. clock@cinnamon.org->settings-schema.json->text-color->description
 msgid "Text color"
-msgstr ""
+msgstr "Szövegszín"
 
 #. clock@cinnamon.org->settings-schema.json->text-color->tooltip
 msgid "Click the button to select a new text color"
@@ -5911,11 +5927,11 @@ msgstr "Kattintson a gombra a szöveg színének kiválasztásához"
 
 #. clock@cinnamon.org->settings-schema.json->font-size->description
 msgid "Font size"
-msgstr ""
+msgstr "Betűméret"
 
 #. clock@cinnamon.org->settings-schema.json->font-size->units
 msgid "px"
-msgstr ""
+msgstr "px"
 
 #. clock@cinnamon.org->settings-schema.json->use-custom-format->description
 #. calendar@cinnamon.org->settings-schema.json->use-custom-format->description
@@ -5931,7 +5947,7 @@ msgstr ""
 #. clock@cinnamon.org->settings-schema.json->date-format->description
 #. calendar@cinnamon.org->settings-schema.json->custom-format->description
 msgid "Date format"
-msgstr ""
+msgstr "Dátumformátum"
 
 #. clock@cinnamon.org->settings-schema.json->date-format->tooltip
 #. calendar@cinnamon.org->settings-schema.json->custom-format->tooltip
@@ -6062,7 +6078,7 @@ msgstr "Zeneinformációk megjelenítése a panelon"
 
 #. sound@cinnamon.org->settings-schema.json->showSliderPercentage->description
 msgid "Show percentage value of the slider"
-msgstr ""
+msgstr "Százalékos érték megjelenítése a csúszkán"
 
 #. sound@cinnamon.org->metadata.json->description
 msgid "A Cinnamon applet to control sound and music"
@@ -6150,7 +6166,7 @@ msgstr ""
 #. settings-example@cinnamon.org->settings-schema.json->scale-
 #. demo->description
 msgid "Here is a demonstration of bidirectional control"
-msgstr ""
+msgstr "Ez egy kétirányú vezérlés bemutató"
 
 #. settings-example@cinnamon.org->settings-schema.json->scale-demo->tooltip
 msgid ""
@@ -6164,23 +6180,25 @@ msgstr ""
 #. settings-example@cinnamon.org->settings-schema.json->font-
 #. select->description
 msgid "Choose a font"
-msgstr ""
+msgstr "Betűtípus kiválasztása"
 
 #. settings-example@cinnamon.org->settings-schema.json->custom-
 #. label->description
 msgid "Custom Applet Label"
-msgstr ""
+msgstr "Egyedi kisalkalmazás címke"
 
 #. settings-example@cinnamon.org->settings-schema.json->custom-label->tooltip
 msgid ""
 "Set your custom label here.  This field is unavailable unless the switch "
 "above is enabled"
 msgstr ""
+"Itt állítson be egyedi címkét. Ez a mező nem lesz látható egészen addig, "
+"amíg a fenti kapcsolóval nem engedélyezi."
 
 #. settings-example@cinnamon.org->settings-schema.json->directory-
 #. select->description
 msgid "Choose a directory"
-msgstr ""
+msgstr "Válassz egy mappát"
 
 #. settings-example@cinnamon.org->settings-schema.json->tween-
 #. function->description
@@ -6198,7 +6216,7 @@ msgstr ""
 
 #. settings-example@cinnamon.org->settings-schema.json->long-text->description
 msgid "You can type paragraphs and lists here"
-msgstr ""
+msgstr "Bekezdéseket és listákat írhat ide"
 
 #. settings-example@cinnamon.org->settings-schema.json->long-text->tooltip
 msgid ""
@@ -6207,10 +6225,14 @@ msgid ""
 "You can manually set the height of the text view with the 'height' property. "
 "This one is set to 150. Default is 200."
 msgstr ""
+"Ez a beállítástípus hasznos többsoros listáknál, vagy a szögbeviteli "
+"mezőkben el nem férő szövegek számára.\n"
+"Kézzel beállíthatja a szövegnézet magasságát a „height” tulajdonsággal. "
+"Ennek a mezőnek a magassága most 150 egység, az alapértelmezés 200 egység."
 
 #. settings-example@cinnamon.org->settings-schema.json->color->description
 msgid "The background color for the applet"
-msgstr ""
+msgstr "A kisalkalmazás háttérszíne"
 
 #. settings-example@cinnamon.org->settings-schema.json->color->tooltip
 msgid "Click the button to select a new background color for this applet"
@@ -6218,7 +6240,7 @@ msgstr "Kattintson a gombra a kisalkalmazás háttérszínének kiválasztásáh
 
 #. settings-example@cinnamon.org->settings-schema.json->icon-name->description
 msgid "The icon to use in the panel"
-msgstr ""
+msgstr "A panelen használt ikon"
 
 #. settings-example@cinnamon.org->settings-schema.json->icon-name->tooltip
 msgid "Select an icon file, or you can type an icon name into the entry box"
@@ -6228,7 +6250,7 @@ msgstr ""
 #. settings-example@cinnamon.org->settings-schema.json->combo-
 #. selection->description
 msgid "Please pick an option"
-msgstr ""
+msgstr "Válasszon ki egy lehetőséget"
 
 #. settings-example@cinnamon.org->settings-schema.json->combo-
 #. selection->tooltip
@@ -6261,7 +6283,7 @@ msgstr "Első választás"
 #. settings-example@cinnamon.org->settings-schema.json->keybinding-
 #. test->description
 msgid "Set the keybinding here to activate an action"
-msgstr ""
+msgstr "Adjon meg egy billentyűzetkombinációt egy művelet elindításához"
 
 #. settings-example@cinnamon.org->settings-schema.json->demo-
 #. button->description
@@ -6279,12 +6301,12 @@ msgstr ""
 #. settings-example@cinnamon.org->settings-schema.json->date-
 #. select->description
 msgid "Choose a Date"
-msgstr ""
+msgstr "Válasszon ki egy dátumot"
 
 #. settings-example@cinnamon.org->settings-schema.json->use-custom-
 #. label->description
 msgid "Check this to use a custom label"
-msgstr ""
+msgstr "Jelölje ki ezt a lehetőséget az egyedi címke használatához"
 
 #. settings-example@cinnamon.org->settings-schema.json->use-custom-
 #. label->tooltip
@@ -6298,17 +6320,17 @@ msgstr ""
 #. settings-example@cinnamon.org->settings-schema.json->sound-
 #. select->description
 msgid "Choose a sound"
-msgstr ""
+msgstr "Válasszon egy hangot"
 
 #. settings-example@cinnamon.org->settings-schema.json->file-
 #. select->description
 msgid "Choose a file"
-msgstr ""
+msgstr "Válasszon egy fájlt"
 
 #. settings-example@cinnamon.org->settings-schema.json->spinner-
 #. number->description
 msgid "Applet width in the panel"
-msgstr ""
+msgstr "A kisalkalmazás szélessége a panelon"
 
 #. settings-example@cinnamon.org->settings-schema.json->spinner-
 #. number->tooltip
@@ -6327,7 +6349,7 @@ msgstr "Ez egy teszt alkalmazás egyedi billentyűleütések szimulálásához"
 #. settings-example@cinnamon.org->settings-schema.json->effect-
 #. style->description
 msgid "Effect type"
-msgstr ""
+msgstr "Effektus típusa"
 
 #. settings-example@cinnamon.org->metadata.json->description
 msgid ""
@@ -6389,11 +6411,11 @@ msgstr "A kijelölés megszüntetésével a téma állíthat be ikont"
 
 #. menu@cinnamon.org->settings-schema.json->hover-delay->description
 msgid "Menu hover delay"
-msgstr ""
+msgstr "Menü megjelenés késleltetése"
 
 #. menu@cinnamon.org->settings-schema.json->hover-delay->tooltip
 msgid "Delay before the menu opens when hovered"
-msgstr ""
+msgstr "Késleltetés a rámutatott menüelem megjelenítése előtt"
 
 #. menu@cinnamon.org->settings-schema.json->search-filesystem->description
 msgid "Enable filesystem path entry in search box"
@@ -6471,11 +6493,11 @@ msgstr ""
 
 #. menu@cinnamon.org->settings-schema.json->enable-animation->description
 msgid "Use menu animations"
-msgstr ""
+msgstr "Menü animáció használata"
 
 #. menu@cinnamon.org->settings-schema.json->enable-animation->tooltip
 msgid "Allow the menu to animate on open and close"
-msgstr ""
+msgstr "Megnyitás és bezárás animáció megjelenítése a menüben"
 
 #. menu@cinnamon.org->settings-schema.json->show-places->description
 msgid "Show bookmarks and places"
@@ -6622,32 +6644,32 @@ msgstr "Panel indítók"
 
 #. show-desktop@cinnamon.org->settings-schema.json->peek-opacity->description
 msgid "Window opacity"
-msgstr ""
+msgstr "Ablak átlátszatlanság"
 
 #. show-desktop@cinnamon.org->settings-schema.json->peek-opacity->tooltip
 msgid "Change the opacity of windows when peeking at the desktop"
-msgstr ""
+msgstr "Ablak átlátszatlanságának megváltoztatása az Asztalra nézéskor"
 
 #. show-desktop@cinnamon.org->settings-schema.json->peek-at-
 #. desktop->description
 msgid "Peek at the desktop on hover"
-msgstr ""
+msgstr "Asztalra nézés az egérmutatót követve"
 
 #. show-desktop@cinnamon.org->settings-schema.json->peek-at-desktop->tooltip
 msgid "Peek at the desktop when hovering the applet"
-msgstr ""
+msgstr "Asztalra nézés egy kisalkalmazás követve"
 
 #. show-desktop@cinnamon.org->settings-schema.json->peek-blur->description
 msgid "Blur effect"
-msgstr ""
+msgstr "Elmosási effektus"
 
 #. show-desktop@cinnamon.org->settings-schema.json->peek-blur->tooltip
 msgid "Blur windows when peeking at the desktop"
-msgstr ""
+msgstr "Ablakok elmosása az asztalra nézéskor"
 
 #. show-desktop@cinnamon.org->settings-schema.json->peek-delay->tooltip
 msgid "Delay before Peek shows desktop"
-msgstr ""
+msgstr "Az asztalra nézés késleltetése"
 
 #. show-desktop@cinnamon.org->metadata.json->description
 msgid "Minimize all windows"

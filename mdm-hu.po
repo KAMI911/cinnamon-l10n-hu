@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: mdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-11 16:40+0100\n"
-"PO-Revision-Date: 2016-05-16 16:25+0000\n"
+"PO-Revision-Date: 2016-11-20 08:54+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-19 20:26+0000\n"
+"X-Launchpad-Export-Date: 2016-11-20 10:11+0000\n"
 "X-Generator: Launchpad (build 18269)\n"
 "Language: hu\n"
 
@@ -228,7 +228,7 @@ msgstr "Témaarchívumok"
 #: gui/mdmsetup.c:2002
 #, c-format
 msgid "Remove the \"%s\" theme?"
-msgstr "„%s” téma eltávolítása?"
+msgstr "El kívánja távolítani a következő témát: „%s”?"
 
 #: gui/mdmsetup.c:2009
 msgid "If you choose to remove the theme, it will be permanently lost."
@@ -305,7 +305,8 @@ msgstr "A beállítófájl nem érhető el"
 
 #: gui/mdmsetup.c:2984
 msgid "You must be root to configure MDM."
-msgstr "Csak rendszergazda (root) jogosultságokkal állíthatja be a MDM-et."
+msgstr ""
+"Kizárólag rendszergazda (root) jogosultságokkal állíthatja be a MDM-et."
 
 #: gui/mdmsetup.glade.h:1
 msgid "Login Window Preferences"
@@ -396,8 +397,8 @@ msgid ""
 "Given user should be logged in after a number of seconds of inactivity on "
 "the login screen."
 msgstr ""
-"A megadott felhasználó bejelentkeztetése a bejelentkezési felületen "
-"inaktívan töltött másodpercben megadott idő után."
+"A megadott felhasználó bejelentkeztetése a bejelentkezési felületen tétlenül "
+"töltött másodpercben megadott idő után."
 
 #: gui/mdmsetup.glade.h:23
 msgid "U_ser:"
@@ -431,7 +432,7 @@ msgstr "Hibakeresési információk naplózása a „/var/log/syslog” fájlba"
 
 #: gui/mdmsetup.glade.h:31
 msgid "Sends debug output to the syslog."
-msgstr "Hibakereső kimenetet küld a rendszernaplóba."
+msgstr "Hibakeresési információk naplózása a rendszernaplóba."
 
 #: gui/mdmsetup.glade.h:32
 msgid "Automatically select the last logged in user"
@@ -480,3 +481,62 @@ msgstr ""
 #: gui/mdmsetup.glade.h:41
 msgid "Default session:"
 msgstr "Alapértelmezett környezet:"
+
+#~ msgid "Last"
+#~ msgstr "Utolsó"
+
+#~ msgid "Do you wish to make %s the default for future sessions?"
+#~ msgstr "A(z) %s legyen az alapértelmezett környezet?"
+
+#~ msgid "Your preferred session type %s is not installed on this computer."
+#~ msgstr ""
+#~ "Az előnyben részesített %s környezet nincs telepítve ezen a számítógépen."
+
+#~ msgid "Just _Log In"
+#~ msgstr "Csak _bejelentkezés"
+
+#~ msgid "Make _Default"
+#~ msgstr "Legyen ez az _alapértelmezett"
+
+#~ msgid "You have chosen %s for this session, but your default setting is %s."
+#~ msgstr ""
+#~ "A(z) %s lehetőséget választotta ehhez a környezethez, de az alapértelmezett "
+#~ "beállítása ez: %s."
+
+#~ msgid "Just For _This Session"
+#~ msgstr "_Csak erre az alkalomra"
+
+#~ msgid "Remove the %s theme?"
+#~ msgstr "El kívánja távolítani a következő témát: „%s”?"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stílus:"
+
+#~ msgid ""
+#~ "GTK\n"
+#~ "GDM\n"
+#~ "HTML"
+#~ msgstr ""
+#~ "GTK\n"
+#~ "GDM\n"
+#~ "HTML"
+
+#~ msgid "_Add..."
+#~ msgstr "Hozzá_adás…"
+
+#~ msgid "_Remove..."
+#~ msgstr "_Eltávolítás…"
+
+#~ msgid "_Default: 'Welcome'"
+#~ msgstr "Ala_pértelmezett: „Üdvözöljük”"
+
+#~ msgid "De_fault session:"
+#~ msgstr "Alapértelmezett _környezet:"
+
+#~ msgid ""
+#~ "The session that is used by default if the user does not have a saved "
+#~ "preference and has picked 'Last' from the list of sessions."
+#~ msgstr ""
+#~ "Az alapértelmezett környezet használata, ha a felhasználó nem mentette el a "
+#~ "saját beállítását és a környezetek listájából a „Legutóbbi környezet” "
+#~ "lehetőséget választotta."
