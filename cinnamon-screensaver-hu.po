@@ -9,192 +9,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cinnamon-screensaver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-23 22:51-0400\n"
-"PO-Revision-Date: 2016-11-20 08:54+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"POT-Creation-Date: 2016-12-31 16:37+0000\n"
+"PO-Revision-Date: 2017-01-07 18:35+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-11-20 10:11+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
+"X-Launchpad-Export-Date: 2017-05-08 03:37+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
 "Language: hu\n"
 
-#: src/cinnamon-screensaver-command.py:34
+#: src/cinnamon-screensaver-command.py:37
 msgid "Causes the screensaver to exit gracefully"
 msgstr "A képernyővédő szabályos bezárása"
 
-#: src/cinnamon-screensaver-command.py:36
+#: src/cinnamon-screensaver-command.py:39
 msgid "Query the state of the screensaver"
 msgstr "A képernyővédő állapotának lekérdezése"
 
-#: src/cinnamon-screensaver-command.py:38
+#: src/cinnamon-screensaver-command.py:41
 msgid "Query the length of time the screensaver has been active"
 msgstr "A képernyővédő futásidejének lekérdezése"
 
-#: src/cinnamon-screensaver-command.py:40
+#: src/cinnamon-screensaver-command.py:43
 msgid "Tells the running screensaver process to lock the screen immediately"
 msgstr ""
 "A futó képernyővédő-folyamatot utasítja a képernyő azonnali zárolására"
 
-#: src/cinnamon-screensaver-command.py:42
+#: src/cinnamon-screensaver-command.py:45
 msgid "Turn the screensaver on (blank the screen)"
 msgstr "Képernyővédő bekapcsolása (képernyő elsötétítése)"
 
-#: src/cinnamon-screensaver-command.py:44
+#: src/cinnamon-screensaver-command.py:47
 msgid "If the screensaver is active then deactivate it (un-blank the screen)"
 msgstr "Ha a képernyővédő fut, akkor állítsa le (képernyő visszaállítása)"
 
-#: src/cinnamon-screensaver-command.py:46
+#: src/cinnamon-screensaver-command.py:49
 msgid "Version of this application"
 msgstr "Ezen alkalmazás verziója"
 
-#: src/cinnamon-screensaver-command.py:48
+#: src/cinnamon-screensaver-command.py:51
 msgid "Message to be displayed in lock screen"
 msgstr "Üzenet megjelnítése a zárolt képernyőn"
 
-#: src/cinnamon-screensaver-command.py:77
+#: src/cinnamon-screensaver-command.py:80
 msgid "The screensaver is active\n"
 msgstr "A képernyővédő éppen fut\n"
 
-#: src/cinnamon-screensaver-command.py:79
+#: src/cinnamon-screensaver-command.py:82
 msgid "The screensaver is inactive\n"
 msgstr "A képernyővédő éppen nem fut\n"
 
-#: src/cinnamon-screensaver-command.py:83
+#: src/cinnamon-screensaver-command.py:86
 msgid "The screensaver is not currently active.\n"
 msgstr "A képernyővédő jelenleg nem fut.\n"
 
-#: src/cinnamon-screensaver-command.py:85
+#: src/cinnamon-screensaver-command.py:88
 #, python-format
 msgid "The screensaver has been active for %d second.\n"
 msgid_plural "The screensaver has been active for %d seconds.\n"
 msgstr[0] "A képernyővédő %d másodpercig futott.\n"
 msgstr[1] "A képernyővédő %d másodpercig futott.\n"
 
-#: src/clock.py:59
+#: src/clock.py:64
 msgid "%A, %B %e"
 msgstr "%B %e., %A"
 
-#: src/playerControl.py:158
-msgid "--:--"
-msgstr "--.--"
-
-#: src/playerControl.py:161
-msgid "%M:%S"
-msgstr "%M.%S"
-
-#: src/playerControl.py:163
-msgid "%H:%M:%S"
-msgstr "%H.%M.%S"
-
-#: src/unlock.py:40 src/unlock.py:295
-msgid "Enter password..."
+#: src/passwordEntry.py:23 src/unlock.py:204
+msgid "Please enter your password..."
 msgstr "Adja meg a jelszót…"
 
-#: src/unlock.py:212
-msgid "You have the Caps Lock key on."
-msgstr "A Caps Lock be van kapcsolva."
+#: src/unlock.py:91
+msgid "Unlock"
+msgstr "Feloldás"
 
-#: src/unlock.py:244
+#: src/unlock.py:99
+msgid "Switch User"
+msgstr "Felhasználóváltás"
+
+#: src/unlock.py:182
+msgid "Incorrect password"
+msgstr "Helytelen jelszó"
+
+#: src/unlock.py:196
 msgid "Checking..."
 msgstr "Ellenőrzés…"
 
-#: src/unlock.py:296
-msgid "Password incorrect - try again."
-msgstr "Helytelen jelszó – próbálja meg újra."
-
-#~ msgid "Username:"
-#~ msgstr "Felhasználónév:"
-
-#~ msgid "Password:"
-#~ msgstr "Jelszó:"
-
-#~ msgid "You are required to change your password immediately (password aged)"
-#~ msgstr "Azonnal meg kell változtatnia a jelszavát (a régi jelszó lejárt)"
-
-#~ msgid "You are required to change your password immediately (root enforced)"
-#~ msgstr "Azonnal meg kell változtatnia a jelszavát (a rendszergazda kérése)"
-
-#~ msgid "Your account has expired; please contact your system administrator"
-#~ msgstr ""
-#~ "Az Ön felhasználói fiókja lejárt. Lépjen kapcsolatba a rendszergazdával"
-
-#~ msgid "No password supplied"
-#~ msgstr "Nincs jelszó megadva"
-
-#~ msgid "Password unchanged"
-#~ msgstr "A jelszó nem változott"
-
-#~ msgid "Cannot get username"
-#~ msgstr "A felhasználónév nem kérhető le"
-
-#~ msgid "Retype new Unix password:"
-#~ msgstr "Adja meg ismét az új Unix jelszót:"
-
-#~ msgid "Enter new Unix password:"
-#~ msgstr "Adja meg az új Unix jelszót:"
-
-#~ msgid "(current) Unix password:"
-#~ msgstr "(jelenlegi) Unix jelszó:"
-
-#~ msgid "Error while changing NIS password."
-#~ msgstr "Hiba a NIS jelszó módosítása közben."
-
-#~ msgid "You must choose a longer password"
-#~ msgstr "Válasszon hosszabb jelszót"
-
-#~ msgid "Password has been already used. Choose another."
-#~ msgstr "A megadott jelszót már használta. Adjon meg egy másikat."
-
-#~ msgid "You must wait longer to change your password"
-#~ msgstr "Még várnia kell a jelszó megváltoztatásával"
-
-#~ msgid "Sorry, passwords do not match"
-#~ msgstr "A megadott jelszavak nem egyeznek meg"
-
-#~ msgid "Checking…"
-#~ msgstr "Ellenőrzés…"
-
-#~ msgid "Authentication failed."
-#~ msgstr "A hitelesítés meghiúsult."
-
-#~ msgid "Unable to establish service %s: %s\n"
-#~ msgstr "Nem sikerült elindítani a(z) %s szolgáltatást: %s\n"
-
-#~ msgid "Can't set PAM_TTY=%s"
-#~ msgstr "Nem állítható be a PAM_TTY=%s változó"
-
-#~ msgid "Incorrect password."
-#~ msgstr "Helytelen jelszó."
-
-#~ msgid "Not permitted to gain access at this time."
-#~ msgstr "Jelenleg nincs engedélye hozzáférést szerezni."
-
-#~ msgid "No longer permitted to access the system."
-#~ msgstr "Már nem engedélyezett a rendszer elérése."
-
-#~ msgid "failed to register with the message bus"
-#~ msgstr "nem sikerült regisztrálni az üzenetbusszal"
-
-#~ msgid "not connected to the message bus"
-#~ msgstr "nincs kapcsolat az üzenetbusszal"
-
-#~ msgid "screensaver already running in this session"
-#~ msgstr "már fut képernyővédő ebben a munkamenetben"
-
-#~ msgid "Time has expired."
-#~ msgstr "Az idő lejárt."
-
-#~ msgid "S_witch User…"
-#~ msgstr "Felhasználó_váltás…"
-
-#~ msgid "Log _Out"
-#~ msgstr "_Kijelentkezés"
-
-#~ msgid "_Unlock"
-#~ msgstr "_Feloldás"
-
-#~ msgid "_Password:"
-#~ msgstr "_Jelszó:"
+#: src/unlock.py:242
+msgid "You have the Caps Lock key on."
+msgstr "A Caps Lock be van kapcsolva."

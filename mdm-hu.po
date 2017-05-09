@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: mdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-11 16:40+0100\n"
-"PO-Revision-Date: 2016-11-20 08:54+0000\n"
+"PO-Revision-Date: 2017-03-12 10:54+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-20 10:11+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
+"X-Launchpad-Export-Date: 2017-05-08 03:35+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
 "Language: hu\n"
 
 #: gui/mdmwebkit.c:191
@@ -117,7 +117,7 @@ msgstr "Kérem válasszon egy felhasználót."
 
 #: gui/mdmwebkit.c:932
 msgid "Press F1 to enter a username."
-msgstr "Nyomja meg az F1 billentyűt a felhasználónév berásához"
+msgstr "Nyomja meg az F1 billentyűt a felhasználónév beírásához"
 
 #: gui/mdmwebkit.c:933
 msgid "Language"
@@ -481,62 +481,3 @@ msgstr ""
 #: gui/mdmsetup.glade.h:41
 msgid "Default session:"
 msgstr "Alapértelmezett környezet:"
-
-#~ msgid "Last"
-#~ msgstr "Utolsó"
-
-#~ msgid "Do you wish to make %s the default for future sessions?"
-#~ msgstr "A(z) %s legyen az alapértelmezett környezet?"
-
-#~ msgid "Your preferred session type %s is not installed on this computer."
-#~ msgstr ""
-#~ "Az előnyben részesített %s környezet nincs telepítve ezen a számítógépen."
-
-#~ msgid "Just _Log In"
-#~ msgstr "Csak _bejelentkezés"
-
-#~ msgid "Make _Default"
-#~ msgstr "Legyen ez az _alapértelmezett"
-
-#~ msgid "You have chosen %s for this session, but your default setting is %s."
-#~ msgstr ""
-#~ "A(z) %s lehetőséget választotta ehhez a környezethez, de az alapértelmezett "
-#~ "beállítása ez: %s."
-
-#~ msgid "Just For _This Session"
-#~ msgstr "_Csak erre az alkalomra"
-
-#~ msgid "Remove the %s theme?"
-#~ msgstr "El kívánja távolítani a következő témát: „%s”?"
-
-#~ msgid "_Style:"
-#~ msgstr "_Stílus:"
-
-#~ msgid ""
-#~ "GTK\n"
-#~ "GDM\n"
-#~ "HTML"
-#~ msgstr ""
-#~ "GTK\n"
-#~ "GDM\n"
-#~ "HTML"
-
-#~ msgid "_Add..."
-#~ msgstr "Hozzá_adás…"
-
-#~ msgid "_Remove..."
-#~ msgstr "_Eltávolítás…"
-
-#~ msgid "_Default: 'Welcome'"
-#~ msgstr "Ala_pértelmezett: „Üdvözöljük”"
-
-#~ msgid "De_fault session:"
-#~ msgstr "Alapértelmezett _környezet:"
-
-#~ msgid ""
-#~ "The session that is used by default if the user does not have a saved "
-#~ "preference and has picked 'Last' from the list of sessions."
-#~ msgstr ""
-#~ "Az alapértelmezett környezet használata, ha a felhasználó nem mentette el a "
-#~ "saját beállítását és a környezetek listájából a „Legutóbbi környezet” "
-#~ "lehetőséget választotta."

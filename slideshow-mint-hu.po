@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: slideshow-mint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-29 12:27+0100\n"
-"PO-Revision-Date: 2016-10-24 14:37+0000\n"
+"POT-Creation-Date: 2016-12-07 15:15+0000\n"
+"PO-Revision-Date: 2016-12-11 12:00+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-20 10:07+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
+"X-Launchpad-Export-Date: 2017-05-08 03:31+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
 "Language: hu\n"
 
 #. type: Content of: <div><h1>
@@ -101,20 +101,14 @@ msgstr ""
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/music.html:1
-msgid "Listen to music and CDs"
-msgstr "Hallgasson zenét és CD-t"
+msgid "Listen to music"
+msgstr "Hallgasson zenét"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/music.html:8
-msgid ""
-"Enjoy your music with Banshee. Plug-in your MP3 player or extract songs from "
-"your audio CDs. Listen to podcasts and online radios. Discover new artists "
-"on Last.fm, the Internet Archive and the Amazon MP3 Store."
+msgid "Enjoy your music, listen to podcasts and online radios."
 msgstr ""
-"Érezze a zenét a Banshee-vel. Csatlakoztassa MP3 lejátszóját vagy mentse le "
-"hang CD lemezeit a számítógépre. Hallgasson online rádiókat, vagy egyéb "
-"online adásokat. Fedezzen fel új előadókat a Last.fm-en, az Internet "
-"Archívumban és az Amazon MP3 áruházában."
+"Érezze a zenét, és hallgasson online rádiókat, vagy egyéb online adásokat."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/music.html:16
@@ -123,8 +117,8 @@ msgstr "Spotify (internetes zenetár)"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/music.html:20
-msgid "Banshee"
-msgstr "Banshee (zenelejátszó)"
+msgid "Rhythmbox"
+msgstr "Rhythmbox"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/music.html:24
@@ -265,8 +259,8 @@ msgstr "VLC (videólejátszó)"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/video.html:20
-msgid "Xplayer"
-msgstr "Xplayer (videólejátszó)"
+msgid "Media Player"
+msgstr "Médialejátszó"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/video.html:24
