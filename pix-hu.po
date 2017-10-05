@@ -14,15 +14,15 @@ msgstr ""
 "http://bugzilla.gnome.org/enter_bug.cgi?product=pix&keywords=I18N+L10N&compon"
 "ent=general\n"
 "POT-Creation-Date: 2017-05-21 12:27+0100\n"
-"PO-Revision-Date: 2017-05-23 12:17+0000\n"
+"PO-Revision-Date: 2017-05-29 11:15+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-05-27 13:21+0000\n"
-"X-Generator: Launchpad (build 18391)\n"
+"X-Launchpad-Export-Date: 2017-10-05 12:31+0000\n"
+"X-Generator: Launchpad (build 18471)\n"
 "Language: hu\n"
 
 #: ../copy-n-paste/eggdesktopfile.c:165
@@ -1618,7 +1618,7 @@ msgstr "Nem lehet elmenteni a fájl metaadatait"
 #: ../extensions/edit_metadata/dlg-edit-metadata.c:234
 #: ../pix/gth-overwrite-dialog.c:136
 msgid "Cannot read file information"
-msgstr "Nem olvashatók a fájl információia"
+msgstr "Nem olvashatók a fájl információi"
 
 #: ../extensions/edit_metadata/edit_metadata.extension.in.in.h:1
 msgid "Edit metadata"

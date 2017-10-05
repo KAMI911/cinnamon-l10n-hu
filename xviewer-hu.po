@@ -16,16 +16,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: "
 "http://bugzilla.gnome.org/enter_bug.cgi?product=xviewer&keywords=I18N+L10N&co"
 "mponent=general\n"
-"POT-Creation-Date: 2017-05-05 08:35+0100\n"
-"PO-Revision-Date: 2016-11-20 07:48+0000\n"
+"POT-Creation-Date: 2017-08-30 13:52+0100\n"
+"PO-Revision-Date: 2017-09-05 15:17+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-05-27 13:19+0000\n"
-"X-Generator: Launchpad (build 18391)\n"
+"X-Launchpad-Export-Date: 2017-10-05 12:31+0000\n"
+"X-Generator: Launchpad (build 18471)\n"
 "Language: hu\n"
 
 #. Translaters: This string is for a toggle to display a toolbar.
@@ -1284,8 +1284,8 @@ msgid "Couldn't access trash."
 msgstr "A Kuka nem érhető el."
 
 #: ../src/xviewer-window.c:4098
-msgid "_Image"
-msgstr "_Kép"
+msgid "_File"
+msgstr "_Fájl"
 
 #: ../src/xviewer-window.c:4099
 msgid "_Edit"
