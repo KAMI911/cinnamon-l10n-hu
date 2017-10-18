@@ -9,16 +9,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-09-26 20:30+0530\n"
-"PO-Revision-Date: 2017-10-11 15:10+0100\n"
-"Last-Translator: Kálmán szalai (KAMI) <kami911@gmail.com>\n"
+"PO-Revision-Date: 2017-10-17 13:33+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-10-05 13:02+0000\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Launchpad-Export-Date: 2017-10-17 14:09+0000\n"
+"X-Generator: Launchpad (build 18476)\n"
 "Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: Console/AppConsole.vala:606
 #, c-format
@@ -26,6 +25,8 @@ msgid ""
 "\n"
 "Press ENTER to continue..."
 msgstr ""
+"\n"
+"A folytatáshoz nyomja meg az ENTER billentyűt…"
 
 #: Core/SnapshotRepo.vala:595
 #, c-format
@@ -52,19 +53,19 @@ msgstr "** Eltávolított Timeshift BTRFS **"
 
 #: Core/Main.vala:3195
 msgid "/ is mapped to device"
-msgstr "A „/” eszközhöz van rendelve "
+msgstr "A „/” eszközhöz van rendelve"
 
 #: Core/Main.vala:3217
 msgid "/boot is mapped to device"
-msgstr "A „/boot” eszközhöz van rendelve "
+msgstr "A „/boot” eszközhöz van rendelve"
 
 #: Core/Main.vala:3228
 msgid "/boot/efi is mapped to device"
-msgstr "A „/boot/efi” eszközhöz van rendelve "
+msgstr "A „/boot/efi” eszközhöz van rendelve"
 
 #: Core/Main.vala:3206
 msgid "/home is mapped to device"
-msgstr "A „/home” eszközhöz van rendelve "
+msgstr "A „/home” eszközhöz van rendelve"
 
 #: Gtk/SnapshotListBox.vala:274
 msgid ""
@@ -148,7 +149,8 @@ msgstr "Rendszergazdai jogosultság szükséges"
 #: Gtk/AppGtk.vala:124
 msgid "Admin access is required to backup and restore system files."
 msgstr ""
-"Rendszergazdai jogosultság szükséges a fájlok mentéséhez és visszaállításához."
+"Rendszergazdai jogosultság szükséges a fájlok mentéséhez és "
+"visszaállításához."
 
 #: Gtk/SnapshotBackendBox.vala:182
 msgid ""
@@ -174,14 +176,15 @@ msgstr ""
 #: Core/Main.vala:241
 msgid "Another instance of Timeshift is creating a snapshot."
 msgstr ""
+"A Timeshit alkalmazásnak egy másik futó példánya éppen pillanatképet készít."
 
 #: Utility/AppLock.vala:50
 msgid "Another instance of this application is running"
-msgstr ""
+msgstr "Ennek az alkalmazásnak egy másik példánya fut."
 
 #: Core/Main.vala:245
 msgid "Another instance of timeshift is currently running!"
-msgstr ""
+msgstr "A TimeShift alkalmazásnak egy másik példánya fut."
 
 #: Console/AppConsole.vala:370
 msgid "Answer YES to all confirmation prompts"
@@ -189,11 +192,11 @@ msgstr ""
 
 #: Core/Main.vala:3034
 msgid "App config loaded"
-msgstr ""
+msgstr "Alkalmazás beállítások betöltve"
 
 #: Core/Main.vala:2943
 msgid "App config saved"
-msgstr ""
+msgstr "Alkalmazás beállítások elmentve"
 
 #: Console/AppConsole.vala:100
 msgid "Application needs admin access."
@@ -2532,5 +2535,3 @@ msgstr "rsync program hibát jelzett"
 #: Core/SnapshotRepo.vala:785
 msgid "un-tagged"
 msgstr "nem kijelölt"
-
-

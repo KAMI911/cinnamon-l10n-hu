@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: mintbackup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-08 11:49+0100\n"
-"PO-Revision-Date: 2017-09-27 12:47+0000\n"
+"PO-Revision-Date: 2017-10-17 12:36+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-10-05 12:53+0000\n"
-"X-Generator: Launchpad (build 18471)\n"
+"X-Launchpad-Export-Date: 2017-10-17 13:58+0000\n"
+"X-Generator: Launchpad (build 18476)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:32
@@ -51,24 +51,26 @@ msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
+"Ez a mentés túl régi vagy egy másik eszközzel készült. Kérjük, csomagolja ki "
+"kézzel."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:342
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
-msgstr ""
+msgstr "A(z) „%s” mentés megyitásakor hiba történt."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:356
 msgid "No packages need to be installed."
-msgstr ""
+msgstr "Nem szükséges csomagokat telepíteni."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:363
 msgid "Please select packages to install."
-msgstr ""
+msgstr "Válassza ki a telepíteni kívánt csomagokat."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:417
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr ""
+msgstr "A(z) „%s” ki lett hagyva, mert a nevesített csövek nem támogatottak."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:442
 msgid "Backing up:"
@@ -81,22 +83,24 @@ msgstr "Számítás…"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:454
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:558
 msgid "The following errors occurred:"
-msgstr ""
+msgstr "A következő hibák merültek fel:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "The backup was aborted."
-msgstr ""
+msgstr "A biztonsági mentés megszakadt."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr ""
+msgstr "A fájlok sikeresen mentésre kerültek ide: „%s”."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
+"Figyelmeztetés: a metafájlt nem sikerült menteni. Ez a biztonsági mentés nem "
+"lesz használható visszaállításhoz."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
@@ -104,6 +108,8 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
+"Figyelmeztetés: néhány fájlt nem sikerült tárolni a biztonsági mentésbe. "
+"Sikeres: %(archived)d, összes: %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:547
 msgid "Restoring:"
@@ -111,34 +117,35 @@ msgstr "Visszaállítás:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:564
 msgid "The restoration was aborted."
-msgstr ""
+msgstr "A visszaállítás megszakadt."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "Your files were successfully restored."
-msgstr ""
+msgstr "A fájlok sikeresen visszaállításra kerültek."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
+"Figyelmeztetés: sikeres visszaállított fájl: %(number)d, összes: %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:710
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr ""
+msgstr "A szoftverválogatás listája ide lett mentve: %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:726
 msgid "The selected file is not a valid software selection."
-msgstr ""
+msgstr "A kiválasztott fájl nem érvényes szoftverválogatás lista"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:731
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:760
 msgid "An error occurred while reading the file."
-msgstr ""
+msgstr "Hiba történt a fájl olvasásakor."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:748
 msgid "Could not locate the package."
-msgstr ""
+msgstr "A csomag nem található."
 
 #: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
@@ -146,37 +153,39 @@ msgstr "Mentés készítése a saját mappáról"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
-msgstr ""
+msgstr "Személyes adatok"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr ""
+msgstr "Az Ön fájljai, beállításai és a home könytárának tartalma"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
-msgstr ""
+msgstr "Visszaállítás…"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr ""
+msgstr "Mentés most…"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
-msgstr ""
+msgstr "Szoftverválogatás"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr ""
+msgstr "A számítógépre telepített alkalmazások listája"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr ""
+msgstr "Adja meg a biztonsági mentés helyét:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
+"Adja hozzá a listához azokat a fájlokat és könyvtárakat, amelyek NE "
+"kerüljenek bele a biztonsági mentésbe."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -195,44 +204,53 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
+"Alapértelmezetten nem kerülnek bele a Saját könyvtár gyökerében található "
+"rejtett fájlok és könyvtárak."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
+"Ha további elemeket szeretne hozzáadni a mentéshez, adja hozzá az elemeket "
+"az alábbi listához."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
-msgstr ""
+msgstr "Benne foglalt fájlok"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr ""
+msgstr "Benne foglalt mappák"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
+"Ezek a fájlok és mappák általában az alkalmazások átmeneti állományait és a "
+"beállításait tartalmazza."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
-msgstr ""
+msgstr "Kérem várjon… A kiválasztott fájlok mentése folyamatban."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr ""
+msgstr "Vállassza ki a visszaállítandó mentést:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr ""
+msgstr "Felül kívánja írni a létező fájlokat?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
+"Nem, csak a hiányzó fájlok visszaállítása.\n"
+"<small>Ez a beállítás biztonságos és nem változtatja meg a már létező "
+"fájlokat.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -240,28 +258,33 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
+"Igen, írja felül a fájlokat és állítsa vissza a mentésben tárolt fájlokat.\n"
+"<small>Használja ezt a lehetőséget körültekintéssel. A fájlokon a mentés óta "
+"végzett változtatások elvesznek.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
-msgstr ""
+msgstr "Kérem várjon… A fájlok visszaállítása folyamatban."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
+"A Szoftverkezelőben telepített alkalmazások listája jelenik meg az alább "
+"listában."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
+msgstr "Válassza ki a mentendő alkalmazásokat."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select All"
-msgstr ""
+msgstr "Minden kijelölése"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Deselect All"
-msgstr ""
+msgstr "Kijelölés megszüntetése"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid ""
@@ -269,14 +292,17 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
+"Megjegyzés: Ha el kívánja menteni a rendszerre telepített csomagok teljes "
+"listáját, a terminálból a következő paranccsal végezheti el: „dpkg --get-"
+"selections > mylist.list”."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
+msgstr "Válasszon ki egy elmentett szoftverválogatás-fájlt (.list):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr ""
+msgstr "Válassza ki a telepítendő csomagokat."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"
@@ -284,7 +310,7 @@ msgstr "Frissítés"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr ""
+msgstr "A szoftverválogatásból minden csomag telepítve van."
 
 #~ msgid "Archiving your home directory..."
 #~ msgstr "A Saját mappa archiválása..."

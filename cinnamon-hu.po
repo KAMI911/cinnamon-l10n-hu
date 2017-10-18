@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-03 17:04+0100\n"
-"PO-Revision-Date: 2017-05-29 10:40+0000\n"
+"PO-Revision-Date: 2017-10-16 14:52+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-10-05 12:54+0000\n"
-"X-Generator: Launchpad (build 18471)\n"
+"X-Launchpad-Export-Date: 2017-10-17 13:59+0000\n"
+"X-Generator: Launchpad (build 18476)\n"
 "Language: hu\n"
 
 #: src/cinnamon-app.c:433 src/cinnamon-app.c:441
@@ -82,22 +82,26 @@ msgid ""
 "you can authorize to access your online accounts. Applications can then use "
 "this service to interact with your online accounts."
 msgstr ""
+"A GNOME online fiókok szolgáltatás a háttérben fut és elérhetővé teszi az "
+"online fiókokat. Az alkalmazások használhatják ezt a szolgáltatást az online "
+"fiókokkal történő együttműködésre."
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-online-accounts-info.ui.h:2
 msgid "The following accounts are supported in Cinnamon:"
-msgstr ""
+msgstr "A következő fiókokat támogatja a Cinnamon:"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-online-accounts-info.ui.h:3
 msgid "Allows Nemo to connect to Google Drive"
-msgstr ""
+msgstr "Engedélyezi a Nemo számára a Google Drive-hoz való kapcsolódást"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-online-accounts-info.ui.h:4
 msgid "Allows Nemo to connect to an OwnCloud server"
 msgstr ""
+"Engedélyezi a Nemo számára, hogy csatlakozzon egy OwnCloud szerverhez"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-online-accounts-info.ui.h:5
 msgid "The following accounts are supported in GNOME applications:"
-msgstr ""
+msgstr "A GNOME alkalmazásokban a következő fiókok támogatottak:"
 
 #: js/misc/util.js:185
 #, javascript-format
@@ -126,29 +130,33 @@ msgid ""
 "This applet does not support panels of that type. This can cause visual "
 "glitches in the panel."
 msgstr ""
+"Ez a kisalkalmazás nem támogatja ezt a típusú panelt. Ez hibát okozhat a "
+"panel megjelenítésében."
 
 #: js/ui/appletManager.js:380
 msgid ""
 "Would you like to continue using it anyway, remove it from the panel, or try "
 "to move it to a different panel?"
 msgstr ""
+"Ennek ellenére megtartja és használni kívánja, vagy eltávolítja a panelről, "
+"esetleg áthelyezi egy másik panelre?"
 
 #: js/ui/appletManager.js:389
 msgid "Leave it"
-msgstr ""
+msgstr "Megtartás"
 
 #: js/ui/appletManager.js:396
 msgid "Remove it"
-msgstr ""
+msgstr "Eltávolítás"
 
 #: js/ui/appletManager.js:403
 msgid "Move to another panel"
-msgstr ""
+msgstr "Áthelyezés egy másik panelra"
 
 #: js/ui/appletManager.js:462
 msgid ""
 "A suitable panel could not be found. The applet has been removed instead."
-msgstr ""
+msgstr "Nem található megfelelő panel. A kisalkalmazás el lett távolítva."
 
 #: js/ui/appletManager.js:717
 msgid ""
@@ -302,11 +310,11 @@ msgstr "Rendszerinformáció"
 
 #: js/ui/modalDialog.js:492
 msgid "Build date:"
-msgstr ""
+msgstr "Build dátuma:"
 
 #: js/ui/modalDialog.js:498
 msgid "Version:"
-msgstr ""
+msgstr "Verziószám"
 
 #: js/ui/modalDialog.js:532
 msgid "Website:"
@@ -853,7 +861,7 @@ msgstr "Hálózatkezelő"
 
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1662
 msgid "Rescan for wireless networks"
-msgstr ""
+msgstr "Elérhető vezeték nélküli hálózatok keresése"
 
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1701
 msgid "Enable networking"
@@ -972,15 +980,15 @@ msgstr " (Csak most)"
 #, javascript-format
 msgid " (%d second ago)"
 msgid_plural " (%d seconds ago)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " (%d másodpercel ezelőtt)"
+msgstr[1] " (%d másodpercel ezelőtt)"
 
 #: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:329
 #, javascript-format
 msgid " (%d minute ago)"
 msgid_plural " (%d minutes ago)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " (%d percel ezelőtt)"
+msgstr[1] " (%d percel ezelőtt)"
 
 #: files/usr/share/cinnamon/applets/on-screen-keyboard@cinnamon.org/applet.js:38
 msgid "Click to toggle the on-screen keyboard"
@@ -2038,12 +2046,12 @@ msgstr "Beállítás"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:244
 #, python-format
 msgid "This is a system %s and cannot be removed"
-msgstr ""
+msgstr "Ez egy rendszer %s, amelyet nem lehet eltávolítani"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:294
 #, python-format
 msgid "This %s is currently enabled"
-msgstr ""
+msgstr "Ez a %s jelenleg engedélyezve van"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:332
 #, python-format
@@ -2052,15 +2060,18 @@ msgid ""
 "crash or freeze. If you are experiencing crashes or freezing, please try "
 "removing this %s."
 msgstr ""
+"Ez a(z) %s olyan funkcióhívásokat tartalmaz, amelyek miatt a Cinnamon "
+"esetleg összeomolhat vagy megfagyhat. Ha összeomlást vagy fagyást tapasztal, "
+"próbálja meg eltávolítani a következőt: „%s”."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:371
 #, python-format
 msgid "Installed %ss"
-msgstr ""
+msgstr "Telepítve %ss"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:457
 msgid "About"
-msgstr ""
+msgstr "Névjegy"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:514
 #, python-format
@@ -2080,6 +2091,11 @@ msgid ""
 "\n"
 "You can remove individual instances by right clicking on an %s."
 msgstr ""
+"%d példány van engedélyezve, biztos benne, hogy mindegyiket el szeretné "
+"távolítani?\n"
+"\n"
+"Egyedi példányokat eltávolíthat a jobb egérgombbal, ha rákattint egy %s "
+"elemre."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:536
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:887
@@ -2116,10 +2132,12 @@ msgid ""
 "Something went wrong while loading the %s %s. Please make sure you are using "
 "the latest version, and then report the issue to the developer."
 msgstr ""
+"Valami nem sikerült a(z) %s %s betöltésekor. Győződjön meg arról, hogy a "
+"legfrissebb verziót használja, majd jelentse be a problémát a fejlesztőnek."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:654
 msgid "Install"
-msgstr ""
+msgstr "Telepítés"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:659
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:745
@@ -2129,7 +2147,7 @@ msgstr "Frissítés"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:662
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:719
 msgid "Installed"
-msgstr ""
+msgstr "Telepítve"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:706
 msgid "Sort by"
@@ -2146,15 +2164,15 @@ msgstr "Dátum"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:743
 #, python-format
 msgid "Download %ss"
-msgstr ""
+msgstr "%ss letöltése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:802
 msgid "Update all"
-msgstr ""
+msgstr "Összes frissítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:808
 msgid "Refresh"
-msgstr ""
+msgstr "Frissítés"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:930
 #, python-format
@@ -2163,6 +2181,8 @@ msgid ""
 "Would you like to do so now? (This may take a minute or more depending on "
 "your Internet connection)"
 msgstr ""
+"Le kell tölteni az elérhető %ss listáját. Le kívánja tölteni a listát? Az "
+"internetkapcsolat sebességtől függően ez pár percig is eltarthat."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:933
 #, python-format
@@ -2170,6 +2190,8 @@ msgid ""
 "The list of available %ss may be out of date. Would you like to update now? "
 "(This may take a minute or more depending on your Internet connection)"
 msgstr ""
+"Az elérhető %ss lista lehet hogy elévült. Kívánja frissíteni a listát? Az "
+"internetkapcsolat sebességtől függően ez pár percig is eltarthat."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/eyedropper.py:15
 msgid ""
@@ -2244,7 +2266,7 @@ msgstr "Képfájlok"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:264
 #, python-format
 msgid "Downloading image cache %i/%i"
-msgstr ""
+msgstr "Kép gyorsítótár letöltése: %i/%i"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:326
 msgid ""
@@ -2257,7 +2279,7 @@ msgstr ""
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:327
 #, python-format
 msgid "Download aborted for %s."
-msgstr ""
+msgstr "A letöltés megszakadt: %s"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:454
 msgid ""
@@ -2269,12 +2291,12 @@ msgstr ""
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:465
 #, python-format
 msgid "Refreshing the %s cache from the Cinnamon spices website"
-msgstr ""
+msgstr "A(z) %s gyorsítótár frissítése a Cinnamon spices weboldaláról"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:547
 #, python-format
 msgid "Installing %s %s"
-msgstr ""
+msgstr "Telepítés %s %s"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:585
 #, python-format
@@ -2298,11 +2320,15 @@ msgid ""
 "\n"
 "If this was an update, the previous installation is unchanged"
 msgstr ""
+"Hiba történt a telepítés vagy a frissítés során. Érdemes bejelenteni ezt az "
+"eseményt a(z) %s fejlesztőjének.\n"
+"\n"
+"Ha ez egy frissítés volt, az előző telepítés változatlan maradt"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:636
 #, python-format
 msgid "Uninstalling %s %s"
-msgstr ""
+msgstr "Eltávolítás %s %s"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:644
 #, python-format
@@ -2322,6 +2348,8 @@ msgstr ""
 #, python-format
 msgid "Problem uninstalling %s. You may need to remove it manually."
 msgstr ""
+"Hiba lépett fel a(z) %s eltávolítása közben. Szükség lehet kézi "
+"eltávolítására."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:687
 #, python-format
@@ -2738,11 +2766,11 @@ msgstr "kisalkalmazás"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:44
 msgid "Manage applets"
-msgstr ""
+msgstr "Kisalkalmazások kezelése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:47
 msgid "Download applets"
-msgstr ""
+msgstr "Kisalkalmazások letöltése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:52
 msgid "Installed applets"
@@ -2750,15 +2778,15 @@ msgstr "Telepített kisalkalmazások"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:56
 msgid "Reset all"
-msgstr ""
+msgstr "Az összes alaphelyzetbe állítása"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:72
 msgid "Previous Panel"
-msgstr ""
+msgstr "Előző panel"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:77
 msgid "Next Panel"
-msgstr ""
+msgstr "Következő panel"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_backgrounds.py:31
 msgid "Horizontal"
@@ -3107,11 +3135,11 @@ msgstr "Asztalkalmazások"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:44
 msgid "Manage desklets"
-msgstr ""
+msgstr "Asztalkalmazások kezelése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:47
 msgid "Download desklets"
-msgstr ""
+msgstr "Asztalkalmazások letöltése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:50
 msgid "General Settings"
@@ -3161,7 +3189,7 @@ msgstr "Telepített asztalkalmazások"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:78
 msgid "Remove all"
-msgstr ""
+msgstr "Összes eltávolítása"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desktop.py:20
 msgid "Manage your desktop icons"
@@ -3345,11 +3373,11 @@ msgstr "Kiterjesztések"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:44
 msgid "Manage extensions"
-msgstr ""
+msgstr "Bővítmények kezelése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:47
 msgid "Download extensions"
-msgstr ""
+msgstr "Bővítmények letöltése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:52
 msgid "Installed extensions"
@@ -3357,15 +3385,15 @@ msgstr "Telepített kiterjesztések"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:53
 msgid "Enable"
-msgstr ""
+msgstr "Engedélyezés"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:54
 msgid "Disable"
-msgstr ""
+msgstr "Letiltás"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py:56
 msgid "Disable all"
-msgstr ""
+msgstr "Összes letiltása"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:13
 msgid "Configure system fonts"
@@ -3431,19 +3459,19 @@ msgstr "Teljes"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:50
 msgid "Rgb"
-msgstr ""
+msgstr "RGB"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:50
 msgid "Bgr"
-msgstr ""
+msgstr "BGR"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:50
 msgid "Vrgb"
-msgstr ""
+msgstr "VRGB"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:50
 msgid "Vbgr"
-msgstr ""
+msgstr "VBGR"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:53
 msgid "Text scaling factor"
@@ -3469,13 +3497,15 @@ msgstr "A „hinting” tiszta, olvasható szöveget eredményez a képernyőn."
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:64
 msgid "RGBA order"
-msgstr ""
+msgstr "RGBA sorrend"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py:65
 msgid ""
 "The order of subpixel elements on an LCD screen, only used when antialiasing "
 "is set to 'rgba'"
 msgstr ""
+"Az alképpontok sorrendje az LCD kiejlzőn. Csak akkor használható, ha az "
+"élsimítás „RGBA” értékre van állítva."
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:8
 msgid "Miscellaneous Cinnamon preferences"
@@ -4612,40 +4642,48 @@ msgstr "Médiabillentyű képernyőkijelzés mérete"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_online_accounts.py:7
 msgid "Connect to your online accounts"
-msgstr ""
+msgstr "Csatlakozás az online fiókokhoz"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_online_accounts.py:11
 msgid ""
 "google, facebook, twitter, yahoo, web, online, chat, calendar, mail, "
 "contact, owncloud, kerberos, imap, smtp, pocket, readitlater, account"
 msgstr ""
+"google, facebook, twitter, yahoo, web, online, chat, calendar, mail, "
+"contact, owncloud, kerberos, imap, smtp, pocket, readitlater, account, "
+"onlájn, csevegés, cset, naptár, kalendárium, névjegyek, kapcsolatok, "
+"hitelesítés, fiók, felhasználó"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_online_accounts.py:12
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_online_accounts.py:43
 msgid "Online Accounts"
-msgstr ""
+msgstr "Online fiókok"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_online_accounts.py:23
 msgid "Information about GNOME Online Accounts"
-msgstr ""
+msgstr "Információk a GNOME Online fiókokról"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:30
 msgid "Panel height:"
-msgstr ""
+msgstr "Panel magasság:"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:31
 msgid ""
 "Allow Cinnamon to scale panel text and icons according to the panel height"
 msgstr ""
+"A Cinnamon méretezze a panel szövegét és ikonjait a panel magasságának "
+"megfelelően"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:33
 msgid "Panel width:"
-msgstr ""
+msgstr "Panel szélesség:"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:34
 msgid ""
 "Allow Cinnamon to scale panel text and icons according to the panel width"
 msgstr ""
+"A Cinnamon méretezze a panel szövegét és ikonjait a panel szélességének "
+"megfelelően"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:44
 msgid "Auto hide panel"
@@ -4801,11 +4839,11 @@ msgstr "1 óra"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:43
 msgid "2 hours"
-msgstr ""
+msgstr "2 óra"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:44
 msgid "3 hours"
-msgstr ""
+msgstr "3 óra"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:45
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:28
@@ -4882,11 +4920,11 @@ msgstr "Ha az akkumulátor töltöttsége nagyon alacsony"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:176
 msgid "Enable Hybrid Sleep"
-msgstr ""
+msgstr "Hibrid hibernálás engedélyezése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:177
 msgid "Replaces Suspend with Hybrid Sleep"
-msgstr ""
+msgstr "Felfüggesztés helyett hibrid hibernálás engedélyezése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:208
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:229
@@ -5539,7 +5577,7 @@ msgstr "Egérmutató"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:67
 msgid "Add/Remove"
-msgstr ""
+msgstr "Hozzáadás/eltávolítás"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:72
 msgid "Miscellaneous options"
@@ -6253,7 +6291,7 @@ msgstr "Középső gombos kattintással az ablak bezárása"
 #. window-list@cinnamon.org->settings-schema.json->show-all-
 #. workspaces->description
 msgid "Show windows from all workspaces"
-msgstr ""
+msgstr "Ablakok megjelenítése minden munkaterületről"
 
 #. window-list@cinnamon.org->settings-schema.json->window-preview->description
 msgid "Show window thumbnails on hover"
