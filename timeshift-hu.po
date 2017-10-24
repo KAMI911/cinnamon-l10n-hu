@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-09-26 20:30+0530\n"
-"PO-Revision-Date: 2017-10-17 13:33+0000\n"
+"PO-Revision-Date: 2017-10-23 19:18+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-10-17 14:09+0000\n"
-"X-Generator: Launchpad (build 18476)\n"
+"X-Launchpad-Export-Date: 2017-10-24 05:12+0000\n"
+"X-Generator: Launchpad (build 18484)\n"
 "Language: hu\n"
 
 #: Console/AppConsole.vala:606
@@ -41,7 +41,7 @@ msgstr "„%s” lesz a következőn: „%s”"
 #: Console/AppConsole.vala:886
 #, c-format
 msgid "'%s' will be on root device"
-msgstr "„%s” lesz a root meghajtón"
+msgstr "„%s” a gyökér meghajtón lesz"
 
 #: Gtk/BootOptionsBox.vala:119
 msgid "(Re)install GRUB2 on:"
@@ -49,23 +49,23 @@ msgstr "GRUB2 (újra)telepítése ide:"
 
 #: Core/Main.vala:348
 msgid "** Uninstalled Timeshift BTRFS **"
-msgstr "** Eltávolított Timeshift BTRFS **"
+msgstr "** Timeshift BTRFS eltávolítva**"
 
 #: Core/Main.vala:3195
 msgid "/ is mapped to device"
-msgstr "A „/” eszközhöz van rendelve"
+msgstr "„/” az eszközhöz van rendelve"
 
 #: Core/Main.vala:3217
 msgid "/boot is mapped to device"
-msgstr "A „/boot” eszközhöz van rendelve"
+msgstr "A „/boot” az eszközhöz van rendelve"
 
 #: Core/Main.vala:3228
 msgid "/boot/efi is mapped to device"
-msgstr "A „/boot/efi” eszközhöz van rendelve"
+msgstr "A „/boot/efi” az eszközhöz van rendelve"
 
 #: Core/Main.vala:3206
 msgid "/home is mapped to device"
-msgstr "A „/home” eszközhöz van rendelve"
+msgstr "A „/home” az eszközhöz van rendelve"
 
 #: Gtk/SnapshotListBox.vala:274
 msgid ""
@@ -158,10 +158,13 @@ msgid ""
 "are incremental. Unchanged files will be hard-linked from the previous "
 "snapshot if available."
 msgstr ""
+"Minden fájl át lesz másolva amikor az első pillanatkép elkészül. A jövőbeni "
+"pillanatképek növekményesen készülnek. A változatlan fájlok hivatkozva "
+"lesznek a korábbi pillanatképekből, ha rendelkezésre állnak."
 
 #: Gtk/ExcludeMessageWindow.vala:137
 msgid "All other files and folders are excluded."
-msgstr ""
+msgstr "Minden más fájl és mappa ki lesz hagyva."
 
 #: Gtk/RestoreDeviceBox.vala:497
 msgid ""
@@ -172,6 +175,12 @@ msgid ""
 "Either select a non-encrypted device for boot directory or select a non-"
 "encrypted device for root filesystem."
 msgstr ""
+"Egy titkosított eszköz van kiválasztva a gyökér fájlrendszer számára („/”). "
+"A rendszerindító könyvtárat („/boot”) titkosítatlan eszközhöz kell "
+"csatlakoztatni hogy a rendszer sikeresen indulhasson.\n"
+"\n"
+"Vagy válasszon egy titkosítatlan eszközt rendszerindító könyvtárnak vagy "
+"válasszon titkosítatlan eszközt a gyökér fájlrendszernek."
 
 #: Core/Main.vala:241
 msgid "Another instance of Timeshift is creating a snapshot."
@@ -188,7 +197,7 @@ msgstr "A TimeShift alkalmazásnak egy másik példánya fut."
 
 #: Console/AppConsole.vala:370
 msgid "Answer YES to all confirmation prompts"
-msgstr ""
+msgstr "Válaszoljon „IGEN”-nel minden megerősítési kérdésnél"
 
 #: Core/Main.vala:3034
 msgid "App config loaded"
@@ -201,14 +210,15 @@ msgstr "Alkalmazás beállítások elmentve"
 #: Console/AppConsole.vala:100
 msgid "Application needs admin access."
 msgstr ""
+"Az alkalmazásnak rendszergazda jogosultságú hozzáférésre van szüksége."
 
 #: Core/Main.vala:3372
 msgid "Application will exit"
-msgstr ""
+msgstr "Az alkalmazás ki fog lépni"
 
 #: Core/Main.vala:364
 msgid "Application will exit."
-msgstr ""
+msgstr "Az alkalmazás ki fog lépni."
 
 #: Utility/Gtk/AboutWindow.vala:344
 #, c-format
@@ -234,11 +244,11 @@ msgstr "BTRFS pillanatképek"
 
 #: Gtk/SnapshotBackendBox.vala:118
 msgid "BTRFS Tools Not Found"
-msgstr ""
+msgstr "BTRFS eszközök nem találhatóak"
 
 #: Core/Main.vala:1910 Core/Main.vala:1914
 msgid "BTRFS device is not mounted"
-msgstr ""
+msgstr "A BTRFS eszköz nincs csatlakoztatva"
 
 #: Gtk/FinishBox.vala:91
 msgid ""
@@ -247,6 +257,10 @@ msgid ""
 "snapshots to an external non-system disk in RSYNC mode to guard against disk "
 "failures."
 msgstr ""
+"A BTRFS pillanatképek ugyanarra az eszközre vannak elmentve amiről "
+"készültek. Ha a rendszerlemez meghibásodik, a pillanatképek el fognak veszni "
+"a rendszerrel együtt. A lemezhibák elleni védekezés érdekében mentse a "
+"pillanatképeket egy külső, nem rendszerlemezre, RSYNC módban."
 
 #: Utility/Gtk/AboutWindow.vala:294
 msgid "Back"
@@ -266,11 +280,11 @@ msgstr "Mentőeszköz"
 
 #: Core/Main.vala:1881
 msgid "Backup device not specified!"
-msgstr ""
+msgstr "A biztonsági mentés célmeghajtója nincs megadva."
 
 #: Gtk/RestoreExcludeBox.vala:116
 msgid "Bittorrent Clients"
-msgstr ""
+msgstr "Bittorrent kliensek"
 
 #: Gtk/ScheduleBox.vala:133
 msgid "Boot"
@@ -282,19 +296,19 @@ msgstr "Nincs kiválasztva rendszerindítő eszköz"
 
 #: Core/Main.vala:920
 msgid "Boot snapshot failed!"
-msgstr ""
+msgstr "A rendszerindító pillanatkép meghibásodott."
 
 #: Core/Main.vala:901
 msgid "Boot snapshots are enabled"
-msgstr ""
+msgstr "A rendszerindító pillanatképek engedélyezve vannak"
 
 #: Gtk/BootOptionsWindow.vala:48
 msgid "Bootloader Options"
-msgstr ""
+msgstr "Rendszerbetöltő beállítások"
 
 #: Gtk/RestoreDeviceBox.vala:409
 msgid "Bootloader Options (Advanced)"
-msgstr ""
+msgstr "Rendszerbetöltő beállítások (Speciális)"
 
 #: Gtk/MainWindow.vala:168
 msgid "Browse"
@@ -310,7 +324,7 @@ msgstr "Kiválasztott pillanatkép tallózása"
 
 #: Core/Main.vala:2348
 msgid "Building file list..."
-msgstr ""
+msgstr "Fájllista készítése…"
 
 #: Utility/Gtk/CustomMessageDialog.vala:172 Utility/GtkHelper.vala:122
 #: Gtk/DeleteWindow.vala:184 Gtk/SetupWizardWindow.vala:202
@@ -320,7 +334,7 @@ msgstr "Mégse"
 
 #: Gtk/RestoreWindow.vala:189
 msgid "Cancel restore?"
-msgstr ""
+msgstr "Megszakítja a visszaállítást?"
 
 #: Gtk/RestoreWindow.vala:191
 msgid ""
@@ -329,10 +343,15 @@ msgid ""
 "issues. After cancelling, you need to restore another snapshot, to bring the "
 "system to a consistent state. Click Yes to confirm."
 msgstr ""
+"A visszaállítási folyamat megszakítása inkonzisztens állapotban fogja hagyni "
+"a kiválasztott rendszert. A rendszer indíthatatlanná válhat vagy más "
+"problémák jelentkezhetnek. A megszakítás után vissza kell állítania egy "
+"másik pillanatképet, hogy a rendszer konzisztenciáját visszaállítsa. "
+"Kattintson az „Igen”-re a megerősítéshez."
 
 #: Gtk/MainWindow.vala:573
 msgid "Cannot Delete Live Snapshot"
-msgstr ""
+msgstr "Nem törölhet aktív pillanatképet"
 
 #: Gtk/BackupBox.vala:87 Gtk/RestoreBox.vala:124
 msgid "Changed"
@@ -340,11 +359,11 @@ msgstr ""
 
 #: Gtk/BackupBox.vala:89 Gtk/RestoreBox.vala:126
 msgid "Changed items:"
-msgstr ""
+msgstr "Megváltozott elemek:"
 
 #: Core/Main.vala:2569
 msgid "Checking file systems for errors..."
-msgstr ""
+msgstr "Fájlrendszerhibák ellenőzése…"
 
 #: Gtk/BackupBox.vala:92 Gtk/RestoreBox.vala:129
 msgid "Checksum"
@@ -359,18 +378,20 @@ msgid ""
 "Click an item to edit the pattern.\n"
 "Drag and drop items with mouse to re-order."
 msgstr ""
+"Kattintson egy elemre a minta megváltoztatásához.\n"
+"Az elemeket húzással átrendezheti az egérrel."
 
 #: Gtk/ExcludeBox.vala:80 Gtk/UsersBox.vala:85
 msgid "Click to edit. Drag and drop to re-order."
-msgstr ""
+msgstr "Kattintson a szerkesztéshez. Az elemeket húzással átrendezheti."
 
 #: Gtk/RestoreWindow.vala:63
 msgid "Clone System"
-msgstr ""
+msgstr "A rendszer klónozása"
 
 #: Console/AppConsole.vala:358
 msgid "Clone current system"
-msgstr ""
+msgstr "A jelenlegi rendszer klónozása"
 
 #: Gtk/RestoreFinishBox.vala:61
 msgid "Cloning"
@@ -378,11 +399,11 @@ msgstr "Klónozás"
 
 #: Gtk/RestoreBox.vala:73
 msgid "Cloning System..."
-msgstr ""
+msgstr "A rendszer klónozása…"
 
 #: Core/Main.vala:2614
 msgid "Cloning system..."
-msgstr ""
+msgstr "A rendszer klónozása…"
 
 #: Utility/Gtk/AboutWindow.vala:302 Gtk/BootOptionsWindow.vala:105
 #: Gtk/DeleteWindow.vala:167 Gtk/SettingsWindow.vala:85
@@ -394,11 +415,11 @@ msgstr "Bezárás"
 #: Gtk/FinishBox.vala:100 Gtk/DeleteFinishBox.vala:71
 #: Gtk/BackupFinishBox.vala:70 Gtk/RestoreFinishBox.vala:90
 msgid "Close window to exit"
-msgstr ""
+msgstr "Zárja be az ablakot a kilépéshez"
 
 #: Core/Main.vala:334
 msgid "Commands listed below are not available on this system"
-msgstr ""
+msgstr "Az alábbi parancsok nem elérhetőek ezen a rendszeren"
 
 #: Gtk/SnapshotListBox.vala:224
 msgid "Comments"
@@ -411,12 +432,12 @@ msgstr "Befejezve"
 
 #: Gtk/RestoreFinishBox.vala:71
 msgid "Completed With Errors"
-msgstr ""
+msgstr "Befejezve hibákkal"
 
 #: Console/AppConsole.vala:1043
 #, c-format
 msgid "Continue with restore? (y/n): "
-msgstr ""
+msgstr "Folytatja visszaállítással? (y/n): "
 
 #: Utility/Gtk/AboutWindow.vala:328
 #, c-format
@@ -425,24 +446,26 @@ msgstr "Közreműködők"
 
 #: Console/AppConsole.vala:809 Console/AppConsole.vala:940
 msgid "Could not find device"
-msgstr ""
+msgstr "Az eszköz nem található"
 
 #: Utility/Device.vala:1119
 #, c-format
 msgid "Could not find file"
-msgstr ""
+msgstr "A fájl nem található"
 
 #: Console/AppConsole.vala:706
 msgid "Could not find snapshot"
-msgstr ""
+msgstr "A pillanatkép nem található"
 
 #: Core/Main.vala:2815
 msgid "Could not find system subvolume"
-msgstr ""
+msgstr "A rendszer alkötet nem található"
 
 #: Core/Main.vala:2843
 msgid "Could not find system subvolumes for creating pre-restore snapshot"
 msgstr ""
+"A rendszer alkötetek nem találhatóak a visszaállítás előtti pillanatkép "
+"létrehozásához"
 
 #: Gtk/MainWindow.vala:138
 msgid "Create"
@@ -450,53 +473,56 @@ msgstr "Létrehozás"
 
 #: Gtk/BackupWindow.vala:61
 msgid "Create Snapshot"
-msgstr ""
+msgstr "Pillanatkép létrehozása"
 
 #: Gtk/ScheduleBox.vala:133
 msgid "Create one per boot"
-msgstr ""
+msgstr "Rendszerindításonként egy készítése"
 
 #: Gtk/ScheduleBox.vala:97
 msgid "Create one per day"
-msgstr ""
+msgstr "Naponta egy készítése"
 
 #: Gtk/ScheduleBox.vala:115
 msgid "Create one per hour"
-msgstr ""
+msgstr "Óránként egy készítése"
 
 #: Gtk/ScheduleBox.vala:61
 msgid "Create one per month"
-msgstr ""
+msgstr "Havonta egy készítése"
 
 #: Gtk/ScheduleBox.vala:79
 msgid "Create one per week"
-msgstr ""
+msgstr "Hetente egy készítése"
 
 #: Console/AppConsole.vala:352
 msgid "Create snapshot (even if not scheduled)"
-msgstr ""
+msgstr "Pillanatkép készítése (akkor is ha nincs ütemezve)"
 
 #: Console/AppConsole.vala:351
 msgid "Create snapshot if scheduled"
-msgstr ""
+msgstr "Pillanatkép készítése ha ütemezve van"
 
 #: Gtk/MainWindow.vala:139
 msgid "Create snapshot of current system"
-msgstr ""
+msgstr "Pillanatkép készítése a jelengei rendszerről"
 
 #: Gtk/MainWindow.vala:1069
 msgid ""
 "Create snapshots manually or enable scheduled snapshots to protect your "
 "system"
 msgstr ""
+"Pillanatképek készítése kézzel, vagy az ütemezett pillanatképek "
+"engedélyezése a rendszer védelme érdekében"
 
 #: Gtk/SnapshotBackendBox.vala:96
 msgid "Create snapshots using RSYNC"
-msgstr ""
+msgstr "Pillanatkép készítése RSYNC program használatával"
 
 #: Gtk/SnapshotBackendBox.vala:79
 msgid "Create snapshots using RSYNC tool and hard-links"
 msgstr ""
+"Pillanatkép készítése az RSYNC program használatával és hivatkozásokkal"
 
 #: Gtk/BackupBox.vala:85 Gtk/RestoreBox.vala:122
 msgid "Created"
@@ -504,23 +530,23 @@ msgstr "Létrehozva"
 
 #: Core/Snapshot.vala:360
 msgid "Created control file"
-msgstr ""
+msgstr "Létrehozott vezérlő fájl"
 
 #: Utility/TeeJee.FileSystem.vala:307
 msgid "Created directory"
-msgstr ""
+msgstr "Létrehozott mappa"
 
 #: Core/Main.vala:2865
 msgid "Created pre-restore snapshot"
-msgstr ""
+msgstr "Létrehozott visszaállítás előtti pillanatkép"
 
 #: Core/Main.vala:1384
 msgid "Created subvolume snapshot"
-msgstr ""
+msgstr "Létrehozott alkötet pillanatkép"
 
 #: Gtk/BackupBox.vala:71
 msgid "Creating Snapshot..."
-msgstr ""
+msgstr "Pillanatkép létrehozása…"
 
 #: Core/Main.vala:1338
 msgid "Creating new backup..."

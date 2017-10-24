@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-09-12 09:44+0100\n"
-"PO-Revision-Date: 2017-10-18 18:34+0100\n"
-"Last-Translator: Kálmán szalai (KAMI) <kami911@gmail.com>\n"
+"PO-Revision-Date: 2017-10-23 15:09+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-10-17 14:08+0000\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Launchpad-Export-Date: 2017-10-24 05:12+0000\n"
+"X-Generator: Launchpad (build 18484)\n"
 "Language: hu\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:35
@@ -150,16 +150,18 @@ msgstr "Tömörített archívum létrehozása a kijelölt objektumokkal"
 
 #: nemo-gtkhash/src/callbacks.c:47
 msgid "Save Digests"
-msgstr ""
+msgstr "Kivonatok mentése"
 
 #: nemo-gtkhash/src/callbacks.c:236
 msgid "A GTK+ utility for computing message digests or checksums."
 msgstr ""
+"Egy GTK+ segédprogram üzenetkivonatok és ellenőrzőösszegek kiszámításához"
 
 #: nemo-gtkhash/src/callbacks.c:240
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Balázs Meskó https://launchpad.net/~meskobalazs\n"
 "  KAMI https://launchpad.net/~kami911"
 
 #: nemo-gtkhash/src/callbacks.c:262
@@ -194,6 +196,8 @@ msgid ""
 "Failed to add \"%s\":\n"
 "%s"
 msgstr ""
+"A(z) „%s” hozzáadása meghiúsult:\n"
+"%s"
 
 #: nemo-gtkhash/src/hash.c:74 nemo-gtkhash/src/nautilus/properties-hash.c:61
 #, c-format
@@ -217,15 +221,15 @@ msgstr "%s, összesen: %s - %u másodperc van hátra (%s/mp)"
 
 #: nemo-gtkhash/src/main.c:86
 msgid "Check against the specified digest or checksum"
-msgstr ""
+msgstr "Ellenőrzés a megadott kivonat vagy ellenőrzőösszeg alapján"
 
 #: nemo-gtkhash/src/main.c:86
 msgid "DIGEST"
-msgstr "DIGEST"
+msgstr "KIVONAT"
 
 #: nemo-gtkhash/src/main.c:90
 msgid "Read program data from the specified directory"
-msgstr ""
+msgstr "Programadatok olvasása a megadott könyvtárból"
 
 #: nemo-gtkhash/src/main.c:90
 msgid "DIRECTORY"
@@ -233,7 +237,7 @@ msgstr "MAPPA"
 
 #: nemo-gtkhash/src/main.c:94
 msgid "Hash the specified text"
-msgstr ""
+msgstr "A megadott szöveg hash értékének előállítása"
 
 #: nemo-gtkhash/src/main.c:94
 msgid "TEXT"
@@ -241,7 +245,7 @@ msgstr "SZÖVEG"
 
 #: nemo-gtkhash/src/main.c:98
 msgid "Show version information"
-msgstr ""
+msgstr "Verzióinformációk megjelenítése"
 
 #: nemo-gtkhash/src/main.c:102
 msgid "[FILE|URI...]"
@@ -249,13 +253,13 @@ msgstr "[FÁJL|URI…]"
 
 #: nemo-gtkhash/src/prefs.c:76
 msgid "Failed to enable any supported hash functions."
-msgstr ""
+msgstr "Egyetlen támogatott hash függvény engedélyezése sem sikerült."
 
 #: nemo-gtkhash/src/nautilus/properties.c:436
 #: nemo-gtkhash/src/nautilus/properties.c:439
 #: nemo-gtkhash/src/nautilus/properties.c:441
 msgid "Digests"
-msgstr ""
+msgstr "Kivonatok"
 
 #: nemo-image-converter/src/nemo-image-converter.c:121
 msgid "_Resize Images..."
@@ -467,41 +471,43 @@ msgstr "Képméret"
 #: nemo-pastebin/nemo-pastebin-configurator.py:49
 #, python-format
 msgid "Can't find %s in any known prefix!"
-msgstr ""
+msgstr "A(z) %s egyetlen ismert előtagban sem található."
 
 #: nemo-pastebin/nemo-pastebin.py:111
 msgid "Unable to read or parse the result page."
-msgstr ""
+msgstr "Az eredménylap olvasása vagy feldolgozása nem lehetséges."
 
 #: nemo-pastebin/nemo-pastebin.py:112
 msgid "It could be a server timeout or a change server side. Try later."
 msgstr ""
+"Lehet hogy kiszolgáló oldali időtúllépés vagy változás okozza. Próbálja újra "
+"később."
 
 #: nemo-pastebin/nemo-pastebin.py:169
 #, python-format
 msgid "Pastebin to %s"
-msgstr ""
+msgstr "Pastebin ehhez: %s"
 
 #: nemo-pastebin/nemo-pastebin.py:170
 #, python-format
 msgid "Send this file to %s"
-msgstr ""
+msgstr "Fájl küldése ide: %s"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:1
 msgid "Nemo Pastebin"
-msgstr ""
+msgstr "Nemo Pastebin"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:2
 msgid "Pastebin"
-msgstr ""
+msgstr "Pastebin"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:3
 msgid "Open the browser"
-msgstr ""
+msgstr "Böngésző megnyitása"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:4
 msgid "Show a notification"
-msgstr ""
+msgstr "Értesítés megjelenítése"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:5
 msgid "Username"
@@ -547,11 +553,11 @@ msgstr "Módosítva"
 
 #: nemo-preview/src/js/viewers/audio.js:176
 msgid "from"
-msgstr "erről: "
+msgstr "erről:"
 
 #: nemo-preview/src/js/viewers/audio.js:178
 msgid "by"
-msgstr "előadó: "
+msgstr "előadó:"
 
 #: nemo-preview/src/js/viewers/evince.js:81
 #, javascript-format
@@ -564,8 +570,8 @@ msgid ""
 "<span size=\"larger\">The selected \"%s\" is invalid encoding.</span>\n"
 "<span size=\"larger\">Please choose another one.</span>"
 msgstr ""
-"<span size=\"larger\">A kiválasztott „%s” fájl érvénytelen kódolást használ.<"
-"/span>\n"
+"<span size=\"larger\">A kiválasztott „%s” fájl érvénytelen kódolást "
+"használ.</span>\n"
 "<span size=\"larger\">Válasszon egy másik fájlt..</span>"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:120
@@ -574,8 +580,8 @@ msgid ""
 "<span size=\"larger\" weight=\"bold\">There was an error renaming the file "
 "to \"%s\"</span>"
 msgstr ""
-"<span size=\"larger\" weight=\"bold\">Hiba történt a fájl „%s” névre történő"
-" átnevezésekor.</span>"
+"<span size=\"larger\" weight=\"bold\">Hiba történt a fájl „%s” névre történő "
+"átnevezésekor.</span>"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:157
 #, c-format
@@ -590,8 +596,8 @@ msgstr ""
 msgid ""
 "If you want to rename the selected file, please move or rename \"%s\" first."
 msgstr ""
-"Ha át kívánja nevezni a kiválasztott fájlt, helyezze át vagy nevezze át a már"
-" meglévő „%s” fájlt."
+"Ha át kívánja nevezni a kiválasztott fájlt, helyezze át vagy nevezze át a "
+"már meglévő „%s” fájlt."
 
 #: nemo-repairer/src/nemo-filename-repairer.c:217
 msgid "Repair filename ..."
@@ -685,8 +691,8 @@ msgid ""
 "<span size=\"larger\" weight=\"bold\">There was an error renaming \"%s\" to "
 "\"%s\"</span>"
 msgstr ""
-"<span size=\"larger\" weight=\"bold\">Hiba történt a(z) „%s” fájl „%s” névre"
-" történő átnevezésekor.</span>"
+"<span size=\"larger\" weight=\"bold\">Hiba történt a(z) „%s” fájl „%s” névre "
+"történő átnevezésekor.</span>"
 
 #: nemo-repairer/src/repair-dialog.c:316
 msgid "Other ..."
@@ -698,7 +704,7 @@ msgstr "Ahogy van"
 
 #: nemo-repairer/src/repair-dialog.c:729
 msgid "To be"
-msgstr ""
+msgstr "Legyen"
 
 #: nemo-repairer/src/repairer.c:50
 msgid "Nemo Filename Repairer: Select Files To Rename"
@@ -710,7 +716,7 @@ msgstr "Válassza ki a fájl kódolását"
 
 #: nemo-repairer/src/encoding-dialog.ui.h:2
 msgid "_Encoding name to add: "
-msgstr ""
+msgstr "Hozzáadandó _kódolás neve: "
 
 #: nemo-seahorse/tool/seahorse-notification.c:569
 msgid "Key Imported"
@@ -775,6 +781,7 @@ msgstr "Nem megbízható érvényes aláírás."
 #, c-format
 msgid "Valid but <b>untrusted</b> signature by <i><key id='%s'/></i> on %s."
 msgstr ""
+"Érvényes, de <b>nem megbízható</b> aláírás: <i><key id='%s'/>, itt: %s."
 
 #: nemo-seahorse/tool/seahorse-notification.c:635
 msgid "Signing key not in keyring."
@@ -786,7 +793,7 @@ msgstr "Ismeretlen aláírás"
 
 #: nemo-seahorse/tool/seahorse-notification.c:640
 msgid "Bad or forged signature. The signed data was modified."
-msgstr ""
+msgstr "Rossz vagy hamisított aláírás. Az aláírt adatok módosultak."
 
 #: nemo-seahorse/tool/seahorse-notification.c:641
 msgid "Bad Signature"
@@ -832,31 +839,31 @@ msgstr "Mégse"
 
 #: nemo-seahorse/tool/seahorse-tool.c:58
 msgid "Import keys from the file"
-msgstr ""
+msgstr "Kulcsok importálása fájlból"
 
 #: nemo-seahorse/tool/seahorse-tool.c:60
 msgid "Encrypt file"
-msgstr ""
+msgstr "Fájl titkosítása"
 
 #: nemo-seahorse/tool/seahorse-tool.c:62
 msgid "Sign file with default key"
-msgstr ""
+msgstr "Fájl aláírása az alapértelmezett kulccsal"
 
 #: nemo-seahorse/tool/seahorse-tool.c:64
 msgid "Encrypt and sign file with default key"
-msgstr ""
+msgstr "Fájl aláírása és titkosítása az alapértelmezett kulccsal"
 
 #: nemo-seahorse/tool/seahorse-tool.c:66
 msgid "Decrypt encrypted file"
-msgstr ""
+msgstr "Titkosított fájl visszafejtése"
 
 #: nemo-seahorse/tool/seahorse-tool.c:68
 msgid "Verify signature file"
-msgstr ""
+msgstr "Aláírásfájl ellenőrzése"
 
 #: nemo-seahorse/tool/seahorse-tool.c:70
 msgid "Read list of URIs on standard in"
-msgstr ""
+msgstr "URI lista olvasása a szabványos bemenetről"
 
 #: nemo-seahorse/tool/seahorse-tool.c:72
 msgid "file..."
@@ -869,12 +876,12 @@ msgstr "Titkosítási beállítások"
 #: nemo-seahorse/tool/seahorse-tool.c:233
 #: nemo-seahorse/tool/seahorse-tool.c:347
 msgid "Couldn't load keys"
-msgstr ""
+msgstr "Nem sikerült betölteni a kulcsokat"
 
 #: nemo-seahorse/tool/seahorse-tool.c:250
 #, c-format
 msgid "Choose Encrypted File Name for '%s'"
-msgstr ""
+msgstr "Válassza ki a titkosított fájl nevét ehhez: „%s”"
 
 #: nemo-seahorse/tool/seahorse-tool.c:325
 msgid "Choose Signer"
@@ -883,7 +890,7 @@ msgstr "Válassza ki az aláírót"
 #: nemo-seahorse/tool/seahorse-tool.c:367
 #, c-format
 msgid "Choose Signature File Name for '%s'"
-msgstr ""
+msgstr "Válassza ki az aláírásfájl nevét ehhez: „%s”"
 
 #: nemo-seahorse/tool/seahorse-tool.c:407
 msgid "Import is complete"
@@ -915,12 +922,12 @@ msgstr[1] "Importálva %d kulcs"
 #: nemo-seahorse/tool/seahorse-tool.c:518
 #, c-format
 msgid "Choose Decrypted File Name for '%s'"
-msgstr ""
+msgstr "Válassza ki a visszafejtett fájl nevét ehhez: „%s”"
 
 #: nemo-seahorse/tool/seahorse-tool.c:575
 #, c-format
 msgid "Choose Original File for '%s'"
-msgstr ""
+msgstr "Válassza ki az eredeti fájlt ehhez: „%s”"
 
 #: nemo-seahorse/tool/seahorse-tool.c:648
 msgid "No valid signatures found"
@@ -1051,8 +1058,8 @@ msgstr "7-Zip (.7z)"
 #, c-format
 msgid "You have selected %d file "
 msgid_plural "You have selected %d files "
-msgstr[0] "Összesen %d fájlt"
-msgstr[1] "Összesen %d fájlt"
+msgstr[0] "Összesen %d fájlt "
+msgstr[1] "Összesen %d fájlt "
 
 #: nemo-seahorse/tool/seahorse-tool-files.c:330
 #, c-format
@@ -1097,8 +1104,8 @@ msgstr "Nem sikerült a fájlok becsomagolása"
 #: nemo-seahorse/tool/seahorse-util.c:170
 msgid "Decryption failed. You probably do not have the decryption key."
 msgstr ""
-"A visszafejtés meghiúsult. Valószínűleg nem rendelkezik a visszafejtési"
-" kulccsal."
+"A visszafejtés meghiúsult. Valószínűleg nem rendelkezik a visszafejtési "
+"kulccsal."
 
 #: nemo-seahorse/tool/seahorse-util.c:197
 msgid "%Y-%m-%d"
@@ -1106,11 +1113,11 @@ msgstr "%Y. %m. %d."
 
 #: nemo-seahorse/tool/seahorse-util.c:391
 msgid "Couldn't run file-roller"
-msgstr ""
+msgstr "Nem sikerült futtatni a file-rollert"
 
 #: nemo-seahorse/tool/seahorse-util.c:397
 msgid "The file-roller process did not complete successfully"
-msgstr ""
+msgstr "A file-roller folyamat sikertelenül fejeződött be"
 
 #: nemo-seahorse/tool/seahorse-util.c:433
 msgid "All key files"
@@ -1145,7 +1152,7 @@ msgstr "Több fájl titkosítása"
 
 #: nemo-seahorse/tool/seahorse-multi-encrypt.xml.h:2
 msgid "<b>You have selected multiple files or folders</b>"
-msgstr ""
+msgstr "<b>Több fájlt vagy mappát jelölt ki</b>"
 
 #: nemo-seahorse/tool/seahorse-multi-encrypt.xml.h:3
 msgid "encrypted-package"
@@ -1172,6 +1179,7 @@ msgid ""
 "Because the files are located remotely, each file will be encrypted "
 "separately."
 msgstr ""
+"Mivel a fájlok távoli helyen vannak, minden fájl külön-külön lesz titkosítva."
 
 #: nemo-seahorse/nemo-ext/nemo-seahorse.c:159
 msgid "Encrypt..."
@@ -1181,7 +1189,7 @@ msgstr "Titkosítás…"
 msgid "Encrypt (and optionally sign) the selected file"
 msgid_plural "Encrypt the selected files"
 msgstr[0] "Kijelölt fájl titkosítása (és aláírása)"
-msgstr[1] ""
+msgstr[1] "Kijelölt fájlok titkosítása"
 
 #: nemo-seahorse/nemo-ext/nemo-seahorse.c:166
 msgid "Sign"
@@ -1191,16 +1199,15 @@ msgstr "Aláírás"
 msgid "Sign the selected file"
 msgid_plural "Sign the selected files"
 msgstr[0] "Kijelölt fájl aláírása"
-msgstr[1] ""
+msgstr[1] "Kijelölt fájlok aláírása"
 
 #: nemo-share/src/nemo-share.c:134
 #, c-format
 msgid ""
 "Nemo needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr ""
-"A megosztáshoz a Nemo-nak szüksége van néhány jogosultságra a „%s” mappához,"
-" hogy "
-"megtudja osztani azt"
+"A megosztáshoz a Nemo-nak szüksége van néhány jogosultságra a „%s” mappához, "
+"hogy megtudja osztani azt"
 
 #: nemo-share/src/nemo-share.c:142
 #, c-format
@@ -1209,18 +1216,22 @@ msgid ""
 "work:\n"
 "%s%s%sDo you want Nemo to add these permissions to the folder automatically?"
 msgstr ""
+"A(z) „%s” mappa a következő további engedélyeket kéri a megosztás "
+"működéséhez:\n"
+"%s%s%sSzeretné hogy a Nemo automatikusan hozzáadja ezeket az engedélyeket a "
+"mappához?"
 
 #: nemo-share/src/nemo-share.c:146
 msgid "  - read permission by others\n"
-msgstr "- olvasási jog másoknak\n"
+msgstr "  - olvasási jog másoknak\n"
 
 #: nemo-share/src/nemo-share.c:147
 msgid "  - write permission by others\n"
-msgstr "- írási jog másoknak\n"
+msgstr "  - írási jog másoknak\n"
 
 #: nemo-share/src/nemo-share.c:148
 msgid "  - execute permission by others\n"
-msgstr "- futtatási jog másoknak\n"
+msgstr "  - futtatási jog másoknak\n"
 
 #: nemo-share/src/nemo-share.c:152
 msgid "Add the permissions automatically"
@@ -1259,16 +1270,16 @@ msgstr "Megosztás _létrehozása"
 #: nemo-share/src/nemo-share.c:600
 msgid "Please log out and back in to finalize changes"
 msgstr ""
-"A változtatások érvényre juttatásához ki kell jelentkeznie, majd újra"
-" bejelentkeznie."
+"A változtatások érvényre juttatásához ki kell jelentkeznie, majd újra "
+"bejelentkeznie."
 
 #: nemo-share/src/nemo-share.c:603
 msgid ""
 "Something went wrong.  You may need to install samba and add your user to "
 "the 'sambashare' group manually."
 msgstr ""
-"Valami hiba történt. Lehet, hogy kézzel kell telepíteni a „samba” csomagot és"
-" a felhasználóját hozzáadni a „sambashare” csoporthoz."
+"Valami hiba történt. Lehet, hogy kézzel kell telepíteni a „samba” csomagot "
+"és a felhasználóját hozzáadni a „sambashare” csoporthoz."
 
 #: nemo-share/src/nemo-share.c:755
 msgid "There was an error while getting the sharing information"
@@ -1321,26 +1332,27 @@ msgstr "Sikertelen"
 #: nemo-share/src/shares.c:550
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "A Samba tesztparaméter „%d” jellel tért vissza"
+msgstr "A Samba testparm parancsa „%d” szignállal tért vissza"
 
 #: nemo-share/src/shares.c:556
 msgid "Samba's testparm failed for an unknown reason"
-msgstr "A Samba tesztparaméter ismeretlen okból meghiúsult"
+msgstr "A Samba testparm parancsa ismeretlen okból meghiúsult"
 
 #: nemo-share/src/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "A Samba tesztparaméter „%d” hibát jelzett: %s"
+msgstr "A Samba testparm parancsa „%d” hibát jelzett: %s"
 
 #: nemo-share/src/shares.c:573
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "A Samba tesztparaméter „%d” hibát jelzett"
+msgstr "A Samba testparm parancsa „%d” hibát jelzett"
 
 #: nemo-share/src/shares.c:684
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "A „%s” megosztás nem távlítható el, mert az elérési út nincs megosztva"
+msgstr ""
+"A „%s” megosztás nem távlítható el, mert az elérési út nincs megosztva"
 
 #: nemo-share/src/shares.c:730
 msgid ""
@@ -1386,6 +1398,5 @@ msgid ""
 "Samba needs to be installed, and your user account needs to join the "
 "'sambashare' group."
 msgstr ""
-"Telepíteni kell a „samba” csomagot és a felhasználóját hozzá kell adni a"
-" „sambashare” csoporthoz."
-
+"Telepíteni kell a „samba” csomagot és a felhasználóját hozzá kell adni a "
+"„sambashare” csoporthoz."

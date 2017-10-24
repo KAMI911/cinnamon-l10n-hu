@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-04 11:21+0100\n"
-"PO-Revision-Date: 2017-10-17 12:55+0000\n"
+"PO-Revision-Date: 2017-10-23 19:20+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-10-17 14:09+0000\n"
-"X-Generator: Launchpad (build 18476)\n"
+"X-Launchpad-Export-Date: 2017-10-24 05:12+0000\n"
+"X-Generator: Launchpad (build 18484)\n"
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
 #: generate_desktop_files:41
@@ -46,6 +46,8 @@ msgid ""
 "The debug symbols are missing for %(program)s.\n"
 "Please install %(package)s."
 msgstr ""
+"A hibakereső szimbólumok hiányoznak a következőhő programhoz: %(program)s\n"
+"Telepítse a(z) %(package)s csomagot."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:341
 #, python-format
@@ -54,6 +56,9 @@ msgid ""
 "If you want to generate a stack trace for this crash report, please "
 "reinstall it."
 msgstr ""
+"Nem található csomag a következőhöz: %s.\n"
+"Telepítse újra, ha ehhez az összeomlás jelentéshez kíván veremkiíratást "
+"készíteni."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:372
 msgid ""
@@ -63,6 +68,11 @@ msgid ""
 "A stack trace is available in 'Local Files' but its content is probably "
 "inaccurate."
 msgstr ""
+"A rendszerre telepített fejlécek és binárisok nem egyeznek meg az összeomlás "
+"során végrehajtott kóddal.\n"
+"Vélhetően frissítve lettek az összeomlás óta.\n"
+"A veremkiíratás elérhető a „Helyi fájlok” listájánál, de a tartalma lehet, "
+"hogy nem pontos."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:410
 msgid "The report could not be deleted."
@@ -87,7 +97,7 @@ msgstr "Összeomlás jelentések:"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:2
 msgid "Stack trace:"
-msgstr ""
+msgstr "Veremkiíratás:"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:3
 msgid ""
