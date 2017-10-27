@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mintbackup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-08 11:49+0100\n"
-"PO-Revision-Date: 2017-10-17 12:36+0000\n"
+"POT-Creation-Date: 2017-10-27 13:03+0100\n"
+"PO-Revision-Date: 2017-10-27 12:44+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-10-24 05:02+0000\n"
-"X-Generator: Launchpad (build 18484)\n"
+"X-Launchpad-Export-Date: 2017-10-27 13:11+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:32
@@ -279,11 +279,11 @@ msgid "Please select the applications you want to save."
 msgstr "Válassza ki a mentendő alkalmazásokat."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
-msgid "Select All"
-msgstr "Minden kijelölése"
+msgid "Select all"
+msgstr "Összes kijelölése"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
-msgid "Deselect All"
+msgid "Deselect all"
 msgstr "Kijelölés megszüntetése"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
@@ -398,3 +398,9 @@ msgstr "A szoftverválogatásból minden csomag telepítve van."
 
 #~ msgid "Excluded paths"
 #~ msgstr "Kihagyott útvonalak"
+
+#~ msgid "Select All"
+#~ msgstr "Minden kijelölése"
+
+#~ msgid "Deselect All"
+#~ msgstr "Kijelölés megszüntetése"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mintupload\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-19 15:28+0200\n"
+"POT-Creation-Date: 2017-10-27 13:16+0100\n"
 "PO-Revision-Date: 2017-10-16 14:30+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-10-24 05:01+0000\n"
-"X-Generator: Launchpad (build 18484)\n"
+"X-Launchpad-Export-Date: 2017-10-27 13:09+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
@@ -202,25 +202,25 @@ msgstr ""
 "A(z) %(1)s nincs beállítva a(z) %(2)s vagy %(3)s mappában található "
 "beállítófájlban"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:28
-#: usr/lib/linuxmint/mintupload/file-uploader.py:31
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
 #: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
 msgstr "Feltöltőszolgáltatások"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:58
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
 msgid "Services:"
 msgstr "Szolgáltatások:"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:72
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
 msgid "Upload manager..."
 msgstr "Feltöltéskezelő…"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:81
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
 msgid "Quit"
 msgstr "Kilépés"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:134
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
 msgstr "Húzza és ejtse ide a(z) %s szolgáltatásra feltölteni kívánt fájlokat"

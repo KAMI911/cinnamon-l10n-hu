@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-04 11:21+0100\n"
-"PO-Revision-Date: 2017-10-23 19:20+0000\n"
+"PO-Revision-Date: 2017-10-24 05:18+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-10-24 05:12+0000\n"
-"X-Generator: Launchpad (build 18484)\n"
+"X-Launchpad-Export-Date: 2017-10-27 13:23+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
 #: generate_desktop_files:41
@@ -76,7 +76,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:410
 msgid "The report could not be deleted."
-msgstr ""
+msgstr "A hibajelentés nem törölhető."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:411
 #, python-format
@@ -104,6 +104,10 @@ msgid ""
 "When seeking help, check for existing bug reports, pastebin the trace, share "
 "crash.tar.gz (from Local Files) and explain how to reproduce the crash."
 msgstr ""
+"Amikor segítséget keres egy hibához, akkor nézze át a már bejelentett "
+"hibákat, ossza meg a veremkiíratást Pastebin segítségével, a „Helyi fájlok” "
+"közül ossza meg a vonatkozó crash.tar.gz fájlt,  illetve írja le, hogy "
+"milyen módon lehet előidézni a hibát."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:4
 msgid "Local Files"
@@ -111,7 +115,7 @@ msgstr "Helyi fájlok"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:5
 msgid "Open the directory containing crash.tar.gz and its content."
-msgstr ""
+msgstr "Nyissa mega a crash.tar.gz fájlt tartalmazó mappát."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:6
 msgid "Bug Tracker"
@@ -119,7 +123,7 @@ msgstr "Hibajegykezelő"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:7
 msgid "Find the most appropriate bug tracker."
-msgstr ""
+msgstr "Keresse meg az illetékes projekt hibajegykezelő rendszerét."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:8
 msgid "Pastebin"
@@ -127,7 +131,7 @@ msgstr "Pastebin"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:9
 msgid "Upload the trace to the Internet."
-msgstr ""
+msgstr "Töltse fel a veremkiíratást az internetre."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:10
 msgid "Delete"
@@ -143,6 +147,9 @@ msgid ""
 "Always provide a trace and reliable instructions to trigger/observe the "
 "problem."
 msgstr ""
+"A fejlesztőknek ismerniük kell, hogy hol omlik össze a kód, illetve hogyan "
+"reprodukálhatják a hibát. Mindig adja meg a veremkiíratást és megbízható "
+"utasításokat a hiba előidézésére és megfigyeléséhez."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:13
 msgid "Crash reports"
