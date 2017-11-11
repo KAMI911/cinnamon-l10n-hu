@@ -16,15 +16,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "settings-daemon&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-10-23 13:57+0100\n"
-"PO-Revision-Date: 2017-10-23 14:53+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2017-11-03 11:21+0000\n"
+"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-10-27 13:22+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-10 16:51+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 "Language: hu\n"
 
 #: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:377
@@ -480,9 +480,8 @@ msgstr "A noteszgép-akkumulátor gyenge"
 
 #: plugins/power/csd-power-manager.c:1317
 #, c-format
-#| msgid "Approximately <b>%s</b> remaining (%.0f%%)"
 msgid "Approximately %s remaining (%.0f%%)"
-msgstr "Megközelítőleg %s van hátra (%.0lf%%)"
+msgstr "Megközelítőleg %s van hátra (%.0f%%)"
 
 #: plugins/power/csd-power-manager.c:1322
 msgid "UPS low"
