@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: slideshow-mint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-07 15:15+0000\n"
-"PO-Revision-Date: 2016-12-11 12:00+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2017-11-12 13:14+0000\n"
+"Last-Translator: sipiatti <sipiatti@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-10 16:33+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-12-12 12:58+0000\n"
+"X-Generator: Launchpad (build 18511)\n"
 "Language: hu\n"
 
 #. type: Content of: <div><h1>
@@ -30,10 +30,10 @@ msgid ""
 "favorite social networks. Linux Mint provides all you need to interact with "
 "Twitter, Facebook, MSN, ICQ, GoogleTalk, AIM, Yahoo and many other networks."
 msgstr ""
-"Tartsa a kapcsolatot barátaival, ismerőseivel e-mailben, üzenetküldőkkel "
-"vagy kedvenc közösségi hálózatain. A Linux Mint segítségével ezt könnyedén "
-"megteheti Twitter, Facebook, MSN, ICQ, Google Talk, AIM, Yahoo és még sok "
-"más hálózaton is."
+"Tartsa a kapcsolatot barátaival, ismerőseivel elektronikus levélben, "
+"üzenetküldőkkel vagy a kedvenc közösségi hálózataival. A Linux Mint "
+"segítségével ezt könnyedén megteheti Twitter, Facebook, MSN, ICQ, Google "
+"Talk, AIM, Yahoo hálózatokon, és sok más hálózaton is."
 
 #. type: Content of: <div><div><div><h2>
 #: slideshows/mint/slides/chat.html:12 slideshows/mint/slides/music.html:12
@@ -249,8 +249,8 @@ msgstr "Nézzen videókat és DVD-ket"
 msgid ""
 "Insert a DVD and enjoy a movie. Watch high-definition videos with VLC."
 msgstr ""
-"Csak tegye be a DVD-t és élvezze a filmet. A VLC-vel HD minőségű videókat is "
-"nézhet."
+"Csak tegye be a DVD-t és élvezze a filmet. A VLC programmal HD minőségű "
+"videókat is nézhet."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/video.html:16
@@ -307,8 +307,8 @@ msgid ""
 "Welcome and thank you for choosing Linux Mint. This slideshow will show you "
 "around while the system is being installed on your computer."
 msgstr ""
-"Köszönjük, hogy a Linux Mint-et választotta. Ez a bemutató egy áttekintő "
-"ismertetést nyújt Önnek, miközben rendszere a számítógépre települ."
+"Köszönjük, hogy a Linux Mint-et választotta. Ez a bemutató áttekintést nyújt "
+"Önnek, miközben rendszere a számítógépre települ."
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/windows.html:1
@@ -321,8 +321,9 @@ msgid ""
 "Install Wine and run Windows software in Linux Mint. Or install Virtualbox, "
 "and run Windows itself within Linux Mint."
 msgstr ""
-"Telepítse a Wine-t és futtasson segítségével Windows szoftvereket. Telepítse "
-"a Virtualbox-ot és futtasson Windows-t a Linux Mint-en belül."
+"Telepítse a Wine programot, és futtasson segítségével Windows-on futó "
+"szoftvereket. Telepítse a Virtualbox programot, és futtasson akár egy teljes "
+"Windows-t a Linux Mint operációs rendszeren."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/windows.html:16
