@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: slideshow-mint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-07 15:15+0000\n"
-"PO-Revision-Date: 2017-11-12 13:14+0000\n"
-"Last-Translator: sipiatti <sipiatti@gmail.com>\n"
+"PO-Revision-Date: 2018-03-07 15:07+0000\n"
+"Last-Translator: JanosTech <Unknown>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-12 12:58+0000\n"
-"X-Generator: Launchpad (build 18511)\n"
+"X-Launchpad-Export-Date: 2018-03-24 08:34+0000\n"
+"X-Generator: Launchpad (build 18573)\n"
 "Language: hu\n"
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/chat.html:1
 msgid "Stay connected"
-msgstr "Maradjon kapcsolatban ismerőseivel"
+msgstr "Maradjon kapcsolatban"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/chat.html:8
@@ -41,7 +41,7 @@ msgstr ""
 #: slideshows/mint/slides/software.html:12 slideshows/mint/slides/video.html:12
 #: slideshows/mint/slides/web.html:12 slideshows/mint/slides/windows.html:12
 msgid "Featured software"
-msgstr "Népszerű szoftverek"
+msgstr "Kiemelt szoftverek"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/chat.html:16
@@ -66,7 +66,7 @@ msgstr "Hexchat (IRC csevegő)"
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/customize.html:1
 msgid "Customize your desktop"
-msgstr "Változtassa meg munkaasztalát"
+msgstr "Munkaasztal testreszabása"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/customize.html:8
@@ -108,7 +108,7 @@ msgstr "Hallgasson zenét"
 #: slideshows/mint/slides/music.html:8
 msgid "Enjoy your music, listen to podcasts and online radios."
 msgstr ""
-"Érezze a zenét, és hallgasson online rádiókat, vagy egyéb online adásokat."
+"Élvezze a zenét, hallgasson online rádiókat, vagy egyéb online adásokat."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/music.html:16
@@ -128,7 +128,7 @@ msgstr "Hang kodekek"
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/office.html:1
 msgid "Be productive"
-msgstr "Használja a munkában"
+msgstr "Legyen produktív"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/office.html:8
@@ -193,7 +193,7 @@ msgstr "Inkscape (vektoros képszerkesztő)"
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/software.html:1
 msgid "Install software"
-msgstr "Telepítsen szoftvereket"
+msgstr "Szoftver telepítés"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/software.html:8
@@ -299,7 +299,7 @@ msgstr "Java"
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/welcome.html:1
 msgid "Welcome to Linux Mint"
-msgstr "Üdvözöljük a Linux Mint-ben!"
+msgstr "Üdvözli a Linux Mint"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/welcome.html:8
@@ -333,4 +333,4 @@ msgstr "Wine (Windows alkalmazás futtató)"
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/windows.html:20
 msgid "Virtualbox"
-msgstr "Virtualbox (virtualizációs szoftver)"
+msgstr "Virtualbox (virtualizációs környezet)"

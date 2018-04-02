@@ -18,15 +18,15 @@ msgstr ""
 "Project-Id-Version: cinnamon-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-10 13:19+0000\n"
-"PO-Revision-Date: 2017-11-12 07:59+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2018-03-06 20:37+0000\n"
+"Last-Translator: JanosTech <Unknown>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-12-12 13:02+0000\n"
-"X-Generator: Launchpad (build 18511)\n"
+"X-Launchpad-Export-Date: 2018-03-24 08:39+0000\n"
+"X-Generator: Launchpad (build 18573)\n"
 "Language: hu\n"
 
 #: panels/color/cc-color-panel.c:106
@@ -302,7 +302,7 @@ msgstr "Óra járásával ellentétes"
 #: panels/display/cc-display-panel.c:477
 msgctxt "display panel, rotation"
 msgid "Clockwise"
-msgstr "Óra járása szerinti"
+msgstr "Óramutató járásával megegyező"
 
 #: panels/display/cc-display-panel.c:478
 msgctxt "display panel, rotation"
@@ -332,8 +332,8 @@ msgid ""
 "Select a monitor to change its properties; drag it to rearrange its "
 "placement."
 msgstr ""
-"Válassza ki a kijelzőt a tulajdonságai módosításához, húzza az "
-"elhelyezésének megváltoztatásához."
+"Válasszon kijelzőt a tulajdonságok módosításához; húzással megváltoztathatja "
+"az elhelyezését."
 
 #: panels/display/cc-display-panel.c:2185
 #: panels/display/cc-display-panel.c:2237
@@ -342,11 +342,11 @@ msgstr "Nem sikerült a beállítások alkalmazása"
 
 #: panels/display/cc-display-panel.c:2265
 msgid "Could not save the monitor configuration"
-msgstr "A kijelző beállításai nem menthetők"
+msgstr "A monitor beállításainak mentése sikertelen"
 
 #: panels/display/cc-display-panel.c:2325
 msgid "Could not detect displays"
-msgstr "A kijelzők nem ismerhetők fel"
+msgstr "Kijelző(k) nem található(ak)"
 
 #: panels/display/cc-display-panel.c:2523
 msgid "Could not get screen information"
@@ -2126,4 +2126,4 @@ msgstr "Online fiókok"
 
 #: generate_additional_files.py:101
 msgid "Connect your online accounts"
-msgstr "Kacsolódás az online fiókokhoz"
+msgstr "Kapcsolódás az online fiókokhoz"

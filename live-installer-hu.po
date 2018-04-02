@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: live-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2017-11-12 13:03+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2018-03-06 20:21+0000\n"
+"Last-Translator: JanosTech <Unknown>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-12 12:58+0000\n"
-"X-Generator: Launchpad (build 18511)\n"
+"X-Launchpad-Export-Date: 2018-03-24 08:34+0000\n"
+"X-Generator: Launchpad (build 18573)\n"
 "Language: hu\n"
 
 #: usr/lib/live-installer/installer.py:69
@@ -270,8 +270,7 @@ msgstr "Gépnév"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr ""
-"Ez a gépnév lesz a számítógép neve, ahogyan majd a hálózaton is látszik."
+msgstr "Ez a gépnév lesz a számítógép neve a hálózaton."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
@@ -337,7 +336,8 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
 msgstr ""
-"Folytatáshoz csatolja a cél fájlrendszert a „/target” csatolási pont alá."
+"Folytatáshoz csatolja a cél fájlrendszert(eket) a „/target” csatolási pont "
+"alá."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
