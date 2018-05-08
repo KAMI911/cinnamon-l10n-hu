@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: slideshow-mint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-07 15:15+0000\n"
-"PO-Revision-Date: 2018-03-07 15:07+0000\n"
-"Last-Translator: JanosTech <Unknown>\n"
+"PO-Revision-Date: 2018-04-02 13:25+0000\n"
+"Last-Translator: sipiatti <sipiatti@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-03-24 08:34+0000\n"
-"X-Generator: Launchpad (build 18573)\n"
+"X-Launchpad-Export-Date: 2018-04-03 11:23+0000\n"
+"X-Generator: Launchpad (build 18599)\n"
 "Language: hu\n"
 
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/chat.html:1
 msgid "Stay connected"
-msgstr "Maradjon kapcsolatban"
+msgstr "Maradjon kapcsolatban ismerőseivel"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/chat.html:8
@@ -41,7 +41,7 @@ msgstr ""
 #: slideshows/mint/slides/software.html:12 slideshows/mint/slides/video.html:12
 #: slideshows/mint/slides/web.html:12 slideshows/mint/slides/windows.html:12
 msgid "Featured software"
-msgstr "Kiemelt szoftverek"
+msgstr "Népszerű szoftverek"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/chat.html:16
@@ -128,7 +128,7 @@ msgstr "Hang kodekek"
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/office.html:1
 msgid "Be productive"
-msgstr "Legyen produktív"
+msgstr "Használja a munkában"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/office.html:8
@@ -193,7 +193,7 @@ msgstr "Inkscape (vektoros képszerkesztő)"
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/software.html:1
 msgid "Install software"
-msgstr "Szoftver telepítés"
+msgstr "Telepítsen szoftvereket"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/software.html:8
