@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 12:14+0000\n"
+"POT-Creation-Date: 2018-11-27 15:12+0000\n"
 "PO-Revision-Date: 2018-06-17 13:33+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-07 06:26+0000\n"
-"X-Generator: Launchpad (build 18810)\n"
+"X-Launchpad-Export-Date: 2018-11-29 18:19+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 "Language: hu\n"
 
 #: src/cinnamon-app.c:463 src/cinnamon-app.c:471
-#: js/ui/notificationDaemon.js:561
+#: js/ui/notificationDaemon.js:565
 #: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:65
 #: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:94
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:789
@@ -41,7 +41,7 @@ msgid "File System"
 msgstr "Fájlrendszer"
 
 #: src/cinnamon-util.c:250
-#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:222
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:228
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:368
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:741
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:174
@@ -117,14 +117,14 @@ msgid "Remove '%s'"
 msgstr "Eltávolítás: „%s”"
 
 #: js/ui/applet.js:567 js/ui/desklet.js:228
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:155
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:152
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:62
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:850
 msgid "About..."
 msgstr "Névjegy…"
 
 #: js/ui/applet.js:584 js/ui/desklet.js:233
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:159
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:156
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:66
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:854
 msgid "Configure..."
@@ -205,31 +205,15 @@ msgstr ""
 "Biztosan eltávolítja a következő munkaterületet: „%s”?\n"
 "\n"
 
-#: js/ui/extension.js:464
-msgid "Initializing"
-msgstr "Előkészítés"
-
-#: js/ui/extension.js:466
-msgid "Loaded"
-msgstr "Betöltve"
-
-#: js/ui/extension.js:468
-msgid "Error"
-msgstr "Hiba"
-
-#: js/ui/extension.js:470
-msgid "Out of date"
-msgstr "Elévült"
-
 #: js/ui/hotCorner.js:41
 msgid "Invalid overview options: Incorrect number of corners"
 msgstr "Érvénytelen áttekintő beállítások: a sarkok száma nem megfelelő"
 
-#: js/ui/lookingGlass.js:535
+#: js/ui/lookingGlass.js:588
 msgid "Execution time (ms): "
 msgstr "Végrehajtási idő (ms): "
 
-#: js/ui/lookingGlass.js:629
+#: js/ui/lookingGlass.js:673
 msgid "Loaded successfully"
 msgstr "Sikeresen betöltve"
 
@@ -303,7 +287,7 @@ msgid "Open"
 msgstr "Megnyitás"
 
 #: js/ui/messageTray.js:1285
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:163
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:160
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:53
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py:54
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:76
@@ -337,7 +321,7 @@ msgid "More info"
 msgstr "További információ"
 
 #: js/ui/modalDialog.js:569 js/ui/modalDialog.js:573 js/ui/workspace.js:1164
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:367
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:364
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:923
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:396
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:203
@@ -358,17 +342,17 @@ msgstr "Igen"
 msgid "OK"
 msgstr "OK"
 
-#: js/ui/panel.js:305
+#: js/ui/panel.js:300
 msgid "Select position of new panel. Esc to cancel."
 msgstr ""
 "Válassza ki az új panel helyét. Az „ESC” gombbal megszakíthatja a hozzáadást."
 
-#: js/ui/panel.js:306
+#: js/ui/panel.js:301
 msgid "Select new position of panel. Esc to cancel."
 msgstr ""
 "Válassza ki a panel új helyét. Az „ESC” gombbal megszakíthatja a módosítást."
 
-#: js/ui/panel.js:882
+#: js/ui/panel.js:877
 msgid ""
 "You don't have any panels added.\n"
 "Do you want to open panel settings?"
@@ -376,24 +360,24 @@ msgstr ""
 "Egyetlen panel sincs az asztalhoz hozzáadva.\n"
 "Meg kívánja nyitni a panelbeállításokat?"
 
-#: js/ui/panel.js:1549
+#: js/ui/panel.js:1544
 msgid "Troubleshoot"
 msgstr "Hibakeresés"
 
-#: js/ui/panel.js:1550
+#: js/ui/panel.js:1545
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:145
 msgid "Restart Cinnamon"
 msgstr "Cinnamon környezet újraindítása"
 
-#: js/ui/panel.js:1554
+#: js/ui/panel.js:1549
 msgid "Looking Glass"
 msgstr "Looking Glass"
 
-#: js/ui/panel.js:1558
+#: js/ui/panel.js:1553
 msgid "Restore all settings to default"
 msgstr "Minden érték visszaállítása alapértelmezettre"
 
-#: js/ui/panel.js:1559
+#: js/ui/panel.js:1554
 msgid ""
 "Are you sure you want to restore all settings to default?\n"
 "\n"
@@ -402,31 +386,31 @@ msgstr ""
 "értékekre?\n"
 "\n"
 
-#: js/ui/panel.js:1571
+#: js/ui/panel.js:1566
 msgid "Modify panel"
 msgstr "Panel módosítása"
 
-#: js/ui/panel.js:1573
+#: js/ui/panel.js:1568
 msgid "Remove panel"
 msgstr "Panel eltávolítása"
 
-#: js/ui/panel.js:1579
+#: js/ui/panel.js:1574
 msgid "Add panel"
 msgstr "Panel hozzáadása"
 
-#: js/ui/panel.js:1586
+#: js/ui/panel.js:1581
 msgid "Move panel"
 msgstr "Panel mozgatása"
 
-#: js/ui/panel.js:1593
+#: js/ui/panel.js:1588
 msgid "Copy applet configuration"
 msgstr "Kisalkalmazás beállításainak másolása"
 
-#: js/ui/panel.js:1600
+#: js/ui/panel.js:1595
 msgid "Paste applet configuration"
 msgstr "Kisalkalmazás beállításainak beillesztése"
 
-#: js/ui/panel.js:1603
+#: js/ui/panel.js:1598
 msgid ""
 "Pasting applet configuration will remove all existing applets on this panel. "
 "Do you want to continue?"
@@ -434,42 +418,42 @@ msgstr ""
 "Kisalkalmazás beállításainak beillesztése eltávolítja az összes eddigi "
 "kisalkalmazást erről a panelról. Kívánja folytatni?"
 
-#: js/ui/panel.js:1611
+#: js/ui/panel.js:1606
 msgid "Clear all applets"
 msgstr "Összes kisalkalmazás eltávolítása"
 
-#: js/ui/panel.js:1614
+#: js/ui/panel.js:1609
 msgid "Are you sure you want to clear all applets on this panel?"
 msgstr ""
 "Valóban el kívánja távolítani az összes kisalkalmazást erről a panelról?"
 
-#: js/ui/panel.js:1629
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:143
+#: js/ui/panel.js:1624
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:152
 msgid "Panel edit mode"
 msgstr "Panelszerkesztő üzemmód"
 
-#: js/ui/panel.js:1652
+#: js/ui/panel.js:1647
 msgid "Add applets to the panel"
 msgstr "Kisalkalmazás hozzáadása a panelhez"
 
 #. settings-example@cinnamon.org->settings-schema.json->section1->title
-#: js/ui/panel.js:1655
+#: js/ui/panel.js:1650
 msgid "Panel settings"
 msgstr "Panelbeállítások"
 
-#: js/ui/panel.js:1658
+#: js/ui/panel.js:1653
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:36
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:59
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:61
 msgid "Themes"
 msgstr "Témák"
 
-#: js/ui/panel.js:1661
+#: js/ui/panel.js:1656
 #: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:59
 #: generate_additional_files.py:27
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:46
-#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:308
-#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:575
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:314
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:581
 msgid "System Settings"
 msgstr "Rendszerbeállítások"
 
@@ -486,7 +470,7 @@ msgstr "Újra"
 msgid "Connect to..."
 msgstr "Csatlakozás…"
 
-#: js/ui/runDialog.js:154
+#: js/ui/runDialog.js:156
 msgid "Please enter a command:"
 msgstr "Írjon be egy parancsot:"
 
@@ -516,13 +500,13 @@ msgid "No open windows"
 msgstr "Nincs megnyitott ablak"
 
 #: js/ui/workspace.js:1168
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:318
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:315
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:898
 msgid "Restore"
 msgstr "Visszaállítás"
 
 #: js/ui/workspace.js:1170
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:323
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:320
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:903
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:40
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:204
@@ -530,7 +514,7 @@ msgid "Minimize"
 msgstr "Minimalizálás"
 
 #: js/ui/workspace.js:1173 js/ui/workspace.js:1246
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:336
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:333
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:916
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:205
 msgid "Maximize"
@@ -545,7 +529,7 @@ msgid "Move to right workspace"
 msgstr "Áthelyezés a jobb oldali munkaterületre"
 
 #: js/ui/workspace.js:1182 js/ui/workspace.js:1231
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:118
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:115
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:818
 msgid "Visible on all workspaces"
 msgstr "Minden munkaterületen látható"
@@ -561,13 +545,13 @@ msgid "Move to monitor %d"
 msgstr "Áthelyezés a kijelzőre: %d"
 
 #: js/ui/workspace.js:1229
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:111
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:108
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:812
 msgid "Only on this workspace"
 msgstr "Csak ezen a munkaterületen"
 
 #: js/ui/workspace.js:1244
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:329
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:326
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:911
 msgid "Unmaximize"
 msgstr "Eredeti méret"
@@ -634,71 +618,71 @@ msgstr "%Y. %B %e., %A"
 msgid "Expo"
 msgstr "Közszemle"
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:101
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:98
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:791
 msgid "Move to the other monitor"
 msgstr "Áthelyezés a másik kijelzőre"
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:102
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:99
 msgid "Move to monitor "
 msgstr ""
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:125
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:122
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:824
 msgid "Move to another workspace"
 msgstr "Áthelyezés másik munkaterületre"
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:152
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:149
 #: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:59
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:847
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:63
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:173
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:170
 #: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:822
 msgid "Places"
 msgstr "Helyek"
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:205
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:202
 msgid "Recent"
 msgstr ""
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:265
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:262
 msgid "New Window"
 msgstr ""
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:283
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:280
 msgid "Unpin from Panel"
 msgstr ""
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:286
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:283
 msgid "Pin to Panel"
 msgstr ""
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:294
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:291
 msgid "Remove from Autostart"
 msgstr ""
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:294
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:291
 msgid "Add to Autostart"
 msgstr ""
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:301
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:298
 msgid "Create Shortcut"
 msgstr ""
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:312
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:309
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:890
 msgid "Restore to full opacity"
 msgstr "Teljes átlátszatlanság visszaállítása"
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:347
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:344
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:876
 msgid "Close others"
 msgstr "Többi bezárása"
 
-#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:357
+#: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:354
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:867
 msgid "Close all"
 msgstr "Minden bezárása"
@@ -806,243 +790,235 @@ msgstr "Legutóbbi fájlok"
 #. menu@cinnamon.org->metadata.json->name
 #. menu@cinnamon.org->settings-schema.json->menu->title
 #. sound@cinnamon.org->settings-schema.json->section1->description
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1082
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1086
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:40
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:202
 msgid "Menu"
 msgstr "Menü"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2358
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2382
 #: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:149
 msgid "No recent documents"
 msgstr "Nincsenek nemrég használt fájlok"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2656
-msgid "Switch user"
-msgstr ""
-
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2657
-msgid "Switch to another user account"
-msgstr ""
-
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2683
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2717
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:142
 msgid "Lock screen"
 msgstr "Képernyő zárolása"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2684
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2718
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py:11
 msgid "Lock the screen"
 msgstr "A képernyő zárolása"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2711
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2745
 msgid "Logout"
 msgstr "Kijelentkezés"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2712
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2746
 msgid "Leave the session"
 msgstr "Kilépés a munkamenetből"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2726
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2760
 msgid "Quit"
 msgstr "Kilépés"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2727
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2761
 msgid "Shutdown the computer"
 msgstr "Számítógép kikapcsolása"
 
-#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2854
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:2887
 msgid "Type to search..."
 msgstr "Gépeljen a kereséshez…"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:81
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:68
 msgid "<unknown>"
 msgstr "<ismeretlen>"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:295
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:286
 msgid "disabled"
 msgstr "letiltva"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:502
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:493
 msgid "unmanaged"
 msgstr "nem beállított"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:504
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:495
 msgid "disconnecting..."
 msgstr "kapcsolat bontása…"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:510
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:501
 msgid "connecting..."
 msgstr "kapcsolódás…"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:513
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:504
 msgid "authentication required"
 msgstr "azonosítás szükséges"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:523
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:514
 msgid "firmware missing"
 msgstr "hiányzó firmware"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:530
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:521
 msgid "cable unplugged"
 msgstr "a kábel nincs csatlakoztatva"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:535
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:526
 msgid "unavailable"
 msgstr "nem érhető el"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:537
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:528
 msgid "connection failed"
 msgstr "kapcsolódás sikertelen"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:601
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1595
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:592
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1605
 msgid "More"
 msgstr "Több"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:637
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1530
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:628
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1524
 msgid "Connected (private)"
 msgstr "Kapcsolódva (privát)"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:697
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:688
 msgid "Ethernet"
 msgstr "Ethernet"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:698
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:689
 msgid "Wifi"
 msgstr "Wi-fi"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:699
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:690
 msgid "Modem"
 msgstr "Modem"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:700
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:691
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:91
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:730
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:721
 msgid "Auto Ethernet"
 msgstr "Automatikus ethernet"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:810
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:803
 msgid "Auto broadband"
 msgstr "Automatikus szélessáv"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:813
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:806
 msgid "Auto dial-up"
 msgstr "Automatikus betárcsázó"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:935
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1542
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:928
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1536
 #, javascript-format
 msgid "Auto %s"
 msgstr "Automatikus %s"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:937
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:930
 msgid "Auto bluetooth"
 msgstr "Automatikus bluetooth"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1544
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1538
 msgid "Auto wireless"
 msgstr "Automatikus vezeték nélküli"
 
 #. network@cinnamon.org->metadata.json->name
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1632
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1642
 msgid "Network Manager"
 msgstr "Hálózatkezelő"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1653
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1663
 msgid "Rescan for wireless networks"
 msgstr "Elérhető vezeték nélküli hálózatok keresése"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1692
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1711
 msgid "Enable networking"
 msgstr "Hálózatkezelés engedélyezése"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1704
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1723
 msgid "Wired"
 msgstr "Vezetékes"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1715
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1734
 msgid "Wireless"
 msgstr "Vezeték nélküli"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1725
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1744
 msgid "Mobile broadband"
 msgstr "Mobil szélessáv"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1735
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1754
 msgid "VPN Connections"
 msgstr "VPN kapcsolatok"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1761
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1780
 msgid "Network Settings"
 msgstr "Hálózati beállítások"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1762
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1781
 msgid "Network Connections"
 msgstr "Hálózati kapcsolatok"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1935
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1967
 msgid "Connection failed"
 msgstr "Sikertelen kapcsolódás"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1936
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1968
 msgid "Activation of network connection failed"
 msgstr "A hálózati kapcsolat aktiválása sikertelen"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2217
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2234
 msgid "Networking is disabled"
 msgstr "Hálózat letiltva"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2235
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2252
 msgid "No connection"
 msgstr "Nincs kapcsolat"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2241
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2258
 msgid "Connecting to the cellular network..."
 msgstr "Csatlakozás a mobil hálózathoz…"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2245
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2262
 msgid "Connecting to the wireless network..."
 msgstr "Csatlakozás a vezeték nélküli hálózathoz…"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2249
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2266
 msgid "Connecting to the wired network..."
 msgstr "Csatlakozás a vezetékes hálózathoz…"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2253
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2270
 msgid "Connecting to the VPN..."
 msgstr "Csatlakozás a VPN hálózathoz…"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2259
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2276
 msgid "Connecting to the network..."
 msgstr "Csatlakozás a hálózathoz…"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2275
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2292
 msgid "Connected to the wireless network"
 msgstr "Kapcsolódva a vezeték nélküli hálózathoz"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2278
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2295
 msgid "Wireless connection"
 msgstr "Vezeték nélküli kapcsolat"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2286
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2303
 msgid "Connected to the wired network"
 msgstr "Kapcsolódva a vezetékes hálózathoz"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2297
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2302
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2314
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2319
 msgid "Connected to the cellular network"
 msgstr "Kapcsolódva a mobil hálózathoz"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2306
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2323
 msgid "Connected to the VPN"
 msgstr "Kapcsolódva a VPN-hez"
 
-#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2312
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2329
 msgid "Connected to the network"
 msgstr "Kapcsolódva a hálózathoz"
 
@@ -1382,118 +1358,118 @@ msgstr "Szüneteltetve"
 msgid "Stopped"
 msgstr "Leállítva"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:504
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:513
 msgid "Open Player"
 msgstr "Lejátszó megnyitása"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:517
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:526
 msgid "Quit Player"
 msgstr "Lejátszó bezárása"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:538
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:678
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:547
 #: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:682
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:686
 msgid "Unknown Artist"
 msgstr "Ismeretlen előadó"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:539
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:689
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:548
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:693
 msgid "Unknown Album"
 msgstr "Ismeretlen album"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:540
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:694
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:549
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:698
 msgid "Unknown Title"
 msgstr "Ismeretlen cím"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:561
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:570
 msgid "Previous"
 msgstr "Előző"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:564
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:748
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:754
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:573
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:752
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:758
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:180
 msgid "Play"
 msgstr "Lejátszás"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:567
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:576
 msgid "Stop"
 msgstr "Leállítás"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:570
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:579
 msgid "Next"
 msgstr "Következő"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:581
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:778
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:590
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:782
 msgid "Consecutive Playing"
 msgstr "Folyamatos lejátszás"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:588
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:792
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:597
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:796
 msgid "No Shuffle"
 msgstr "Véletlen sorrend ki"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:742
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:746
 msgid "Pause"
 msgstr "Szünet"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:780
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:784
 msgid "Repeat Single"
 msgstr "Egy ismétlése"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:782
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:786
 msgid "Repeat All"
 msgstr "Minden ismétlése"
 
 #. photoframe@cinnamon.org->settings-schema.json->shuffle->description
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:792
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:796
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:189
 msgid "Shuffle"
 msgstr "Váltogatás"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:979
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:983
 msgid "Mute output"
 msgstr "Kimenet némítása"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:980
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:984
 msgid "Mute input"
 msgstr "Bemenet némítása"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:986
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:990
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:609
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py:615
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:891
 msgid "Applications"
 msgstr "Alkalmazások"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:987
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:991
 msgid "Output device"
 msgstr "Kimeneti eszköz"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:994
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:998
 msgid "Microphone"
 msgstr "Mikrofon"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:996
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1000
 msgid "Input device"
 msgstr "Bemeneti eszköz"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1332
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1338
 msgid "Choose player controls"
 msgstr "Médialejátszó vezérlőelemek kiválasztása"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1337
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1343
 msgid "Launch player"
 msgstr "Lejátszó indítása"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1343
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1428
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1349
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1436
 msgid "Volume"
 msgstr "Hangerő"
 
-#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1349
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1355
 msgid "Sound Settings"
 msgstr "Hangbeállítások"
 
@@ -1837,7 +1813,7 @@ msgstr "Szolgáltatások és egységek kezelése"
 msgid "systemd, units, services, systemctl, init"
 msgstr "systemd, egységek, szolgáltatások, systemctl, init"
 
-#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:212
+#: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:218
 msgid "Back to all settings"
 msgstr "Vissza az összes beállításhoz"
 
@@ -4611,11 +4587,13 @@ msgstr "Méret"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:47
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:63
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:88
 msgid "Smaller"
 msgstr "Kisebb"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:47
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:63
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:88
 msgid "Larger"
 msgstr "Nagyobb"
 
@@ -4884,11 +4862,15 @@ msgstr ""
 msgid "Center panel zone icon size"
 msgstr ""
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:91
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:86
+msgid "Symbolic icon size adjustment"
+msgstr ""
+
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:100
 msgid "Manage Cinnamon panel settings"
 msgstr "Cinnamon panel beállítások"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:94
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:103
 msgid "panel, height, bottom, top, autohide, size, layout"
 msgstr ""
 "panel, magasság, lent, fent, automatikus elrejtés, méret, hagyományos, "
@@ -4897,27 +4879,27 @@ msgstr ""
 #. menu@cinnamon.org->settings-schema.json->panel->title
 #. sound@cinnamon.org->settings-schema.json->section2->description
 #. grouped-window-list@cinnamon.org->settings-schema.json->panelPage->title
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:95
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:104
 msgid "Panel"
 msgstr "Panel"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:113
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:122
 msgid "Previous panel"
 msgstr "Előző panel"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:114
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:123
 msgid "Next panel"
 msgstr "Következő panel"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:137
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:146
 msgid "General Panel Options"
 msgstr "Általános panel beállítások"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:140
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:149
 msgid "Add new panel"
 msgstr "Panel hozzáadása"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:149
+#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:158
 msgid "Allow the pointer to pass through the edges of panels"
 msgstr "A mutató átmehet a panelok szélein"
 
@@ -5774,26 +5756,6 @@ msgstr "Ikonok megjelenítése a menükben"
 msgid "Show icons on buttons"
 msgstr "Ikonok megjelenítése a gombokon"
 
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:92
-msgid "Size of symbolic icons when icons are 16px"
-msgstr ""
-
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:95
-msgid "Size of symbolic icons when icons are 22px"
-msgstr ""
-
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:98
-msgid "Size of symbolic icons when icons are 24px"
-msgstr ""
-
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:101
-msgid "Size of symbolic icons when icons are 32px"
-msgstr ""
-
-#: files/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py:104
-msgid "Size of symbolic icons when icons are 48px"
-msgstr ""
-
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_tiling.py:8
 msgid "Manage window tiling preferences"
 msgstr "Ablak mozaik beállítások kezelése"
@@ -6123,8 +6085,6 @@ msgstr "Alt-Tab alkalmazásváltó megjelenítés késleltetése"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-all-
 #. workspaces->description
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-all-
-#. workspaces->tooltip
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:138
 msgid "Show windows from all workspaces"
 msgstr "Ablakok megjelenítése minden munkaterületről"
@@ -6258,6 +6218,22 @@ msgstr "Szöveg"
 msgid "Enter custom text to show in the panel."
 msgstr "Adja meg a panelen megjelenítendő szöveget."
 
+#. menu@cinnamon.org->settings-schema.json->favbox-min-height->units
+#. grouped-window-list@cinnamon.org->settings-schema.json->icon-spacing->units
+#. clock@cinnamon.org->settings-schema.json->font-size->units
+msgid "px"
+msgstr "px"
+
+#. menu@cinnamon.org->settings-schema.json->favbox-min-height->description
+msgid "Minimum height of the favorites section"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->favbox-min-height->tooltip
+msgid ""
+"The minimum size allocated for the favorites section (this has an impact on "
+"the overall height of the menu)."
+msgstr ""
+
 #. menu@cinnamon.org->settings-schema.json->show-category-icons->description
 msgid "Show category icons"
 msgstr "Kategóriaikonok megjelenítése"
@@ -6278,7 +6254,7 @@ msgstr ""
 "Válassza ki, hogy bekapcsolja-e az ikonok megjelenítését az alkalmazásokban."
 
 #. menu@cinnamon.org->settings-schema.json->favbox-show->description
-msgid "Show favorites"
+msgid "Show favorites and session buttons"
 msgstr ""
 
 #. menu@cinnamon.org->settings-schema.json->favbox-show->tooltip
@@ -6435,7 +6411,7 @@ msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-
 #. schema.json->appButtonsSection->title
-msgid "App Buttons"
+msgid "Application Buttons"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-
@@ -6453,43 +6429,29 @@ msgstr ""
 msgid "Show window count numbers"
 msgstr ""
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->number-
-#. display->tooltip
-msgid ""
-"Choose whether or not a number badge is shown next to an app icon when more "
-"than one window is present in an app group."
-msgstr ""
-
 #. grouped-window-list@cinnamon.org->settings-schema.json->title-
 #. display->description
-msgid "Title display"
+msgid "Button label"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->title-
 #. display->options
-msgid "App"
+msgid "Application name"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->title-
 #. display->options
-msgid "Title"
+msgid "Window title"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->title-
 #. display->options
-msgid "Focused"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->title-
-#. display->tooltip
-msgid ""
-"focused: show focused window title, title: display the window title, app: "
-"diplay app name, none: don't display anything"
+msgid "Window title (only for the focused window)"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
 #. behavior->description
-msgid "Mouse wheel scroll behavior"
+msgid "Mouse wheel scroll action"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
@@ -6504,19 +6466,8 @@ msgstr ""
 msgid "Cycle windows"
 msgstr ""
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->scroll-
-#. behavior->tooltip
-msgid ""
-"Choose if scrolling the mouse wheel cycles running apps, an app button's "
-"windows on hover, or is disabled."
-msgstr ""
-
 #. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
 #. action->description
-#. grouped-window-list@cinnamon.org->settings-schema.json->left-click-
-#. action->tooltip
-#. grouped-window-list@cinnamon.org->settings-schema.json->launcher-animation-
-#. effect->tooltip
 msgid "Left click action"
 msgstr ""
 
@@ -6527,8 +6478,6 @@ msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
 #. action->description
-#. grouped-window-list@cinnamon.org->settings-schema.json->middle-click-
-#. action->tooltip
 msgid "Middle click action"
 msgstr ""
 
@@ -6544,23 +6493,12 @@ msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->group-
 #. apps->description
-msgid "Group apps"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->group-apps->tooltip
-msgid "Group each app's set of windows."
+msgid "Group windows by application"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-
 #. alerts->description
-msgid "Show app alerts"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-
-#. alerts->tooltip
-msgid ""
-"Choose whether or not alerts will propagate to the app list and cause the "
-"button to blink."
+msgid "Blink on app alerts"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-
@@ -6568,63 +6506,34 @@ msgstr ""
 msgid "Show pinned apps"
 msgstr ""
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-
-#. pinned->tooltip
-msgid ""
-"Controls whether or not the pinned apps appear in the panel if they are not "
-"open."
-msgstr ""
-
 #. grouped-window-list@cinnamon.org->settings-schema.json->system-
 #. favorites->description
-msgid "Use system favorites for pinned apps"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->system-
-#. favorites->tooltip
-msgid ""
-"Controls whether or not pinned apps consist of the system favorites list."
+msgid "Pin system favorites"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->enable-app-button-
 #. dragging->description
-#. grouped-window-list@cinnamon.org->settings-schema.json->enable-app-button-
-#. dragging->tooltip
 msgid "Enable app button dragging"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-
 #. schema.json->pinOnDrag->description
-#. grouped-window-list@cinnamon.org->settings-schema.json->pinOnDrag->tooltip
 msgid "Pin apps when dragged to a new position"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->launcher-animation-
 #. effect->description
-msgid "Launcher animation effect"
+msgid "Launcher animation"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->list-monitor-
 #. windows->description
-msgid "Only list windows from the monitor displaying this instance"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->list-monitor-
-#. windows->tooltip
-msgid ""
-"This option will only come into effect for monitors displaying a grouped "
-"window list instance."
+msgid "Only list windows from the current monitor"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-
 #. schema.json->cycleMenusHotkey->description
 msgid "Global hotkey for cycling through thumbnail menus"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-
-#. schema.json->cycleMenusHotkey->tooltip
-msgid ""
-"This allows you to cycle through the menus without activating a window."
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
@@ -6633,27 +6542,13 @@ msgid "Global hotkey to show the order of apps"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
-#. hotkey->tooltip
-msgid ""
-"When triggered, the window count label will be replaced with its order in "
-"the app list temporarily."
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
 #. timeout->description
 msgid "Duration of the apps order display on hotkey press"
 msgstr ""
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
-#. timeout->tooltip
-msgid ""
-"Determines the duration the window count labels are replaced with the app's "
-"order number."
-msgstr ""
-
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
 #. timeout->description
-msgid "Thumbnail timeout"
+msgid "Delay before showing thumbnails"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
@@ -6672,13 +6567,6 @@ msgid "500 ms"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. timeout->tooltip
-msgid ""
-"Controls how quickly the thumbnail menu will appear when the mouse hovers "
-"over an app button."
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
 #. size->description
 #. window-list@cinnamon.org->settings-schema.json->window-preview-
 #. scale->description
@@ -6686,20 +6574,15 @@ msgid "Thumbnail size"
 msgstr "Előnézet mérete"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
-#. size->tooltip
-msgid "Controls the size of the thumbnails."
-msgstr ""
+#. size->options
+#. window-list@cinnamon.org->settings-schema.json->window-preview-
+#. scale->options
+msgid "Largest"
+msgstr "Legnagyobb"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-scroll-
 #. behavior->description
 msgid "Cycle windows on mouse wheel scroll"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-scroll-
-#. behavior->tooltip
-msgid ""
-"Choose whether or not scrolling the mouse wheel cycles windows when hovering "
-"over a thumbnail menu."
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-
@@ -6707,19 +6590,9 @@ msgstr ""
 msgid "Show thumbnails"
 msgstr ""
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-
-#. thumbnails->tooltip
-msgid "Show window thumbnails when hovering over an app button."
-msgstr ""
-
 #. grouped-window-list@cinnamon.org->settings-schema.json->animate-
 #. thumbnails->description
 msgid "Animate thumbnails"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->animate-
-#. thumbnails->tooltip
-msgid "If enabled, thumbnails will animate when appearing and disappearing."
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->vertical-
@@ -6727,42 +6600,19 @@ msgstr ""
 msgid "Enable vertical thumbnails"
 msgstr ""
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->vertical-
-#. thumbnails->tooltip
-msgid "If enabled, thumbnails will stack vertically."
-msgstr ""
-
 #. grouped-window-list@cinnamon.org->settings-schema.json->sort-
 #. thumbnails->description
-msgid "Sort windows for each app by last focused"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->sort-
-#. thumbnails->tooltip
-msgid ""
-"Controls whether the order windows appear for an app is by last focused, or "
-"the order they were opened."
+msgid "Sort thumbnails according to the last focused windows"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->highlight-last-
 #. focused-thumbnail->description
-msgid "Highlight the last focused window within an app group"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->highlight-last-
-#. focused-thumbnail->tooltip
-msgid ""
-"When enabled, the last window that was interacted with will be indicated."
+msgid "Highlight the thumbnail of the last focused window"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->onclick-
 #. thumbnails->description
-msgid "Open thumbnails on click"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->onclick-
-#. thumbnails->tooltip
-msgid "Open the thumbnails on click if there is more than one window open."
+msgid "Click to show thumbnails"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-
@@ -6770,19 +6620,9 @@ msgstr ""
 msgid "Show recent items"
 msgstr ""
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->show-
-#. recent->tooltip
-msgid "Controls whether recent items will appear in the context menu."
-msgstr ""
-
 #. grouped-window-list@cinnamon.org->settings-schema.json->autostart-menu-
 #. item->description
 msgid "Show autostart option"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->autostart-menu-
-#. item->tooltip
-msgid "Shows the autostart toggle option in an app's context menu."
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->launch-new-
@@ -6811,12 +6651,7 @@ msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->enable-hover-
 #. peek->description
-msgid "Show windows when hovered over"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->enable-hover-
-#. peek->tooltip
-msgid "Controls whether or not windows display when hovered over."
+msgid "Show the window when hovering its thumbnail"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
@@ -6846,18 +6681,8 @@ msgid "450 ms"
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. in->tooltip
-msgid "Controls how quickly a window will fade in on hover."
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. out->description
 msgid "Window fade-out time"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
-#. out->tooltip
-msgid "Controls how quickly a window will fade out on hover."
 msgstr ""
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-
@@ -6871,24 +6696,9 @@ msgstr ""
 msgid "Window opacity"
 msgstr "Ablak átlátszatlanság"
 
-#. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-
-#. opacity->tooltip
-msgid "Opacity of the windows on hover."
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->icon-spacing->units
-#. clock@cinnamon.org->settings-schema.json->font-size->units
-msgid "px"
-msgstr "px"
-
 #. grouped-window-list@cinnamon.org->settings-schema.json->icon-
 #. spacing->description
-msgid "Icon spacing"
-msgstr ""
-
-#. grouped-window-list@cinnamon.org->settings-schema.json->icon-
-#. spacing->tooltip
-msgid "Controls how much space is between the icons."
+msgid "Space between icons"
 msgstr ""
 
 #. network@cinnamon.org->metadata.json->description
@@ -7024,11 +6834,6 @@ msgstr "Ablak előnézetének megjelenítése rámutatáskor"
 #. label->description
 msgid "Show title above thumbnail"
 msgstr "Cím megjelenítése az előnézet felett"
-
-#. window-list@cinnamon.org->settings-schema.json->window-preview-
-#. scale->options
-msgid "Largest"
-msgstr "Legnagyobb"
 
 #. spacer@cinnamon.org->metadata.json->name
 msgid "Spacer"

@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-09-19 12:39+0100\n"
-"PO-Revision-Date: 2018-09-29 13:50+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2018-11-29 12:50+0000\n"
+"Last-Translator: Tamás Somogyi <Unknown>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-07 06:34+0000\n"
-"X-Generator: Launchpad (build 18810)\n"
+"X-Launchpad-Export-Date: 2018-11-29 18:24+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintlocale/add.py:42
@@ -114,7 +114,7 @@ msgstr "A kiválasztott nyelv telepítése"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:1
 msgid "Input method framework:"
-msgstr ""
+msgstr "Beviteli mód:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:2
 msgid "Welcome"
@@ -135,6 +135,8 @@ msgid ""
 "To add support for a particular language, select it in the sidebar and "
 "follow the instructions."
 msgstr ""
+"Egy adott nyelvi felület használatához az oldalsávban kell kiválasztani a "
+"nyelvet és a leírt utasításokat kell végrehajtani."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:5
 msgid "Help"
@@ -143,37 +145,46 @@ msgstr "Súgó"
 #: usr/share/linuxmint/mintlocale/im.ui.h:6
 msgid "To write in simplified Chinese follow the steps below:"
 msgstr ""
+"Az egyszerűsített kínai nyelv használatához a következő lépéseket kell tenni:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:7
 msgid "- Install the language support packages: "
-msgstr ""
+msgstr "- Nyelvi csomagok telepítése: "
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:9
 msgid "- Log out and log back in."
-msgstr ""
+msgstr "- Lépjen ki és lépjen be újra."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:10
 msgid ""
 "- Right-click the Fcitx applet in the system tray and choose \"Configure\"."
 msgstr ""
+"- Kattintson jobb gombbal az értesítési területen található Fcitx "
+"kisalkalmazásra és válassza ki a „Beállítások” lehetőséget."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:11
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Pinyin</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
+"- Az Fcitx beállítások párbeszédablakban adja hozzá a <b>Pinyin</b> beviteli "
+"módot (amennyiben szükséges ne jelölje ki a „Csak a beállított nyelv "
+"megjelenítése” lehetőséget)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:12
 msgid "- Switch between input methods with <b>Ctrl+Space</b>."
 msgstr ""
+"- Váltás a beviteli módok között a <b>Ctrl+Space</b> billentyűkombináció "
+"használatával."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:13
 msgid "- Change the input method framework to <b>Fcitx</b>."
-msgstr ""
+msgstr "- A beviteli mód változtatása <b>Fcitx</b>-re."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:14
 msgid "Note: SunPinyin can also be used (either with Fcitx or IBus)."
 msgstr ""
+"Megjegyzés: SunPinyin is használható (a Fcitx-szel vagy az IBus-szal együtt)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:15
 msgid "Simplified Chinese"

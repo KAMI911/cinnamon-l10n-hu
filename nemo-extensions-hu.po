@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-11-01 13:53+0000\n"
-"PO-Revision-Date: 2018-05-02 18:36+0000\n"
-"Last-Translator: Balázs Meskó <Unknown>\n"
+"PO-Revision-Date: 2018-11-25 15:25+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-07 06:41+0000\n"
-"X-Generator: Launchpad (build 18810)\n"
+"X-Launchpad-Export-Date: 2018-11-29 18:29+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 "Language: hu\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
@@ -122,43 +122,43 @@ msgstr "Kiválasztott fájlok összehasonlítása"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Art"
-msgstr ""
+msgstr "Grafika"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Camera"
-msgstr ""
+msgstr "Fényképezőgép"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Danger"
-msgstr ""
+msgstr "Veszély"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Default"
-msgstr ""
+msgstr "Alapértelmezett"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Development"
-msgstr ""
+msgstr "Fejlesztés"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Documents"
-msgstr ""
+msgstr "Dokumentumok"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Downloads"
-msgstr ""
+msgstr "Letöltések"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Favorite"
-msgstr ""
+msgstr "Kedvenc"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Games"
-msgstr ""
+msgstr "Játékok"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Generic"
-msgstr ""
+msgstr "Általános"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:47
 msgid "Important"
