@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:12+0000\n"
-"PO-Revision-Date: 2018-12-01 06:35+0100\n"
+"PO-Revision-Date: 2018-12-01 07:26+0100\n"
 "Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -1782,7 +1782,9 @@ msgstr "Szoftverforrások"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:87
 msgid "ppa, repository, package, source, download"
-msgstr "ppa, csomagtároló, tároló, csomag, forrás, letöltés"
+msgstr ""
+"ppa, repository, package, source, download, csomagtároló, tároló, csomag, "
+"forrás, letöltés"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:88
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:89
