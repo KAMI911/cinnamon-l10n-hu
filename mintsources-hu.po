@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: mintsources\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-28 12:30+0000\n"
-"PO-Revision-Date: 2018-11-07 05:52+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2018-12-01 07:11+0100\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2018-11-29 18:23+0000\n"
-"X-Generator: Launchpad (build 18826)\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:68
 msgid "You are about to remove the following PPA:"
-msgstr "A következő PPA tárolót készül eltávolítani a rendszerből:"
+msgstr "A következő PPA csomagtárolót készül eltávolítani a rendszerből:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:71
 #: usr/lib/linuxmint/mintSources/mintSources.py:144
@@ -47,12 +47,12 @@ msgstr "Megszakítás…"
 #: usr/lib/linuxmint/mintSources/mintSources.py:86
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
-msgstr "Nem tölthető le információ a PPA tárolóról: „%s”."
+msgstr "Nem tölthető le információ a PPA csomagtárolóról: „%s”."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:106
 #, python-format
 msgid "failed to remove PPA: '%s'"
-msgstr "nem siketült eltávolítani a PPA tárolót: „%s”"
+msgstr "nem siketült eltávolítani a PPA csomagtárolót: „%s”"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:120
 #, python-format
@@ -61,36 +61,36 @@ msgstr "nem siketült eltávolítani a csomagtárolót: „%s”"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:127
 msgid "Adding PPAs is not supported"
-msgstr "A PPA tároló hozzáadása nem támogatott"
+msgstr "A PPA csomagtároló hozzáadása nem támogatott"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:134
 #: usr/lib/linuxmint/mintSources/mintSources.py:1154
 #, python-format
 msgid "Cannot add PPA: '%s'."
-msgstr "Nem adható hozzá a PPA tároló: „%s”."
+msgstr "Nem adható hozzá a PPA csomagtároló: „%s”."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:138
 msgid "Adding private PPAs is not supported currently"
-msgstr "Privát PPA tárolók hozzáadása jelenleg nem támogatott"
+msgstr "Privát PPA csomagtárolók hozzáadása jelenleg nem támogatott"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:141
 msgid "You are about to add the following PPA:"
-msgstr "A következő PPA tárolót készül hozzáadni a rendszerhez:"
+msgstr "A következő PPA csomagtárolót készül hozzáadni a rendszerhez:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:169
 #: usr/lib/linuxmint/mintSources/mintSources.py:1273
 msgid "Malformed input, repository not added."
-msgstr ""
+msgstr "Hibás formátumú bemeneti adat, a csomagtároló nem lett hozzáadva."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:172
 msgid "Repository already exists."
-msgstr ""
+msgstr "A csomagtároló már létezik."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:214
 #: usr/lib/linuxmint/mintSources/mintSources.py:217
 #, python-format
 msgid "This PPA does not support %s"
-msgstr "Ez a PPA tároló nem támogatja a következőt: %s"
+msgstr "Ez a PPA csomagtároló nem támogatja a következőt: %s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:365
 #: usr/lib/linuxmint/mintSources/mintSources.py:403
@@ -184,7 +184,7 @@ msgstr "Engedélyezve"
 #: usr/lib/linuxmint/mintSources/mintSources.py:882
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:49
 msgid "PPA"
-msgstr "PPA tároló"
+msgstr "PPA csomagtároló"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:908
 msgid "Repository"
@@ -205,10 +205,12 @@ msgstr "A probléma javítva lett. Töltse be ismét a gyorsítótárat."
 #: usr/lib/linuxmint/mintSources/mintSources.py:1062
 msgid "Duplicate entries were removed. Please reload the cache."
 msgstr ""
+"A többszörös bejegyzések el lettek távolítva. Töltse be ismét a "
+"gyorsítótárat."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1065
 msgid "No duplicate entries were found."
-msgstr ""
+msgstr "Nem találhatók többszörös bejegyzések."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1101
 msgid "Open.."
@@ -231,6 +233,8 @@ msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr ""
+"Adja a meg a keyserver.ubuntu.com kiszolgálóról letölteni kívánt publikus "
+"kulcs 8 karakteres azonosítóját:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1130
 msgid "Are you sure you want to permanently remove this key?"
@@ -238,32 +242,33 @@ msgstr "Véglegesen el kívánja távolítani ezt a kulcsot?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1147
 msgid "Please enter the name of the PPA you want to add:"
-msgstr "Adja meg a hozzáadni kívánt PPA tároló nevét:"
+msgstr "Adja meg a hozzáadni kívánt PPA csomagtároló nevét:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1198
 msgid "Edit the URL of the PPA"
-msgstr "PPA tároló URL-címének szerkesztése"
+msgstr "PPA csomagtároló URL-címének szerkesztése"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1208
 msgid "Are you sure you want to permanently remove this PPA?"
-msgstr "Véglegesen el kívánja távolítani ezt a PPA tárolót?"
+msgstr "Véglegesen el kívánja távolítani ezt a PPA csomagtárolót?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1249
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
-"Ennek a PPA tárolónak a tartalma nem érhető el. Frissítse a gyorsítótárat és "
-"próbálja meg újra."
+"Ennek a PPA csomagtárolónak a tartalma nem érhető el. Frissítse a "
+"gyorsítótárat és próbálja meg újra."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1268
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Adja meg a hozzáadni kívánt csomagtároló nevét:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1285
-msgid ""
-"This repository is already configured, you cannot add it a second time."
+msgid "This repository is already configured, you cannot add it a second time."
 msgstr ""
+"Ez a csomagtároló már hozzá van adva a rendszerhez. Nem adható hozzá még "
+"egyszer."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1292
 msgid "Edit the URL of the repository"
@@ -310,7 +315,8 @@ msgstr "Visszafejlesztés"
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
-msgstr "A következő csomagok verziója nem egyezik a tárolókból származókkal:"
+msgstr ""
+"A következő csomagok verziója nem egyezik a csomagtárolókból származókkal:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:49
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
@@ -378,7 +384,7 @@ msgstr "Kiegészítő források"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
 msgid "Source code repositories"
-msgstr "Forráskód tárolók"
+msgstr "Forráskód csomagtárolók"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
 msgid "Debug symbols"
@@ -390,7 +396,7 @@ msgstr "Alapértelmezett beállítások visszaállítása"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
 msgid "Official Repositories"
-msgstr "Hivatalos tárolók"
+msgstr "Hivatalos csomagtárolók"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
 msgid "Add"
@@ -402,11 +408,11 @@ msgstr "Szerkesztés"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
 msgid "PPAs"
-msgstr "PPA tárolók"
+msgstr "PPA csomagtárolók"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
 msgid "Additional Repositories"
-msgstr "További tárolók"
+msgstr "További csomagtárolók"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
 msgid "Import"
@@ -430,7 +436,7 @@ msgstr "Hátramaradt beállítófájlok tisztítása"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Remove duplicate entries"
-msgstr ""
+msgstr "Többszörös bejegyzések eltávolítása"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Remove foreign packages"

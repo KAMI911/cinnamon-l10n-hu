@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: slideshow-mint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-20 18:18+0000\n"
-"PO-Revision-Date: 2018-11-25 15:16+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2018-12-01 06:47+0100\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2018-11-29 18:19+0000\n"
-"X-Generator: Launchpad (build 18826)\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: hu\n"
 
 #. type: Content of: <div><h1>
@@ -31,6 +31,10 @@ msgid ""
 "Skype, WhatsApp, Facebook, Twitter, Slack, Telegram, Viber, Discord and many "
 "other networks."
 msgstr ""
+"Maradjon kapcsolatban barátaival és ismerőseivel levélben, IRC-n, vagy az Ön "
+"kedvenc közösségi hálózatán! A Linux Mint mindent biztosít Önnek a Skype, a "
+"WhatsApp, a Facebook, a Twitter, a Slack, a Telegram, a Viber, a Discord és "
+"számos más hálózaton történő kommunikációhoz."
 
 #. type: Content of: <div><div><div><h2>
 #: slideshows/mint/slides/chat.html:12 slideshows/mint/slides/music.html:12
@@ -239,7 +243,7 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/video.html:1
 msgid "Watch movies and videos"
-msgstr ""
+msgstr "Nézzen filmeket és videókat"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/video.html:8
@@ -247,6 +251,9 @@ msgid ""
 "Enjoy a high-definition movie or a video with VLC and the Media Player. All "
 "modern codecs are supported."
 msgstr ""
+"Élvezze a részletgazdag filmeket és videókat a VLC médialejátszó és a "
+"Médialejátszó segítségével. Ezek a lejátszók minden modern videoformátumot "
+"támogatnak."
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/video.html:16
@@ -269,11 +276,14 @@ msgid ""
 "Be fast and safe on the web with Mozilla Firefox. Watch your favorite shows "
 "on Netflix and YouTube."
 msgstr ""
+"Villámgyors és biztonságos barangolás az interneten a Mozilla Firefox "
+"segítségével. Nézze meg kedvenc műsorszámait a Netflix és a YouTube "
+"csatornáin."
 
 #. type: Content of: <div><div><div><h2>
 #: slideshows/mint/slides/web.html:12
 msgid "Featured software and services"
-msgstr ""
+msgstr "Népszerű szoftverek és szolgáltatások"
 
 #. type: Content of: <div><div><div><ul><li><p>
 #: slideshows/mint/slides/web.html:16

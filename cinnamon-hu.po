@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:12+0000\n"
-"PO-Revision-Date: 2018-06-17 13:33+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2018-12-01 06:35+0100\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2018-11-29 18:19+0000\n"
-"X-Generator: Launchpad (build 18826)\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: hu\n"
 
 #: src/cinnamon-app.c:463 src/cinnamon-app.c:471
@@ -625,7 +625,7 @@ msgstr "Áthelyezés a másik kijelzőre"
 
 #: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:99
 msgid "Move to monitor "
-msgstr ""
+msgstr "Áthelyezés a kijelzőre"
 
 #: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:122
 #: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:824
@@ -646,7 +646,7 @@ msgstr "Helyek"
 
 #: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:202
 msgid "Recent"
-msgstr ""
+msgstr "Legutóbbi"
 
 #: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:262
 msgid "New Window"
@@ -654,7 +654,7 @@ msgstr ""
 
 #: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:280
 msgid "Unpin from Panel"
-msgstr ""
+msgstr "Eltávolítás a panelról"
 
 #: files/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/menus.js:283
 msgid "Pin to Panel"
@@ -1675,8 +1675,7 @@ msgstr "Hálózat"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:70
 msgid "network, wireless, wifi, ethernet, broadband, internet"
-msgstr ""
-"hálózat, vezeték nélküli, wifi, wi-fi, ethernet, szélessávú, internet"
+msgstr "hálózat, vezeték nélküli, wifi, wi-fi, ethernet, szélessávú, internet"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:71
 msgid "display, screen, monitor, layout, resolution, dual, lcd"
@@ -2087,7 +2086,7 @@ msgstr "Válassza ki az importálni kívánt JSON-fájlt"
 
 #: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/CustomWidget.py:17
 msgid "Random"
-msgstr ""
+msgstr "Véletlenszerű"
 
 #: files/usr/share/cinnamon/cinnamon-menu-editor/cme/MainWindow.py:168
 msgid "Show"
@@ -2452,8 +2451,7 @@ msgstr ""
 msgid ""
 "Something went wrong with the spices download.  Please try refreshing the "
 "list again."
-msgstr ""
-"Hiba történt a letöltés során. Próbálja meg ismét frissíteni a listát."
+msgstr "Hiba történt a letöltés során. Próbálja meg ismét frissíteni a listát."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:517
 msgid "Refreshing the cache"
@@ -3147,8 +3145,7 @@ msgstr "Válassza ki a zenelejátszó csatlakoztatásakor futtatandó alkalmazá
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:138
 msgid "Select an application to run when a camera is connected"
-msgstr ""
-"Válassza ki a fényképezőgép csatlakoztatásakor futtatandó alkalmazást"
+msgstr "Válassza ki a fényképezőgép csatlakoztatásakor futtatandó alkalmazást"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:139
 msgid "_Software"
@@ -3265,7 +3262,7 @@ msgstr "Te_rminál"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:550
 msgid "_Calculator"
-msgstr ""
+msgstr "_Számológép"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:559
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:566
@@ -3658,6 +3655,8 @@ msgstr ""
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:45
 msgid "Enable VBlank (Requires Cinnamon restart)"
 msgstr ""
+"Kijelző szinkronizálás engedélyezése (A Cinnamon környezet újraindítását "
+"igényli)"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:46
 msgid ""
@@ -4503,8 +4502,8 @@ msgstr "Kiosztások"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:479
 #, python-format
 msgid ""
-"This key combination, <b>%(combination)s</b> is currently in use by "
-"<b>%(old)s</b>.  "
+"This key combination, <b>%(combination)s</b> is currently in use by <b>"
+"%(old)s</b>.  "
 msgstr ""
 "A(z) „<b>%(combination)s</b>” billentyűkombinációt már használja a "
 "következő: „<b>%(old)s</b>”.  "
@@ -4563,8 +4562,7 @@ msgstr "Mutató helyének megmutatása a Ctrl billentyű lenyomásakor"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:39
 msgid "Emulate middle click by clicking both left and right buttons"
-msgstr ""
-"Középső egérgomb használata a jobb és bal gombok egyszeri lenyomásával"
+msgstr "Középső egérgomb használata a jobb és bal gombok egyszeri lenyomásával"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:42
 msgid "Drag-and-drop threshold"
@@ -4813,7 +4811,7 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:45
 msgid "Panel Visibility"
-msgstr ""
+msgstr "Panel láthatóság"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py:50
 msgid "Auto hide panel"
@@ -5237,6 +5235,8 @@ msgstr "Képernyőzárolás beállítások kezelése"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:51
 msgid "screensaver, lock, away, message"
 msgstr ""
+"képernyővédő, lezárás, jelszó, nincs a gépnél, távol, üzenet, screensaver, "
+"lock, away, message"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:52
 msgid "Screensaver"
@@ -5309,8 +5309,7 @@ msgstr "Óra állandó megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:105
 msgid "Show the clock on the wallpaper instead of just on the unlock screen"
-msgstr ""
-"Az óra megjelenítése a háttérképen is, és ne csak a zárolási képernyőn"
+msgstr "Az óra megjelenítése a háttérképen is, és ne csak a zárolási képernyőn"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:108
 msgid "Use a custom date and time format"
@@ -5618,6 +5617,8 @@ msgstr "Bejelentkezéskor elindítandó alkalmazások"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:54
 msgid "startup, programs, boot, init, session, autostart, apps"
 msgstr ""
+"indítás, programok, rendszerindítás, folyamat, munkamenet, alkalmazások, "
+"automatikus indítás, startup, programs, boot, init, session, autostart, apps"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:55
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:68
@@ -5827,6 +5828,8 @@ msgstr "Felhasználói beállítások és jelszavak módosítása"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:35
 msgid "user, account, information, details, password"
 msgstr ""
+"felhasználó, fiók, információ, részletek, jelszó, user, account, "
+"information, details, password"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:36
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py:46
@@ -6076,8 +6079,7 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:132
 msgid "Move minimized windows to the end of the alt-tab switcher"
-msgstr ""
-"Minimalizált ablakok az Alt-Tab alkalmazásváltó-lista végére kerülnek"
+msgstr "Minimalizált ablakok az Alt-Tab alkalmazásváltó-lista végére kerülnek"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:135
 msgid "Delay before displaying the alt-tab switcher"
@@ -6402,7 +6404,7 @@ msgstr ""
 #. grouped-window-list@cinnamon.org->settings-
 #. schema.json->thumbnailsSection->title
 msgid "Thumbnails"
-msgstr ""
+msgstr "Előnézetek"
 
 #. grouped-window-list@cinnamon.org->settings-
 #. schema.json->contextMenuPage->title
@@ -6554,17 +6556,17 @@ msgstr ""
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
 #. timeout->options
 msgid "50 ms"
-msgstr ""
+msgstr "50 ms"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
 #. timeout->options
 msgid "250 ms"
-msgstr ""
+msgstr "250 ms"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
 #. timeout->options
 msgid "500 ms"
-msgstr ""
+msgstr "500 ms"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
 #. size->description
@@ -6618,7 +6620,7 @@ msgstr ""
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-
 #. recent->description
 msgid "Show recent items"
-msgstr ""
+msgstr "Legutóbbi elemek megjelenítése"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->autostart-menu-
 #. item->description
@@ -6657,28 +6659,28 @@ msgstr ""
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. in->description
 msgid "Window fade-in time"
-msgstr ""
+msgstr "Ablak előtűnés ideje"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. in->options
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. out->options
 msgid "150 ms"
-msgstr ""
+msgstr "150 ms"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. in->options
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. out->options
 msgid "300 ms"
-msgstr ""
+msgstr "300 ms"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. in->options
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. out->options
 msgid "450 ms"
-msgstr ""
+msgstr "450 ms"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-time-
 #. out->description
@@ -6688,7 +6690,7 @@ msgstr ""
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-
 #. opacity->units
 msgid "percent"
-msgstr ""
+msgstr "százalék"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->hover-peek-
 #. opacity->description
@@ -6805,8 +6807,7 @@ msgstr "Egérgörgő használatának engedélyezése az Ablaklistában"
 #. window-list@cinnamon.org->settings-schema.json->reverse-
 #. scrolling->description
 msgid "Reverse the direction of mouse-wheel scrolling in the window list"
-msgstr ""
-"Egérgörgő ellentétes görgetési irányának felcserélése az Ablaklistában"
+msgstr "Egérgörgő ellentétes görgetési irányának felcserélése az Ablaklistában"
 
 #. window-list@cinnamon.org->settings-schema.json->left-click-
 #. minimize->description
@@ -7468,7 +7469,6 @@ msgid "Click the button to select a new text color"
 msgstr "Kattintson a gombra a szöveg színének kiválasztásához"
 
 #. clock@cinnamon.org->settings-schema.json->use-custom-format->tooltip
-msgid ""
-"Check this to define a custom format for the time in the clock desklet."
+msgid "Check this to define a custom format for the time in the clock desklet."
 msgstr ""
 "Válassza ki ezt az óra asztalkalmazásban saját időformátum megadásához."
