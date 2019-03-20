@@ -7,515 +7,502 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mintmenu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-06 16:17+0100\n"
-"PO-Revision-Date: 2017-11-12 07:01+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"POT-Creation-Date: 2019-02-12 13:21+0000\n"
+"PO-Revision-Date: 2019-03-13 09:21+0100\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-11-29 18:17+0000\n"
-"X-Generator: Launchpad (build 18826)\n"
+"X-Launchpad-Export-Date: 2019-03-13 05:46+0000\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: hu\n"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:30
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:31
 msgid "Menu"
 msgstr "Menü"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:195
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:190
 msgid "Couldn't load plugin:"
 msgstr "Nem sikerült betölteni a bővítményt:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:270
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:264
 msgid "Couldn't initialize plugin"
 msgstr "Nem sikerült beállítani a bővítményt"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:694
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:684
 msgid "Advanced MATE Menu"
 msgstr "Haladó MATE menü"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:783
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:792
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:786
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:795
 msgid "Edit menu"
 msgstr "Menü szerkesztése"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:789
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:798
 msgid "Reload plugins"
 msgstr "Bővítmények újratöltése"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:792
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:801
 msgid "About"
 msgstr "Névjegy"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:42
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:35
 msgid "Menu preferences"
 msgstr "A menü beállításai"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:45
-msgid "Always start with favorites pane"
-msgstr "Induláskor a kedvencek megjelenítése"
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:38
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:1
+msgid "Edit Place"
+msgstr "Hely szerkesztése"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:46
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:39
+msgid "New Place"
+msgstr "Új hely"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:40
+msgid "Select a folder"
+msgstr "Mappa kiválasztása"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:67
+msgid "Keyboard shortcut:"
+msgstr "Gyorsbillentyű:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:73
+msgid "Images"
+msgstr "Képek"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:189
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:2
+msgid "Name"
+msgstr "Név"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:190
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:3
+msgid "Path"
+msgstr "Útvonal"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:204
+msgid "Desktop theme"
+msgstr "Asztaltéma"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:340
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:371
+msgid "Name:"
+msgstr "Név:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:341
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:372
+msgid "Path:"
+msgstr "Útvonal:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:4
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:5
 msgid "Show button icon"
 msgstr "Ikon megjelenítése a menügombon"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:47
-msgid "Enable Internet search"
-msgstr "Internetes keresés engedélyezése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:48
-msgid "Use custom colors"
-msgstr "Egyéni színek használata"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:49
-msgid "Show recent documents plugin"
-msgstr "Legutóbbi dokumentumok bővítmény megjelenítése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:50
-msgid "Show applications plugin"
-msgstr "Alkalmazások bővítmény megjelenítése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:51
-msgid "Show system plugin"
-msgstr "Rendszer bővítmény megjelenítése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:52
-msgid "Show places plugin"
-msgstr "Helyek bővítmény megjelenítése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:54
-msgid "Show application comments"
-msgstr "Alkalmazásleírások megjelenítése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:55
-msgid "Show category icons"
-msgstr "Kategóriaikonok megjelenítése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:56
-msgid "Hover"
-msgstr "Kategóriatartalom automatikus megjelenítése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:57
-msgid "Remember the last category or search"
-msgstr "Utolsó kategória vagy keresés megjegyzése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:58
-msgid "Search for packages to install"
-msgstr "Telepítendő csomagok keresése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:59
-msgid "Swap name and generic name"
-msgstr "Név és általános név cseréje"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:61
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:6
 msgid "Button text:"
 msgstr "Menügomb felirata:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:62
-msgid "Options"
-msgstr "Beállítások"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:63
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:192
-msgid "Applications"
-msgstr "Alkalmazások"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:65
-msgid "Theme"
-msgstr "Téma"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:69
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:202
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:203
-msgid "Favorites"
-msgstr "Kedvencek"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:67
-msgid "Main button"
-msgstr "Menügomb"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:68
-msgid "Plugins"
-msgstr "Bővítmények"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:70
-msgid "Background:"
-msgstr "Háttér:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:71
-msgid "Headings:"
-msgstr "Címsor:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:72
-msgid "Theme:"
-msgstr "Téma:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:76
-msgid "Number of columns:"
-msgstr "Oszlopok száma:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:77
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:78
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:79
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:80
-msgid "Icon size:"
-msgstr "Ikonméret:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:81
-msgid "Hover delay (ms):"
-msgstr "Az automatikus megjelenítés késleltetése (ms):"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:82
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:7
 msgid "Button icon:"
 msgstr "Menügomb ikonja:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:83
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:8
+msgid "Main button"
+msgstr "Menügomb"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:9
+msgid "Always start with favorites pane"
+msgstr "Induláskor a kedvencek megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:10
+msgid "Show applications plugin"
+msgstr "Alkalmazások bővítmény megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:11
+msgid "Show system plugin"
+msgstr "Rendszer bővítmény megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:12
+msgid "Show places plugin"
+msgstr "Helyek bővítmény megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:13
+msgid "Show recent documents plugin"
+msgstr "Legutóbbi dokumentumok bővítmény megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:14
+msgid "Plugins"
+msgstr "Bővítmények"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:15
+msgid "Use custom colors"
+msgstr "Egyéni színek használata"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:16
+msgid "Headings:"
+msgstr "Címsor:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:17
+msgid "Background:"
+msgstr "Háttér:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:18
+msgid "Theme:"
+msgstr "Téma:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:19
+msgid "Colors"
+msgstr "Színek"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:20
+msgid "Show application comments"
+msgstr "Alkalmazásleírások megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:21
+msgid "Show category icons"
+msgstr "Kategóriaikonok megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:22
+msgid "Hover"
+msgstr "Kategóriatartalom automatikus megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:23
+msgid "Hover delay (seconds):"
+msgstr "Menükövetés késleltetése (másodperc):"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:24
+msgid "Icon size:"
+msgstr "Ikonméret:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:25
 msgid "Search command:"
 msgstr "Keresőparancs:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:85
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:40
-msgid "Places"
-msgstr "Helyek"
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:26
+msgid "Search for packages to install"
+msgstr "Telepítendő csomagok keresése"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:86
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:98
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:27
+msgid "Remember the last category or search"
+msgstr "Utolsó kategória vagy keresés megjegyzése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:28
+msgid "Enable Internet search"
+msgstr "Internetes keresés engedélyezése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:29
+#: usr/lib/linuxmint/mintMenu/plugins/applications.glade.h:3
+#: usr/lib/linuxmint/mintMenu/plugins/recent.glade.h:1
+msgid "Applications"
+msgstr "Alkalmazások"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:30
+msgid "Number of columns:"
+msgstr "Oszlopok száma:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:31
+msgid "Swap name and generic name"
+msgstr "Név és általános név cseréje"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:32
+#: usr/lib/linuxmint/mintMenu/plugins/applications.glade.h:1
+msgid "Favorites"
+msgstr "Kedvencek"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:33
 msgid "Allow Scrollbar"
 msgstr "Görgetés engedélyezése"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:87
-msgid "Show GTK Bookmarks"
-msgstr "GTK könyvjelzők megjelenítése"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:88
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:99
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:34
 msgid "Height:"
 msgstr "Magasság:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:89
-msgid "Toggle Default Places:"
-msgstr "Alapértelmezett helyek megjelenítése:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:90
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:137
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:35
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:140
 msgid "Computer"
 msgstr "Számítógép"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:91
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:36
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:147
 msgid "Home Folder"
 msgstr "Saját mappa"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:92
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:160
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:162
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:37
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:157
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:159
 msgid "Network"
 msgstr "Hálózat"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:93
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:184
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:38
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:178
 msgid "Desktop"
 msgstr "Asztal"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:94
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:194
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:39
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:185
 msgid "Trash"
 msgstr "Kuka"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:95
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:40
+msgid "Toggle Default Places:"
+msgstr "Alapértelmezett helyek megjelenítése:"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:41
+msgid "Show GTK bookmarks"
+msgstr "GTK könyvjelzők megjelenítése"
+
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:42
 msgid "Custom Places:"
 msgstr "Egyéni helyek megjelenítése:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:97
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:40
-msgid "System"
-msgstr "Rendszer"
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:43
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:43
+msgid "Places"
+msgstr "Helyek"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:100
-msgid "Toggle Default Items:"
-msgstr "Alapértelmezett elemek megjelenítése:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:101
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:156
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:44
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:154
 msgid "Software Manager"
 msgstr "Szoftverkezelő"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:102
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:163
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:45
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:161
 msgid "Package Manager"
 msgstr "Csomagkezelő"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:103
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:170
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:46
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:168
 msgid "Control Center"
 msgstr "Vezérlőpult"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:104
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:177
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:47
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:175
 msgid "Terminal"
 msgstr "Terminál"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:105
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:187
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:48
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:185
 msgid "Lock Screen"
 msgstr "Képernyő zárolása"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:106
-msgid "Log Out"
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:49
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:192
+msgid "Logout"
 msgstr "Kijelentkezés"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:107
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:201
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:50
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:199
 msgid "Quit"
 msgstr "Kilépés"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:109
-msgid "Edit Place"
-msgstr "Hely szerkesztése"
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:51
+msgid "Toggle Default Items:"
+msgstr "Alapértelmezett elemek megjelenítése:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:110
-msgid "New Place"
-msgstr "Új hely"
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.glade.h:52
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:38
+msgid "System"
+msgstr "Rendszer"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:111
-msgid "Select a folder"
-msgstr "Mappa kiválasztása"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:138
-msgid "Keyboard shortcut:"
-msgstr "Gyorsbillentyű:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:144
-msgid "Images"
-msgstr "Képek"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:260
-msgid "Name"
-msgstr "Név"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:261
-msgid "Path"
-msgstr "Útvonal"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:276
-msgid "Desktop theme"
-msgstr "Asztaltéma"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:411
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:442
-msgid "Name:"
-msgstr "Név:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:412
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:443
-msgid "Path:"
-msgstr "Útvonal:"
-
-#: usr/lib/linuxmint/mintMenu/keybinding.py:171
+#: usr/lib/linuxmint/mintMenu/keybinding.py:172
 msgid ""
 "Click to set a new accelerator key for opening and closing the menu.  "
 msgstr ""
 "Kattintson egy új gyorsbillentyű beállításához a menü megnyitásához és "
 "bezárásához.  "
 
-#: usr/lib/linuxmint/mintMenu/keybinding.py:172
+#: usr/lib/linuxmint/mintMenu/keybinding.py:173
 msgid "Press Escape or click again to cancel the operation.  "
 msgstr ""
 "Nyomja meg az ESC gombot vagy kattintson újra a művelet megszakításához.  "
 
-#: usr/lib/linuxmint/mintMenu/keybinding.py:173
+#: usr/lib/linuxmint/mintMenu/keybinding.py:174
 msgid "Press Backspace to clear the existing keybinding."
 msgstr ""
 "Nyomja meg a Backspace gombot a már létező billentyű összerendelés "
 "törléséhez."
 
-#: usr/lib/linuxmint/mintMenu/keybinding.py:186
+#: usr/lib/linuxmint/mintMenu/keybinding.py:187
 msgid "Pick an accelerator"
 msgstr "Gyorsbillentyű választása"
 
-#: usr/lib/linuxmint/mintMenu/keybinding.py:238
+#: usr/lib/linuxmint/mintMenu/keybinding.py:239
 msgid "<not set>"
 msgstr "<nincs beállítva>"
-
-#: usr/lib/linuxmint/mintMenu/plugins/recent.py:32
-msgid "Recently used"
-msgstr "Nemrég használt"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:187
-msgid "Search:"
-msgstr "Keresés:"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:191
-msgid "All applications"
-msgstr "Minden alkalmazás"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:582
 #, python-format
 msgid "Search DuckDuckGo for %s"
 msgstr "Keresés a DuckDuckGo keresőben: %s"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:589
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:583
 #, python-format
 msgid "Search Wikipedia for %s"
 msgstr "%s keresése a Wikipédián"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:605
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:586
 #, python-format
 msgid "Lookup %s in Dictionary"
 msgstr "%s keresése a szótárban"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:612
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:587
 #, python-format
 msgid "Search Computer for %s"
 msgstr "%s keresése a számítógépen"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:690
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:743
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:644
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:686
 #, python-format
 msgid "Install package '%s'"
 msgstr "A(z) „%s” csomag telepítése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:876
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:946
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:788
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:857
 msgid "Add to desktop"
 msgstr "Hozzáadás az asztalhoz"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:877
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:947
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:789
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:858
 msgid "Add to panel"
 msgstr "Hozzáadás a panelhez"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:879
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:928
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:791
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:835
 msgid "Insert space"
 msgstr "Térköz beszúrása"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:880
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:929
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:792
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:836
 msgid "Insert separator"
 msgstr "Elválasztó beszúrása"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:882
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:950
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:794
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:861
 msgid "Launch when I log in"
 msgstr "Futtatás bejelentkezéskor"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:884
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:952
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:796
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:863
 msgid "Launch"
 msgstr "Futtatás"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:885
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:797
 msgid "Remove from favorites"
 msgstr "Eltávolítás a kedvencek közül"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:887
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:956
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:799
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:867
 msgid "Edit properties"
 msgstr "Tulajdonságok szerkesztése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:927
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:834
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:949
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:860
 msgid "Show in my favorites"
 msgstr "Megjelenítés a kedvencek között"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:953
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:864
 msgid "Uninstall"
 msgstr "Eltávolítás"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:954
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:865
 msgid "Delete from menu"
 msgstr "Törlés a menüből"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1011
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:930
 msgid "Search DuckDuckGo"
 msgstr "Keresés a DuckDuckGo keresőben"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1018
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:931
 msgid "Search Wikipedia"
 msgstr "Keresés a Wikipédián"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1028
-msgid "Lookup Dictionary"
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:933
+msgid "Search Dictionary"
 msgstr "Keresés a szótárban"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1035
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:934
 msgid "Search Computer"
 msgstr "Keresés a számítógépen"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1046
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:936
 msgid "Find Software"
 msgstr "Alkalmazás keresése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1053
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:937
 msgid "Find Tutorials"
 msgstr "Útmutató keresése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1060
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:938
 msgid "Find Hardware"
 msgstr "Hardver keresése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1067
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:939
 msgid "Find Ideas"
 msgstr "Ötletek keresése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1074
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:940
 msgid "Find Users"
 msgstr "Felhasználók keresése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1511
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1346
 msgid ""
-"Couldn't save favorites. Check if you have write access to "
-"~/.linuxmint/mintMenu"
+"Couldn't save favorites. Check if you have write access to ~/.linuxmint/"
+"mintMenu"
 msgstr ""
 "Nem sikerült menteni a kedvenceket. Ellenőrizze a ~/.linuxmint/mintMenu "
 "mappa írási jogosultságait."
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1721
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1553
 msgid "All"
 msgstr "Mind"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1721
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1553
 msgid "Show all applications"
 msgstr "Minden alkalmazás megjelenítése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:160
-msgid "Browse and install available software"
-msgstr "Elérhető alkalmazások tallózása és telepítése"
+#: usr/lib/linuxmint/mintMenu/plugins/applications.glade.h:2
+msgid "All applications"
+msgstr "Minden alkalmazás"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:167
-msgid "Install, remove and upgrade software packages"
-msgstr "Csomagok telepítése, eltávolítása és frissítése"
+#: usr/lib/linuxmint/mintMenu/plugins/applications.glade.h:4
+msgid "<span weight=\"bold\">Search:</span>"
+msgstr "<span weight=\"bold\">Keresés:</span>"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:174
-msgid "Configure your system"
-msgstr "A rendszer beállítása"
+#: usr/lib/linuxmint/mintMenu/plugins/applications.glade.h:5
+msgid "Show additional search options"
+msgstr "További keresési beállítások megjelenítése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:184
-msgid "Use the command line"
-msgstr "Parancssor használata"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:34
+msgid "Recently used"
+msgstr "Nemrég használt"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:191
-msgid "Requires password to unlock"
-msgstr "A zárolás feloldásához meg kelljen adni a jelszót"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:179
+msgid "The file or location could not be opened."
+msgstr "A fájl vagy a hely nem nyitható meg."
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:194
-msgid "Logout"
-msgstr "Kijelentkezés"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.glade.h:2
+msgid "Documents"
+msgstr "Dokumentumok"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:198
-msgid "Log out or switch user"
-msgstr "Kijelentkezés vagy felhasználóváltás"
-
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:205
-msgid "Shutdown, restart, suspend or hibernate"
-msgstr "Leállítás, újraindítás, felfüggesztés vagy hibernálás"
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:40
+msgid ""
+"Couldn't save recent apps. Check if you have write access to ~/.linuxmint/"
+"mintMenu"
+msgstr ""
+"Nem menthető el a nemrég használt alkalmazások listája. Ellenőrizze, hogy "
+"van-e írási jogosultsága a „~/.linuxmint/mintMenu” fájlra."
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:144
 msgid ""
@@ -523,33 +510,53 @@ msgid ""
 msgstr ""
 "A számítógépről elérhető összes helyi és távoli lemez és mappa tallózása"
 
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:151
 msgid "Open your personal folder"
 msgstr "Saját mappa megnyitása"
 
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:169
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:163
 msgid "Browse bookmarked and local network locations"
 msgstr "Könyvjelzőzött vagy helyi hálózati kapcsolatok tallózása"
 
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:191
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:182
 msgid "Browse items placed on the desktop"
 msgstr "Az asztalra helyezett elemek tallózása"
 
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:205
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:192
 msgid "Browse deleted files"
 msgstr "Törölt fájlok tallózása"
 
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:260
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:241
 msgid "Empty trash"
 msgstr "Kuka ürítése"
 
-#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:44
-msgid ""
-"Couldn't save recent apps. Check if you have write access to "
-"~/.linuxmint/mintMenu"
-msgstr ""
-"Nem menthető el a nemrég használt alkalmazások listája. Ellenőrizze, hogy "
-"van-e írási jogosultsága a „~/.linuxmint/mintMenu” fájlra."
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:158
+msgid "Browse and install available software"
+msgstr "Elérhető alkalmazások tallózása és telepítése"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:165
+msgid "Install, remove and upgrade software packages"
+msgstr "Csomagok telepítése, eltávolítása és frissítése"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:172
+msgid "Configure your system"
+msgstr "A rendszer beállítása"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:182
+msgid "Use the command line"
+msgstr "Parancssor használata"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:189
+msgid "Requires password to unlock"
+msgstr "A zárolás feloldásához meg kelljen adni a jelszót"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:196
+msgid "Log out or switch user"
+msgstr "Kijelentkezés vagy felhasználóváltás"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:203
+msgid "Shutdown, restart, suspend or hibernate"
+msgstr "Leállítás, újraindítás, felfüggesztés vagy hibernálás"
 
 #~ msgid "Show sidepane"
 #~ msgstr "Oldalpanel megjelenítése"
@@ -562,9 +569,6 @@ msgstr ""
 
 #~ msgid "Borders:"
 #~ msgstr "Szegély:"
-
-#~ msgid "Colors"
-#~ msgstr "Színek"
 
 #~ msgid "pixels"
 #~ msgstr "képpont"
@@ -593,15 +597,12 @@ msgstr ""
 #~ msgid "Filter:"
 #~ msgstr "Szűrő:"
 
-#, python-format
 #~ msgid "Search repositories for '%s'"
 #~ msgstr "'%s' keresése a csomagtárolókban"
 
-#, python-format
 #~ msgid "Search portal for '%s'"
 #~ msgstr "'%s' keresése a Szoftverportálon"
 
-#, python-format
 #~ msgid "Show package '%s'"
 #~ msgstr "A(z) '%s' csomag megjelenítése"
 
@@ -614,12 +615,20 @@ msgstr ""
 #~ msgid "The following packages will be removed:"
 #~ msgstr "A következő csomagok lesznek eltávolítva:"
 
+#~ msgid "Log Out"
+#~ msgstr "Kijelentkezés"
+
+#~ msgid "Hover delay (ms):"
+#~ msgstr "Az automatikus megjelenítés késleltetése (ms):"
+
 #~ msgid "Not a valid .menu file"
 #~ msgstr "Érvénytelen .menu fájl"
 
 #~ msgid "Advanced Gnome Menu"
 #~ msgstr "Továbbfejlesztett Gnome menü"
 
-#, python-format
 #~ msgid "Remove %s?"
 #~ msgstr "„%s” eltávolítása?"
+
+#~ msgid "Options"
+#~ msgstr "Beállítások"

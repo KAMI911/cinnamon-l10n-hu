@@ -9,16 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-19 11:34+0000\n"
-"PO-Revision-Date: 2018-11-25 15:20+0000\n"
+"POT-Creation-Date: 2018-12-05 15:16+0000\n"
+"PO-Revision-Date: 2018-12-16 14:29+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-29 18:25+0000\n"
-"X-Generator: Launchpad (build 18826)\n"
+"X-Launchpad-Export-Date: 2019-03-13 06:01+0000\n"
+"X-Generator: Launchpad (build 18898)\n"
 "Language: hu\n"
 "(http: //www.transifex.com/projects/p/MATE/language/hu/)\n"
 
@@ -525,6 +525,14 @@ msgstr ""
 "rendszerének hála helyesírás-ellenőrzés, fájl-összehasonlítás, CVS "
 "változtatási naplók olvasása és a behúzási szintek megváltoztatása "
 "képességekkel is felruházható.</p>"
+
+#: ../data/xed.desktop.in.in.h:1 ../xed/xed-print-job.c:707
+msgid "Text Editor"
+msgstr "Szövegszerkesztő"
+
+#: ../data/xed.desktop.in.in.h:2
+msgid "Edit text files"
+msgstr "Szövegfájlok szerkesztése"
 
 #: ../xed/xed-app.c:102
 msgid "Show the application's version"
@@ -1366,10 +1374,6 @@ msgstr "Fájl: %s"
 #: ../xed/xed-print-job.c:503
 msgid "Page %N of %Q"
 msgstr "%N. / %Q oldal"
-
-#: ../xed/xed-print-job.c:707
-msgid "Text Editor"
-msgstr "Szövegszerkesztő"
 
 #: ../xed/xed-print-job.c:740
 msgid "Preparing..."

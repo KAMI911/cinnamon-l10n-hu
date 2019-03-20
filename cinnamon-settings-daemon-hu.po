@@ -23,8 +23,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-29 18:28+0000\n"
-"X-Generator: Launchpad (build 18826)\n"
+"X-Launchpad-Export-Date: 2019-03-13 06:08+0000\n"
+"X-Generator: Launchpad (build 18898)\n"
 "Language: hu\n"
 
 #: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:377
