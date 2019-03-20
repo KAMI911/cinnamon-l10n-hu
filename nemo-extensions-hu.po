@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-11-01 13:53+0000\n"
-"PO-Revision-Date: 2018-05-02 18:36+0000\n"
-"Last-Translator: Balázs Meskó <Unknown>\n"
+"POT-Creation-Date: 2019-02-08 10:11+0000\n"
+"PO-Revision-Date: 2019-03-14 17:51+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-07 06:41+0000\n"
-"X-Generator: Launchpad (build 18810)\n"
+"X-Launchpad-Export-Date: 2019-03-20 05:09+0000\n"
+"X-Generator: Launchpad (build 18910)\n"
 "Language: hu\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
@@ -120,131 +120,131 @@ msgstr "Összehasonlítás"
 msgid "Compare selected files"
 msgstr "Kiválasztott fájlok összehasonlítása"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Art"
-msgstr ""
+msgstr "Grafika"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Camera"
-msgstr ""
+msgstr "Fényképezőgép"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Danger"
-msgstr ""
+msgstr "Veszély"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Default"
-msgstr ""
+msgstr "Alapértelmezett"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Development"
-msgstr ""
+msgstr "Fejlesztés"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Documents"
-msgstr ""
+msgstr "Dokumentumok"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Downloads"
-msgstr ""
+msgstr "Letöltések"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Favorite"
-msgstr ""
+msgstr "Kedvenc"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Games"
-msgstr ""
+msgstr "Játékok"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Generic"
-msgstr ""
+msgstr "Általános"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Important"
-msgstr ""
+msgstr "Fontos"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Installed"
-msgstr ""
+msgstr "Telepítve"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Mail"
-msgstr ""
+msgstr "Levelek"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Marketing"
-msgstr ""
+msgstr "Marketing"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Money"
-msgstr ""
+msgstr "Pénzügyek"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Multimedia"
-msgstr ""
+msgstr "Multimédia"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "New"
-msgstr ""
+msgstr "Újdonság"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Note"
-msgstr ""
+msgstr "Megjegyzés"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Ohno"
-msgstr ""
+msgstr "Jaj ne"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Package"
-msgstr ""
+msgstr "Csomag"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "People"
-msgstr ""
+msgstr "Emberek"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Personal"
-msgstr ""
+msgstr "Személyes"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Photos"
-msgstr ""
+msgstr "Fényképek"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Plan"
-msgstr ""
+msgstr "Terv"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Presentation"
-msgstr ""
+msgstr "Bemutató"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Sales"
-msgstr ""
+msgstr "Értékesítés"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Sound"
-msgstr ""
+msgstr "Hang"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "System"
-msgstr ""
+msgstr "Rendszer"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Urgent"
-msgstr ""
+msgstr "Sürgős"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Videos"
-msgstr ""
+msgstr "Videók"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:47
+#: nemo-emblems/nemo-extension/nemo-emblems.py:50
 msgid "Web"
-msgstr ""
+msgstr "Web"
 
-#: nemo-emblems/nemo-extension/nemo-emblems.py:85
+#: nemo-emblems/nemo-extension/nemo-emblems.py:88
 msgid "Emblems"
 msgstr "Emblémák"
 
@@ -279,7 +279,7 @@ msgstr "Kivonatok mentése"
 #: nemo-gtkhash/src/callbacks.c:236
 msgid "A GTK+ utility for computing message digests or checksums."
 msgstr ""
-"Egy GTK+ segédprogram üzenetkivonatok és ellenőrzőösszegek kiszámításához"
+"Egy GTK+ segédprogram üzenetkivonatok és ellenőrzőösszegek kiszámításához."
 
 #: nemo-gtkhash/src/callbacks.c:240
 msgid "translator-credits"
@@ -597,7 +597,7 @@ msgstr "Bitsebesség"
 
 #: nemo-media-columns/nemo-media-columns.py:79
 msgid "Sample Rate"
-msgstr "Mintavétel:"
+msgstr "Mintavétel"
 
 #: nemo-media-columns/nemo-media-columns.py:80
 msgid "Length"
@@ -749,7 +749,7 @@ msgstr "Át_nevezés a következőre: „%s”"
 #: nemo-repairer/src/nemo-filename-repairer.c:266
 #, c-format
 msgid "Rename as \"%s\"."
-msgstr "Átnevezés a következőre: „%s”"
+msgstr "Átnevezés a következőre: „%s”."
 
 #: nemo-repairer/src/nemo-filename-repairer.c:410
 msgid "Select a filename"
@@ -1549,3 +1549,88 @@ msgid ""
 msgstr ""
 "Telepíteni kell a „samba” csomagot és a felhasználóját hozzá kell adni a "
 "„sambashare” csoporthoz."
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:44
+msgid "Nemo-Terminal Preferences"
+msgstr "Nemo – Terminál beállítások"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:70
+msgid "Visible by default"
+msgstr "Alapértelmezetten látszik"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:74
+msgid "Top"
+msgstr "Fent"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:75
+msgid "Bottom"
+msgstr "Lent"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:80
+msgid "Terminal position"
+msgstr "Terminál pozíció"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:84
+msgid "Independent"
+msgstr "Független"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:85
+msgid "Terminal follows view location"
+msgstr "Terminál követi az aktuális nézetet"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:92
+msgid "Location mode"
+msgstr "Hely üzemmód"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:100
+msgid "Terminal bell"
+msgstr "Terminálcsengő"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:109
+msgid "Default number of lines for the terminal"
+msgstr "Megjelenített sorok száma"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:149
+msgid "Keyboard shortcut"
+msgstr "Gyorsbillentyű"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:152
+msgid "Basic"
+msgstr "Alap"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:171
+msgid "Shell to use (leave blank for system default)"
+msgstr "Shell (üresen hagyva a rendszer alapértelmezett használata)"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:187
+msgid "Terminal erase line key sequence"
+msgstr "Terminál sortörlés karaktersorozat"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:195
+msgid "Terminal restore line key sequence"
+msgstr "Terminál sor visszaállítás karaktersorozat"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:203
+msgid "Change directory command"
+msgstr "Mappaváltás parancs"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:208
+msgid "Restore defaults"
+msgstr "Alapértelmezések visszaállítása"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:217
+msgid "Sequences must be escaped according to python rules."
+msgstr "A karaktersorozatokat a Python szabályai szerint kell escépelni"
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:218
+#, python-format
+msgid "'%s' is replaced by the quoted directory name."
+msgstr "A '%s' le lesz cserélve egyszeres idézőjellel határolt mappa névre."
+
+#: nemo-terminal/src/nemo-terminal-prefs.py:225
+msgid "Advanced"
+msgstr "Speciális"
+
+#: nemo-terminal/src/nemo_terminal.py:149
+msgid "Paste Filenames"
+msgstr "Fájlnevek beillesztése"

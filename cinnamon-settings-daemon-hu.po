@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: cinnamon-settings-daemon master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "settings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2018-10-30 14:49+0000\n"
-"PO-Revision-Date: 2018-11-07 05:45+0000\n"
+"POT-Creation-Date: 2018-11-12 15:15+0000\n"
+"PO-Revision-Date: 2018-11-25 15:06+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-07 06:41+0000\n"
-"X-Generator: Launchpad (build 18810)\n"
+"X-Launchpad-Export-Date: 2019-03-20 05:09+0000\n"
+"X-Generator: Launchpad (build 18910)\n"
 "Language: hu\n"
 
 #: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:377
@@ -318,7 +318,7 @@ msgid ""
 "space by emptying the trash."
 msgstr ""
 "A(z) „%s” köteten már csak %s lemezhely maradt. A Kuka kiürítésével "
-"felszabadíthat némi helyet."
+"felszabadíthat némi lemezhelyet."
 
 #: plugins/housekeeping/csd-disk-space.c:340
 #: plugins/housekeeping/csd-ldsm-dialog.c:78
@@ -338,7 +338,7 @@ msgid ""
 "by emptying the trash."
 msgstr ""
 "A számítógépen már csak %s lemezhely maradt. A Kuka kiürítésével "
-"felszabadíthat némi helyet."
+"felszabadíthat némi lemezhelyet."
 
 #: plugins/housekeeping/csd-disk-space.c:350
 #: plugins/housekeeping/csd-ldsm-dialog.c:81
@@ -741,211 +741,211 @@ msgstr "Fedél lezárva"
 msgid "Power Manager"
 msgstr "Energiakezelő"
 
-#: plugins/power/gpm-common.c:50
+#: plugins/power/gpm-common.c:47
 msgid "Unknown time"
 msgstr "Ismeretlen idő"
 
-#: plugins/power/gpm-common.c:55
+#: plugins/power/gpm-common.c:52
 #, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
 msgstr[0] "%i perc"
 msgstr[1] "%i perc"
 
-#: plugins/power/gpm-common.c:65
+#: plugins/power/gpm-common.c:62
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
 msgstr[0] "%i óra"
 msgstr[1] "%i óra"
 
-#: plugins/power/gpm-common.c:71
+#: plugins/power/gpm-common.c:68
 #, c-format
 msgid "%i %s %i %s"
 msgstr "%i %s, %i %s"
 
-#: plugins/power/gpm-common.c:72
+#: plugins/power/gpm-common.c:69
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "óra"
 msgstr[1] "óra"
 
-#: plugins/power/gpm-common.c:73
+#: plugins/power/gpm-common.c:70
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "perc"
 msgstr[1] "perc"
 
-#: plugins/power/gpm-common.c:320
+#: plugins/power/gpm-common.c:319
 #, c-format
 msgid "provides %s laptop runtime"
 msgstr "a noteszgép várható működési ideje: %s"
 
-#: plugins/power/gpm-common.c:331
+#: plugins/power/gpm-common.c:330
 #, c-format
 msgid "%s %s remaining"
 msgstr "%s: %s van hátra"
 
-#: plugins/power/gpm-common.c:352 plugins/power/gpm-common.c:369
+#: plugins/power/gpm-common.c:351 plugins/power/gpm-common.c:368
 #, c-format
 msgid "%s %s until charged"
 msgstr "%s: %s a feltöltésig"
 
-#: plugins/power/gpm-common.c:359
+#: plugins/power/gpm-common.c:358
 #, c-format
 msgid "provides %s battery runtime"
 msgstr "várható működési idő akkumulátorról: %s"
 
-#: plugins/power/gpm-common.c:450
+#: plugins/power/gpm-common.c:449
 msgid "Product:"
 msgstr "Termék:"
 
-#: plugins/power/gpm-common.c:454 plugins/power/gpm-common.c:457
-#: plugins/power/gpm-common.c:460 plugins/power/gpm-common.c:463
+#: plugins/power/gpm-common.c:453 plugins/power/gpm-common.c:456
+#: plugins/power/gpm-common.c:459 plugins/power/gpm-common.c:462
 msgid "Status:"
 msgstr "Állapot:"
 
-#: plugins/power/gpm-common.c:454
+#: plugins/power/gpm-common.c:453
 msgid "Missing"
 msgstr "Hiányzik"
 
-#: plugins/power/gpm-common.c:457 plugins/power/gpm-common.c:726
+#: plugins/power/gpm-common.c:456 plugins/power/gpm-common.c:741
 msgid "Charged"
 msgstr "Feltöltve"
 
-#: plugins/power/gpm-common.c:460 plugins/power/gpm-common.c:714
+#: plugins/power/gpm-common.c:459 plugins/power/gpm-common.c:729
 msgid "Charging"
 msgstr "Töltődik"
 
-#: plugins/power/gpm-common.c:463 plugins/power/gpm-common.c:718
+#: plugins/power/gpm-common.c:462 plugins/power/gpm-common.c:733
 msgid "Discharging"
 msgstr "Kisül"
 
-#: plugins/power/gpm-common.c:468
+#: plugins/power/gpm-common.c:467
 msgid "Percentage charge:"
 msgstr "Százalékos töltöttség:"
 
-#: plugins/power/gpm-common.c:472
+#: plugins/power/gpm-common.c:471
 msgid "Vendor:"
 msgstr "Gyártó:"
 
-#: plugins/power/gpm-common.c:477
+#: plugins/power/gpm-common.c:476
 msgid "Technology:"
 msgstr "Technológia:"
 
-#: plugins/power/gpm-common.c:481
+#: plugins/power/gpm-common.c:480
 msgid "Serial number:"
 msgstr "Sorozatszám:"
 
-#: plugins/power/gpm-common.c:485
+#: plugins/power/gpm-common.c:484
 msgid "Model:"
 msgstr "Modell:"
 
-#: plugins/power/gpm-common.c:490
+#: plugins/power/gpm-common.c:489
 msgid "Charge time:"
 msgstr "Töltési idő:"
 
-#: plugins/power/gpm-common.c:496
+#: plugins/power/gpm-common.c:495
 msgid "Discharge time:"
 msgstr "Kisülési idő:"
 
-#: plugins/power/gpm-common.c:503
+#: plugins/power/gpm-common.c:502
 msgid "Excellent"
 msgstr "Kitűnő"
 
-#: plugins/power/gpm-common.c:505
+#: plugins/power/gpm-common.c:504
 msgid "Good"
 msgstr "Jó"
 
-#: plugins/power/gpm-common.c:507
+#: plugins/power/gpm-common.c:506
 msgid "Fair"
 msgstr "Elfogadható"
 
-#: plugins/power/gpm-common.c:509
+#: plugins/power/gpm-common.c:508
 msgid "Poor"
 msgstr "Gyenge"
 
-#: plugins/power/gpm-common.c:513
+#: plugins/power/gpm-common.c:512
 msgid "Capacity:"
 msgstr "Kapacitás:"
 
-#: plugins/power/gpm-common.c:519 plugins/power/gpm-common.c:544
+#: plugins/power/gpm-common.c:518 plugins/power/gpm-common.c:543
 msgid "Current charge:"
 msgstr "Jelenlegi töltés:"
 
-#: plugins/power/gpm-common.c:525
+#: plugins/power/gpm-common.c:524
 msgid "Last full charge:"
 msgstr "Utolsó teljes töltés:"
 
-#: plugins/power/gpm-common.c:531 plugins/power/gpm-common.c:549
+#: plugins/power/gpm-common.c:530 plugins/power/gpm-common.c:548
 msgid "Design charge:"
 msgstr "Tervezett töltés:"
 
-#: plugins/power/gpm-common.c:536
+#: plugins/power/gpm-common.c:535
 msgid "Charge rate:"
 msgstr "Töltés sebessége:"
 
-#: plugins/power/gpm-common.c:568
+#: plugins/power/gpm-common.c:567
 msgid "AC adapter"
 msgid_plural "AC adapters"
 msgstr[0] "Hálózati csatlakozó"
 msgstr[1] "Hálózati csatlakozók"
 
-#: plugins/power/gpm-common.c:572
+#: plugins/power/gpm-common.c:571
 msgid "Laptop battery"
 msgid_plural "Laptop batteries"
 msgstr[0] "Noteszgép-akkumulátor"
 msgstr[1] "Noteszgép-akkumulátorok"
 
-#: plugins/power/gpm-common.c:576
+#: plugins/power/gpm-common.c:575
 msgid "UPS"
 msgid_plural "UPSs"
 msgstr[0] "Szünetmentes táp"
 msgstr[1] "Szünetmentes tápok"
 
-#: plugins/power/gpm-common.c:580
+#: plugins/power/gpm-common.c:579
 msgid "Monitor"
 msgid_plural "Monitors"
 msgstr[0] "Monitor"
 msgstr[1] "Monitorok"
 
-#: plugins/power/gpm-common.c:584
+#: plugins/power/gpm-common.c:583
 msgid "Mouse"
 msgid_plural "Mice"
 msgstr[0] "Egér"
 msgstr[1] "Egerek"
 
-#: plugins/power/gpm-common.c:588
+#: plugins/power/gpm-common.c:587
 msgid "Keyboard"
 msgid_plural "Keyboards"
 msgstr[0] "Billentyűzet"
 msgstr[1] "Billentyűzetek"
 
-#: plugins/power/gpm-common.c:592
+#: plugins/power/gpm-common.c:591
 msgid "PDA"
 msgid_plural "PDAs"
 msgstr[0] "PDA"
 msgstr[1] "PDA-k"
 
-#: plugins/power/gpm-common.c:596
+#: plugins/power/gpm-common.c:595
 msgid "Cell phone"
 msgid_plural "Cell phones"
 msgstr[0] "Mobiltelefon"
 msgstr[1] "Mobiltelefonok"
 
-#: plugins/power/gpm-common.c:600
+#: plugins/power/gpm-common.c:599
 msgid "Media player"
 msgid_plural "Media players"
 msgstr[0] "Médialejátszó"
 msgstr[1] "Médialejátszók"
 
-#: plugins/power/gpm-common.c:604
+#: plugins/power/gpm-common.c:603
 msgid "Tablet"
 msgid_plural "Tablets"
 msgstr[0] "Táblagép"
 msgstr[1] "Táblagépek"
 
-#: plugins/power/gpm-common.c:608
+#: plugins/power/gpm-common.c:607
 msgid "Computer"
 msgid_plural "Computers"
 msgstr[0] "Számítógép"
@@ -957,201 +957,227 @@ msgid_plural "Game controllers"
 msgstr[0] "Játékvezérlő"
 msgstr[1] "Játékvezérlők"
 
-#: plugins/power/gpm-common.c:673
+#: plugins/power/gpm-common.c:616
+msgid "Unknown device"
+msgid_plural "Unknown devices"
+msgstr[0] "Ismeretlen eszköz"
+msgstr[1] "Ismeretlen eszközök"
+
+#: plugins/power/gpm-common.c:687
 msgid "Lithium Ion"
 msgstr "Lítiumion"
 
-#: plugins/power/gpm-common.c:677
+#: plugins/power/gpm-common.c:691
 msgid "Lithium Polymer"
 msgstr "Lítiumpolimer"
 
-#: plugins/power/gpm-common.c:681
+#: plugins/power/gpm-common.c:695
 msgid "Lithium Iron Phosphate"
 msgstr "Lítium-vasfoszfát"
 
-#: plugins/power/gpm-common.c:685
+#: plugins/power/gpm-common.c:699
 msgid "Lead acid"
 msgstr "Ólmos-savas"
 
-#: plugins/power/gpm-common.c:689
+#: plugins/power/gpm-common.c:703
 msgid "Nickel Cadmium"
 msgstr "Nikkel-kadmium"
 
-#: plugins/power/gpm-common.c:693
+#: plugins/power/gpm-common.c:707
 msgid "Nickel metal hydride"
 msgstr "Nikkel-fém hidrid"
 
-#: plugins/power/gpm-common.c:697
+#: plugins/power/gpm-common.c:711
 msgid "Unknown technology"
 msgstr "Ismeretlen technológia"
 
-#: plugins/power/gpm-common.c:722
+#: plugins/power/gpm-common.c:737
 msgid "Empty"
-msgstr "Üres"
+msgstr "Lemerült"
 
-#: plugins/power/gpm-common.c:730
+#: plugins/power/gpm-common.c:745
 msgid "Waiting to charge"
 msgstr "Várakozás töltésre"
 
-#: plugins/power/gpm-common.c:734
+#: plugins/power/gpm-common.c:749
 msgid "Waiting to discharge"
 msgstr "Várakozás kisülésre"
 
-#: plugins/power/gpm-common.c:762
+#: plugins/power/gpm-common.c:753
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: plugins/power/gpm-common.c:782
 msgid "Laptop battery not present"
 msgstr "A noteszgép akkumulátora nincs jelen"
 
-#: plugins/power/gpm-common.c:766
+#: plugins/power/gpm-common.c:786
 msgid "Laptop battery is charging"
 msgstr "A noteszgép akkumulátora töltődik"
 
-#: plugins/power/gpm-common.c:770
+#: plugins/power/gpm-common.c:790
 msgid "Laptop battery is discharging"
 msgstr "A noteszgép akkumulátora kisül"
 
-#: plugins/power/gpm-common.c:774
+#: plugins/power/gpm-common.c:794
 msgid "Laptop battery is empty"
 msgstr "A noteszgép akkumulátora lemerült"
 
-#: plugins/power/gpm-common.c:778
+#: plugins/power/gpm-common.c:798
 msgid "Laptop battery is charged"
 msgstr "A noteszgép akkumulátora feltöltve"
 
-#: plugins/power/gpm-common.c:782
+#: plugins/power/gpm-common.c:802
 msgid "Laptop battery is waiting to charge"
 msgstr "A noteszgép akkumulátora feltöltésre vár"
 
-#: plugins/power/gpm-common.c:786
+#: plugins/power/gpm-common.c:806
 msgid "Laptop battery is waiting to discharge"
 msgstr "A noteszgép akkumulátora kisülésre vár"
 
-#: plugins/power/gpm-common.c:795
+#: plugins/power/gpm-common.c:815
 msgid "UPS is charging"
 msgstr "A szünetmentes táp töltődik"
 
-#: plugins/power/gpm-common.c:799
+#: plugins/power/gpm-common.c:819
 msgid "UPS is discharging"
 msgstr "A szünetmentes táp kisül"
 
-#: plugins/power/gpm-common.c:803
+#: plugins/power/gpm-common.c:823
 msgid "UPS is empty"
-msgstr "A szünetmentes táp üres"
+msgstr "A szünetmentes táp lemerült"
 
-#: plugins/power/gpm-common.c:807
+#: plugins/power/gpm-common.c:827
 msgid "UPS is charged"
 msgstr "A szünetmentes táp feltöltve"
 
-#: plugins/power/gpm-common.c:816
+#: plugins/power/gpm-common.c:836
 msgid "Mouse is charging"
 msgstr "Az egér töltődik"
 
-#: plugins/power/gpm-common.c:820
+#: plugins/power/gpm-common.c:840
 msgid "Mouse is discharging"
 msgstr "Az egér kisül"
 
-#: plugins/power/gpm-common.c:824
+#: plugins/power/gpm-common.c:844
 msgid "Mouse is empty"
 msgstr "Az egér lemerült"
 
-#: plugins/power/gpm-common.c:828
+#: plugins/power/gpm-common.c:848
 msgid "Mouse is charged"
 msgstr "Az egér feltöltve"
 
-#: plugins/power/gpm-common.c:837
+#: plugins/power/gpm-common.c:857
 msgid "Keyboard is charging"
 msgstr "A billentyűzet töltődik"
 
-#: plugins/power/gpm-common.c:841
+#: plugins/power/gpm-common.c:861
 msgid "Keyboard is discharging"
 msgstr "A billentyűzet kisül"
 
-#: plugins/power/gpm-common.c:845
+#: plugins/power/gpm-common.c:865
 msgid "Keyboard is empty"
 msgstr "A billentyűzet lemerült"
 
-#: plugins/power/gpm-common.c:849
+#: plugins/power/gpm-common.c:869
 msgid "Keyboard is charged"
 msgstr "A billentyűzet feltöltve"
 
-#: plugins/power/gpm-common.c:858
+#: plugins/power/gpm-common.c:878
 msgid "PDA is charging"
 msgstr "A PDA töltődik"
 
-#: plugins/power/gpm-common.c:862
+#: plugins/power/gpm-common.c:882
 msgid "PDA is discharging"
 msgstr "A PDA kisül"
 
-#: plugins/power/gpm-common.c:866
+#: plugins/power/gpm-common.c:886
 msgid "PDA is empty"
 msgstr "A PDA lemerült"
 
-#: plugins/power/gpm-common.c:870
+#: plugins/power/gpm-common.c:890
 msgid "PDA is charged"
 msgstr "A PDA feltöltve"
 
-#: plugins/power/gpm-common.c:879
+#: plugins/power/gpm-common.c:899
 msgid "Cell phone is charging"
 msgstr "A mobiltelefon töltődik"
 
-#: plugins/power/gpm-common.c:883
+#: plugins/power/gpm-common.c:903
 msgid "Cell phone is discharging"
 msgstr "A mobiltelefon kisül"
 
-#: plugins/power/gpm-common.c:887
+#: plugins/power/gpm-common.c:907
 msgid "Cell phone is empty"
 msgstr "A mobiltelefon lemerült"
 
-#: plugins/power/gpm-common.c:891
+#: plugins/power/gpm-common.c:911
 msgid "Cell phone is charged"
 msgstr "A mobiltelefon feltöltve"
 
-#: plugins/power/gpm-common.c:900
+#: plugins/power/gpm-common.c:920
 msgid "Media player is charging"
 msgstr "A médialejátszó töltődik"
 
-#: plugins/power/gpm-common.c:904
+#: plugins/power/gpm-common.c:924
 msgid "Media player is discharging"
 msgstr "A médialejátszó kisül"
 
-#: plugins/power/gpm-common.c:908
+#: plugins/power/gpm-common.c:928
 msgid "Media player is empty"
 msgstr "A médialejátszó lemerült"
 
-#: plugins/power/gpm-common.c:912
+#: plugins/power/gpm-common.c:932
 msgid "Media player is charged"
 msgstr "A médialejátszó feltöltve"
 
-#: plugins/power/gpm-common.c:921
+#: plugins/power/gpm-common.c:941
 msgid "Tablet is charging"
 msgstr "A táblagép töltődik"
 
-#: plugins/power/gpm-common.c:925
+#: plugins/power/gpm-common.c:945
 msgid "Tablet is discharging"
 msgstr "A táblagép kisül"
 
-#: plugins/power/gpm-common.c:929
+#: plugins/power/gpm-common.c:949
 msgid "Tablet is empty"
 msgstr "A táblagép lemerült"
 
-#: plugins/power/gpm-common.c:933
+#: plugins/power/gpm-common.c:953
 msgid "Tablet is charged"
 msgstr "A táblagép feltöltve"
 
-#: plugins/power/gpm-common.c:942
+#: plugins/power/gpm-common.c:962
 msgid "Computer is charging"
 msgstr "A számítógép töltődik"
 
-#: plugins/power/gpm-common.c:946
+#: plugins/power/gpm-common.c:966
 msgid "Computer is discharging"
 msgstr "A számítógép kisül"
 
-#: plugins/power/gpm-common.c:950
+#: plugins/power/gpm-common.c:970
 msgid "Computer is empty"
 msgstr "A számítógép lemerült"
 
-#: plugins/power/gpm-common.c:954
+#: plugins/power/gpm-common.c:974
 msgid "Computer is charged"
 msgstr "A számítógép feltöltve"
+
+#: plugins/power/gpm-common.c:984
+msgid "Game controller is charging"
+msgstr "A játékvezérlő töltődik"
+
+#: plugins/power/gpm-common.c:988
+msgid "Game controller is discharging"
+msgstr "A játékvezérlő kisül"
+
+#: plugins/power/gpm-common.c:992
+msgid "Game controller is empty"
+msgstr "A játékvezérlő lemerült"
+
+#: plugins/power/gpm-common.c:996
+msgid "Game controller is charged"
+msgstr "A játékvezérlő feltöltve"
 
 #: plugins/print-notifications/csd-printer.c:890
 msgid "Configuring new printer"
@@ -1248,7 +1274,7 @@ msgstr "A festékkazetta kimerülőben"
 
 #: plugins/print-notifications/csd-print-notifications-manager.c:439
 msgid "Toner empty"
-msgstr "A festékkazetta üres"
+msgstr "A festékkazetta kiürült"
 
 #: plugins/print-notifications/csd-print-notifications-manager.c:441
 msgid "Not connected?"

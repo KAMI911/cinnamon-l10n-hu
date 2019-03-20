@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nemo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 13:22+0000\n"
-"PO-Revision-Date: 2018-11-07 06:18+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"POT-Creation-Date: 2018-11-12 15:08+0000\n"
+"PO-Revision-Date: 2018-11-29 12:53+0000\n"
+"Last-Translator: Keresztes Ákos <xsak@c2.hu>\n"
 "Language-Team: Hungarian <kami911@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-07 06:30+0000\n"
-"X-Generator: Launchpad (build 18810)\n"
+"X-Launchpad-Export-Date: 2019-03-20 05:03+0000\n"
+"X-Generator: Launchpad (build 18910)\n"
 "Language: hu\n"
 
 #: src/nemo-action-config-widget.c:237
@@ -260,101 +260,102 @@ msgstr ""
 "\n"
 "Az asztal kezelése a fájlkezelővel"
 
-#: src/nemo-desktop-icon-grid-view.c:954 src/nemo-desktop-icon-view.c:682
+#: src/nemo-desktop-icon-grid-view.c:917 src/nemo-desktop-icon-view.c:682
 #: src/nemo-view.c:8254 src/nemo-view.c:9884
 msgid "E_mpty Trash"
 msgstr "_Kuka ürítése"
 
-#: src/nemo-desktop-icon-grid-view.c:1080
-msgid "_Auto-arrange"
-msgstr "_Automatikus rendezés"
+#: src/nemo-desktop-icon-grid-view.c:1027
+#: gresources/nemo-desktop-overlay.glade:305
+msgid "Auto-arrange"
+msgstr "Automatikus rendezés"
 
-#: src/nemo-desktop-icon-grid-view.c:1081
-msgid "Keep icons automatically arranged"
-msgstr "Ikonok automatikusan rendezetten tartása"
+#: src/nemo-desktop-icon-grid-view.c:1032
+#: gresources/nemo-desktop-overlay.glade:551
+msgid "Reverse sort"
+msgstr "Fordított rendezés"
 
-#: src/nemo-desktop-icon-grid-view.c:1111
+#: src/nemo-desktop-icon-grid-view.c:1040
+msgid "Smaller"
+msgstr "Kisebb"
+
+#: src/nemo-desktop-icon-grid-view.c:1044
+msgid "Small"
+msgstr "Kicsi"
+
+#: src/nemo-desktop-icon-grid-view.c:1048
+msgid "Normal"
+msgstr "Szokványos"
+
+#: src/nemo-desktop-icon-grid-view.c:1052
+msgid "Large"
+msgstr "Nagy"
+
+#: src/nemo-desktop-icon-grid-view.c:1056
+msgid "Larger"
+msgstr "Nagyobb"
+
+#: src/nemo-desktop-icon-grid-view.c:1063
 msgid "_Vertical"
 msgstr "_Függőleges"
 
-#: src/nemo-desktop-icon-grid-view.c:1112
-msgid "Arrange icons vertically in stacks"
-msgstr "Ikonok rendezése függőlegesen halmokba"
-
-#: src/nemo-desktop-icon-grid-view.c:1115
+#: src/nemo-desktop-icon-grid-view.c:1067
 msgid "_Horizontal"
 msgstr "_Vízszintes"
 
-#: src/nemo-desktop-icon-grid-view.c:1116
-msgid "Arrange icons horizontally in rows"
-msgstr "Ikonok rendezése vízszintesen sorokba"
+#: src/nemo-desktop-icon-grid-view.c:1074 src/nemo-list-view.c:2393
+#: libnemo-private/nemo-column-utilities.c:43
+#: gresources/nemo-desktop-overlay.glade:116
+msgid "Name"
+msgstr "Név"
 
-#: src/nemo-desktop-icon-grid-view.c:1121
+#: src/nemo-desktop-icon-grid-view.c:1078
+#: libnemo-private/nemo-column-utilities.c:50
+#: gresources/nemo-desktop-overlay.glade:121
+msgid "Size"
+msgstr "Méret"
+
+#: src/nemo-desktop-icon-grid-view.c:1082
+#: libnemo-private/nemo-column-utilities.c:58
+#: gresources/nemo-desktop-overlay.glade:126
+msgid "Type"
+msgstr "Típus"
+
+#: src/nemo-desktop-icon-grid-view.c:1086
+#: gresources/nemo-desktop-overlay.glade:131
+msgid "Date"
+msgstr "Dátum"
+
+#: src/nemo-desktop-icon-grid-view.c:1092
 msgid "_Sort"
 msgstr "_Rendezés"
 
-#: src/nemo-desktop-icon-grid-view.c:1122
+#: src/nemo-desktop-icon-grid-view.c:1093
 msgid "_Icon Size"
 msgstr "_Ikonméret"
 
-#: src/nemo-desktop-icon-grid-view.c:1126 src/nemo-desktop-icon-view.c:723
+#: src/nemo-desktop-icon-grid-view.c:1097 src/nemo-desktop-icon-view.c:723
 msgid "Empty Trash"
 msgstr "Kuka ürítése"
 
-#: src/nemo-desktop-icon-grid-view.c:1128 src/nemo-desktop-icon-view.c:724
+#: src/nemo-desktop-icon-grid-view.c:1099 src/nemo-desktop-icon-view.c:724
 #: src/nemo-trash-bar.c:227 src/nemo-view.c:8255
 msgid "Delete all items in the Trash"
 msgstr "Minden elem törlése a Kukából"
 
-#: src/nemo-desktop-icon-grid-view.c:1132
+#: src/nemo-desktop-icon-grid-view.c:1103
 msgid "_Customize"
 msgstr "_Testreszabás"
 
-#: src/nemo-desktop-icon-grid-view.c:1133
+#: src/nemo-desktop-icon-grid-view.c:1104
 msgid "Adjust the desktop layout for this monitor"
-msgstr ""
+msgstr "Asztal elrendezésének igazítása ezen a kijelzőn"
 
-#: src/nemo-desktop-icon-grid-view.c:1138 src/nemo-icon-view.c:1418
-msgid "By _Name"
-msgstr "_Név szerint"
-
-#: src/nemo-desktop-icon-grid-view.c:1139 src/nemo-icon-view.c:138
-#: src/nemo-icon-view.c:1419
-msgid "Keep icons sorted by name in rows"
-msgstr "Ikonok maradjanak név szerint rendezve"
-
-#: src/nemo-desktop-icon-grid-view.c:1142 src/nemo-icon-view.c:1422
-msgid "By _Size"
-msgstr "Mé_ret szerint"
-
-#: src/nemo-desktop-icon-grid-view.c:1143 src/nemo-icon-view.c:145
-#: src/nemo-icon-view.c:1423
-msgid "Keep icons sorted by size in rows"
-msgstr "Ikonok maradjanak méret szerint rendezve"
-
-#: src/nemo-desktop-icon-grid-view.c:1146 src/nemo-icon-view.c:1430
-msgid "By _Detailed Type"
-msgstr "_Részletes típus szerint"
-
-#: src/nemo-desktop-icon-grid-view.c:1147 src/nemo-icon-view.c:159
-#: src/nemo-icon-view.c:1431
-msgid "Keep icons sorted by detailed type in rows"
-msgstr "Ikonok részletes típus szerinti rendezése a sorokban"
-
-#: src/nemo-desktop-icon-grid-view.c:1150 src/nemo-icon-view.c:1434
-msgid "By Modification _Date"
-msgstr "Módosítás _dátuma szerint"
-
-#: src/nemo-desktop-icon-grid-view.c:1151 src/nemo-icon-view.c:166
-#: src/nemo-icon-view.c:1435
-msgid "Keep icons sorted by modification date in rows"
-msgstr "Ikonok maradjanak a módosítás dátuma szerint rendezve"
-
-#: src/nemo-desktop-icon-grid-view.c:1235 src/nemo-desktop-icon-view.c:787
+#: src/nemo-desktop-icon-grid-view.c:1195 src/nemo-desktop-icon-view.c:787
 msgid "The desktop view encountered an error."
 msgstr "Az asztalnézet hibát észlelt."
 
-#: src/nemo-desktop-icon-grid-view.c:1236 src/nemo-desktop-icon-view.c:788
+#: src/nemo-desktop-icon-grid-view.c:1196 src/nemo-desktop-icon-view.c:788
 msgid "The desktop view encountered an error while starting up."
 msgstr "Az asztalnézet hibát észlelt induláskor."
 
@@ -397,17 +398,28 @@ msgstr "Leírás"
 msgid "Command"
 msgstr "Parancs"
 
-#: src/nemo-desktop-overlay.c:261 gresources/nemo-desktop-overlay.glade:100
+#: src/nemo-desktop-overlay.c:76
+#, c-format
+msgid "Current Monitor Layout (%s - %dx%d)"
+msgstr "Aktuális kijelző elrendezés (%s - %dx%d)"
+
+#: src/nemo-desktop-overlay.c:88
+#, c-format
+msgid "Current Monitor Layout (%dx%d)"
+msgstr "Aktuális kijelző elrendezés (%dx%d)"
+
+#: src/nemo-desktop-overlay.c:355 src/nemo-desktop-overlay.c:491
+#: src/nemo-desktop-overlay.c:494
+msgid "Desktop Settings"
+msgstr "Asztal beállítások"
+
+#: src/nemo-desktop-overlay.c:458
 msgid "Current Monitor Preferences"
-msgstr ""
+msgstr "Jelenlegi kijelző beállítások"
 
-#: src/nemo-desktop-overlay.c:263
-msgid "Global Desktop Settings"
-msgstr ""
-
-#: src/nemo-desktop-overlay.c:322
+#: src/nemo-desktop-overlay.c:481
 msgid "Show global desktop settings"
-msgstr ""
+msgstr "Általános asztali beállítások megjelenítése"
 
 #: src/nemo-error-reporting.c:68
 #, c-format
@@ -548,9 +560,17 @@ msgstr "Tegnap"
 msgid "by _Name"
 msgstr "_Név szerint"
 
+#: src/nemo-icon-view.c:138 src/nemo-icon-view.c:1419
+msgid "Keep icons sorted by name in rows"
+msgstr "Ikonok maradjanak név szerint rendezve"
+
 #: src/nemo-icon-view.c:144
 msgid "by _Size"
 msgstr "_Méret szerint"
+
+#: src/nemo-icon-view.c:145 src/nemo-icon-view.c:1423
+msgid "Keep icons sorted by size in rows"
+msgstr "Ikonok maradjanak méret szerint rendezve"
 
 #: src/nemo-icon-view.c:151
 msgid "by _Type"
@@ -564,9 +584,17 @@ msgstr "Ikonok maradjanak típus szerint rendezve"
 msgid "by _Detailed Type"
 msgstr "_Részletes típus szerint"
 
+#: src/nemo-icon-view.c:159 src/nemo-icon-view.c:1431
+msgid "Keep icons sorted by detailed type in rows"
+msgstr "Ikonok részletes típus szerinti rendezése a sorokban"
+
 #: src/nemo-icon-view.c:165
 msgid "by Modification _Date"
 msgstr "Mó_dosítás dátuma szerint"
+
+#: src/nemo-icon-view.c:166 src/nemo-icon-view.c:1435
+msgid "Keep icons sorted by modification date in rows"
+msgstr "Ikonok maradjanak a módosítás dátuma szerint rendezve"
 
 #: src/nemo-icon-view.c:172
 msgid "by T_rash Time"
@@ -617,16 +645,32 @@ msgstr "_Kézzel"
 msgid "Leave icons wherever they are dropped"
 msgstr "Az ikonok maradjanak ott, ahová a felhasználó letette őket"
 
+#: src/nemo-icon-view.c:1418
+msgid "By _Name"
+msgstr "_Név szerint"
+
+#: src/nemo-icon-view.c:1422
+msgid "By _Size"
+msgstr "Mé_ret szerint"
+
 #: src/nemo-icon-view.c:1426
 msgid "By _Type"
 msgstr "_Típus szerint"
+
+#: src/nemo-icon-view.c:1430
+msgid "By _Detailed Type"
+msgstr "_Részletes típus szerint"
+
+#: src/nemo-icon-view.c:1434
+msgid "By Modification _Date"
+msgstr "Módosítás _dátuma szerint"
 
 #: src/nemo-icon-view.c:1438
 msgid "By T_rash Time"
 msgstr "K_ukába helyezés szerint"
 
 #: src/nemo-icon-view.c:2830 src/nemo-icon-view-container.c:2118
-#: src/nemo-icon-view-grid-container.c:1603 src/nemo-window-menus.c:1450
+#: src/nemo-icon-view-grid-container.c:1600 src/nemo-window-menus.c:1450
 #: src/nemo-window-menus.c:1600
 #: gresources/nemo-file-management-properties.glade:83
 msgid "Icon View"
@@ -844,10 +888,6 @@ msgstr "Alapértelmezett használata"
 msgid "Temporarily disable auto-sort"
 msgstr "Automatikus rendezés ideiglenes letiltása"
 
-#: src/nemo-list-view.c:2393 libnemo-private/nemo-column-utilities.c:43
-msgid "Name"
-msgstr "Név"
-
 #: src/nemo-list-view.c:2478 src/nemo-list-view.c:4092
 #: src/nemo-window-menus.c:1453 src/nemo-window-menus.c:1611
 #: gresources/nemo-file-management-properties.glade:86
@@ -1059,6 +1099,8 @@ msgid ""
 "The file \"%s\" has no known programs associated with it.  Use the Open With "
 "dialog to pick a program to open it with."
 msgstr ""
+"A(z) „%s” fájlhoz nincs program társítva. Válassza ki a „Megnyitás ezzel” "
+"párbeszédablakban a társítani kívánt programot."
 
 #: src/nemo-mime-actions.c:1260
 msgid "Choose a program"
@@ -1155,7 +1197,7 @@ msgstr ""
 #: libnemo-private/nemo-bookmark.c:130 libnemo-private/nemo-desktop-link.c:118
 #: libnemo-private/nemo-file-utilities.c:67
 #: libnemo-private/nemo-file-utilities.c:110 generate_additional_file:42
-#: gresources/nemo-desktop-preferences.glade:247
+#: gresources/nemo-desktop-preferences.glade:224
 #: gresources/nemo-file-management-properties.glade:2880
 msgid "Home"
 msgstr "Saját mappa"
@@ -1187,7 +1229,7 @@ msgstr "Fájlrendszer"
 
 #: src/nemo-places-sidebar.c:854 src/nemo-trash-bar.c:211
 #: libnemo-private/nemo-desktop-link.c:135 generate_additional_file:56
-#: gresources/nemo-desktop-preferences.glade:317
+#: gresources/nemo-desktop-preferences.glade:302
 msgid "Trash"
 msgstr "Kuka"
 
@@ -1229,7 +1271,7 @@ msgstr ""
 
 #: src/nemo-places-sidebar.c:1126 src/nemo-places-sidebar.c:1181
 #: src/nemo-tree-sidebar.c:1490 libnemo-private/nemo-desktop-link.c:147
-#: gresources/nemo-desktop-preferences.glade:457
+#: gresources/nemo-desktop-preferences.glade:458
 msgid "Network"
 msgstr "Hálózat"
 
@@ -1820,7 +1862,7 @@ msgid "P_roperties"
 msgstr "_Tulajdonságok"
 
 #: src/nemo-tree-sidebar.c:1477 libnemo-private/nemo-desktop-link.c:126
-#: generate_additional_file:49 gresources/nemo-desktop-preferences.glade:177
+#: generate_additional_file:49 gresources/nemo-desktop-preferences.glade:146
 #: gresources/nemo-file-management-properties.glade:2843
 msgid "Computer"
 msgstr "Számítógép"
@@ -3118,11 +3160,12 @@ msgstr "Párhuzamos extra mappanézet megnyitása"
 
 #: src/nemo-window-menus.c:1433
 msgid "Show _Thumbnails"
-msgstr ""
+msgstr "Előnéze_t megjelenítése"
 
 #: src/nemo-window-menus.c:1434
 msgid "Toggle the display of thumbnails in the current directory"
 msgstr ""
+"A fájlok előnézetének megjelenítésének átváltása a jelenlegi mappában"
 
 #: src/nemo-window-menus.c:1441
 msgid "Places"
@@ -3204,7 +3247,7 @@ msgstr "Keresés"
 #: src/nemo-window-menus.c:1643 src/nemo-window-menus.c:1644
 #: gresources/nemo-file-management-properties.glade:3176
 msgid "Show Thumbnails"
-msgstr ""
+msgstr "Előnézet megjelenítése"
 
 #: src/nemo-window-menus.c:1770
 msgid "_Location"
@@ -3300,17 +3343,9 @@ msgstr "_Alapbeállítás"
 msgid "The name and icon of the file."
 msgstr "A fájl neve és ikonja."
 
-#: libnemo-private/nemo-column-utilities.c:50
-msgid "Size"
-msgstr "Méret"
-
 #: libnemo-private/nemo-column-utilities.c:51
 msgid "The size of the file."
 msgstr "A fájl mérete."
-
-#: libnemo-private/nemo-column-utilities.c:58
-msgid "Type"
-msgstr "Típus"
 
 #: libnemo-private/nemo-column-utilities.c:59
 msgid "The general type of the file."
@@ -3335,16 +3370,16 @@ msgstr "Módosítva - Idő"
 
 #: libnemo-private/nemo-column-utilities.c:88
 msgid "Date Created"
-msgstr ""
+msgstr "Létrehozás dátuma"
 
 #: libnemo-private/nemo-column-utilities.c:89
 #: libnemo-private/nemo-column-utilities.c:96
 msgid "The date the file was created."
-msgstr ""
+msgstr "A fájl létrehozásának dátuma."
 
 #: libnemo-private/nemo-column-utilities.c:95
 msgid "Created - Time"
-msgstr ""
+msgstr "Létrehozás - Dátum"
 
 #: libnemo-private/nemo-column-utilities.c:103
 msgid "Date Accessed"
@@ -3731,7 +3766,7 @@ msgstr "Módosítva: %s"
 #: libnemo-private/nemo-file.c:7763
 #, c-format
 msgid "Created: %s"
-msgstr ""
+msgstr "Létrehozva: %s"
 
 #: libnemo-private/nemo-file.c:7772
 #, c-format
@@ -5221,114 +5256,121 @@ msgstr "<b>_Név</b>"
 msgid "<b>_Location</b>"
 msgstr "<b>_Hely</b>"
 
-#: gresources/nemo-desktop-overlay.glade:99
-msgid "Nemo Desktop"
-msgstr ""
-
-#: gresources/nemo-desktop-overlay.glade:203
+#: gresources/nemo-desktop-overlay.glade:61
+msgctxt "Desktop icon size"
 msgid "Smaller"
 msgstr "Kisebb"
 
-#: gresources/nemo-desktop-overlay.glade:252
+#: gresources/nemo-desktop-overlay.glade:66
+msgctxt "Desktop icon size"
 msgid "Small"
 msgstr "Kicsi"
 
-#: gresources/nemo-desktop-overlay.glade:301
-msgid "Medium"
-msgstr "Közepes"
-
-#: gresources/nemo-desktop-overlay.glade:367
+#: gresources/nemo-desktop-overlay.glade:76
+msgctxt "Desktop icon size"
 msgid "Large"
 msgstr "Nagy"
 
-#: gresources/nemo-desktop-overlay.glade:416
+#: gresources/nemo-desktop-overlay.glade:81
+msgctxt "Desktop icon size"
 msgid "Larger"
 msgstr "Nagyobb"
 
-#: gresources/nemo-desktop-overlay.glade:452
-msgid "<b>Icon Size</b>"
-msgstr ""
-
-#: gresources/nemo-desktop-overlay.glade:520
-msgid "Auto-arrange"
-msgstr ""
-
-#: gresources/nemo-desktop-overlay.glade:582
-msgid "Horizontal"
-msgstr ""
-
-#: gresources/nemo-desktop-overlay.glade:631
+#: gresources/nemo-desktop-overlay.glade:95
 msgid "Vertical"
-msgstr ""
+msgstr "Függőleges"
 
-#: gresources/nemo-desktop-overlay.glade:668
+#: gresources/nemo-desktop-overlay.glade:99
+msgid "Horizontal"
+msgstr "Vízszintes"
+
+#: gresources/nemo-desktop-overlay.glade:138
+msgid "Current Monitor Layout"
+msgstr "Aktuális kijelző elrendezés"
+
+#: gresources/nemo-desktop-overlay.glade:195
+msgid "<b>Icon Size:</b>"
+msgstr "<b>Ikonméret:</b>"
+
+#: gresources/nemo-desktop-overlay.glade:260
 msgid "<b>Layout</b>"
-msgstr ""
+msgstr "<b>Elrendezés</b>"
 
-#: gresources/nemo-desktop-overlay.glade:717
-msgid "Adjust vertical grid spacing"
-msgstr ""
+#: gresources/nemo-desktop-overlay.glade:381
+msgid "Direction"
+msgstr "Irány"
 
-#: gresources/nemo-desktop-overlay.glade:783
+#: gresources/nemo-desktop-overlay.glade:466
+msgid "Sort items by"
+msgstr "Elemek rendezése"
+
+#: gresources/nemo-desktop-overlay.glade:625
+msgid "Reset grid spacing"
+msgstr "Rács távolság visszaállítása"
+
+#: gresources/nemo-desktop-overlay.glade:692
+#: gresources/nemo-desktop-overlay.glade:883
+msgid "button"
+msgstr "gomb"
+
+#: gresources/nemo-desktop-overlay.glade:759
 msgid "Adjust horizontal grid spacing"
-msgstr ""
+msgstr "Vízszintes térköz"
 
-#: gresources/nemo-desktop-overlay.glade:817
-msgid "Reset grid to defaults"
-msgstr ""
+#: gresources/nemo-desktop-overlay.glade:814
+msgid "Adjust vertical grid spacing"
+msgstr "Függőleges térköz"
 
-#: gresources/nemo-desktop-overlay.glade:838
+#: gresources/nemo-desktop-overlay.glade:858
 msgid "page0"
-msgstr ""
+msgstr "oldal0"
 
-#: gresources/nemo-desktop-overlay.glade:852
+#: gresources/nemo-desktop-overlay.glade:872
 msgid ""
 "<b><big>Desktop icons are not currently enabled for this monitor.</big></b>"
 msgstr ""
+"<b><big>Ezen a kijelzőn nincsenek engedélyezve az asztalon megjelenő "
+"ikonok.</big></b>"
 
-#: gresources/nemo-desktop-overlay.glade:863
-msgid "Desktop Preferences"
-msgstr ""
-
-#: gresources/nemo-desktop-overlay.glade:882
+#: gresources/nemo-desktop-overlay.glade:901
 msgid "page1"
-msgstr ""
+msgstr "oldal1"
 
-#: gresources/nemo-desktop-preferences.glade:64
+#: gresources/nemo-desktop-preferences.glade:35
 msgid "<b>Desktop Layout</b>"
-msgstr ""
+msgstr "<b>Asztal elrendezés</b>"
 
-#: gresources/nemo-desktop-preferences.glade:80
+#: gresources/nemo-desktop-preferences.glade:51
 msgid "No desktop icons"
-msgstr ""
+msgstr "Nincsenek asztali ikonok"
 
-#: gresources/nemo-desktop-preferences.glade:81
+#: gresources/nemo-desktop-preferences.glade:52
 msgid "Show desktop icons on primary monitor only"
-msgstr ""
+msgstr "Asztal ikonok megjelenítése csak az elsődleges kijelzőn"
 
-#: gresources/nemo-desktop-preferences.glade:82
+#: gresources/nemo-desktop-preferences.glade:53
 msgid "Show desktop icons on non-primary monitor(s) only"
-msgstr ""
+msgstr "Asztal ikonok megjelenítése csak a nem elsődleges kijelzőkön"
 
-#: gresources/nemo-desktop-preferences.glade:83
+#: gresources/nemo-desktop-preferences.glade:54
 msgid "Show desktop icons on all monitors"
-msgstr ""
+msgstr "Asztali ikonok megjelenítése minden monitoron"
 
-#: gresources/nemo-desktop-preferences.glade:128
+#: gresources/nemo-desktop-preferences.glade:99
 msgid "<b>Desktop Icons</b>"
-msgstr ""
+msgstr "<b>Asztali ikonok</b>"
 
-#: gresources/nemo-desktop-preferences.glade:387
+#: gresources/nemo-desktop-preferences.glade:380
 msgid "Mounted Drives"
-msgstr ""
+msgstr "Csatolt kötetek"
 
-#: gresources/nemo-desktop-preferences.glade:543
+#: gresources/nemo-desktop-preferences.glade:541
 msgid "<b>Options</b>"
 msgstr "<b>Beállítások</b>"
 
-#: gresources/nemo-desktop-preferences.glade:594
+#: gresources/nemo-desktop-preferences.glade:588
 msgid "Show icons from missing monitors"
-msgstr ""
+msgstr "Asztali ikonok megjelenítése a hiányzó monitorokon"
 
 #: gresources/nemo-file-management-properties.glade:100
 #: gresources/nemo-file-management-properties.glade:300
@@ -5487,7 +5529,7 @@ msgstr "32 GB"
 
 #: gresources/nemo-file-management-properties.glade:323
 msgid "Per Folder"
-msgstr ""
+msgstr "Mappánként"
 
 #: gresources/nemo-file-management-properties.glade:332
 msgid "File Management Preferences"
@@ -5791,7 +5833,7 @@ msgstr "Módosítás dátuma"
 
 #: gresources/nemo-file-management-properties.glade:2543
 msgid "Created date"
-msgstr ""
+msgstr "Létrehozás dátuma"
 
 #: gresources/nemo-file-management-properties.glade:2559
 msgid "Accessed date"
@@ -5807,43 +5849,43 @@ msgstr "Előnézet"
 
 #: gresources/nemo-file-management-properties.glade:2650
 msgid "Visible Buttons"
-msgstr ""
+msgstr "Látható gombok"
 
 #: gresources/nemo-file-management-properties.glade:2695
 msgid "Previous"
-msgstr ""
+msgstr "Előző"
 
 #: gresources/nemo-file-management-properties.glade:2732
 msgid "Next"
-msgstr ""
+msgstr "Következő"
 
 #: gresources/nemo-file-management-properties.glade:2769
 msgid "Up"
-msgstr ""
+msgstr "Fel"
 
 #: gresources/nemo-file-management-properties.glade:2806
 msgid "Refresh"
-msgstr ""
+msgstr "Frissítés"
 
 #: gresources/nemo-file-management-properties.glade:2917
 msgid "Location entry toggle"
-msgstr ""
+msgstr "Hely beviteli mező és útvonalsáv közötti váltógomb"
 
 #: gresources/nemo-file-management-properties.glade:2954
 msgid "Open in terminal"
-msgstr ""
+msgstr "Megnyitás terminálban"
 
 #: gresources/nemo-file-management-properties.glade:3065
 msgid "Icon view"
-msgstr ""
+msgstr "Ikonnézet"
 
 #: gresources/nemo-file-management-properties.glade:3102
 msgid "List view"
-msgstr ""
+msgstr "Listanézet"
 
 #: gresources/nemo-file-management-properties.glade:3139
 msgid "Compact view"
-msgstr ""
+msgstr "Tömör nézet"
 
 #: gresources/nemo-file-management-properties.glade:3211
 msgid "Toolbar"
