@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-12-13 11:28+0000\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
 "PO-Revision-Date: 2018-11-29 12:44+0000\n"
 "Last-Translator: Szabolcs Varga <shirokuma@shirokuma.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-03-20 05:10+0000\n"
-"X-Generator: Launchpad (build 18910)\n"
+"X-Launchpad-Export-Date: 2019-06-03 21:01+0000\n"
+"X-Generator: Launchpad (build 18968)\n"
 
 #: ../../boot_options.rst:2
 msgid "Boot options"
@@ -919,6 +919,30 @@ msgstr ""
 "rendszerindító média létrehozásában és a Linux Mint szoftver telepítésében a "
 "számítógépre."
 
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Letöltés"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Élő rendszerindítás"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Telepítés"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Telepítés utáni"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Hibaelhárítás"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Gyakran ismételt kérdések"
+
 #: ../../install.rst:2
 msgid "Install Linux Mint"
 msgstr "Telepítse a Linux Mint-et"
@@ -1537,30 +1561,6 @@ msgstr ""
 "területet a „/home” partícióhoz adja. A felhasználói adatok (letöltések, "
 "videók, képek) sokkal több helyet foglalnak el."
 
-#: ../../sections.rst:5
-msgid "Download"
-msgstr "Letöltés"
-
-#: ../../sections.rst:7
-msgid "Live Boot"
-msgstr "Élő rendszerindítás"
-
-#: ../../sections.rst:9
-msgid "Installation"
-msgstr "Telepítés"
-
-#: ../../sections.rst:11
-msgid "Post-installation"
-msgstr "Telepítés utáni"
-
-#: ../../sections.rst:13
-msgid "Troubleshooting"
-msgstr "Hibaelhárítás"
-
-#: ../../sections.rst:15
-msgid "Frequently Asked Questions"
-msgstr "Gyakran ismételt kérdések"
-
 #: ../../timeshift.rst:2
 msgid "System snapshots"
 msgstr "Rendszer pillanatfelvételek"
@@ -1692,11 +1692,17 @@ msgstr ""
 msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
 msgstr "Töltse le a ``sha256sum.txt`` és a ``sha256sum.txt.gpg`` fájlokat."
 
-#: ../../verify.rst:20
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+
+#: ../../verify.rst:22
 msgid "Integrity check"
 msgstr "Integritásellenőrzés"
 
-#: ../../verify.rst:22
+#: ../../verify.rst:24
 msgid ""
 "To check the integrity of your local ISO file, generate its SHA256 sum and "
 "compare it with the sum present in ``sha256sum.txt``."
@@ -1705,15 +1711,13 @@ msgstr ""
 "fájl SHA256 összegét, és hasonlítsa össze a ``sha256sum.txt`` fájlban "
 "megadott összeggel."
 
-#: ../../verify.rst:29
-msgid ""
-"If you are using Windows you can get the sha256sum (and gpg) command utility "
-"by installing `Cygwin <http://www.cygwin.com/>`_."
-msgstr ""
-"Ha Windows-t használ, a sha256sum (és gpg) parancsot a `Cygwin "
-"<http://www.cygwin.com/>`_ telepítésével kaphatja meg."
-
 #: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+
+#: ../../verify.rst:33
 msgid ""
 "If the sums match, your ISO image was successfully downloaded. If they "
 "don't, download it again."
@@ -1721,11 +1725,11 @@ msgstr ""
 "Ha az összegek megegyeznek, akkor az ISO-lemezképfájlt sikeresen letöltötte. "
 "Ha nem egyeznek meg, akkor töltse le újra az ISO-lemezképfájlt."
 
-#: ../../verify.rst:36
+#: ../../verify.rst:38
 msgid "Authenticity check"
 msgstr "Hitelesség ellenőrzés"
 
-#: ../../verify.rst:38
+#: ../../verify.rst:40
 msgid ""
 "To verify the authenticity of ``sha256sum.txt``, check the signature of "
 "``sha256sum.txt.gpg`` by following the steps below."
@@ -1733,31 +1737,28 @@ msgstr ""
 "Az `sha256sum.txt`` hitelességének ellenőrzéséhez ellenőrizze a "
 "``sha256sum.txt.gpg`` aláírást az alábbi lépések végrehajtásával."
 
-#: ../../verify.rst:41
+#: ../../verify.rst:43
 msgid "Import the Linux Mint signing key:"
 msgstr "Importálja a Linux Mint aláíró kulcsot:"
 
-#: ../../verify.rst:47
+#: ../../verify.rst:49
 msgid ""
 "If gpg complains about the key ID, try the following commands instead:"
 msgstr ""
 "Ha a gpg panaszkodik a kulcsazonosító miatt, próbálja ki a következő "
 "parancsokat:"
 
-#: ../../verify.rst:54
+#: ../../verify.rst:56
 msgid ""
 "Check the output of the last command, to make sure the fingerprint is ``27DE "
-"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09``."
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
 msgstr ""
-"Ellenőrizze az utolsó parancs kimenetét, és győződjön meg arról, hogy az "
-"ujjlenyomat a következő: ``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B "
-"AE09``."
 
-#: ../../verify.rst:57
+#: ../../verify.rst:59
 msgid "Verify the authenticity of sha256sum.txt:"
 msgstr "Ellenőrizze a sha256sum.txt fájl hitelességét:"
 
-#: ../../verify.rst:62
+#: ../../verify.rst:64
 msgid ""
 "The output of the last command should tell you that the file signature is "
 "``good`` and that it was signed with the ``A25BAE09`` key."
@@ -1765,7 +1766,7 @@ msgstr ""
 "Az előző parancs kimenetének azt kell mutatnia, hogy a fájl aláírása ``jó`` "
 "és az ``A25BAE09`` azonosítójú kulccsal lett aláírva."
 
-#: ../../verify.rst:65
+#: ../../verify.rst:67
 msgid ""
 "GPG might warn you that the Linux Mint signature is not trusted by your "
 "computer. This is expected and perfectly normal."
@@ -1773,7 +1774,7 @@ msgstr ""
 "A GPG figyelmeztetheti önt, hogy a Linux Mint aláírása az Ön számítógépe "
 "által nem megbízhatónak minősített . Ez várható és teljesen normális."
 
-#: ../../verify.rst:68
+#: ../../verify.rst:70
 msgid ""
 "For more information on ISO verification, or to verify BETA, LMDE or old "
 "releases, read `How to Verify ISO images "
