@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: mintdesktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-03 10:16+0100\n"
-"PO-Revision-Date: 2018-06-10 08:06+0000\n"
+"PO-Revision-Date: 2019-06-03 23:06+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-06-03 20:50+0000\n"
-"X-Generator: Launchpad (build 18968)\n"
+"X-Launchpad-Export-Date: 2019-07-22 15:18+0000\n"
+"X-Generator: Launchpad (build 19010)\n"
 "Language: hu\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
@@ -391,7 +391,7 @@ msgstr "Gomb elrendezés:"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
 msgid "Buttons layout (CSD windows):"
-msgstr ""
+msgstr "Gomb elrendezés (CSD ablakok):"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
 msgid "Metacity settings"
