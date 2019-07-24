@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: nemo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-10 13:09+0200\n"
-"PO-Revision-Date: 2019-07-22 15:11+0000\n"
+"PO-Revision-Date: 2019-07-23 09:31+0200\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kami911@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2019-07-22 15:21+0000\n"
-"X-Generator: Launchpad (build 19010)\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: hu\n"
 
 #: src/nemo-action-config-widget.c:237
@@ -573,7 +573,7 @@ msgstr ""
 #. Translators: this is referred to captions under icons.
 #. Translators: this is referred to the permissions
 #. * the user has in a directory.
-#. 
+#.
 #: src/nemo-file-management-properties.c:288 src/nemo-properties-window.c:3927
 #: src/nemo-properties-window.c:3938
 msgid "None"
@@ -962,8 +962,8 @@ msgstr "Ezen hely megjelenítése a listanézettel."
 #, c-format
 msgid "Do you want to view %d location?"
 msgid_plural "Do you want to view %d locations?"
-msgstr[0] "Meg akar tekinteni %d helyet?"
-msgstr[1] "Meg akar tekinteni %d helyet?"
+msgstr[0] "Meg kíván tekinteni %d helyet?"
+msgstr[1] "Meg kíván tekinteni %d helyet?"
 
 #: src/nemo-location-bar.c:168 src/nemo-mime-actions.c:1059
 #, c-format
@@ -990,9 +990,11 @@ msgstr "Néhány gyors ellenőrzőrutin futtatása."
 
 #: src/nemo-main-application.c:588
 msgid ""
-"Create the initial window with the given geometry. Examples: nemo --"
-"geometry=+100+100, nemo --geometry=600x400, nemo --geometry=600x400+100+100."
+"Create the initial window with the given geometry. Examples: nemo --geometry="
+"+100+100, nemo --geometry=600x400, nemo --geometry=600x400+100+100."
 msgstr ""
+"Az első ablak létrehozása ezekkel a méretekkel. Példák: nemo --geometry="
+"+100+100, nemo --geometry=600x400, nemo --geometry=600x400+100+100."
 
 #: src/nemo-main-application.c:589
 msgid "GEOMETRY"
@@ -1009,7 +1011,7 @@ msgstr ""
 
 #: src/nemo-main-application.c:595
 msgid "Open URIs in tabs."
-msgstr ""
+msgstr "Helyek megnyitása lapokon."
 
 #: src/nemo-main-application.c:597
 msgid ""
@@ -1114,7 +1116,7 @@ msgstr "_Megjelenítés"
 #: src/nemo-mime-actions.c:1054 src/nemo-mime-actions.c:1615
 #: src/nemo-view.c:1071
 msgid "Are you sure you want to open all files?"
-msgstr "Biztosan meg akarja nyitni az összes fájlt?"
+msgstr "Biztosan meg kívánja nyitni az összes fájlt?"
 
 #: src/nemo-mime-actions.c:1056
 #, c-format
@@ -1550,7 +1552,7 @@ msgstr "%s tulajdonságai"
 
 #. Fallback, use for both unknown attributes and attributes
 #. * for which we have no more appropriate default.
-#. 
+#.
 #: src/nemo-properties-window.c:1125 libnemo-private/nemo-file.c:6719
 msgid "unknown"
 msgstr "Ismeretlen"
@@ -1594,7 +1596,7 @@ msgstr "(egyes részei olvashatatlanok)"
 #. * "Contents:" title to line up with the first line of the
 #. * 2-line value. Maybe there's a better way to do this, but I
 #. * couldn't think of one.
-#. 
+#.
 #: src/nemo-properties-window.c:2141
 msgid "Contents:"
 msgstr "Tartalom:"
@@ -1675,7 +1677,7 @@ msgstr "_Végrehajtás"
 
 #. translators: this gets concatenated to "no read",
 #. * "no access", etc. (see following strings)
-#. 
+#.
 #: src/nemo-properties-window.c:3835 src/nemo-properties-window.c:3846
 #: src/nemo-properties-window.c:3858
 msgid "no "
@@ -1922,12 +1924,12 @@ msgstr "Kijelölt elemek visszaállítása az eredeti helyükre"
 
 #: src/nemo-tree-sidebar.c:788 src/nemo-view.c:8559
 msgid "Unp_in"
-msgstr ""
+msgstr "Feloldá_s"
 
 #: src/nemo-tree-sidebar.c:790 src/nemo-tree-sidebar.c:1396
 #: src/nemo-view.c:8555
 msgid "P_in"
-msgstr ""
+msgstr "Rögzíté_s"
 
 #: src/nemo-tree-sidebar.c:965 src/nemo-view.c:6818
 #, c-format
@@ -2099,7 +2101,7 @@ msgstr[1] "még %'d elem kijelölve"
 #. * needs to use something other than parentheses. The
 #. * first message gives the number of items selected;
 #. * the message in parentheses the size of those items.
-#. 
+#.
 #: src/nemo-view.c:3184
 #, c-format
 msgid "%s (%s)"
@@ -2121,7 +2123,7 @@ msgstr "%s, szabad hely: %s"
 #. * might want to change "," to something else.
 #. * After the comma the amount of free space will
 #. * be shown.
-#. 
+#.
 #: src/nemo-view.c:3223
 #, c-format
 msgid "%s, %s"
@@ -2131,14 +2133,14 @@ msgstr "%s, %s"
 #. * might want to change "," to something else.
 #. * After the comma the amount of free space will
 #. * be shown.
-#. 
+#.
 #. This is marked for translation in case a localizer
 #. * needs to change ", " to something else. The comma
 #. * is between the message about the number of folders
 #. * and the number of items in those folders and the
 #. * message about the number of other items and the
 #. * total size of those items.
-#. 
+#.
 #: src/nemo-view.c:3242 src/nemo-view.c:3255
 #, c-format
 msgid "%s%s, %s"
@@ -2151,7 +2153,7 @@ msgstr "%s%s, %s"
 #. * message about the number of other items and the
 #. * total size of those items. After the second comma
 #. * the free space is written.
-#. 
+#.
 #: src/nemo-view.c:3269
 #, c-format
 msgid "%s%s, %s, %s"
@@ -2515,12 +2517,12 @@ msgstr "Mé_gis"
 msgid "Redo the last undone action"
 msgstr "A visszavont művelet ismételt végrehajtása"
 
-#. 
+#.
 #. * multiview-TODO: decide whether "Reset to Defaults" should
 #. * be window-wide, and not just view-wide.
 #. * Since this also resets the "Show hidden files" mode,
 #. * it is a mixture of both ATM.
-#. 
+#.
 #. name, stock id
 #. label, accelerator
 #: src/nemo-view.c:8391
@@ -2756,10 +2758,14 @@ msgid ""
 "Pin the selected file so it always appears at the top of this location's "
 "file list"
 msgstr ""
+"Kiválasztott fájlok rögzítése. Rögzítés után ezek a fájlok, ezen a helyen, a "
+"fájllista elején jelennek majd meg."
 
 #: src/nemo-view.c:8560
 msgid "Unpin the selected file from the top of this location's file list"
 msgstr ""
+"Kiválasztott fájlok feloldása. Feloldás után ezek a fájlok, ezen a helyen, "
+"már nem a fájllista elején jelennek majd meg."
 
 #: src/nemo-view.c:8635
 msgid "Run scripts"
@@ -2944,8 +2950,7 @@ msgstr "El_távolítás a legutóbbiakból"
 
 #: src/nemo-view.c:9869
 msgid "Remove each selected item from the recently used list"
-msgstr ""
-"Minden kiválasztott elem eltávolítása a „Legutóbbi fájlok” listájából"
+msgstr "Minden kiválasztott elem eltávolítása a „Legutóbbi fájlok” listájából"
 
 #: src/nemo-view.c:9910
 msgid "View or modify the properties of the open folder"
@@ -2954,7 +2959,7 @@ msgstr "A megnyitott mappa tulajdonságainak megtekintése vagy módosítása"
 #. Note to localizers: convert file type string for file
 #. * (e.g. "folder", "plain text") to file type for symbolic link
 #. * to that kind of file (e.g. "link to folder").
-#. 
+#.
 #. appended to new link file
 #: src/nemo-view-dnd.c:125 libnemo-private/nemo-file.c:6861
 #: libnemo-private/nemo-file-operations.c:393
@@ -2981,7 +2986,7 @@ msgstr "Ejtett szöveg.txt"
 
 #. Translator: This is the filename used for when you dnd raw
 #. * data to a directory, if the source didn't supply a name.
-#. 
+#.
 #: src/nemo-view-dnd.c:421
 msgid "dropped data"
 msgstr "ejtett adatok"
@@ -3066,7 +3071,7 @@ msgstr "Hozzáférés megtagadva."
 #. * the code that guesses web addresses when there's no initial "/".
 #. * But this case is also hit for legitimate web addresses when
 #. * the proxy is set up wrong.
-#. 
+#.
 #: src/nemo-window-manage-views.c:1756
 #, c-format
 msgid "Could not display \"%s\", because the host could not be found."
@@ -3584,8 +3589,7 @@ msgstr "Előnéze_t megjelenítése"
 #. tooltip
 #: src/nemo-window-menus.c:1471
 msgid "Toggle the display of thumbnails in the current directory"
-msgstr ""
-"A fájlok előnézetének megjelenítésének átváltása a jelenlegi mappában"
+msgstr "A fájlok előnézetének megjelenítésének átváltása a jelenlegi mappában"
 
 #. callback
 #. default
@@ -3593,12 +3597,12 @@ msgstr ""
 #. label, accelerator
 #: src/nemo-window-menus.c:1475
 msgid "Use _full context menu"
-msgstr ""
+msgstr "Teljes helyi menü megjelenítése"
 
 #. tooltip
 #: src/nemo-window-menus.c:1476
 msgid "Display additional actions in the context menu"
-msgstr ""
+msgstr "További műveletek megjelenítése a helyi menüben"
 
 #: src/nemo-window-menus.c:1483
 msgid "Places"
@@ -4050,7 +4054,7 @@ msgstr "%B %-e., %l.%M %p"
 #: libnemo-private/nemo-file.c:5012
 #, no-c-format
 msgid "%-e %b %Y"
-msgstr "%Y. %b. %-e."
+msgstr "%Y. %b. %-e"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -4421,7 +4425,7 @@ msgstr "Még egy link erre: %s"
 #. Localizers: Feel free to leave out the "st" suffix
 #. * if there's no way to do that nicely for a
 #. * particular language.
-#. 
+#.
 #: libnemo-private/nemo-file-operations.c:413
 #, c-format
 msgid "%'dst link to %s"
@@ -4448,7 +4452,7 @@ msgstr "%'d. link erre: %s"
 #. Localizers:
 #. * Feel free to leave out the st, nd, rd and th suffix or
 #. * make some or all of them match.
-#. 
+#.
 #. localizers: tag used to detect the first copy of a file
 #: libnemo-private/nemo-file-operations.c:464
 msgid " (copy)"
@@ -4512,7 +4516,7 @@ msgstr "%s (%'d. másolat)%s"
 #. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
 #. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
 #. * strings look like "%s (copy %'d)%s".
-#. 
+#.
 #. localizers: appended to x1st file copy
 #: libnemo-private/nemo-file-operations.c:514
 #, c-format
@@ -4602,7 +4606,7 @@ msgstr[1] ""
 
 #: libnemo-private/nemo-file-operations.c:1522
 msgid "Are you sure you want to move \"%B\" to the trash?"
-msgstr ""
+msgstr "Biztosan át kívánja helyezni a(z) „%B” elemet a Kukába?"
 
 #. translators: the singular form here can be skipped.
 #: libnemo-private/nemo-file-operations.c:1526
@@ -4610,21 +4614,22 @@ msgstr ""
 msgid "unused %'d"
 msgid_plural ""
 "Are you sure you want to move the %'d selected items to the trash?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Biztosan át kívánja helyezni a kiválasztott elemet a Kukába?"
+msgstr[1] "Biztosan át kívánja helyezni a(z) %'d kiválasztott elemet a Kukába?"
 
 #: libnemo-private/nemo-file-operations.c:1535
-msgid ""
-"You can restore an item from the trash, if you later change your mind."
+msgid "You can restore an item from the trash, if you later change your mind."
 msgstr ""
+"A törölt elemeket vissza tudja állítani a Kukából, ha majd a későbbiekben "
+"meggondolja magát."
 
 #: libnemo-private/nemo-file-operations.c:1538
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Áthelyezés a _Kukába"
 
 #: libnemo-private/nemo-file-operations.c:1571
 msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
-msgstr "Biztosan véglegesen törölni akarja a következőt a Kukából: „%B”?"
+msgstr "Biztosan véglegesen törölni kívánja a(z) „%B” elemet a Kukából?"
 
 #: libnemo-private/nemo-file-operations.c:1574
 #, c-format
@@ -4634,10 +4639,9 @@ msgid ""
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items from the "
 "trash?"
-msgstr[0] ""
-"Biztosan véglegesen törölni akarja a kijelölt %'d elemet a Kukából?"
+msgstr[0] "Biztosan véglegesen törölni kívánja a kijelölt elemet a Kukából?"
 msgstr[1] ""
-"Biztosan véglegesen törölni akarja a kijelölt %'d elemet a Kukából?"
+"Biztosan véglegesen törölni kívánja a kijelölt %'d elemet a Kukából?"
 
 #: libnemo-private/nemo-file-operations.c:1584
 #: libnemo-private/nemo-file-operations.c:1650
@@ -4654,15 +4658,15 @@ msgstr "A Kuka összes eleme véglegesen törölve lesz."
 
 #: libnemo-private/nemo-file-operations.c:1638
 msgid "Are you sure you want to permanently delete \"%B\"?"
-msgstr "Biztosan véglegesen törölni akarja a következőt: „%B”?"
+msgstr "Biztosan véglegesen törölni kívánja a következőt: „%B”?"
 
 #: libnemo-private/nemo-file-operations.c:1641
 #, c-format
 msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
-msgstr[0] "Biztosan véglegesen törölni akarja a kijelölt %'d elemet?"
-msgstr[1] "Biztosan véglegesen törölni akarja a kijelölt %'d elemet?"
+msgstr[0] "Biztosan véglegesen törölni kívánja a kijelölt %'d elemet?"
+msgstr[1] "Biztosan véglegesen törölni kívánja a kijelölt %'d elemet?"
 
 #: libnemo-private/nemo-file-operations.c:1684
 #, c-format
@@ -4677,7 +4681,7 @@ msgstr "Fájlok törlése folyamatban"
 
 #. To translators: %T will expand to a time like "2 minutes".
 #. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#. 
+#.
 #: libnemo-private/nemo-file-operations.c:1704
 msgid "%T left"
 msgid_plural "%T left"
@@ -4745,7 +4749,7 @@ msgstr[1] "%'d fájl áthelyezése a Kukába folyamatban"
 
 #: libnemo-private/nemo-file-operations.c:2055
 msgid "Cannot move file to trash, do you want to delete immediately?"
-msgstr "A fájl nem helyezhető át a Kukába. Akarja most rögtön törölni?"
+msgstr "A fájl nem helyezhető át a Kukába. Kívánja most rögtön törölni?"
 
 #: libnemo-private/nemo-file-operations.c:2056
 msgid "The file \"%B\" cannot be moved to the trash."
@@ -4769,7 +4773,7 @@ msgstr "A kötet (%V) nem választható le"
 
 #: libnemo-private/nemo-file-operations.c:2485
 msgid "Do you want to empty the trash before you unmount?"
-msgstr "Ki akarja üríteni a Kukát a leválasztás előtt?"
+msgstr "Ki kívánja üríteni a Kukát a leválasztás előtt?"
 
 #: libnemo-private/nemo-file-operations.c:2487
 msgid ""
@@ -4939,7 +4943,7 @@ msgstr "%S, összesen: %S"
 #. * "2 minutes". So the whole thing will be something like "2 kb of 4 MB -- 2 hours left (4kb/sec)"
 #. *
 #. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#. 
+#.
 #: libnemo-private/nemo-file-operations.c:3282
 msgid "%S of %S — %T left (%S/sec)"
 msgid_plural "%S of %S — %T left (%S/sec)"
@@ -4950,8 +4954,7 @@ msgstr[1] "%S, összesen: %S – %T van hátra (%S/s)"
 msgid ""
 "The folder \"%B\" cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
-"A(z) „%B” mappa nem másolható, mert nincs joga létrehozni azt a célon."
+msgstr "A(z) „%B” mappa nem másolható, mert nincs joga létrehozni azt a célon."
 
 #: libnemo-private/nemo-file-operations.c:3692
 msgid "There was an error creating the folder \"%B\"."
@@ -5410,8 +5413,7 @@ msgstr "Áthelyezés a Kukába _mégis"
 #: libnemo-private/nemo-file-undo-operations.c:1318
 #, c-format
 msgid "Restore original permissions of items enclosed in '%s'"
-msgstr ""
-"„%s” által tartalmazott elemek eredeti jogosultságainak helyreállítása"
+msgstr "„%s” által tartalmazott elemek eredeti jogosultságainak helyreállítása"
 
 #: libnemo-private/nemo-file-undo-operations.c:1319
 #, c-format
@@ -5523,8 +5525,7 @@ msgstr "Minden „%s” típusú fájl megnyitása ezzel"
 #, c-format
 msgid ""
 "Select an application in the list to open %s and other files of type \"%s\""
-msgstr ""
-"Válasszon alkalmazást a(z) %s és más „%s” típusú fájlok megnyitásához"
+msgstr "Válasszon alkalmazást a(z) %s és más „%s” típusú fájlok megnyitásához"
 
 #: libnemo-private/nemo-mime-application-chooser.c:478
 msgid "Custom application"
@@ -5828,11 +5829,11 @@ msgstr "Aktuális kijelző elrendezés"
 
 #: gresources/nemo-desktop-overlay.glade:197
 msgid "Icon Size"
-msgstr ""
+msgstr "Ikonméret"
 
 #: gresources/nemo-desktop-overlay.glade:240
 msgid "Layout"
-msgstr ""
+msgstr "Elrendezés"
 
 #: gresources/nemo-desktop-overlay.glade:369
 msgid "Direction"
@@ -5867,8 +5868,8 @@ msgstr "oldal0"
 msgid ""
 "<b><big>Desktop icons are not currently enabled for this monitor.</big></b>"
 msgstr ""
-"<b><big>Ezen a kijelzőn nincsenek engedélyezve az asztalon megjelenő "
-"ikonok.</big></b>"
+"<b><big>Ezen a kijelzőn nincsenek engedélyezve az asztalon megjelenő ikonok."
+"</big></b>"
 
 #: gresources/nemo-desktop-overlay.glade:887
 msgid "page1"
@@ -5876,7 +5877,7 @@ msgstr "oldal1"
 
 #: gresources/nemo-desktop-preferences.glade:36
 msgid "Desktop Layout"
-msgstr ""
+msgstr "Asztal elrendezés"
 
 #: gresources/nemo-desktop-preferences.glade:54
 msgid "No desktop icons"
@@ -5896,7 +5897,7 @@ msgstr "Asztali ikonok megjelenítése minden monitoron"
 
 #: gresources/nemo-desktop-preferences.glade:77
 msgid "Desktop Icons"
-msgstr ""
+msgstr "Asztali ikonok"
 
 #: gresources/nemo-desktop-preferences.glade:367
 msgid "Mounted Drives"
@@ -5904,7 +5905,7 @@ msgstr "Csatolt kötetek"
 
 #: gresources/nemo-desktop-preferences.glade:503
 msgid "Options"
-msgstr ""
+msgstr "Beállítások"
 
 #: gresources/nemo-desktop-preferences.glade:559
 msgid "Show icons from missing monitors"
@@ -6065,11 +6066,11 @@ msgstr "32 GB"
 
 #: gresources/nemo-file-management-properties.glade:317
 msgid "Yes"
-msgstr ""
+msgstr "Igen"
 
 #: gresources/nemo-file-management-properties.glade:323
 msgid "No"
-msgstr ""
+msgstr "Nem"
 
 #: gresources/nemo-file-management-properties.glade:329
 msgid "File Management Preferences"
@@ -6085,7 +6086,7 @@ msgstr "Új mappák me_gjelenítése:"
 
 #: gresources/nemo-file-management-properties.glade:455
 msgid "_Inherit view type from parent"
-msgstr ""
+msgstr "Nézet típus _származtatása a szülő beállításokból"
 
 #: gresources/nemo-file-management-properties.glade:478
 msgid "_Arrange items:"
@@ -6197,7 +6198,7 @@ msgstr "<b>Kuka</b>"
 
 #: gresources/nemo-file-management-properties.glade:1262
 msgid "Ask before moving files to the Trash"
-msgstr ""
+msgstr "Kérdés a fájlok Kukába helyezése előtt"
 
 #: gresources/nemo-file-management-properties.glade:1278
 msgid "Ask before _emptying the Trash or deleting files"
@@ -6331,11 +6332,11 @@ msgstr "<b>Előnézhető fájlok</b>"
 
 #: gresources/nemo-file-management-properties.glade:2240
 msgid "Show _thumbnails:"
-msgstr "Bélye_gképek megjelenítése"
+msgstr "Előnéze_t megjelenítése:"
 
 #: gresources/nemo-file-management-properties.glade:2278
 msgid "_Inherit thumbnail visibility from parent"
-msgstr ""
+msgstr "Előnézet megjelenítés _származtatása a szülő beállításokból"
 
 #: gresources/nemo-file-management-properties.glade:2301
 msgid "_Only for files smaller than:"

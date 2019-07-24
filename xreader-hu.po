@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-10 11:34+0200\n"
-"PO-Revision-Date: 2018-11-20 18:31+0000\n"
+"PO-Revision-Date: 2019-07-23 08:05+0200\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2019-07-22 15:26+0000\n"
-"X-Generator: Launchpad (build 19010)\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: hu\n"
 
 #: ../backend/comics/comics-document.c:208
@@ -45,8 +45,7 @@ msgid "Not a comic book MIME type: %s"
 msgstr "Nem képregény MIME-típus: %s"
 
 #: ../backend/comics/comics-document.c:466
-msgid ""
-"Can't find an appropriate command to decompress this type of comic book"
+msgid "Can't find an appropriate command to decompress this type of comic book"
 msgstr "Nem található megfelelő parancs ezen képregény kibontásához"
 
 #: ../backend/comics/comics-document.c:540 ../backend/epub/epub-document.c:632
@@ -315,8 +314,7 @@ msgstr "Ismeretlen indítási beállítás: %d"
 #: ../cut-n-paste/smclient/eggdesktopfile.c:1365
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"Nem adhatók dokumentum-URI címek egy „Type=Link” asztali bejegyzésnek"
+msgstr "Nem adhatók dokumentum-URI címek egy „Type=Link” asztali bejegyzésnek"
 
 #: ../cut-n-paste/smclient/eggdesktopfile.c:1384
 #, c-format
@@ -607,7 +605,7 @@ msgstr "A(z) %d. oldal nyomtatása %d oldalból…"
 
 #: ../libview/ev-print-operation.c:1188
 msgid "The requested format is not supported by this printer."
-msgstr ""
+msgstr "A kért formátum nem támogatott ezen a nyomtatón."
 
 #: ../libview/ev-print-operation.c:1251
 msgid "Invalid page selection"
@@ -965,7 +963,7 @@ msgstr "Ablak megnövelése gomb megjelenítése"
 
 #: ../shell/ev-preferences-dialog.ui.h:4
 msgid "Show zoom level selector"
-msgstr ""
+msgstr "Nagyítási szintkiválasztó megjelenítése"
 
 #: ../shell/ev-properties-dialog.c:63
 msgid "Properties"
@@ -1091,13 +1089,15 @@ msgstr ""
 
 #: ../shell/ev-toolbar.c:270
 msgid "Select or set the zoom level of the document"
-msgstr ""
+msgstr "A dokumentum nagyítási szintjének kiválasztása vagy beállítása"
 
 #: ../shell/ev-window.c:978
 msgid ""
 "Cannot enter presentation mode with ePub documents, use fullscreen mode "
 "instead."
 msgstr ""
+"Nem használhatja a bemutató módot az ePub dokumentumoknál. Használja "
+"helyette a teljes képernyős módot."
 
 #: ../shell/ev-window.c:1453
 msgid "The document contains no pages"
@@ -1232,8 +1232,7 @@ msgstr "Bezárás előtt megvárja a(z) „%s” nyomtatási feladat befejeződ�
 #. so the ngettext is needed.
 #: ../shell/ev-window.c:3631
 #, c-format
-msgid ""
-"There is %d print job active. Wait until print finishes before closing?"
+msgid "There is %d print job active. Wait until print finishes before closing?"
 msgid_plural ""
 "There are %d print jobs active. Wait until print finishes before closing?"
 msgstr[0] ""
@@ -1379,7 +1378,7 @@ msgstr "_Tulajdonságok"
 
 #: ../shell/ev-window.c:5886
 msgid "_Close All Windows"
-msgstr ""
+msgstr "Minde_n ablak bezárása"
 
 #: ../shell/ev-window.c:5890
 msgid "_Close"
@@ -1545,8 +1544,7 @@ msgstr "D_upla (páratlan oldalak balra)"
 
 #: ../shell/ev-window.c:6146
 msgid "Show two pages at once with odd pages on the left"
-msgstr ""
-"Két oldal megjelenítése egyszerre, a páratlan oldalakkal a bal oldalon"
+msgstr "Két oldal megjelenítése egyszerre, a páratlan oldalakkal a bal oldalon"
 
 #: ../shell/ev-window.c:6148
 msgid "_Fullscreen"
