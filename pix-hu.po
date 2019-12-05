@@ -10,18 +10,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pix master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pix&keywords=I18N+L10N&component=general\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=pix&keywords=I18N+L10N&compon"
+"ent=general\n"
 "POT-Creation-Date: 2017-05-21 12:27+0100\n"
-"PO-Revision-Date: 2019-07-23 09:26+0200\n"
+"PO-Revision-Date: 2017-11-12 08:45+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2019-07-22 15:26+0000\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Launchpad-Export-Date: 2019-12-05 10:24+0000\n"
+"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
 "Language: hu\n"
 
 #: ../copy-n-paste/eggdesktopfile.c:165
@@ -57,7 +58,8 @@ msgstr "Ismeretlen indítási kapcsoló: %d"
 #: ../copy-n-paste/eggdesktopfile.c:1391
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Nem adhatók dokumentum-URI címek egy „Type=Link” asztali bejegyzésnek"
+msgstr ""
+"Nem adhatók dokumentum-URI címek egy „Type=Link” asztali bejegyzésnek"
 
 #: ../copy-n-paste/eggdesktopfile.c:1412
 #, c-format
@@ -131,8 +133,8 @@ msgid ""
 "Images over this size (in bytes) will not be thumbnailed. Use 0 if you want "
 "to generate thumbnails for all images."
 msgstr ""
-"Az ennél nagyobb képekhez (bájtban) nem készül előnézet. Használjon 0-t, ha "
-"azt kívánja, hogy minden képhez készüljön előnézet."
+"Az ennél nagyobb képekhez (bájtban) nem készül bélyegkép. Használjon 0-t, ha "
+"azt akarja, hogy minden képhez készüljön bélyegkép."
 
 #: ../data/org.x.pix.gschema.xml.in.h:2
 msgid "Whether to resize the window to fit the size of the image"
@@ -160,8 +162,8 @@ msgstr "Lehetséges értékek: tiff, tif."
 
 #: ../data/org.x.pix.rename-series.gschema.xml.in.h:1
 msgid ""
-"Possible values include: general::unsorted, file::name, file::size, file::"
-"mtime, exif::photo::datetimeoriginal"
+"Possible values include: general::unsorted, file::name, file::size, "
+"file::mtime, exif::photo::datetimeoriginal"
 msgstr ""
 "Lehetséges értékek: general::unsorted, file::name, file::size, file::mtime, "
 "exif::photo::datetimeoriginal"
@@ -302,7 +304,7 @@ msgstr "A Pix beállításai"
 
 #: ../data/ui/preferences.ui.h:4
 msgid "T_humbnails in viewer:"
-msgstr "_Előnézet a megjelenítőben:"
+msgstr "_Bélyegképek a megjelenítőben:"
 
 #: ../data/ui/preferences.ui.h:5
 msgid "on the bottom"
@@ -380,7 +382,7 @@ msgstr "Felirat"
 
 #: ../data/ui/preferences.ui.h:21
 msgid "Thumbnail _size:"
-msgstr "Előnézet _mérete:"
+msgstr "Bélyegképek _mérete:"
 
 #: ../data/ui/preferences.ui.h:22
 msgid "48"
@@ -1210,8 +1212,10 @@ msgid "Contact Sheet"
 msgstr "Partner munkalap"
 
 #: ../extensions/contact_sheet/contact_sheet.extension.in.in.h:2
-msgid "Create an index image displaying the thumbnails of the selected files."
-msgstr "Indexkép létrehozása a kijelölt fájlok előnézetének megjelenítéséhez."
+msgid ""
+"Create an index image displaying the thumbnails of the selected files."
+msgstr ""
+"Indexkép létrehozása a kijelölt fájlok bélyegképeinek megjelenítéséhez."
 
 #: ../extensions/contact_sheet/data/ui/contact-sheet-theme-properties.ui.h:1
 #: ../extensions/file_tools/gth-file-tool-crop.c:416
@@ -1448,7 +1452,7 @@ msgstr "_Négyzet"
 #: ../extensions/contact_sheet/data/ui/contact-sheet.ui.h:33
 #: ../extensions/contact_sheet/data/ui/image-wall.ui.h:16
 msgid "Thumbnails"
-msgstr "Előnézet"
+msgstr "Bélyegképek"
 
 #: ../extensions/contact_sheet/data/ui/image-wall.ui.h:1
 msgid "Image Wall"
@@ -1470,7 +1474,7 @@ msgstr "Képek létrehozása"
 
 #: ../extensions/contact_sheet/gth-contact-sheet-creator.c:896
 msgid "Generating thumbnails"
-msgstr "Előnézet előállítása"
+msgstr "Bélyegképek előállítása"
 
 #: ../extensions/contact_sheet/gth-contact-sheet-theme.c:32
 msgid "Header"
@@ -1581,7 +1585,8 @@ msgstr "Metaadatok törlése"
 
 #: ../extensions/edit_metadata/callbacks.c:113
 msgid "Delete the comment and the embedded metadata of the selected files"
-msgstr "A kijelölt fájlok megjegyzéseinek és beágyazott metaadatainak törlése"
+msgstr ""
+"A kijelölt fájlok megjegyzéseinek és beágyazott metaadatainak törlése"
 
 #: ../extensions/edit_metadata/data/ui/edit-comment-page.ui.h:1
 #: ../extensions/facebook/data/ui/facebook-album-properties.ui.h:6
@@ -1775,7 +1780,7 @@ msgstr "Exif szerkezet"
 
 #: ../extensions/exiv2_tools/main.c:36
 msgid "Exif Thumbnail"
-msgstr "Exif előnézet"
+msgstr "Exif bélyegkép"
 
 #: ../extensions/exiv2_tools/main.c:37
 msgid "Exif GPS"
@@ -3787,7 +3792,8 @@ msgstr "Térkép"
 
 #. No GPS label
 #: ../extensions/map_view/gth-map-view.c:276
-msgid "The geographical position information is not available for this image."
+msgid ""
+"The geographical position information is not available for this image."
 msgstr "A földrajzi pozícióinformációi nem érhetők el ehhez a képhez."
 
 #: ../extensions/map_view/map_view.extension.in.in.h:2
@@ -4544,7 +4550,7 @@ msgstr "Index oldal"
 
 #: ../extensions/webalbums/data/ui/web-album-exporter.ui.h:31
 msgid "Thumbnail Caption"
-msgstr "Előnézet felirata"
+msgstr "Bélyegkép felirata"
 
 #: ../extensions/webalbums/data/ui/web-album-exporter.ui.h:32
 msgid "The current image number"
@@ -4585,7 +4591,7 @@ msgstr "Az album sikeresen létrejött."
 #: ../extensions/webalbums/gth-web-exporter.c:2106
 #: ../extensions/webalbums/gth-web-exporter.c:2134
 msgid "Saving thumbnails"
-msgstr "Előnézet mentése"
+msgstr "Bélyegképek mentése"
 
 #: ../extensions/webalbums/gth-web-exporter.c:2162
 msgid "Saving HTML pages: Images"
@@ -4738,7 +4744,7 @@ msgstr "Fájlinformációk lekérése"
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
+#. 
 #: ../pix/glib-utils.c:3068
 #, c-format
 msgctxt "long time format"
@@ -4750,7 +4756,7 @@ msgstr "%d.%02d.%02d"
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
+#. 
 #: ../pix/glib-utils.c:3077
 #, c-format
 msgctxt "short time format"
@@ -5014,19 +5020,20 @@ msgstr "Az ablak szűrősorának megjelenítése vagy elrejtése"
 
 #: ../pix/gth-browser-actions-entries.h:232
 msgid "_Thumbnail Pane"
-msgstr "_Előnézet ablaktábla"
+msgstr "_Bélyegkép ablaktábla"
 
 #: ../pix/gth-browser-actions-entries.h:233
 msgid "View or hide the thumbnail pane in viewer mode"
-msgstr "A előnézet ablakának megjelenítése vagy elrejtése megjelenítő módban"
+msgstr ""
+"A bélyegképek ablakának megjelenítése vagy elrejtése megjelenítő módban"
 
 #: ../pix/gth-browser-actions-entries.h:237
 msgid "_Thumbnails"
-msgstr "_Előnézet"
+msgstr "_Bélyegképek"
 
 #: ../pix/gth-browser-actions-entries.h:238
 msgid "View thumbnails"
-msgstr "Előnézet megjelenítése"
+msgstr "Bélyegképek megjelenítése"
 
 #: ../pix/gth-browser-actions-entries.h:242
 msgid "_Hidden Files"
