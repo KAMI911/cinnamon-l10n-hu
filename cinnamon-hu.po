@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 21:16+0000\n"
-"PO-Revision-Date: 2019-12-05 12:19+0100\n"
+"PO-Revision-Date: 2019-12-05 14:05+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2019-12-05 10:16+0000\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Launchpad-Export-Date: 2019-12-20 03:59+0000\n"
+"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
 "Language: hu\n"
 
 #: src/cinnamon-app.c:298 src/cinnamon-app.c:307
@@ -1706,7 +1706,8 @@ msgstr "Hálózat"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:72
 msgid "network, wireless, wifi, ethernet, broadband, internet"
-msgstr "hálózat, vezeték nélküli, wifi, wi-fi, ethernet, szélessávú, internet"
+msgstr ""
+"hálózat, vezeték nélküli, wifi, wi-fi, ethernet, szélessávú, internet"
 
 #. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:73
@@ -2515,7 +2516,8 @@ msgstr ""
 msgid ""
 "Something went wrong with the spices download.  Please try refreshing the "
 "list again."
-msgstr "Hiba történt a letöltés során. Próbálja meg ismét frissíteni a listát."
+msgstr ""
+"Hiba történt a letöltés során. Próbálja meg ismét frissíteni a listát."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:520
 msgid "Refreshing the cache"
@@ -3243,7 +3245,8 @@ msgstr "Válassza ki a zenelejátszó csatlakoztatásakor futtatandó alkalmazá
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:142
 msgid "Select an application to run when a camera is connected"
-msgstr "Válassza ki a fényképezőgép csatlakoztatásakor futtatandó alkalmazást"
+msgstr ""
+"Válassza ki a fényképezőgép csatlakoztatásakor futtatandó alkalmazást"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:143
 msgid "_Software"
@@ -4644,8 +4647,8 @@ msgstr "Kiosztások"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:481
 #, python-format
 msgid ""
-"This key combination, <b>%(combination)s</b> is currently in use by <b>"
-"%(old)s</b>.  "
+"This key combination, <b>%(combination)s</b> is currently in use by "
+"<b>%(old)s</b>.  "
 msgstr ""
 "A(z) „<b>%(combination)s</b>” billentyűkombinációt már használja a "
 "következő: „<b>%(old)s</b>”.  "
@@ -4701,7 +4704,8 @@ msgstr "Mutató helyének megmutatása a Ctrl billentyű lenyomásakor"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:43
 msgid "Emulate middle click by clicking both left and right buttons"
-msgstr "Középső egérgomb használata a jobb és bal gombok egyszeri lenyomásával"
+msgstr ""
+"Középső egérgomb használata a jobb és bal gombok egyszeri lenyomásával"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:46
 msgid "Drag-and-drop threshold"
@@ -5470,7 +5474,8 @@ msgstr "Óra állandó megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:106
 msgid "Show the clock on the wallpaper instead of just on the unlock screen"
-msgstr "Az óra megjelenítése a háttérképen is, és ne csak a zárolási képernyőn"
+msgstr ""
+"Az óra megjelenítése a háttérképen is, és ne csak a zárolási képernyőn"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:109
 msgid "Use a custom date and time format"
@@ -6338,7 +6343,8 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:145
 msgid "Move minimized windows to the end of the alt-tab switcher"
-msgstr "Minimalizált ablakok az Alt-Tab alkalmazásváltó-lista végére kerülnek"
+msgstr ""
+"Minimalizált ablakok az Alt-Tab alkalmazásváltó-lista végére kerülnek"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:148
 msgid "Delay before displaying the alt-tab switcher"
@@ -7745,6 +7751,7 @@ msgid "Click the button to select a new text color"
 msgstr "Kattintson a gombra a szöveg színének kiválasztásához"
 
 #. clock@cinnamon.org->settings-schema.json->use-custom-format->tooltip
-msgid "Check this to define a custom format for the time in the clock desklet."
+msgid ""
+"Check this to define a custom format for the time in the clock desklet."
 msgstr ""
 "Válassza ki ezt az óra asztalkalmazásban saját időformátum megadásához."
