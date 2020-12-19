@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2020-06-07 07:06+0000\n"
-"Last-Translator: Horváth Balázs <Unknown>\n"
+"PO-Revision-Date: 2020-12-19 03:51+0100\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-12-16 12:47+0000\n"
-"X-Generator: Launchpad (build a68a6d599c812dd1dd335307d9c5c017c50ba81b)\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: hu\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
@@ -288,12 +288,14 @@ msgstr "Óra megjelenítése a tálcán"
 
 #: usr/lib/lightdm-settings/lightdm-settings:290
 msgid "Clock format"
-msgstr ""
+msgstr "Óra formátuma"
 
 #: usr/lib/lightdm-settings/lightdm-settings:291
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
+"Az óra formátumokkal kapcsolatos további információkért látogassa meg a "
+"https://www.foragoodstrftime.com webhelyet."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
