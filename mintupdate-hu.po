@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2020-10-06 20:25+0000\n"
-"X-Generator: Launchpad (build d50d1e75c500726862802414f880ee3e3bb759bf)\n"
+"X-Launchpad-Export-Date: 2020-12-16 12:37+0000\n"
+"X-Generator: Launchpad (build a68a6d599c812dd1dd335307d9c5c017c50ba81b)\n"
 "Language: hu\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
