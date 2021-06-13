@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2020-12-16 12:43+0000\n"
-"X-Generator: Launchpad (build a68a6d599c812dd1dd335307d9c5c017c50ba81b)\n"
+"X-Launchpad-Export-Date: 2021-06-13 12:30+0000\n"
+"X-Generator: Launchpad (build ddeaac87a34b6ea67d70ca539d5ee736a1205d45)\n"
 
 #: cinnamon-session/csm-inhibit-dialog.c:251
 #, c-format
