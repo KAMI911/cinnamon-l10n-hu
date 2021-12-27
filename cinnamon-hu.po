@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: cinnamon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-04 12:22+0100\n"
-"PO-Revision-Date: 2021-03-14 08:08+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2021-12-27 19:25+0100\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2021-06-13 12:26+0000\n"
-"X-Generator: Launchpad (build ddeaac87a34b6ea67d70ca539d5ee736a1205d45)\n"
+"X-Generator: Poedit 2.3\n"
 "Language: hu\n"
 
 #: src/cinnamon-app.c:331 src/cinnamon-app.c:340
@@ -445,7 +445,7 @@ msgstr "Áthelyezés"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py:77
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py:438
 msgid "Remove"
-msgstr "Eltávolítás"
+msgstr "Levétel"
 
 #: js/ui/panel.js:1600
 msgid "Add a new panel"
@@ -1108,7 +1108,7 @@ msgstr "Vezeték nélküli kapcsolat"
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2303
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2325
 msgid "(Limited connectivity)"
-msgstr ""
+msgstr "(Korlátozott kapcsolat)"
 
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2303
 #: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2307
@@ -1809,8 +1809,7 @@ msgstr "Hálózat"
 
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:72
 msgid "network, wireless, wifi, ethernet, broadband, internet"
-msgstr ""
-"hálózat, vezeték nélküli, wifi, wi-fi, ethernet, szélessávú, internet"
+msgstr "hálózat, vezeték nélküli, wifi, wi-fi, ethernet, szélessávú, internet"
 
 #. settings-example@cinnamon.org->settings-schema.json->tree->columns->title
 #: files/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:73
@@ -2091,7 +2090,7 @@ msgstr "Érvénytelen felhasználónév"
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:414
 #, python-format
 msgid "A user with the name '%s' already exists."
-msgstr ""
+msgstr "Már létezik „%s” nevű felhasználó."
 
 #: files/usr/share/cinnamon/cinnamon-settings-users/cinnamon-settings-users.py:477
 msgid "Users"
@@ -2394,7 +2393,7 @@ msgstr "Ez a bővítmény már engedélyezve van"
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:717
 #, python-format
 msgid "by %s"
-msgstr ""
+msgstr "%s által"
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/ExtensionCore.py:291
 msgid "Configure"
@@ -2641,8 +2640,7 @@ msgstr ""
 msgid ""
 "Something went wrong with the spices download.  Please try refreshing the "
 "list again."
-msgstr ""
-"Hiba történt a letöltés során. Próbálja meg ismét frissíteni a listát."
+msgstr "Hiba történt a letöltés során. Próbálja meg ismét frissíteni a listát."
 
 #: files/usr/share/cinnamon/cinnamon-settings/bin/Spices.py:528
 msgid "Refreshing the cache"
@@ -2737,7 +2735,7 @@ msgstr "Képernyőolvasó"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:81
 msgid "Configure screen reader"
-msgstr ""
+msgstr "Képernyőolvasó beállítása"
 
 #. Desktop Zoom
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py:86
@@ -3374,8 +3372,7 @@ msgstr "Válassza ki a zenelejátszó csatlakoztatásakor futtatandó alkalmazá
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:142
 msgid "Select an application to run when a camera is connected"
-msgstr ""
-"Válassza ki a fényképezőgép csatlakoztatásakor futtatandó alkalmazást"
+msgstr "Válassza ki a fényképezőgép csatlakoztatásakor futtatandó alkalmazást"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py:143
 msgid "_Software"
@@ -3963,19 +3960,19 @@ msgstr "másodperc"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:44
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:49
 msgid "Memory limit"
-msgstr ""
+msgstr "Memóriakorlát"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:46
 msgid "Restart Cinnamon when it uses too much memory"
-msgstr ""
+msgstr "Cinnamon környezet újraindítása, ha túl sok memóriát használ"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:49
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py:52
 msgid "Check frequency"
-msgstr ""
+msgstr "Ellenőrzés gyakorisága"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_hotcorner.py:18
 msgid "Manage hotcorner settings"
@@ -4796,8 +4793,8 @@ msgstr "Kiosztások"
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py:504
 #, python-format
 msgid ""
-"This key combination, <b>%(combination)s</b> is currently in use by "
-"<b>%(old)s</b>.  "
+"This key combination, <b>%(combination)s</b> is currently in use by <b>"
+"%(old)s</b>.  "
 msgstr ""
 "A(z) „<b>%(combination)s</b>” billentyűkombinációt már használja a "
 "következő: „<b>%(old)s</b>”.  "
@@ -4855,8 +4852,7 @@ msgstr "Mutató helyének megmutatása a Ctrl billentyű lenyomásakor"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:43
 msgid "Emulate middle click by clicking both left and right buttons"
-msgstr ""
-"Középső egérgomb használata a jobb és bal gombok egyszeri lenyomásával"
+msgstr "Középső egérgomb használata a jobb és bal gombok egyszeri lenyomásával"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py:46
 msgid "Drag-and-drop threshold"
@@ -5641,8 +5637,7 @@ msgstr "Óra állandó megjelenítése"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:104
 msgid "Show the clock on the wallpaper instead of just on the unlock screen"
-msgstr ""
-"Az óra megjelenítése a háttérképen is, és ne csak a zárolási képernyőn"
+msgstr "Az óra megjelenítése a háttérképen is, és ne csak a zárolási képernyőn"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py:107
 msgid "Use a custom date and time format"
@@ -6508,8 +6503,7 @@ msgstr ""
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:144
 msgid "Move minimized windows to the end of the alt-tab switcher"
-msgstr ""
-"Minimalizált ablakok az Alt-Tab alkalmazásváltó-lista végére kerülnek"
+msgstr "Minimalizált ablakok az Alt-Tab alkalmazásváltó-lista végére kerülnek"
 
 #: files/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py:147
 msgid "Delay before displaying the alt-tab switcher"
@@ -6650,7 +6644,7 @@ msgstr "Adja meg a Panelen megjelenítendő szöveget."
 
 #. menu@cinnamon.org->settings-schema.json->restrict-menu-height->description
 msgid "Use a fixed menu height"
-msgstr ""
+msgstr "Rögzített magasságú menü használata"
 
 #. menu@cinnamon.org->settings-schema.json->restrict-menu-height->tooltip
 msgid ""
@@ -6660,7 +6654,7 @@ msgstr ""
 
 #. menu@cinnamon.org->settings-schema.json->menu-height->description
 msgid "Menu height"
-msgstr ""
+msgstr "Menü magasság"
 
 #. menu@cinnamon.org->settings-schema.json->show-category-icons->description
 msgid "Show category icons"
@@ -6727,11 +6721,11 @@ msgstr "Válassza ki, hogy mutassa-e a legutóbbi fájlokat a menüben."
 
 #. menu@cinnamon.org->settings-schema.json->category-hover->description
 msgid "Change categories on hover"
-msgstr ""
+msgstr "Kategóriák váltása rámutatással"
 
 #. menu@cinnamon.org->settings-schema.json->category-hover->tooltip
 msgid "Choose whether or not to change categories by hovering."
-msgstr ""
+msgstr "Válassza ki, hogy bekapcsolja-e kategóriák váltását rámutatással."
 
 #. menu@cinnamon.org->settings-schema.json->enable-autoscroll->description
 msgid "Enable autoscrolling in application list"
@@ -6879,20 +6873,20 @@ msgstr "Értesítési panel ikonok elrejtése a kompatibilis lejátszóknál"
 
 #. sound@cinnamon.org->settings-schema.json->section3->description
 msgid "Tooltip"
-msgstr ""
+msgstr "Buboréksúgó"
 
 #. sound@cinnamon.org->settings-schema.json->tooltipShowVolume->description
 msgid "Show volume in tooltip"
-msgstr ""
+msgstr "Hangerő megjelenítése a buboréksúgóban"
 
 #. sound@cinnamon.org->settings-schema.json->tooltipShowPlayer->description
 msgid "Show player in tooltip"
-msgstr ""
+msgstr "Lejátszó megjelenítése a buboréksúgóban"
 
 #. sound@cinnamon.org->settings-
 #. schema.json->tooltipShowArtistTitle->description
 msgid "Show song artist and title in tooltip"
-msgstr ""
+msgstr "Előadó és a szám címének megjelenítése a buboréksúgóban"
 
 #. systray@cinnamon.org->metadata.json->name
 msgid "System Tray"
@@ -7023,8 +7017,7 @@ msgstr "Globális gyorsbillentyű a bélyegkép menük átgörgetéséhez"
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
 #. hotkey->description
 msgid "Global hotkey to show the order of apps"
-msgstr ""
-"Globális gyorsbillentyű az alkalmazások sorrendjének megjelenítéséhez"
+msgstr "Globális gyorsbillentyű az alkalmazások sorrendjének megjelenítéséhez"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->show-apps-order-
 #. timeout->description
@@ -8050,7 +8043,6 @@ msgid "Click the button to select a new text color"
 msgstr "Kattintson a gombra a szöveg színének kiválasztásához"
 
 #. clock@cinnamon.org->settings-schema.json->use-custom-format->tooltip
-msgid ""
-"Check this to define a custom format for the time in the clock desklet."
+msgid "Check this to define a custom format for the time in the clock desklet."
 msgstr ""
 "Válassza ki ezt az óra asztalkalmazásban saját időformátum megadásához."

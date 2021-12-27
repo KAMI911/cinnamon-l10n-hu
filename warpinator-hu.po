@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: warpinator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 15:02+0100\n"
-"PO-Revision-Date: 2020-12-05 18:21+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2021-06-13 16:30+0200\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2021-06-13 12:34+0000\n"
-"X-Generator: Launchpad (build ddeaac87a34b6ea67d70ca539d5ee736a1205d45)\n"
+"X-Generator: Poedit 2.3\n"
 "Language: hu_HU\n"
 
 #: resources/main-window.ui:33 src/util.py:403
@@ -260,7 +260,7 @@ msgstr "Beállítások"
 
 #: src/prefs.py:152
 msgid "General"
-msgstr ""
+msgstr "Általános"
 
 #: src/prefs.py:154
 msgid "Desktop"
@@ -280,13 +280,15 @@ msgstr "Automatikus indítás"
 
 #: src/prefs.py:171
 msgid "Use compression when possible."
-msgstr ""
+msgstr "Tömörítés használata, amennyiben lehetséges"
 
 #: src/prefs.py:173
 msgid ""
 "Warning: This may have a negative impact on performance on some faster "
 "networks."
 msgstr ""
+"Figyelmeztetés: Ez a beállítás gyorsabb hálózatokon ronthatja a "
+"teljesítményt."
 
 #: src/prefs.py:176
 msgid "Location for received files"
@@ -301,18 +303,16 @@ msgid "Require approval when files would be overwritten"
 msgstr "Fájlok felülírásához jóváhagyása szükséges"
 
 #: src/prefs.py:189
-msgid ""
-"Display a notification when someone sends (or tries to send) you files"
-msgstr ""
-"Értesítés megjelenítése, ha valaki fájlokat küld (vagy küldeni próbál)"
+msgid "Display a notification when someone sends (or tries to send) you files"
+msgstr "Értesítés megjelenítése, ha valaki fájlokat küld (vagy küldeni próbál)"
 
 #: src/prefs.py:194
 msgid "Connection"
-msgstr ""
+msgstr "Kapcsolat"
 
 #: src/prefs.py:196
 msgid "Identification"
-msgstr ""
+msgstr "Azonosítás"
 
 #: src/prefs.py:201
 msgid "Group Code"
@@ -330,17 +330,17 @@ msgstr "Hálózat"
 
 #: src/prefs.py:211
 msgid "Automatic"
-msgstr ""
+msgstr "Automatikus"
 
 #. translation: combobox item shown when a previosuly set interface can no longer be found - 'wlan0 - not found'
 #: src/prefs.py:236
 #, python-format
 msgid "%s - not found"
-msgstr ""
+msgstr "„%s” nem található"
 
 #: src/prefs.py:238
 msgid "Network interface to use"
-msgstr ""
+msgstr "Használni kívánt hálózati csatoló"
 
 #: src/prefs.py:246
 msgid "Incoming port for transfers"
@@ -348,11 +348,11 @@ msgstr "Beérkező átvitel forgalmának portja"
 
 #: src/prefs.py:253
 msgid "Incoming port for registration"
-msgstr ""
+msgstr "Beérkező átvitel forgalmának portja"
 
 #: src/prefs.py:268
 msgid "Apply network changes"
-msgstr ""
+msgstr "Hálózati változtatások alkalmazása"
 
 #: src/prefs.py:277
 msgid "Update firewall rules"
@@ -538,8 +538,7 @@ msgstr "Nincs hálózati kapcsolat."
 
 #: src/warpinator.py:633
 msgid "Startup was unsuccessful, please check your logs."
-msgstr ""
-"Az alkalmazás indítása meghiúsult. A hibát megtudhatja a naplófájlból."
+msgstr "Az alkalmazás indítása meghiúsult. A hibát megtudhatja a naplófájlból."
 
 #: src/warpinator.py:874
 msgid "Offline"
@@ -555,7 +554,7 @@ msgstr "Várakozás a kétirányú kapcsolat lét"
 
 #: src/warpinator.py:1323
 msgid "Send to all"
-msgstr ""
+msgstr "Küldés mindenkinek"
 
 #: data/org.x.warpinator.policy.in.in:12
 msgid "Open a firewall port for Warpinator"

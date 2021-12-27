@@ -18,15 +18,15 @@ msgstr ""
 "Project-Id-Version: cinnamon-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-04 12:20+0100\n"
-"PO-Revision-Date: 2020-10-07 00:05+0000\n"
-"Last-Translator: Kálmán „KAMI” Szalai <Unknown>\n"
+"PO-Revision-Date: 2021-06-13 17:02+0200\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2021-06-13 12:29+0000\n"
-"X-Generator: Launchpad (build ddeaac87a34b6ea67d70ca539d5ee736a1205d45)\n"
+"X-Generator: Poedit 2.3\n"
 "Language: hu\n"
 
 #. TRANSLATORS: this is where the user can click and import a profile
@@ -354,12 +354,12 @@ msgstr "180 fok"
 #. * screen is the same as your external projector.  Here, "Mirrored" is being
 #. * used as an adjective.  For example, the Spanish translation could be
 #. * "Pantallas en Espejo".
-#. 
+#.
 #. Translators:  this is the feature where what you see on your
 #. * laptop's screen is the same as your external projector.
 #. * Here, "Mirrored" is being used as an adjective.  For example,
 #. * the Spanish translation could be "Pantallas en Espejo".
-#. 
+#.
 #: panels/display/cc-display-panel.c:857 panels/display/cc-rr-labeler.c:404
 msgid "Mirrored Displays"
 msgstr "Tükrözött kijelzők"
@@ -446,7 +446,7 @@ msgstr "Proxy kiszolgáló"
 #. Translators: this is the title of the connection details
 #. * window for vpn connections, it is also used to display
 #. * vpn connections in the device list.
-#. 
+#.
 #: panels/network/cc-network-panel.c:1089 panels/network/net-vpn.c:287
 #: panels/network/net-vpn.c:444
 #, c-format
@@ -527,14 +527,14 @@ msgstr "Alapértelmezett útvonal"
 #: panels/network/network-wifi.ui.h:11
 #: panels/network/connection-editor/details-page.ui.h:8
 msgid "DNS4"
-msgstr ""
+msgstr "DNS4"
 
 #: panels/network/net-device-ethernet.c:171 panels/network/panel-common.c:676
 #: panels/network/network-mobile.ui.h:7 panels/network/network-simple.ui.h:7
 #: panels/network/network-wifi.ui.h:12
 #: panels/network/connection-editor/details-page.ui.h:9
 msgid "DNS6"
-msgstr ""
+msgstr "DNS6"
 
 #: panels/network/net-device-ethernet.c:173
 #: panels/network/net-device-ethernet.c:175 panels/network/panel-common.c:678
@@ -552,7 +552,7 @@ msgstr "Utolsó használat"
 #. * details window for ethernet, if there is only a single
 #. * profile. It is also used to display ethernet in the
 #. * device list.
-#. 
+#.
 #: panels/network/net-device-ethernet.c:290
 #: panels/network/network-ethernet.ui.h:1 panels/network/network-simple.ui.h:1
 msgid "Wired"
@@ -1015,7 +1015,7 @@ msgstr "Hiba a fiók eltávolításakor"
 
 #. Translators: The %s is the username (eg., debarshi.ray@gmail.com
 #. * or rishi).
-#. 
+#.
 #: panels/online-accounts/cc-online-accounts-panel.c:953
 #, c-format
 msgid "<b>%s</b> removed"
@@ -1239,8 +1239,7 @@ msgstr "Szín"
 
 #: panels/color/color.ui.h:4
 msgid "Each device needs an up to date color profile to be color managed."
-msgstr ""
-"Minden eszköznek szüksége van egy friss színprofilra a színkezeléshez."
+msgstr "Minden eszköznek szüksége van egy friss színprofilra a színkezeléshez."
 
 #: panels/color/color.ui.h:5
 msgid "Add device"
@@ -1829,8 +1828,7 @@ msgstr "Visszavonás"
 
 #: panels/online-accounts/online-accounts.ui.h:2
 msgid "No internet connection — connect to set up new online accounts"
-msgstr ""
-"Nincs internetkapcsolat – csatlakozzon új online fiókok beállításához"
+msgstr "Nincs internetkapcsolat – csatlakozzon új online fiókok beállításához"
 
 #: panels/online-accounts/online-accounts.ui.h:3
 msgid "Add an account"
@@ -2371,8 +2369,7 @@ msgid "Network settings"
 msgstr "Hálózati beállítások"
 
 #: generate_additional_files.py:86
-msgid ""
-"Set button mappings and adjust stylus sensitivity for graphics tablets"
+msgid "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
 "Rajztáblák gombleképezéseinek beállítása és a stylus érzékenységének "
 "módosítása"

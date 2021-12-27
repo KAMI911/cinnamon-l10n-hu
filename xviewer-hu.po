@@ -13,19 +13,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: xviewer master\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=xviewer&keywords=I18N+L10N&co"
-"mponent=general\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=xviewer&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2021-06-01 13:03+0100\n"
-"PO-Revision-Date: 2020-12-22 17:13+0000\n"
-"Last-Translator: Kálmán „KAMI” Szalai <Unknown>\n"
+"PO-Revision-Date: 2021-06-13 16:34+0200\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2021-06-13 12:31+0000\n"
-"X-Generator: Launchpad (build ddeaac87a34b6ea67d70ca539d5ee736a1205d45)\n"
+"X-Generator: Poedit 2.3\n"
 "Language: hu\n"
 
 #. Translaters: This string is for a toggle to display a toolbar.
@@ -415,11 +414,11 @@ msgstr "_Végtelenített sorozat"
 
 #: ../data/xviewer-preferences-dialog.ui.h:23
 msgid "Control"
-msgstr ""
+msgstr "Vezérlés"
 
 #: ../data/xviewer-preferences-dialog.ui.h:24
 msgid "Pause and resume with the spacebar"
-msgstr ""
+msgstr "Megállítás és folytatás szóköz billyentyűvel"
 
 #: ../data/xviewer-preferences-dialog.ui.h:25
 msgid "Slideshow"
@@ -1050,8 +1049,7 @@ msgstr ""
 msgid ""
 "A trash for \"%s\" couldn't be found. Do you want to remove this image "
 "permanently?"
-msgstr ""
-"Nem található %s kukája. Véglegesen el kívánja távolítani ezt a képet?"
+msgstr "Nem található %s kukája. Véglegesen el kívánja távolítani ezt a képet?"
 
 #: ../src/xviewer-window.c:3715
 #, c-format
@@ -1147,8 +1145,7 @@ msgid "Changes the visibility of the statusbar in the current window"
 msgstr "A jelenlegi ablakban megváltoztatja az állapotsor láthatóságát"
 
 #: ../src/xviewer-window.c:4183
-msgid ""
-"Changes the visibility of the image gallery pane in the current window"
+msgid "Changes the visibility of the image gallery pane in the current window"
 msgstr "A jelenlegi ablakban megváltoztatja a képgaléria sáv láthatóságát"
 
 #: ../src/xviewer-window.c:4186

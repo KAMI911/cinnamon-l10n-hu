@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 12:55+0100\n"
-"PO-Revision-Date: 2020-12-05 18:23+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2021-06-13 16:38+0200\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2021-06-13 12:30+0000\n"
-"X-Generator: Launchpad (build ddeaac87a34b6ea67d70ca539d5ee736a1205d45)\n"
+"X-Generator: Poedit 2.3\n"
 "Language: hu\n"
 "(http: //www.transifex.com/projects/p/MATE/language/hu/)\n"
 
@@ -201,8 +201,7 @@ msgstr[1] ""
 "elvesznek."
 
 #: ../xed/xed-close-confirmation-dialog.c:417
-msgid ""
-"If you don't save, changes from the last hour will be permanently lost."
+msgid "If you don't save, changes from the last hour will be permanently lost."
 msgstr ""
 "Ha nem menti, akkor az elmúlt órában történt változások véglegesen elvesznek."
 
@@ -241,14 +240,11 @@ msgstr "Menti a változásokat a(z) „%s” dokumentumba, mielőtt bezárja?"
 
 #: ../xed/xed-close-confirmation-dialog.c:642
 #, c-format
-msgid ""
-"There is %d document with unsaved changes. Save changes before closing?"
+msgid "There is %d document with unsaved changes. Save changes before closing?"
 msgid_plural ""
 "There are %d documents with unsaved changes. Save changes before closing?"
-msgstr[0] ""
-"%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
-msgstr[1] ""
-"%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
+msgstr[0] "%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
+msgstr[1] "%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
 
 #: ../xed/xed-close-confirmation-dialog.c:659
 msgid "S_elect the documents you want to save:"
@@ -358,8 +354,7 @@ msgstr[1] ""
 "A dokumentum elmúlt %ld percben történt változásai véglegesen elvesznek."
 
 #: ../xed/xed-commands-file.c:1294
-msgid ""
-"Changes made to the document in the last hour will be permanently lost."
+msgid "Changes made to the document in the last hour will be permanently lost."
 msgstr "A dokumentum elmúlt órában történt változásai véglegesen elvesznek."
 
 #: ../xed/xed-commands-file.c:1299
@@ -506,8 +501,7 @@ msgid "The location of the file cannot be mounted."
 msgstr "A fájl helye nem csatolható."
 
 #: ../xed/xed-io-error-info-bar.c:204
-msgid ""
-"The location of the file cannot be accessed because it is not mounted."
+msgid "The location of the file cannot be accessed because it is not mounted."
 msgstr "A fájl helye nem érhető el, mivel nincs csatolva."
 
 #: ../xed/xed-io-error-info-bar.c:207
@@ -677,15 +671,14 @@ msgstr "Ne _legyen mentve"
 #. FIXME: review this message, it's not clear since for the user the "modification"
 #. * could be interpreted as the changes he made in the document. beside "reading" is
 #. * not accurate (since last load/save)
-#. 
+#.
 #: ../xed/xed-io-error-info-bar.c:760
 #, c-format
 msgid "The file %s has been modified since reading it."
 msgstr "A(z) %s fájl változott az utolsó beolvasása óta."
 
 #: ../xed/xed-io-error-info-bar.c:774
-msgid ""
-"If you save it, all the external changes could be lost. Save it anyway?"
+msgid "If you save it, all the external changes could be lost. Save it anyway?"
 msgstr ""
 "Ha most elmenti ezt a változatot, minden külső módosítás el fog veszni. "
 "Biztosan menti?"
@@ -763,8 +756,7 @@ msgstr ""
 "írta-e be a helyet, és próbálja újra."
 
 #: ../xed/xed-io-error-info-bar.c:968
-msgid ""
-"A file with the same name already exists. Please use a different name."
+msgid "A file with the same name already exists. Please use a different name."
 msgstr "Egy ugyanilyen nevű fájl már létezik. Használjon más nevet."
 
 #: ../xed/xed-io-error-info-bar.c:973
@@ -838,8 +830,7 @@ msgstr "Mentés"
 
 #: ../xed/xed-preferences-dialog.c:587
 #, c-format
-msgid ""
-"Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgid "Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
 msgstr ""
 "A(z) „%s” könyvtár nem hozható létre: a g_mkdir_with_parents() hívás "
 "meghiúsult: %s"
@@ -1025,23 +1016,23 @@ msgstr "4"
 
 #: ../xed/resources/ui/xed-preferences-dialog.ui.h:10
 msgid "Draw whitespace"
-msgstr ""
+msgstr "Látható üres karakterek"
 
 #: ../xed/resources/ui/xed-preferences-dialog.ui.h:11
 msgid "Leading whitespace"
-msgstr ""
+msgstr "Soreleji üres karakterek"
 
 #: ../xed/resources/ui/xed-preferences-dialog.ui.h:12
 msgid "Trailing whitespace"
-msgstr ""
+msgstr "Sorvégi üres karakterek"
 
 #: ../xed/resources/ui/xed-preferences-dialog.ui.h:13
 msgid "Whitespace inside of text"
-msgstr ""
+msgstr "Szövegen belüli üres karakterek"
 
 #: ../xed/resources/ui/xed-preferences-dialog.ui.h:14
 msgid "Newline character"
-msgstr ""
+msgstr "Sortörés karakter"
 
 #: ../xed/resources/ui/xed-preferences-dialog.ui.h:15
 msgid "Highlighting"
@@ -1143,12 +1134,12 @@ msgstr "Sorszámok"
 msgid "Print line nu_mbers"
 msgstr "_Sorszámok nyomtatása"
 
-#. 
+#.
 #: ../xed/resources/ui/xed-print-preferences.ui.h:6
 msgid "_Number every"
 msgstr "S_orszám"
 
-#. 
+#.
 #: ../xed/resources/ui/xed-print-preferences.ui.h:8
 msgid "lines"
 msgstr "soronként"
@@ -2109,8 +2100,8 @@ msgid ""
 "The file browser root directory to use when loading the file browser plugin "
 "and onload/tree_view is TRUE."
 msgstr ""
-"A fájlböngésző betöltésekor használandó gyökérkönyvtár, ha az "
-"onload/tree_view kulcs értéke igaz."
+"A fájlböngésző betöltésekor használandó gyökérkönyvtár, ha az onload/"
+"tree_view kulcs értéke igaz."
 
 #: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:13
 msgid "File Browser Virtual Root Directory"
@@ -3959,8 +3950,7 @@ msgstr "Elemlista"
 msgid ""
 "Provides a method to easily insert commonly used tags/strings into a "
 "document without having to type them."
-msgstr ""
-"A gyakran használt elemek egyszerű beillesztése, azok beírása nélkül."
+msgstr "A gyakran használt elemek egyszerű beillesztése, azok beírása nélkül."
 
 #: ../plugins/taglist/xed-taglist-plugin-panel.c:605
 msgid "Select the group of tags you want to use"
