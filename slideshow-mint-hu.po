@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: slideshow-mint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-20 18:18+0000\n"
-"PO-Revision-Date: 2018-12-01 07:27+0000\n"
+"PO-Revision-Date: 2022-01-12 16:08+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-13 12:26+0000\n"
-"X-Generator: Launchpad (build ddeaac87a34b6ea67d70ca539d5ee736a1205d45)\n"
+"X-Launchpad-Export-Date: 2022-04-27 12:14+0000\n"
+"X-Generator: Launchpad (build d1f338057774b3aeb23c56e3c6f28239243533fb)\n"
 "Language: hu\n"
 
 #. type: Content of: <div><h1>
@@ -229,7 +229,7 @@ msgstr "Blender (3D animáció készítő)"
 #. type: Content of: <div><h1>
 #: slideshows/mint/slides/updates.html:1
 msgid "Keep your system up to date"
-msgstr "Tartsa a rendszert napra készen"
+msgstr "Tartsa a rendszert naprakészen"
 
 #. type: Content of: <div><div><div><p>
 #: slideshows/mint/slides/updates.html:8

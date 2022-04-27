@@ -9,18 +9,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-01 12:55+0100\n"
-"PO-Revision-Date: 2021-06-13 16:38+0200\n"
-"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
+"POT-Creation-Date: 2021-10-11 13:43+0100\n"
+"PO-Revision-Date: 2021-10-13 13:24+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-06-13 12:30+0000\n"
-"X-Generator: Poedit 2.3\n"
-"Language: hu\n"
+"X-Launchpad-Export-Date: 2022-04-27 12:19+0000\n"
+"X-Generator: Launchpad (build d1f338057774b3aeb23c56e3c6f28239243533fb)\n"
 "(http: //www.transifex.com/projects/p/MATE/language/hu/)\n"
+"Language: hu\n"
 
 #: ../data/xed.appdata.xml.in.h:1
 msgid "A Text Editor"
@@ -201,7 +201,8 @@ msgstr[1] ""
 "elvesznek."
 
 #: ../xed/xed-close-confirmation-dialog.c:417
-msgid "If you don't save, changes from the last hour will be permanently lost."
+msgid ""
+"If you don't save, changes from the last hour will be permanently lost."
 msgstr ""
 "Ha nem menti, akkor az elmúlt órában történt változások véglegesen elvesznek."
 
@@ -240,11 +241,14 @@ msgstr "Menti a változásokat a(z) „%s” dokumentumba, mielőtt bezárja?"
 
 #: ../xed/xed-close-confirmation-dialog.c:642
 #, c-format
-msgid "There is %d document with unsaved changes. Save changes before closing?"
+msgid ""
+"There is %d document with unsaved changes. Save changes before closing?"
 msgid_plural ""
 "There are %d documents with unsaved changes. Save changes before closing?"
-msgstr[0] "%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
-msgstr[1] "%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
+msgstr[0] ""
+"%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
+msgstr[1] ""
+"%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
 
 #: ../xed/xed-close-confirmation-dialog.c:659
 msgid "S_elect the documents you want to save:"
@@ -354,7 +358,8 @@ msgstr[1] ""
 "A dokumentum elmúlt %ld percben történt változásai véglegesen elvesznek."
 
 #: ../xed/xed-commands-file.c:1294
-msgid "Changes made to the document in the last hour will be permanently lost."
+msgid ""
+"Changes made to the document in the last hour will be permanently lost."
 msgstr "A dokumentum elmúlt órában történt változásai véglegesen elvesznek."
 
 #: ../xed/xed-commands-file.c:1299
@@ -397,12 +402,12 @@ msgid "Unsaved Document %d"
 msgstr "%d. mentetlen dokumentum"
 
 #: ../xed/xed-documents-panel.c:88 ../xed/xed-documents-panel.c:99
-#: ../xed/xed-window.c:1836 ../xed/xed-window.c:1840
+#: ../xed/xed-window.c:1890 ../xed/xed-window.c:1894
 msgid "Read-Only"
 msgstr "Csak olvasható"
 
 #: ../xed/xed-documents-panel.c:650 ../xed/resources/ui/xed-shortcuts.ui.h:1
-#: ../xed/xed-window.c:3086
+#: ../xed/xed-window.c:3140
 msgid "Documents"
 msgstr "Dokumentumok"
 
@@ -468,7 +473,7 @@ msgstr "Mac OS klasszikus"
 msgid "Windows"
 msgstr "Windows"
 
-#: ../xed/xed-highlight-mode-selector.c:297 ../xed/xed-window.c:1965
+#: ../xed/xed-highlight-mode-selector.c:297 ../xed/xed-window.c:2019
 msgid "Plain Text"
 msgstr "Egyszerű szöveg"
 
@@ -501,7 +506,8 @@ msgid "The location of the file cannot be mounted."
 msgstr "A fájl helye nem csatolható."
 
 #: ../xed/xed-io-error-info-bar.c:204
-msgid "The location of the file cannot be accessed because it is not mounted."
+msgid ""
+"The location of the file cannot be accessed because it is not mounted."
 msgstr "A fájl helye nem érhető el, mivel nincs csatolva."
 
 #: ../xed/xed-io-error-info-bar.c:207
@@ -671,14 +677,15 @@ msgstr "Ne _legyen mentve"
 #. FIXME: review this message, it's not clear since for the user the "modification"
 #. * could be interpreted as the changes he made in the document. beside "reading" is
 #. * not accurate (since last load/save)
-#.
+#. 
 #: ../xed/xed-io-error-info-bar.c:760
 #, c-format
 msgid "The file %s has been modified since reading it."
 msgstr "A(z) %s fájl változott az utolsó beolvasása óta."
 
 #: ../xed/xed-io-error-info-bar.c:774
-msgid "If you save it, all the external changes could be lost. Save it anyway?"
+msgid ""
+"If you save it, all the external changes could be lost. Save it anyway?"
 msgstr ""
 "Ha most elmenti ezt a változatot, minden külső módosítás el fog veszni. "
 "Biztosan menti?"
@@ -756,7 +763,8 @@ msgstr ""
 "írta-e be a helyet, és próbálja újra."
 
 #: ../xed/xed-io-error-info-bar.c:968
-msgid "A file with the same name already exists. Please use a different name."
+msgid ""
+"A file with the same name already exists. Please use a different name."
 msgstr "Egy ugyanilyen nevű fájl már létezik. Használjon más nevet."
 
 #: ../xed/xed-io-error-info-bar.c:973
@@ -830,7 +838,8 @@ msgstr "Mentés"
 
 #: ../xed/xed-preferences-dialog.c:587
 #, c-format
-msgid "Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgid ""
+"Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
 msgstr ""
 "A(z) „%s” könyvtár nem hozható létre: a g_mkdir_with_parents() hívás "
 "meghiúsult: %s"
@@ -1134,12 +1143,12 @@ msgstr "Sorszámok"
 msgid "Print line nu_mbers"
 msgstr "_Sorszámok nyomtatása"
 
-#.
+#. 
 #: ../xed/resources/ui/xed-print-preferences.ui.h:6
 msgid "_Number every"
 msgstr "S_orszám"
 
-#.
+#. 
 #: ../xed/resources/ui/xed-print-preferences.ui.h:8
 msgid "lines"
 msgstr "soronként"
@@ -1856,50 +1865,58 @@ msgid "Show or hide the toolbar in the current window"
 msgstr "Eszköztár megjelenítése vagy rejtése a jelenlegi ablakban"
 
 #: ../xed/xed-ui.h:161
+msgid "_Menubar"
+msgstr "_Eszköztár"
+
+#: ../xed/xed-ui.h:162
+msgid "Show or hide the menubar in the current window"
+msgstr "Megjeleníti vagy elrejti az eszköztárt az aktuális ablakban"
+
+#: ../xed/xed-ui.h:164
 msgid "_Statusbar"
 msgstr "Á_llapotsor"
 
-#: ../xed/xed-ui.h:162
+#: ../xed/xed-ui.h:165
 msgid "Show or hide the statusbar in the current window"
 msgstr "Állapotsor megjelenítése vagy rejtése a jelenlegi ablakban"
 
-#: ../xed/xed-ui.h:164
+#: ../xed/xed-ui.h:167
 msgid "Fullscreen"
 msgstr "Teljes képernyő"
 
-#: ../xed/xed-ui.h:165
+#: ../xed/xed-ui.h:168
 msgid "Edit text in fullscreen"
 msgstr "Szövegszerkesztés teljes képernyőn"
 
-#: ../xed/xed-ui.h:167
+#: ../xed/xed-ui.h:170
 msgid "_Word wrap"
 msgstr "_Sortörés engedélyezése"
 
-#: ../xed/xed-ui.h:168
+#: ../xed/xed-ui.h:171
 msgid "Set word wrap for the current document"
 msgstr "Sortörés engedélyezése az aktuális dokumentumban"
 
-#: ../xed/xed-ui.h:170
+#: ../xed/xed-ui.h:173
 msgid "_Overview Map"
 msgstr "Á_ttekintő térkép"
 
-#: ../xed/xed-ui.h:171
+#: ../xed/xed-ui.h:174
 msgid "Show or hide the overview map for the current view"
 msgstr "Áttekintő térkép megjelenítése vagy rejtése a jelenlegi ablakban"
 
-#: ../xed/xed-ui.h:178
+#: ../xed/xed-ui.h:181
 msgid "Side _Pane"
 msgstr "Oldalsó _ablaktábla"
 
-#: ../xed/xed-ui.h:179
+#: ../xed/xed-ui.h:182
 msgid "Show or hide the side pane in the current window"
 msgstr "Oldalsó ablaktábla megjelenítése vagy rejtése a jelenlegi ablakban"
 
-#: ../xed/xed-ui.h:181
+#: ../xed/xed-ui.h:184
 msgid "_Bottom Pane"
 msgstr "_Alsó ablaktábla"
 
-#: ../xed/xed-ui.h:182
+#: ../xed/xed-ui.h:185
 msgid "Show or hide the bottom pane in the current window"
 msgstr "Alsó ablaktábla megjelenítése vagy rejtése a jelenlegi ablakban"
 
@@ -1928,36 +1945,36 @@ msgid "_Display line numbers"
 msgstr "Sorok számának _megjelenítése"
 
 #. Translators: %s is a URI
-#: ../xed/xed-window.c:878
+#: ../xed/xed-window.c:928
 #, c-format
 msgid "Open '%s'"
 msgstr "„%s” megnyitása"
 
 #. Translators: %s is a URI
-#: ../xed/xed-window.c:1226
+#: ../xed/xed-window.c:1279
 #, c-format
 msgid "Activate '%s'"
 msgstr "„%s” aktiválása"
 
-#: ../xed/xed-window.c:1414
+#: ../xed/xed-window.c:1467
 #, c-format
 msgid "Spaces: %u"
 msgstr "Szóközök: %u"
 
-#: ../xed/xed-window.c:1418
+#: ../xed/xed-window.c:1471
 #, c-format
 msgid "Tabs: %u"
 msgstr "Tabulátorok: %u"
 
-#: ../xed/xed-window.c:1495
+#: ../xed/xed-window.c:1548
 msgid "Use Spaces"
 msgstr "Szóközök használata"
 
-#: ../xed/xed-window.c:2302
+#: ../xed/xed-window.c:2356
 msgid "There are unsaved documents"
 msgstr "Mentetlen dokumentumok találhatók"
 
-#: ../xed/xed-window.c:3351
+#: ../xed/xed-window.c:3405
 msgid "Elevated Privileges"
 msgstr "Emelt szintű jogosultság"
 
@@ -2100,8 +2117,8 @@ msgid ""
 "The file browser root directory to use when loading the file browser plugin "
 "and onload/tree_view is TRUE."
 msgstr ""
-"A fájlböngésző betöltésekor használandó gyökérkönyvtár, ha az onload/"
-"tree_view kulcs értéke igaz."
+"A fájlböngésző betöltésekor használandó gyökérkönyvtár, ha az "
+"onload/tree_view kulcs értéke igaz."
 
 #: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:13
 msgid "File Browser Virtual Root Directory"
@@ -3950,7 +3967,8 @@ msgstr "Elemlista"
 msgid ""
 "Provides a method to easily insert commonly used tags/strings into a "
 "document without having to type them."
-msgstr "A gyakran használt elemek egyszerű beillesztése, azok beírása nélkül."
+msgstr ""
+"A gyakran használt elemek egyszerű beillesztése, azok beírása nélkül."
 
 #: ../plugins/taglist/xed-taglist-plugin-panel.c:605
 msgid "Select the group of tags you want to use"

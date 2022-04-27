@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-03-29 10:21+0000\n"
-"PO-Revision-Date: 2019-06-16 13:32+0000\n"
+"PO-Revision-Date: 2021-11-24 11:14+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-13 12:34+0000\n"
-"X-Generator: Launchpad (build ddeaac87a34b6ea67d70ca539d5ee736a1205d45)\n"
+"X-Launchpad-Export-Date: 2022-04-27 12:23+0000\n"
+"X-Generator: Launchpad (build d1f338057774b3aeb23c56e3c6f28239243533fb)\n"
 
 #: ../../boot_options.rst:2
 msgid "Boot options"
@@ -288,10 +288,11 @@ msgid "In Windows, Mac OS, or other Linux distributions"
 msgstr "A Windows, a Mac OS vagy más Linux disztribúciók esetén"
 
 #: ../../burn.rst:25
-msgid "Download `Etcher <https://etcher.io/>`_, install it and run it."
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
 msgstr ""
-"Töltse le az `Etcher <https://etcher.io/>`_ programot, majd telepítés után "
-"és futtassa."
+"Töltse le az `Etcher <https://www.balena.io/etcher/>`_ alkalmazást, "
+"telepítse, majd indítsa el."
 
 #: ../../burn.rst:31
 msgid "Using Etcher"
@@ -422,16 +423,16 @@ msgid "MATE"
 msgstr "MATE"
 
 #: ../../choose.rst:15
-msgid "A more stable, and faster desktop"
-msgstr "Egy stabilabb, és gyorsabb asztal"
+msgid "A more traditional, and faster desktop"
+msgstr "Hagyományosabb és gyorsabb asztali környezet"
 
 #: ../../choose.rst:16 ../../choose.rst:44
 msgid "Xfce"
 msgstr "Xfce"
 
 #: ../../choose.rst:16
-msgid "The most lightweight and the most stable"
-msgstr "A legkönnyebb és a legstabilabb"
+msgid "The most lightweight desktop"
+msgstr "A legkönnyebb asztali környezet"
 
 #: ../../choose.rst:19
 msgid ""
@@ -448,15 +449,15 @@ msgid ""
 "Linux Mint is also involved in the development of MATE, a classic desktop "
 "environment which is the continuation of GNOME 2, Linux Mint's default "
 "desktop between 2006 and 2011. Although it misses a few features and its "
-"development is slower than Cinnamon's, MATE runs faster, uses less resources "
-"and is more stable than Cinnamon."
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
 msgstr ""
-"A Linux Mint is részt vesz a MATE fejlesztésében, ami egy klasszikus asztali "
-"környezet, amely a GNOME 2 továbbfejlesztése. Ez volt a Linux Mint "
-"alapértelmezett asztali környezete  2006 és 2011 között. Bár néhány funkció "
-"hiányozhat, és fejlesztése is lassabb, mint a Cinnamon szatali környezeté, a "
-"MATE gyorsabban fut, kevesebb erőforrást használ, valamint stabilabb is, "
-"mint a Cinnamon."
+"A Linux Mint csapat részt vesz a MATE fejlesztésében is. A MATE egy "
+"klasszikus asztali környezet, amely a GNOME 2 folytatása, Ez volt a Linux "
+"Mint alapértelmezett asztali környezete 2006 és 2011 között. A Cinnamon "
+"asztali környezethez képest kevesebb funkciót biztosít és a fejlesztése "
+"lassabban zajlik. A MATE kevesebb erőforrás igényel, így gyorsabban fut "
+"régebbi számítógépeken."
 
 #: ../../choose.rst:37
 msgid ""
@@ -510,20 +511,22 @@ msgid "32-bit or 64-bit?"
 msgstr "32 bit vagy 64 bit?"
 
 #: ../../choose.rst:56
-msgid "64-bit is recommended."
-msgstr "A 64 bites ajánlott."
+msgid "From version 20 onward, only 64-bit is available."
+msgstr ""
+"A 20-as verziótól kezdődően kizárólag 64 bites változatban érhető el."
 
 #: ../../choose.rst:58
 msgid ""
-"The 32-bit ISO images are provided for compatibility with older computers. "
-"32-bit processors are extremely rare nowadays and most computers are able to "
-"run in 64-bit. If your computer was manufactured after 2007, you probably "
-"have a 64-bit processor."
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
 msgstr ""
-"A 32 bites ISO-lemezképfájlok kompatibilisek a régebbi számítógépekkel. "
-"Manapság a 32 bites processzorok rendkívül ritkák, és a legtöbb számítógép "
-"képes 64 bites futtatásra. Ha az Ön számítógépét 2007 után gyártották, akkor "
-"valószínűleg 64 bites processzorral rendelkezik."
+"Az előző verziók 32 bites ISO-lemezképfájljai a régebbi számítógépekkel való "
+"kompatibilitást biztosította. A kizárólag 32 bites utasításokat támogató "
+"processzorok nagyon ritkák manapság, és a legtöbb számítógép képes 64 bites "
+"programkódokat futtatni. Amennyiben a számítógépet 2007 után gyártották, jó "
+"eséllyel 64 bites processzort tartalmaz."
 
 #: ../../choose.rst:60
 msgid ""
@@ -542,6 +545,20 @@ msgid ""
 msgstr ""
 "Megpróbálhatja a Linux Mint 64 bites rendszer futtatását a számítógépén. Ha  "
 "nem kompatibilis, semmi  nem fog történni. Csak hibaüzenetet fog kapni."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Amennyiben nem tud rendszerindítást végezni a számítógépen és telepíteni a "
+"Linux Mint rendszert, mert túl új a számítógép és nem érzékeli a számítógép "
+"összetevőit, amire telepítené, akkor tekintse meg a `Edge ISO-"
+"lemezkép<https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html>`_ "
+"fejezetet a Linux Mint Felhasználói Kézikönyvet az alternatív ISO-lemezkép "
+"fájlokról."
 
 #: ../../codecs.rst:2
 msgid "Multimedia codecs"
@@ -701,8 +718,10 @@ msgid "Open a terminal."
 msgstr "Nyisson meg egy terminált."
 
 #: ../../efi.rst:33
-msgid "Type ``sudo efibootmgr``."
-msgstr "Írja be a ``sudo efibootmgr`` parancsot."
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr ""
+"Írja be ``sudo efibootmgr`` parancsot, majd nyomja le az :kbd:`Enter` "
+"billentyűt."
 
 #: ../../efi.rst:35
 msgid "This command lists the available boot options and the boot order."
@@ -1008,7 +1027,7 @@ msgid ""
 ":kbd:`Enter`."
 msgstr ""
 "Az élő munkamenet felhasználóneve ``mint``. Ha jelszót kér a rendszer, "
-"nyomja meg :kbd: `Enter` billentyűt."
+"nyomja le az :kbd: `Enter` billentyűt."
 
 #: ../../install.rst:25
 msgid "Installing Linux Mint on the computer"
@@ -1206,13 +1225,14 @@ msgstr "Nyelvi támogatás"
 #: ../../locales.rst:4
 msgid ""
 "Language support includes translations but also packages related to spell-"
-"checking, synonyms, hyphenation and dictionnaries which enhance your "
+"checking, synonyms, hyphenation and dictionaries which enhance your "
 "experience in software applications such as LibreOffice."
 msgstr ""
-"A nyelvi támogatás magában foglalja a fordításokat, valamint a helyesírás-"
-"ellenőrzéssel, szinonimákkal, elválasztással és szótárakkal kapcsolatos "
-"csomagokat is, amelyek növelik az alkalmazásokban, például a LibreOffice-ban "
-"a felhasználói élményt."
+"A nyelvi támogatás a felhasználói felület fordításait is tartalmazza, de "
+"emellett olyan csomagokat is tartalmaz, amelyek a helyesírás-ellenőrzés, "
+"szinonima szótár, elválasztási szótár és nyelvi szótár szolgáltatásokat "
+"biztosítva javítva a felhasználói élményt az olyan alkalmazások számára, "
+"mint a LibreOffice irodai programcsomag."
 
 #: ../../locales.rst:6
 msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
@@ -1280,8 +1300,10 @@ msgid "If Windows overwrites your boot sequence:"
 msgstr "Ha a Windows felülírja a rendszerindítási sorrendet:"
 
 #: ../../multiboot.rst:22
-msgid "To list your partitions, type ``lsblk -f``."
-msgstr "A partíciók felsorolásához írja be a ``lsblk -f`` parancsot."
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"A partíciók kilistázásához írja be az: ``lsblk -f`` parancsot, majd nyomja "
+"le az :kbd:`Enter` billentyűt."
 
 #: ../../multiboot.rst:28
 msgid ""
