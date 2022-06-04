@@ -3,20 +3,20 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 16:31+0100\n"
-"PO-Revision-Date: 2022-05-20 02:25+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2022-06-04 15:08+0200\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2022-06-03 10:17+0000\n"
-"X-Generator: Launchpad (build 2bd3059e291a17cbaa73ca126a7af375ef8c96e5)\n"
-"X-Poedit-SearchPath-1: git/cinnamon\n"
-"X-Poedit-SearchPath-0: git/cinnamon_desktop\n"
-"X-Poedit-SearchPath-2: git/cinnamon-l10n-hu\n"
-"X-Poedit-SearchPath-3: translation\n"
+"X-Generator: Poedit 2.3\n"
 "Language: hu_HU\n"
 "X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: git/cinnamon_desktop\n"
+"X-Poedit-SearchPath-1: git/cinnamon\n"
+"X-Poedit-SearchPath-2: git/cinnamon-l10n-hu\n"
+"X-Poedit-SearchPath-3: translation\n"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:134
 msgid "Linux Mint version"
@@ -27,8 +27,7 @@ msgid "Checking your version of Linux Mint..."
 msgstr "Az Ön által használt Linux Mint verzió ellenőrzése…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:142
-msgid ""
-"Your version of Linux Mint is unknown. /etc/linuxmint/info is missing."
+msgid "Your version of Linux Mint is unknown. /etc/linuxmint/info is missing."
 msgstr ""
 "A telepített Linux Mint verziója ismeretlen, mert a „/etc/linuxmint/info” "
 "fájl nem létezik."
@@ -99,6 +98,8 @@ msgstr ""
 msgid ""
 "Some of your packages are broken. Run 'apt install -f' to fix the issue."
 msgstr ""
+"Néhány törött csomag található. A hiba javításához futtassa az „apt install -"
+"f'” parancsot."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:250
 msgid ""
@@ -108,7 +109,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:271
 msgid "The following operations need to be performed:"
-msgstr ""
+msgstr "A következő műveleteket kell végrehajtani:"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:273
 #: usr/lib/linuxmint/mintupgrade/checks.py:469
@@ -163,6 +164,8 @@ msgstr "%s nem érhető el"
 #, python-format
 msgid "%s is not up to date. Switch to a different mirror."
 msgstr ""
+"A(z) %s kiszolgáló csomagjai nem frissek. Váltson át egy másik "
+"tükörkiszolgálóra."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:391
 #, python-format
@@ -198,8 +201,7 @@ msgid "Looking for foreign packages..."
 msgstr "Külső csomagok keresése…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:467
-msgid ""
-"The following packages need to be downgraded back to official versions:"
+msgid "The following packages need to be downgraded back to official versions:"
 msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:469
@@ -216,7 +218,7 @@ msgstr "Archívum"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:474
 msgid "Otherwise these packages can create conflicts."
-msgstr ""
+msgstr "Ezek a csomagok konfliktust okozhatnak."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:489
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:16
@@ -229,7 +231,7 @@ msgstr "Árván maradt csomagok keresése…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:507
 msgid "The following packages do not exist in the repositories:"
-msgstr ""
+msgstr "A következő csomagok nincsenek a csomagtárolókban:"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:514
 msgid ""
@@ -292,7 +294,7 @@ msgstr "További információk"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:608
 msgid "The information below might help solve the issue."
-msgstr ""
+msgstr "Az alábbi információk segíthetnek a probléma elhárításában."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:609
 #: usr/lib/linuxmint/mintupgrade/checks.py:622
@@ -314,15 +316,20 @@ msgstr "Hozzáadott csomagok"
 #, python-format
 msgid "Packages updated: %d, added: %d , kept: %d, deleted: %d"
 msgstr ""
+"Összesen %d csomag frissítve: %d telepített csomag, %d visszatartott csomag, "
+"%d törölt csomag"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:615
 msgid "Upgrading will perform the following changes."
 msgstr ""
+"A rendszermegújítás a következő módosításokat hajtja végre a rendszeren."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:624
 msgid ""
 "Note: Ideally, no packages should be kept. This might indicate an issue."
 msgstr ""
+"Megjegyzés: Ideális esetben nem kellene visszatartott csomagnak lennie. Ez "
+"esetleg valami hibát jelezhet."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:628
 msgid ""
@@ -334,11 +341,14 @@ msgstr ""
 #, python-format
 msgid "You need %s on '%s' but only have %s. You must free an additional %s."
 msgstr ""
+"További %s helyre van szükség a(z) „%s” helyen, de csak %s hely van. "
+"Szabadítson fel további %s helyet."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:729
 #, python-format
 msgid "Download size: %s. Additional space needed: %s."
 msgstr ""
+"Letöltési méret: %s, a művelet után %s lemezterület kerül felhasználásra."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:735
 msgid "Package download"
@@ -350,7 +360,7 @@ msgstr "Csomagok letöltése…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:741
 msgid "An error occurred while downloading the packages."
-msgstr ""
+msgstr "Hiba történt a csomagok letöltése közben."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:748
 msgid "Session inhibition"
@@ -414,13 +424,15 @@ msgstr "A „/etc/fstab” fájl módosítva lett a rendszermegújítás során.
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:888
 msgid ""
-"To ensure a successful boot, the upgrade tool restored your original "
-"/etc/fstab"
+"To ensure a successful boot, the upgrade tool restored your original /etc/"
+"fstab"
 msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:889
 msgid "A copy of the modified file was saved as /etc/fstab.upgraded"
 msgstr ""
+"Készült egy biztonsági másolat a megváltozott fájlról „/etc/fstab.upgraded” "
+"néven"
 
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:64
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:331 generate_desktop_files:26
@@ -471,7 +483,7 @@ msgstr "2. fázis: tervezés és letöltés"
 
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:206
 msgid "Your package repositories will now point towards the new release."
-msgstr ""
+msgstr "A csomagtárolók hivatkozásai már az új verzióra mutatnak."
 
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:207
 msgid "A few more tests will be run and package updates will be downloaded."
@@ -483,7 +495,7 @@ msgstr "3. fázis: rendszermegújítás"
 
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:215
 msgid "The packages will now be upgraded."
-msgstr ""
+msgstr "A csomagok frissítve lesznek."
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:4
 msgid ""
@@ -519,10 +531,11 @@ msgstr "A rendszermegújítás sikeresen végrehajtva."
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:11
 msgid "Reboot the computer for all the changes to take effect."
 msgstr ""
+"A változtatások érvényre juttatásához újra kell indítani a számítógépet."
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:12
 msgid "Recent Timeshift snapshot"
-msgstr ""
+msgstr "Legfrissebb Timeshift pillanatkép"
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:13
 msgid "Applied software updates"

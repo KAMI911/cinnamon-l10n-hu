@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-05-24 13:31+0100\n"
-"PO-Revision-Date: 2018-05-01 08:48+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2022-06-04 14:56+0200\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2022-06-03 10:16+0000\n"
-"X-Generator: Launchpad (build 2bd3059e291a17cbaa73ca126a7af375ef8c96e5)\n"
+"X-Generator: Poedit 2.3\n"
 "Language: hu\n"
 
 #: src/Console/AppConsole.vala:615
@@ -89,7 +89,7 @@ msgstr "Névjegy"
 
 #: src/Gtk/RsyncLogBox.vala:472
 msgid "Action"
-msgstr ""
+msgstr "Művelet"
 
 #: src/Gtk/ExcludeBox.vala:225
 msgid "Add"
@@ -135,7 +135,7 @@ msgstr ""
 
 #: src/Gtk/RsyncLogBox.vala:363
 msgid "All Files"
-msgstr ""
+msgstr "Minden fájl"
 
 #: src/Gtk/SnapshotBackendBox.vala:189
 msgid ""
@@ -194,8 +194,7 @@ msgstr "Alkalmazás beállítások elmentve"
 
 #: src/Console/AppConsole.vala:102
 msgid "Application needs admin access."
-msgstr ""
-"Az alkalmazásnak rendszergazda jogosultságú hozzáférésre van szüksége."
+msgstr "Az alkalmazásnak rendszergazda jogosultságú hozzáférésre van szüksége."
 
 #: src/Core/Main.vala:3560
 msgid "Application will exit"
@@ -238,6 +237,8 @@ msgid ""
 "BTRFS snapshots are saved on system partition. Other partitions are not "
 "supported."
 msgstr ""
+"A BTRFS pillanatképek a rendszer partícióra lettek elmentve. További "
+"partíciók mentése nem támogatottak."
 
 #: src/Gtk/FinishBox.vala:92
 msgid ""
@@ -291,6 +292,8 @@ msgstr "A rendszerindító pillanatkép meghibásodott."
 msgid ""
 "Boot snapshots are created with a delay of 10 minutes after system startup."
 msgstr ""
+"Pillanatkép készítése a BTRFS fájlrendszer beépített képességeinek "
+"használatával."
 
 #: src/Core/Main.vala:1014
 msgid "Boot snapshots are enabled"
@@ -360,7 +363,7 @@ msgstr "Megváltozott elemek:"
 
 #: src/Gtk/RestoreWindow.vala:104
 msgid "Checking Restore Actions (Dry Run)"
-msgstr ""
+msgstr "Visszaállítási művelet ellenőrzése (módosítás nélkül)"
 
 #: src/Core/Main.vala:2761
 msgid "Checking file systems for errors..."
@@ -384,6 +387,7 @@ msgstr ""
 #: src/Gtk/ExcludeBox.vala:59
 msgid "Click to edit. Drag-drop to re-order."
 msgstr ""
+"Kattintson a szerkesztéshez. Az elemek sorrendjét húzással átrendezheti."
 
 #: src/Gtk/RestoreWindow.vala:69
 msgid "Clone System"
@@ -424,11 +428,11 @@ msgstr ""
 #: src/Core/Main.vala:2804 src/Gtk/RestoreBox.vala:74
 #: src/Gtk/RestoreBox.vala:187
 msgid "Comparing Files (Dry Run)..."
-msgstr ""
+msgstr "Fájlok összehasonlítása (módosítás nélkül)…"
 
 #: src/Core/Main.vala:2570
 msgid "Comparing files with rsync..."
-msgstr ""
+msgstr "Fájlok szinkronizálása rsync alkalmazással…"
 
 #: src/Gtk/DeleteFinishBox.vala:50 src/Gtk/RestoreFinishBox.vala:50
 #: src/Gtk/RestoreFinishBox.vala:75 src/Gtk/BackupFinishBox.vala:50
@@ -441,7 +445,7 @@ msgstr "Befejezve hibákkal"
 
 #: src/Gtk/RestoreWindow.vala:109 src/Gtk/RsyncLogBox.vala:87
 msgid "Confirm Actions"
-msgstr ""
+msgstr "Erősítse meg a következő műveleteket"
 
 #: src/Console/AppConsole.vala:1070
 #, c-format
@@ -450,7 +454,7 @@ msgstr "Folytatja visszaállítással? (y/n): "
 
 #: src/Utility/Gtk/AboutWindow.vala:429
 msgid "Contributors"
-msgstr ""
+msgstr "Közreműködők"
 
 #: src/Console/AppConsole.vala:836 src/Console/AppConsole.vala:967
 msgid "Could not find device"
@@ -527,7 +531,7 @@ msgstr ""
 
 #: src/Gtk/SnapshotBackendBox.vala:96
 msgid "Create snapshots using BTRFS"
-msgstr ""
+msgstr "Pillanatkép készítése BTRFS használatával"
 
 #: src/Gtk/SnapshotBackendBox.vala:78
 msgid "Create snapshots using RSYNC tool and hard-links"
@@ -596,7 +600,7 @@ msgstr "Ütemezett (cron) feladat már létezik"
 
 #: src/Gtk/MiscBox.vala:98
 msgid "Custom"
-msgstr ""
+msgstr "Egyéni"
 
 #: src/Gtk/SnapshotListBox.vala:300 src/Gtk/ScheduleBox.vala:100
 msgid "Daily"
@@ -616,7 +620,7 @@ msgstr "Adatok a következő eszközökön lesznek módosítva:"
 
 #: src/Gtk/MiscBox.vala:71
 msgid "Date Format"
-msgstr ""
+msgstr "Dátumformátum"
 
 #: src/Console/AppConsole.vala:371 src/Gtk/SnapshotListBox.vala:322
 #: src/Gtk/MainWindow.vala:161 src/Gtk/RsyncLogBox.vala:370
@@ -710,12 +714,12 @@ msgstr "Az eszköz nem található"
 #: src/Gtk/BackupDeviceBox.vala:97
 #, c-format
 msgid "Devices displayed above have BTRFS file systems."
-msgstr ""
+msgstr "Eszközök Linux fájlrendszerekkel"
 
 #: src/Gtk/BackupDeviceBox.vala:104
 #, c-format
 msgid "Devices displayed above have Linux file systems."
-msgstr ""
+msgstr "Eszközök Linux fájlrendszerekkel"
 
 #: src/Gtk/RestoreDeviceBox.vala:84
 msgid "Devices from which snapshot was created are pre-selected."
@@ -729,6 +733,8 @@ msgstr "Eszközök Linux fájlrendszerekkel"
 #: src/Gtk/BackupDeviceBox.vala:105
 msgid "Devices with Windows file systems are not supported (NTFS, FAT, etc)."
 msgstr ""
+"Windows-os fájlrendszerrel rendelkező eszközök nem támogatottak (NTFS, FAT, "
+"stb.)."
 
 #: src/Core/SnapshotRepo.vala:970
 msgid "Directory not found"
@@ -748,7 +754,7 @@ msgstr "Disztribúció"
 
 #: src/Utility/Gtk/AboutWindow.vala:453
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentáció"
 
 #: src/Utility/Gtk/DonationWindow.vala:43
 #: src/Utility/Gtk/DonationWindow.vala:76 src/Gtk/MainWindow.vala:376
@@ -761,7 +767,7 @@ msgstr "Adományok"
 
 #: src/Gtk/UsersBox.vala:357
 msgid "Enable BTRFS qgroups (recommended)"
-msgstr ""
+msgstr "A BTRFS kvóta csoportok bekapcsolása (ajánlott)"
 
 #: src/Gtk/MainWindow.vala:1053
 msgid "Enable scheduled snapshots to protect your system"
@@ -809,7 +815,7 @@ msgstr "Hiba"
 
 #: src/Gtk/RestoreWindow.vala:475
 msgid "Error running Rsync"
-msgstr ""
+msgstr "Hiba az Rsync futtatásakor"
 
 #: src/Gtk/BackupWindow.vala:82 src/Gtk/SetupWizardWindow.vala:99
 msgid "Estimate"
@@ -829,7 +835,7 @@ msgstr "Példák"
 
 #: src/Gtk/UsersBox.vala:136
 msgid "Exclude All Files"
-msgstr ""
+msgstr "Mindent kihagy"
 
 #: src/Gtk/RestoreExcludeBox.vala:55 src/Gtk/ExcludeAppsBox.vala:51
 msgid "Exclude Application Settings"
@@ -898,7 +904,7 @@ msgstr "A fájl törlése meghiúsult"
 
 #: src/Core/Subvolume.vala:153
 msgid "Failed to delete snapshot nested subvolume"
-msgstr ""
+msgstr "A pillanatkép vonatkozó alkötetének törlése meghiúsult"
 
 #: src/Core/Subvolume.vala:163
 msgid "Failed to delete snapshot subvolume"
@@ -1015,11 +1021,11 @@ msgstr "A fájl írása meghiúsult"
 
 #: src/Gtk/RsyncLogBox.vala:122
 msgid "File (snapshot)"
-msgstr ""
+msgstr "Pillanatkép törlése"
 
 #: src/Gtk/RsyncLogBox.vala:119
 msgid "File (system)"
-msgstr ""
+msgstr "Fájlrendszer"
 
 #: src/Gtk/ExcludeMessageWindow.vala:98
 msgid "File Pattern"
@@ -1061,7 +1067,7 @@ msgstr "Fájlrendszer"
 
 #: src/Gtk/RsyncLogBox.vala:302
 msgid "Filter by name or path"
-msgstr ""
+msgstr "Adja meg az eszköz nevét vagy azonosítóját"
 
 #: src/Gtk/SettingsWindow.vala:103
 msgid "Filters"
@@ -1114,7 +1120,7 @@ msgstr "Az initramfs előállítása…"
 
 #: src/Utility/Gtk/DonationWindow.vala:87
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: src/Console/AppConsole.vala:375
 msgid "Global"
@@ -1128,7 +1134,7 @@ msgstr "Csoport"
 
 #: src/Gtk/SnapshotBackendBox.vala:133
 msgid "Help"
-msgstr ""
+msgstr "Súgó"
 
 #: src/Gtk/ExcludeMessageWindow.vala:129
 msgid ""
@@ -1197,7 +1203,7 @@ msgstr "A @home alkötet felvétele a mentésekbe"
 
 #: src/Gtk/UsersBox.vala:266
 msgid "Include All Files"
-msgstr ""
+msgstr "Mindent ment"
 
 #: src/Gtk/UsersBox.vala:194
 msgid "Include Only Hidden Files"
@@ -1335,7 +1341,7 @@ msgstr "Legújabb pillanatkép"
 
 #: src/Utility/Gtk/AboutWindow.vala:320 src/Utility/Gtk/AboutWindow.vala:360
 msgid "License"
-msgstr ""
+msgstr "Licenc"
 
 #: src/Core/Main.vala:1365
 #, c-format
@@ -1382,11 +1388,11 @@ msgstr "Menü"
 
 #: src/Gtk/SettingsWindow.vala:105
 msgid "Misc"
-msgstr ""
+msgstr "Egyéb"
 
 #: src/Gtk/UsersBox.vala:354
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Egyebek"
 
 #: src/Core/Main.vala:239
 msgid "Missing Dependencies"
@@ -1416,7 +1422,7 @@ msgstr "A havi pillanatkép készítése meghiúsult."
 
 #: src/Utility/Gtk/DonationWindow.vala:102
 msgid "More Apps"
-msgstr ""
+msgstr "További alkalmazások"
 
 #: src/Core/Main.vala:2134 src/Core/Main.vala:2167
 msgid "Mount"
@@ -1484,7 +1490,7 @@ msgstr "Nincs"
 #: src/Core/Subvolume.vala:197
 #, c-format
 msgid "Not Found"
-msgstr ""
+msgstr "Nem található"
 
 #: src/Core/SnapshotRepo.vala:655
 msgid "Not Selected"
@@ -1544,7 +1550,7 @@ msgstr "Legrégebbi pillanatkép"
 
 #: src/Gtk/SnapshotListBox.vala:297
 msgid "On demand (manual)"
-msgstr ""
+msgstr "Igény esetén (kézzel)"
 
 #: src/Core/Main.vala:382 src/Core/Main.vala:3473
 #: src/Gtk/RestoreDeviceBox.vala:525
@@ -1656,7 +1662,7 @@ msgstr "Kérem várjon a pillanatkép törléséig."
 
 #: src/Gtk/EstimateBox.vala:66
 msgid "Please wait..."
-msgstr ""
+msgstr "Kis türelmet…"
 
 #: src/Gtk/RsyncLogBox.vala:188
 msgid "Populating list..."
@@ -1735,7 +1741,7 @@ msgstr "Frissítés"
 
 #: src/Gtk/BackupDeviceBox.vala:106
 msgid "Remote and network locations are not supported."
-msgstr ""
+msgstr "Más alkalmazások (következő oldal)"
 
 #: src/Gtk/ExcludeBox.vala:262
 msgid "Remove"
@@ -1788,7 +1794,7 @@ msgstr "Visszaállítás"
 
 #: src/Gtk/UsersBox.vala:329
 msgid "Restore @home subvolume"
-msgstr ""
+msgstr "A @home alkötet visszaállítása"
 
 #: src/Gtk/RestoreWindow.vala:89
 msgid "Restore Device"
@@ -1868,7 +1874,7 @@ msgstr "Nincs kiválasztva root eszköz"
 
 #: src/Gtk/RsyncLogWindow.vala:49
 msgid "Rsync Log Viewer"
-msgstr ""
+msgstr "Naplómegjelenítő"
 
 #: src/Gtk/AppGtk.vala:120
 #, c-format
@@ -2198,7 +2204,7 @@ msgstr "Pillanatkép létrehozva"
 #: src/Gtk/SnapshotListBox.vala:296
 #, c-format
 msgid "Snapshot Levels"
-msgstr ""
+msgstr "Pillanatkép szintjének kiválasztása"
 
 #: src/Gtk/MainWindow.vala:755
 msgid "Snapshot deletion in progress..."
@@ -2269,7 +2275,7 @@ msgstr ""
 #: src/Gtk/ScheduleBox.vala:167
 #, c-format
 msgid "Snapshots are not scheduled at fixed times."
-msgstr ""
+msgstr "Nincs kiválasztva pillanatkép eszköz"
 
 #: src/Gtk/SnapshotBackendBox.vala:174
 msgid ""
@@ -2376,12 +2382,12 @@ msgstr "Leállítva"
 #: src/Core/Subvolume.vala:202
 #, c-format
 msgid "Subvolume exists at destination"
-msgstr ""
+msgstr "Az alkötet már létezik a cél helyen"
 
 #: src/Gtk/SnapshotListBox.vala:275
 #, c-format
 msgid "Subvolumes"
-msgstr ""
+msgstr "Alkötetek"
 
 #: src/Gtk/ExcludeBox.vala:267 src/Gtk/RestoreWindow.vala:120
 #: src/Gtk/ExcludeAppsBox.vala:135
@@ -2530,11 +2536,11 @@ msgstr ""
 
 #: src/Utility/Gtk/AboutWindow.vala:461
 msgid "Tools"
-msgstr ""
+msgstr "Eszközök"
 
 #: src/Utility/Gtk/AboutWindow.vala:445
 msgid "Translations"
-msgstr ""
+msgstr "Fordítások"
 
 #: src/Utility/Device.vala:1949 src/Console/AppConsole.vala:459
 #: src/Console/AppConsole.vala:498 src/Gtk/BackupDeviceBox.vala:190
@@ -2649,7 +2655,7 @@ msgstr "Felhasználók"
 
 #: src/Gtk/RestoreWindow.vala:114
 msgid "Users Home"
-msgstr ""
+msgstr "Felhasználók saját mappái"
 
 #: src/Utility/Device.vala:1933
 #, c-format
@@ -2658,11 +2664,11 @@ msgstr "Gyártó"
 
 #: src/Gtk/SnapshotListBox.vala:343
 msgid "View Rsync Log for Create"
-msgstr ""
+msgstr "Mentési napló megjelenítése"
 
 #: src/Gtk/SnapshotListBox.vala:350
 msgid "View Rsync Log for Restore"
-msgstr ""
+msgstr "Visszaállítási napló megjelenítése"
 
 #: src/Gtk/MainWindow.vala:370
 msgid "View TimeShift Logs"
@@ -2670,7 +2676,7 @@ msgstr "Timeshift naplók megjelenítése"
 
 #: src/Utility/Gtk/DonationWindow.vala:100
 msgid "Visit Website"
-msgstr ""
+msgstr "Weboldal felkeresése"
 
 #: src/Gtk/RestoreDeviceBox.vala:101
 msgid "Volume"
@@ -2698,7 +2704,7 @@ msgstr "Heti pillanatképek készítése bekapcsolva"
 
 #: src/Utility/Gtk/DonationWindow.vala:90
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #: src/Gtk/DeleteFinishBox.vala:63 src/Gtk/BackupFinishBox.vala:63
 msgid "With Errors"
@@ -2798,7 +2804,7 @@ msgstr "nem kijelölt"
 
 #: src/share/polkit-1/actions/in.teejeetech.pkexec.timeshift.policy:9
 msgid "Timeshift"
-msgstr ""
+msgstr "Timeshift"
 
 #: src/share/polkit-1/actions/in.teejeetech.pkexec.timeshift.policy:10
 #: src/share/polkit-1/actions/in.teejeetech.pkexec.timeshift.policy:22
