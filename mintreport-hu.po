@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2021-11-24 14:07+0000\n"
+"POT-Creation-Date: 2022-05-24 17:21+0100\n"
 "PO-Revision-Date: 2021-12-05 07:56+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2022-04-27 12:23+0000\n"
-"X-Generator: Launchpad (build d1f338057774b3aeb23c56e3c6f28239243533fb)\n"
+"X-Launchpad-Export-Date: 2022-06-03 10:16+0000\n"
+"X-Generator: Launchpad (build 2bd3059e291a17cbaa73ca126a7af375ef8c96e5)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintreport/app.py:84
@@ -39,7 +39,7 @@ msgid "Restore ignored reports"
 msgstr "Figyelmen kívül hagyott jelentések visszaállítása"
 
 #: usr/lib/linuxmint/mintreport/app.py:209
-#: usr/lib/linuxmint/mintreport/tray.py:53
+#: usr/lib/linuxmint/mintreport/tray.py:58
 msgid "Quit"
 msgstr "Kilépés"
 
@@ -141,13 +141,29 @@ msgstr ""
 "A veremkiíratás elérhető a „Helyi fájlok” listájánál, de a tartalma lehet, "
 "hogy nem pontos."
 
-#: usr/lib/linuxmint/mintreport/tray.py:49
+#: usr/lib/linuxmint/mintreport/tray.py:54
 msgid "Show System Reports"
 msgstr "Rendszerjelentések megjelenítése"
 
-#: usr/lib/linuxmint/mintreport/tray.py:117
+#: usr/lib/linuxmint/mintreport/tray.py:132
 msgid "Some system reports require your attention"
 msgstr "Néhány rendszerjelentés az Ön közreműködését igényli"
+
+#: usr/lib/linuxmint/mintreport/tray.py:148
+msgid "System Snapshots"
+msgstr ""
+
+#: usr/lib/linuxmint/mintreport/tray.py:148
+msgid "A Timeshift system snapshot is being created."
+msgstr ""
+
+#: usr/lib/linuxmint/mintreport/tray.py:149
+msgid "Automatic Updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintreport/tray.py:149
+msgid "Automatic updates are being installed."
+msgstr ""
 
 #: generate_desktop_files:25 generate_desktop_files:39
 #: generate_desktop_files:53 generate_desktop_files:67
