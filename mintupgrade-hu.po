@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 16:31+0100\n"
-"PO-Revision-Date: 2022-06-04 15:08+0200\n"
+"PO-Revision-Date: 2022-06-05 19:52+0200\n"
 "Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -79,6 +79,8 @@ msgid ""
 "If the upgrade isn't successful, a system snapshot will allow you to go back "
 "in time and revert all the changes."
 msgstr ""
+"Ha a frissítés nem sikerül, a rendszer pillanatfelvétele lehetővé teszi, "
+"hogy visszamenjen az időben, és visszaállítsa az összes módosítást."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:204
 msgid "APT cache"
@@ -93,6 +95,8 @@ msgid ""
 "Your package cache can't refresh correctly. Run 'apt update' and fix the "
 "errors it displays."
 msgstr ""
+"A csomag gyorsítótár nem tud megfelelően frissülni. Futtassa le az „apt "
+"update” parancsot, és javítsa ki az ott megjelenő hibákat."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:231
 msgid ""
@@ -106,6 +110,8 @@ msgid ""
 "Your operating system is not up to date. Apply available updates before "
 "attempting the upgrade."
 msgstr ""
+"Az operációs rendszer nem naprakész. A frissítés megkísérlése előtt "
+"telepítse a rendelkezésre álló frissítéseket."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:271
 msgid "The following operations need to be performed:"
@@ -141,7 +147,7 @@ msgstr "Csomagtárolók ellenőrzése…"
 msgid ""
 "The following repositories do not explicitly support your version of Linux "
 "Mint."
-msgstr ""
+msgstr "A következő csomagtárolók nem támogatják a Linux Mint ezen verzióját."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:342
 msgid "These repositories need to be disabled."
@@ -202,7 +208,7 @@ msgstr "Külső csomagok keresése…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:467
 msgid "The following packages need to be downgraded back to official versions:"
-msgstr ""
+msgstr "A következő csomagokat vissza kell állítani a hivatalos verziókra:"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:469
 msgid "Installed Version"
@@ -238,14 +244,18 @@ msgid ""
 "Add the packages you want to keep using the preferences, then press 'Check "
 "again'."
 msgstr ""
+"Adja hozzá azokat a csomagokat, amelyeket meg szeretne tartani, majd nyomja "
+"meg az „Újraellenőrzés” gombot."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:515
 msgid "Then press 'Fix' to remove the packages listed above."
 msgstr ""
+"Ezután nyomja meg a „Javítás” gombot a fent felsorolt csomagok "
+"eltávolításához."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:527
 msgid "Pointing to the new release..."
-msgstr ""
+msgstr "Az új kiadásra mutatva…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:563
 msgid "Upgrade simulation"
@@ -254,6 +264,8 @@ msgstr "Megújítás szimuláció"
 #: usr/lib/linuxmint/mintupgrade/checks.py:563
 msgid "Simulating upgrade to check hard disk space and potential issues..."
 msgstr ""
+"Szimulált megújítás a merevlemez helyfoglalás és az esetleges problémák "
+"ellenőrzésére…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:595
 msgid "The simulation was not successful."
@@ -286,7 +298,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:605
 msgid "Don't hesitate to seek help on the forums and the chat room."
-msgstr ""
+msgstr "Nyugodtan kérjen segítséget a fórumokon és a csevegőszobában."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:607
 msgid "Additional information"
@@ -336,6 +348,8 @@ msgid ""
 "Go through the list above and make sure you are happy with the removals "
 "before going further with the upgrade."
 msgstr ""
+"Mielőtt tovább folytatná a frissítést, nézze át a fenti listát, és győződjön "
+"meg róla, hogy elégedett a tervezett csomag eltávolításokkal."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:725
 #, python-format
@@ -376,7 +390,7 @@ msgstr "Megújítás előkészítese"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:757
 msgid "Preparing the upgrade..."
-msgstr "Felkészülés a rendszermegújításra"
+msgstr "Felkészülés a rendszermegújításra…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:775
 msgid "Upgrade phase"
@@ -427,6 +441,8 @@ msgid ""
 "To ensure a successful boot, the upgrade tool restored your original /etc/"
 "fstab"
 msgstr ""
+"A sikeres rendszerindítás érdekében a megújító eszköz visszaállította az "
+"eredeti „/etc/fstab” fájlt."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:889
 msgid "A copy of the modified file was saved as /etc/fstab.upgraded"
@@ -476,6 +492,8 @@ msgid ""
 "A series of tests will now be performed to prepare the computer for the "
 "upgrade."
 msgstr ""
+"A számítógép a megújításra való felkészítése kapcsán most néhány dolog "
+"ellenőrizve lesz."
 
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:204
 msgid "Phase 2: Simulation and download"
@@ -488,6 +506,8 @@ msgstr "A csomagtárolók hivatkozásai már az új verzióra mutatnak."
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:207
 msgid "A few more tests will be run and package updates will be downloaded."
 msgstr ""
+"Még néhány ellenőrzés le lesz futtatva, ezután kerülnek letöltésre a csomag "
+"frissítések."
 
 #: usr/lib/linuxmint/mintupgrade/mintupgrade.py:213
 msgid "Phase 3: Upgrade"
@@ -518,7 +538,7 @@ msgstr "Javítás"
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:8
 msgid "Check again"
-msgstr "Ellenőrzés újra"
+msgstr "Újraellenőrzés"
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:9
 msgid "The following error occurred:"
@@ -546,6 +566,8 @@ msgid ""
 "These requirements are there to guarantee a safe upgrade. Only disable them "
 "if you know what you are doing."
 msgstr ""
+"Ezek a követelmények a biztonságos frissítés garantálására szolgálnak. Csak "
+"akkor tiltsa le őket, ha biztos benne, hogy ezt akarja tenni."
 
 #: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:15
 msgid "Supported Linux Mint version"
@@ -561,3 +583,6 @@ msgid ""
 "get removed during the upgrade. If you want to keep some of them, add them "
 "to the list below:"
 msgstr ""
+"Az árva csomagok olyan csomagok, amelyek nincsenek jelen a tárolókban. A "
+"frissítés során eltávolításra kerülnek. Ha néhányat meg akar tartani "
+"közülük, akkor adja hozzá őket az alábbi listához:"

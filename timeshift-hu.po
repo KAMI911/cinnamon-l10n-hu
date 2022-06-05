@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-05-24 13:31+0100\n"
-"PO-Revision-Date: 2022-06-04 14:56+0200\n"
+"PO-Revision-Date: 2022-06-05 08:24+0200\n"
 "Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -75,6 +75,8 @@ msgstr "<b>Megjegyzések</b> (dupla kattintással szerkeszthető)"
 msgid ""
 "A maintenance task runs once every hour and creates snapshots as needed."
 msgstr ""
+"A karbantartási feladat óránként egyszer fut le, és szükség szerint "
+"pillanatfelvételeket készít."
 
 #: src/Console/AppConsole.vala:700 src/Console/AppConsole.vala:764
 #: src/Console/AppConsole.vala:896 src/Console/AppConsole.vala:991
@@ -423,7 +425,7 @@ msgstr "Az alábbi parancsok nem elérhetőek ezen a rendszeren"
 
 #: src/Gtk/SnapshotListBox.vala:224
 msgid "Comments (click to edit)"
-msgstr ""
+msgstr "Megjegyzések (kattintással szerkeszthető)"
 
 #: src/Core/Main.vala:2804 src/Gtk/RestoreBox.vala:74
 #: src/Gtk/RestoreBox.vala:187
@@ -1203,11 +1205,11 @@ msgstr "A @home alkötet felvétele a mentésekbe"
 
 #: src/Gtk/UsersBox.vala:266
 msgid "Include All Files"
-msgstr "Mindent ment"
+msgstr "Minden fájl felvétele"
 
 #: src/Gtk/UsersBox.vala:194
 msgid "Include Only Hidden Files"
-msgstr ""
+msgstr "Csak rejtett fájlok felvétele"
 
 #: src/Core/Main.vala:2047
 msgid "Invalid Snapshot"
@@ -1375,7 +1377,7 @@ msgstr "A felhasználó bezárta a főablakot"
 
 #: src/Gtk/SnapshotListBox.vala:329
 msgid "Mark/Unmark for Deletion"
-msgstr ""
+msgstr "Törlésre jelölés"
 
 #: src/Core/SnapshotRepo.vala:684 src/Core/SnapshotRepo.vala:727
 msgid "Maximum backups exceeded for backup level"
@@ -1785,6 +1787,8 @@ msgid ""
 "Required for displaying shared and unshared size for snapshots in the main "
 "window"
 msgstr ""
+"Szükséges a pillanatképek megosztott és nem megosztott méretének "
+"megjelenítéséhez a főablakban"
 
 #: src/Console/AppConsole.vala:363 src/Gtk/MainWindow.vala:151
 #: src/Gtk/RestoreWindow.vala:125 src/Gtk/RsyncLogBox.vala:377
@@ -2311,12 +2315,16 @@ msgid ""
 "Snapshots are saved to /timeshift on selected partition. Other locations are "
 "not supported."
 msgstr ""
+"A pillanatképek a kiválasztott partíció „/timeshift” mappájába kerülnek. Nem "
+"lehet megadni más elérési utat."
 
 #: src/Gtk/BackupDeviceBox.vala:99
 msgid ""
 "Snapshots are saved to /timeshift-btrfs on selected partition. Other "
 "locations are not supported."
 msgstr ""
+"A pillanatképek a kiválasztott partíció „/timeshift-btrfs” mappájába "
+"kerülnek. Nem lehet megadni más elérési utat."
 
 #: src/Gtk/MainWindow.vala:997
 msgid "Snapshots available for restore"
@@ -2510,12 +2518,19 @@ msgid ""
 "the hope that it is useful but without any warranty or support. See the GNU "
 "General Public License v2 or later for more information"
 msgstr ""
+"Ez a szoftver ingyenes személyes és kereskedelmi használatra. Bárminemű "
+"garancia vagy támogatás nélkül kerül terjesztésre, abban a reményben , hogy "
+"a termék hasznos. További tudnivalókért tekintse meg a GNU General Public "
+"License licenc második vagy újabb verzióját."
 
 #: src/Utility/Gtk/DonationWindow.vala:70
 msgid ""
 "This software is updated once a year due to lack of time, developers, and "
 "funds. You can support this project by making a donation with PayPal."
 msgstr ""
+"Ezt a szoftvert idő-, fejlesztő- és pénzhiány miatt évente egyszer "
+"frissítik. Támogathatja ezt a projektet a PayPal rendszerén keresztül "
+"történő adományozással."
 
 #: src/Gtk/MainWindow.vala:1032 src/Gtk/MainWindow.vala:1043
 msgid "Timeshift is active"
@@ -2624,6 +2639,9 @@ msgid ""
 "Use the GitHub issue tracker for reporting issues, or post your questions on "
 "the Linux Mint forums. Please avoid reporting issues by email."
 msgstr ""
+"Használja a GitHub ügykövető rendszerét a problémák bejelentéséhez, vagy "
+"tegye fel kérdéseit a Linux Mint fórumain. Kérjük, kerülje a problémák e-"
+"mailben történő bejelentését."
 
 #: src/Utility/Device.vala:1956
 #, c-format
@@ -2809,8 +2827,9 @@ msgstr "Timeshift"
 #: src/share/polkit-1/actions/in.teejeetech.pkexec.timeshift.policy:10
 #: src/share/polkit-1/actions/in.teejeetech.pkexec.timeshift.policy:22
 msgid "Run Timeshift as Administrator"
-msgstr ""
+msgstr "Timeshift futtatása rendszergazdaként"
 
 #: src/share/polkit-1/actions/in.teejeetech.pkexec.timeshift.policy:21
 msgid "Authentication is required to run Timeshift as Administrator"
 msgstr ""
+"A Timeshift rendszergazdaként történő futtatásához hitelesítésre van szükség."
