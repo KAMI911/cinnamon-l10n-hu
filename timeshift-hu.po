@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-30 15:17+0200\n"
-"PO-Revision-Date: 2022-06-07 13:42+0000\n"
+"PO-Revision-Date: 2022-07-04 16:23+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-07-04 09:07+0000\n"
-"X-Generator: Launchpad (build f48158886a49da429840bcd298f0c7ed60f9ad7b)\n"
+"X-Launchpad-Export-Date: 2022-09-28 13:08+0000\n"
+"X-Generator: Launchpad (build 51d7c86a263563fbd9e884ec9127596444825394)\n"
 "Language: hu\n"
 
 #: src/Console/AppConsole.vala:615
@@ -316,7 +316,7 @@ msgstr "Fájllista készítése…"
 
 #: src/Core/Main.vala:1393
 msgid "Calculating required disk space..."
-msgstr ""
+msgstr "A szükséges lemezterület megállapítása…"
 
 #: src/Utility/Gtk/CustomMessageDialog.vala:152 src/Utility/GtkHelper.vala:109
 #: src/Gtk/RestoreWindow.vala:215 src/Gtk/RestoreWindow.vala:224
@@ -2297,7 +2297,7 @@ msgstr "Leállítva"
 
 #: src/Gtk/RestoreDeviceBox.vala:101
 msgid "Subvolume"
-msgstr ""
+msgstr "Alkötet"
 
 #: src/Core/Subvolume.vala:187
 #, c-format
@@ -2328,11 +2328,11 @@ msgstr "Szimbolikus linkek frissítve"
 
 #: src/Core/Main.vala:2531
 msgid "Syncing file systems..."
-msgstr ""
+msgstr "Fájlrendszerek szinkronizálása…"
 
 #: src/Core/Main.vala:1510 src/Core/Main.vala:2701 src/Core/Main.vala:2942
 msgid "Syncing files with rsync..."
-msgstr ""
+msgstr "Fájlok szinkronizálása rsync alkalmazással…"
 
 #: src/Gtk/AppGtk.vala:113
 msgid "Syntax"
@@ -2624,6 +2624,8 @@ msgid ""
 "[For Experienced Users] Change these settings if the restored system fails "
 "to boot."
 msgstr ""
+"[Haladó felhasználóknak] Kizárólag akkor változtassa meg ezeket a "
+"beállításokat, ha a visszaállított rendszer nem tud elindulni."
 
 #: src/Utility/AppLock.vala:54
 msgid "[Warning] Deleted invalid lock"
