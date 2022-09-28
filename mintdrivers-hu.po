@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2022-06-03 10:11+0000\n"
-"X-Generator: Launchpad (build 2bd3059e291a17cbaa73ca126a7af375ef8c96e5)\n"
+"X-Launchpad-Export-Date: 2022-07-04 08:59+0000\n"
+"X-Generator: Launchpad (build f48158886a49da429840bcd298f0c7ed60f9ad7b)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:60 generate_desktop_files:26

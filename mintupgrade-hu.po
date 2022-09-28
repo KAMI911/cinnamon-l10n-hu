@@ -3,19 +3,19 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-15 16:31+0100\n"
-"PO-Revision-Date: 2022-06-05 19:52+0200\n"
-"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
+"PO-Revision-Date: 2022-06-07 13:42+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-06-03 10:17+0000\n"
-"X-Generator: Poedit 2.3\n"
-"Language: hu_HU\n"
-"X-Poedit-Basepath: ../..\n"
-"X-Poedit-SearchPath-0: git/cinnamon_desktop\n"
-"X-Poedit-SearchPath-1: git/cinnamon\n"
+"X-Launchpad-Export-Date: 2022-07-04 09:09+0000\n"
+"X-Generator: Launchpad (build f48158886a49da429840bcd298f0c7ed60f9ad7b)\n"
 "X-Poedit-SearchPath-2: git/cinnamon-l10n-hu\n"
+"X-Poedit-Basepath: ../..\n"
+"Language: hu_HU\n"
+"X-Poedit-SearchPath-1: git/cinnamon\n"
+"X-Poedit-SearchPath-0: git/cinnamon_desktop\n"
 "X-Poedit-SearchPath-3: translation\n"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:134
@@ -27,7 +27,8 @@ msgid "Checking your version of Linux Mint..."
 msgstr "Az Ön által használt Linux Mint verzió ellenőrzése…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:142
-msgid "Your version of Linux Mint is unknown. /etc/linuxmint/info is missing."
+msgid ""
+"Your version of Linux Mint is unknown. /etc/linuxmint/info is missing."
 msgstr ""
 "A telepített Linux Mint verziója ismeretlen, mert a „/etc/linuxmint/info” "
 "fájl nem létezik."
@@ -147,7 +148,8 @@ msgstr "Csomagtárolók ellenőrzése…"
 msgid ""
 "The following repositories do not explicitly support your version of Linux "
 "Mint."
-msgstr "A következő csomagtárolók nem támogatják a Linux Mint ezen verzióját."
+msgstr ""
+"A következő csomagtárolók nem támogatják a Linux Mint ezen verzióját."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:342
 msgid "These repositories need to be disabled."
@@ -207,7 +209,8 @@ msgid "Looking for foreign packages..."
 msgstr "Külső csomagok keresése…"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:467
-msgid "The following packages need to be downgraded back to official versions:"
+msgid ""
+"The following packages need to be downgraded back to official versions:"
 msgstr "A következő csomagokat vissza kell állítani a hivatalos verziókra:"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:469
@@ -438,8 +441,8 @@ msgstr "A „/etc/fstab” fájl módosítva lett a rendszermegújítás során.
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:888
 msgid ""
-"To ensure a successful boot, the upgrade tool restored your original /etc/"
-"fstab"
+"To ensure a successful boot, the upgrade tool restored your original "
+"/etc/fstab"
 msgstr ""
 "A sikeres rendszerindítás érdekében a megújító eszköz visszaállította az "
 "eredeti „/etc/fstab” fájlt."
