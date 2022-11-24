@@ -10,8 +10,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2022-09-28 13:08+0000\n"
-"X-Generator: Launchpad (build 51d7c86a263563fbd9e884ec9127596444825394)\n"
+"X-Launchpad-Export-Date: 2022-11-23 10:07+0000\n"
+"X-Generator: Launchpad (build 58312c50d0ade23d24f71d3daeac191f58b3ed83)\n"
 "Language: hu\n"
 
 #: usr/lib/hypnotix/hypnotix.py:119 usr/lib/hypnotix/hypnotix.py:696
