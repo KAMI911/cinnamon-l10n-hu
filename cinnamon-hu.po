@@ -6764,7 +6764,7 @@ msgstr "Menü megjelenítése"
 
 #. sound@cinnamon.org->settings-schema.json->keyOpen->tooltip
 msgid "Set keybinding(s) to show the sound applet menu."
-msgstr "Hang beállításokat megjelenítő billentyűzetkombináció beállítása."
+msgstr "Hang beállításokat megjelenítő billentyűkombináció beállítása."
 
 #. sound@cinnamon.org->settings-schema.json->showtrack->description
 msgid "Show song information on the panel"
@@ -6956,7 +6956,7 @@ msgstr ""
 #. hotkeys->description
 msgid "Enable Super+<number> shortcut to switch/open apps"
 msgstr ""
-"Szuper+<szám> billentyűzetkombinációk engedélyezése az alkalmazásra "
+"Szuper+<szám> billentyűkombinációk engedélyezése az alkalmazásra "
 "váltáshoz vagy megnyitáshoz"
 
 #. grouped-window-list@cinnamon.org->settings-schema.json->thumbnail-
@@ -7120,7 +7120,7 @@ msgstr "Hálózatkezelő kisalkalmazás"
 
 #. network@cinnamon.org->settings-schema.json->keyOpen->tooltip
 msgid "Set keybinding(s) to show the network applet menu."
-msgstr "Hálózat kisalkalmazást megjelenítő billentyűzetkombináció beállítása."
+msgstr "Hálózat kisalkalmazást megjelenítő billentyűkombináció beállítása."
 
 #. workspace-switcher@cinnamon.org->metadata.json->name
 msgid "Workspace switcher"
@@ -7547,7 +7547,7 @@ msgstr "Ez egy teszt alkalmazás egyedi billentyűleütések szimulálásához"
 #. settings-example@cinnamon.org->settings-schema.json->keybinding-
 #. test->description
 msgid "Set the keybinding here to activate an action"
-msgstr "Adjon meg egy billentyűzetkombinációt egy művelet elindításához"
+msgstr "Adjon meg egy billentyűkombinációt egy művelet elindításához"
 
 #. settings-example@cinnamon.org->settings-schema.json->file-
 #. select->description
@@ -7768,11 +7768,11 @@ msgstr "Értesítések megjelenítése"
 
 #. notifications@cinnamon.org->settings-schema.json->keyOpen->tooltip
 msgid "Set keybinding(s) to show the notification popup menu."
-msgstr "Értesítések ablakot megjelenítő billentyűzetkombináció beállítása."
+msgstr "Értesítések ablakot megjelenítő billentyűkombináció beállítása."
 
 #. notifications@cinnamon.org->settings-schema.json->keyClear->tooltip
 msgid "Set keybinding(s) to clear all notifications."
-msgstr "Az összes értesítést törlő billentyűzetkombináció beállítása."
+msgstr "Az összes értesítést törlő billentyűkombináció beállítása."
 
 #. notifications@cinnamon.org->settings-
 #. schema.json->btnSystemSettings->description
@@ -7846,7 +7846,7 @@ msgstr "Naptár megjelenítése"
 
 #. calendar@cinnamon.org->settings-schema.json->keyOpen->tooltip
 msgid "Set keybinding(s) to show the calendar."
-msgstr "Hang beállításokat megjelenítő billentyűzetkombináció beállítása."
+msgstr "Hang beállításokat megjelenítő billentyűkombináció beállítása."
 
 #. xrandr@cinnamon.org->metadata.json->description
 msgid "XRandR monitor control applet"
